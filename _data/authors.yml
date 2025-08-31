@@ -1,0 +1,218 @@
+## Template › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/advanced-usage.md#setting-author-url
+# -------------------------------------
+# {author_id}:
+#   name: {full name}
+#   twitter: {twitter_of_author}
+#   url: {homepage_of_author}
+# -------------------------------------
+
+kecsi:
+  name: Zoltan K
+  twitter: 
+  url: https://github.com/kecsi-san/
+
+1soproni:
+  name: 1soproni
+  twitter:
+  url:
+
+Adi:
+  name: Adi
+  twitter:
+  url:
+
+Boobek:
+  name: Boobek
+  twitter:
+  url:
+
+Gigi:
+  name: Gigi
+  twitter:
+  url:
+
+Goosfrabaa:
+  name: Goosfrabaa
+  twitter:
+  url:
+
+Lord:
+  name: Lord
+  twitter:
+  url:
+
+Gabor:
+  name: Gabor
+  twitter:
+  url:
+
+Szakidani:
+  name: Szakidani
+  twitter:
+  url:
+
+andrewjsi:
+  name: andrewjsi
+  twitter:
+  url:
+
+attisan:
+  name: attisan
+  twitter:
+  url:
+
+bAndie91:
+  name: bAndie91
+  twitter:
+  url:
+
+batyu:
+  name: batyu
+  twitter:
+  url:
+
+campi:
+  name: campi
+  twitter:
+  url:
+
+csikosanyi:
+  name: csikosanyi
+  twitter:
+  url:
+
+danesz:
+  name: danesz
+  twitter:
+  url:
+
+dc:
+  name: dc
+  twitter:
+  url:
+
+georgio:
+  name: georgio
+  twitter:
+  url:
+
+grgbox:
+  name: grgbox
+  twitter:
+  url:
+
+gthomas:
+  name: gthomas
+  twitter:
+  url:
+
+kanyi:
+  name: kanyi
+  twitter:
+  url:
+
+leslie:
+  name: leslie
+  twitter:
+  url:
+
+log69:
+  name: log69
+  twitter:
+  url:
+
+marcel14:
+  name: marcel14
+  twitter:
+  url:
+
+masterminds:
+  name: masterminds
+  twitter:
+  url:
+
+miamano:
+  name: miamano
+  twitter:
+  url:
+
+nagyarnold15:
+  name: nagyarnold15
+  twitter:
+  url:
+
+nagyzoli:
+  name: nagyzoli
+  twitter:
+  url:
+
+nevergone:
+  name: nevergone
+  twitter:
+  url:
+
+pomm:
+  name: pomm
+  twitter:
+  url:
+
+ricsi-pontaz:
+  name: ricsi-pontaz
+  twitter:
+  url:
+
+sanya:
+  name: sanya
+  twitter:
+  url:
+
+siposg:
+  name: siposg
+  twitter:
+  url:
+
+skuzzy:
+  name: skuzzy
+  twitter:
+  url:
+
+stress:
+  name: stress
+  twitter:
+  url:
+
+szimszon:
+  name: szimszon
+  twitter:
+  url:
+
+tibcsi:
+  name: tibcsi
+  twitter:
+  url:
+
+vandor:
+  name: vandor
+  twitter:
+  url:
+
+vaskalap:
+  name: vaskalap
+  twitter:
+  url:
+
+vindi:
+  name: vindi
+  twitter:
+  url:
+
+winters:
+  name: winters
+  twitter:
+  url:
+
+zsolt:
+  name: zsolt
+  twitter:
+  url:
+
