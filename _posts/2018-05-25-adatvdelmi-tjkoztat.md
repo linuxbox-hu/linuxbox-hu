@@ -1,71 +1,65 @@
 ---
-categories: []
-layout: article
-author: kecsi
+layout: post
 title: Adatvédelmi tájékoztató
-created: 1527275734
+date: 2018-05-25
+author: kecsi
+categories: [site]
 ---
-<p>Jelen Adatvédelmi Tájékoztató összefoglalja a linuxbox.hu kezelője által folytatott adatkezelési elveket és annak gyakorlatát.<br />
-A látogató/felhasználó az adatok elküldésével kijelenti, hogy azok a valóságnak megfelelnek.</p>
+Jelen Adatvédelmi Tájékoztató összefoglalja a linuxbox.hu kezelője által folytatott adatkezelési elveket és annak gyakorlatát.
+A látogató/felhasználó az adatok elküldésével kijelenti, hogy azok a valóságnak megfelelnek.
 
-<h4>1. Adatkezelő és weboldal üzemeltetője</h4>
+#### 1. Adatkezelő és weboldal üzemeltetője
 
-<p>Azaz adatok kezelője Kecskeméthy Zoltán magánszemély</p>
+Azaz adatok kezelője Kecskeméthy Zoltán magánszemély
 
-<h4>2. A kezelt adatok és érintettek köre</h4>
+#### 2. A kezelt adatok és érintettek köre
 
-<p>2018-ig a weboldalon volt látogató regisztráció ahol önkéntesen hozzájárulhatott a következő személyes adatainak kezeléséhez:</p>
+2018-ig a weboldalon volt látogató regisztráció ahol önkéntesen hozzájárulhatott a következő személyes adatainak kezeléséhez:
 
-<ol>
-    <li>felhasználó név</li>
-    <li>e-mail cím</li>
-</ol>
+* felhasználó név
+* e-mail cím
 
 Az email címeket 2025-ben töröltem egy statikus weboldallá alakitasi procedúrában es a jövőben már nem tárolom.
 Csak a felhasználó nevek maradtak amiket meg is jelenitek minden cikk fejlécében mint szerző.
 
 tehát 2025-től csak a
 
-<ol>
-    <li>felhasználó név</li>
-</ol>
+* felhasználó név
 
 személyes adat maradt tarolás alatt. Ami nem is feltétlen személyes adat.
 
-<p>A következő pontban meghatározott célokra megadott adatok kezelése a felhasználó önkéntes hozzájárulásával történik.<br />
-A felhasználó által megadott adatok pontatlanságáért, vagy valótlanságáért az adatkezelő felelősséget nem vállal.</p>
+A következő pontban meghatározott célokra megadott adatok kezelése a felhasználó önkéntes hozzájárulásával történik.
+A felhasználó által megadott adatok pontatlanságáért, vagy valótlanságáért az adatkezelő felelősséget nem vállal.
 
-<h4>3. Az adatkezelés célja</h4>
+#### 3. Az adatkezelés célja
 
-<p>A személyes adatok kezelésének célja</p>
+A személyes adatok kezelésének célja
 
-<ol>
-    <li>a felhasználó azonosítása, a többi felhasználótól való megkülönböztetése;</li>
-</ol>
+* a felhasználó azonosítása, a többi felhasználótól való megkülönböztetése
 
-<h4>4. Az adatvédelmi tájékoztató által meghatározott adatkezelési időtartam</h4>
+#### 4. Az adatvédelmi tájékoztató által meghatározott adatkezelési időtartam
 
-<p>Az oldal látogatása során cookie-kat kaphat weboldalunktól; a cookie-k arra hivatottak, hogy javítsák az oldal böngészésekor tapasztalt élményt.</p>
+Az oldal látogatása során cookie-kat kaphat weboldalunktól; a cookie-k arra hivatottak, hogy javítsák az oldal böngészésekor tapasztalt élményt.
 
-<h4>5. Az adatfeldolgozók köre</h4>
+#### 5. Az adatfeldolgozók köre
 
-<p>A felhasználói adatokhoz csak az üzemeltető férhet hozzá, harmadik félnek nem adhatóak ki.</p>
+A felhasználói adatokhoz csak az üzemeltető férhet hozzá, harmadik félnek nem adhatóak ki.
 
-<p>A szerver szolgáltató, mint adatfeldolgozó nem rendelkezhetnek szabadon a feldolgozott személyes adatok felett.</p>
+A szerver szolgáltató, mint adatfeldolgozó nem rendelkezhetnek szabadon a feldolgozott személyes adatok felett.
 
-<h4>6. Az adatkezelési szabályzat jogalapja és a felhasználó jogai</h4>
+#### 6. Az adatkezelési szabályzat jogalapja és a felhasználó jogai
 
-<p>Az adatkezelés a felhasználó jóváhagyásának jogalapjával történik A felhasználó az adatkezelő által kezelt adatokról ezen Adatvédelmi Tájékoztató tartalmán túl további tájékoztatást kérhet emailben. A felhasználó által megadott adatokat a felhasználó írásos kezdeményezésére az adatkezelő 10 munkanapon belül törli. Igényét a kecsi@linuxbox.hu e-mail címen lehet bejelenteni.</p>
+Az adatkezelés a felhasználó jóváhagyásának jogalapjával történik A felhasználó az adatkezelő által kezelt adatokról ezen Adatvédelmi Tájékoztató tartalmán túl további tájékoztatást kérhet emailben. A felhasználó által megadott adatokat a felhasználó írásos kezdeményezésére az adatkezelő 10 munkanapon belül törli. Igényét a kecsi@linuxbox.hu e-mail címen lehet bejelenteni.
 
-<h4>7. A weboldal fizikai tárolása</h4>
+#### 7. A weboldal fizikai tárolása
 
-<p>Az adatok fizikai tárolásának helyszíne: Amazon Web Services felhő alapú szolgáltatás.</p>
+Az adatok fizikai tárolásának helyszíne: Amazon Web Services felhő alapú szolgáltatás.
 
-<h4>8. Jogorvoslati lehetőség és hatályos törvények</h4>
+#### 8. Jogorvoslati lehetőség és hatályos törvények
 
-<p>Amennyiben a felhasználó úgy érzi, hogy a személyes adatait nem az itt megjelöltek szerint vagy a hatályos törvénynek megfelelően kezeli, jogait az adatvédelmi biztosnál vagy polgári bíróságon érvényesítheti, továbbá a <a href="http://www.naih.hu/uegyfelszolgalat,--kapcsolat.html">Nemzeti Adatvédelmi és Információszabadság Hatósághoz </a>fordulhat.</p>
+Amennyiben a felhasználó úgy érzi, hogy a személyes adatait nem az itt megjelöltek szerint vagy a hatályos törvénynek megfelelően kezeli, jogait az adatvédelmi biztosnál vagy polgári bíróságon érvényesítheti, továbbá a [Nemzeti Adatvédelmi és Információszabadság Hatósághoz](http://www.naih.hu/uegyfelszolgalat,--kapcsolat.html) fordulhat.
 
-<p><em>A adatvédelemmel kapcsolatos kötelezettségekről az alábbi törvényekben tájékozódhat a felhasználó:</em><br />
-<em>A személyes adatok védelméről és a közérdekű adatok nyilvánosságáról szóló 1992. évi LXIII. törvény</em><br />
-<em>Az egyének védelméről a személyes adatok gépi feldolgozása során szóló 1998. évi VI. törvény</em><br />
-<em>Az információs önrendelkezési jogról és az információszabadságról szóló 2011. évi CXII. törvény</em></p>
+_A adatvédelemmel kapcsolatos kötelezettségekről az alábbi törvényekben tájékozódhat a felhasználó:_
+_A személyes adatok védelméről és a közérdekű adatok nyilvánosságáról szóló 1992. évi LXIII. törvény_
+_Az egyének védelméről a személyes adatok gépi feldolgozása során szóló 1998. évi VI. törvény_
+_Az információs önrendelkezési jogról és az információszabadságról szóló 2011. évi CXII. törvény_
