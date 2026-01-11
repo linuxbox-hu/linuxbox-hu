@@ -2,7 +2,7 @@
 layout: post
 title:  "Hello Jekyll!"
 date:   2025-08-03 18:44:52 +0000
-categories: [jekyll update]
+categories: [jekyll]
 tags: jekyll
 image:
   path: ../assets/img/logos/jekyll-logo-dark-transparent.png

@@ -17,22 +17,22 @@ A látogató/felhasználó az adatok elküldésével kijelenti, hogy azok a val�
 <p>2018-ig a weboldalon volt látogató regisztráció ahol önkéntesen hozzájárulhatott a következő személyes adatainak kezeléséhez:</p>
 
 <ol>
-	<li>felhasználó név</li>
-	<li>e-mail cím</li>
+    <li>felhasználó név</li>
+    <li>e-mail cím</li>
 </ol>
 
-Az email cimeket 2025-ben toroltem egy statikus weboldalla alakitasi proceduraban es a jovoben mar nem tarolom.
-Csak a felhasznalo nevek maradtak amiket meg is jelenitek minden cikk fejleceben mint szerzo.
+Az email címeket 2025-ben töröltem egy statikus weboldallá alakitasi procedúrában es a jövőben már nem tárolom.
+Csak a felhasználó nevek maradtak amiket meg is jelenitek minden cikk fejlécében mint szerző.
 
-tehat 2025-tol csak a
+tehát 2025-től csak a
 
 <ol>
     <li>felhasználó név</li>
 </ol>
 
-szemelyes adat maradt tarolas alatt.
+személyes adat maradt tarolás alatt. Ami nem is feltétlen személyes adat.
 
-<p>A következő pontban meghatározott célokra&nbsp;megadott adatok kezelése a felhasználó önkéntes hozzájárulásával történik.<br />
+<p>A következő pontban meghatározott célokra megadott adatok kezelése a felhasználó önkéntes hozzájárulásával történik.<br />
 A felhasználó által megadott adatok pontatlanságáért, vagy valótlanságáért az adatkezelő felelősséget nem vállal.</p>
 
 <h4>3. Az adatkezelés célja</h4>
@@ -40,8 +40,7 @@ A felhasználó által megadott adatok pontatlanságáért, vagy valótlanságá
 <p>A személyes adatok kezelésének célja</p>
 
 <ol>
-	<li>a felhasználóval való kapcsolattartás;</li>
-	<li>a felhasználó azonosítása, a többi&nbsp;felhasználótól való megkülönböztetése;</li>
+    <li>a felhasználó azonosítása, a többi felhasználótól való megkülönböztetése;</li>
 </ol>
 
 <h4>4. Az adatvédelmi tájékoztató által meghatározott adatkezelési időtartam</h4>
@@ -52,11 +51,11 @@ A felhasználó által megadott adatok pontatlanságáért, vagy valótlanságá
 
 <p>A felhasználói adatokhoz csak az üzemeltető férhet hozzá, harmadik félnek nem adhatóak ki.</p>
 
-<p>A szerver szolgáltató mint adatfeldolgozó nem rendelkezhetnek szabadon a feldolgozott személyes adatok felett.</p>
+<p>A szerver szolgáltató, mint adatfeldolgozó nem rendelkezhetnek szabadon a feldolgozott személyes adatok felett.</p>
 
 <h4>6. Az adatkezelési szabályzat jogalapja és a felhasználó jogai</h4>
 
-<p>Az adatkezelés a felhasználó jóváhagyásának jogalapjával történik.&nbsp;A felhasználó az adatkezelő által kezelt adatokról ezen Adatvédelmi Tájékoztató tartalmán túl további tájékoztatást kérhet emailben.&nbsp;A felhasználó által megadott adatokat a felhasználó írásos kezdeményezésére az adatkezelő 10 munkanapon belül törli. Igényét a kecsi@linuxbox.hu e-mail címen lehet bejelenteni.</p>
+<p>Az adatkezelés a felhasználó jóváhagyásának jogalapjával történik A felhasználó az adatkezelő által kezelt adatokról ezen Adatvédelmi Tájékoztató tartalmán túl további tájékoztatást kérhet emailben. A felhasználó által megadott adatokat a felhasználó írásos kezdeményezésére az adatkezelő 10 munkanapon belül törli. Igényét a kecsi@linuxbox.hu e-mail címen lehet bejelenteni.</p>
 
 <h4>7. A weboldal fizikai tárolása</h4>
 
@@ -64,7 +63,7 @@ A felhasználó által megadott adatok pontatlanságáért, vagy valótlanságá
 
 <h4>8. Jogorvoslati lehetőség és hatályos törvények</h4>
 
-<p>Amennyiben a felhasználó úgy érzi, hogy a személyes adatait nem az itt megjelöltek szerint vagy a hatályos törvénynek megfelelően kezeli, jogait az adatvédelmi biztosnál vagy polgári bíróságon érvényesítheti, továbbá a <a href="http://www.naih.hu/uegyfelszolgalat,--kapcsolat.html">Nemzeti Adatvédelmi és Információszabadság Hatósághoz</a>&nbsp;fordulhat.</p>
+<p>Amennyiben a felhasználó úgy érzi, hogy a személyes adatait nem az itt megjelöltek szerint vagy a hatályos törvénynek megfelelően kezeli, jogait az adatvédelmi biztosnál vagy polgári bíróságon érvényesítheti, továbbá a <a href="http://www.naih.hu/uegyfelszolgalat,--kapcsolat.html">Nemzeti Adatvédelmi és Információszabadság Hatósághoz </a>fordulhat.</p>
 
 <p><em>A adatvédelemmel kapcsolatos kötelezettségekről az alábbi törvényekben tájékozódhat a felhasználó:</em><br />
 <em>A személyes adatok védelméről és a közérdekű adatok nyilvánosságáról szóló 1992. évi LXIII. törvény</em><br />
