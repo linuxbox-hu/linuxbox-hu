@@ -5,7 +5,7 @@ date:   2025-08-03 18:44:52 +0000
 categories: [jekyll update]
 tags: jekyll
 image:
-  path: ../assets/img/logos/jekyll-logo.png
+  path: ../assets/img/logos/jekyll-logo-black-red-transparent.png
 ---
 Drupal-ról Jekyll-re migraltam az oldalt. Nem akartam és nem is tudtam már a drupal frissitéseket követni.
 A Jekyll mint statikus site generátor töletesen megfelel a célnak.
