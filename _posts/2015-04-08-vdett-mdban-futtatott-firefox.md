@@ -4,7 +4,7 @@ title: Védett módban futtatott Firefox
 date: 2015-04-08
 author: szimszon
 categories: [firefox]
-tags: Debian, apticron, cron-apt
+tags: Ubuntu, Docker, Firefox
 excerpt: "Régóta szerettem volna valamit amivel kicsit biztonságosabbnak érezhetem
   a bankolást, annál mintha a mindenféle kiterjesztéssel telepakolt Firefoxot használnám
   amivel egyébként minden mást is böngészek a világhálón.\r\n\r\nValahogy a <a href=\"https://www.qubes-os.org/\"
