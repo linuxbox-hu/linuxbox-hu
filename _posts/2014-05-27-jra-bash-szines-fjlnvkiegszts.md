@@ -4,7 +4,7 @@ title: Újra bash - Szines fájlnévkiegészítés!
 date: 2014-05-27
 author: bAndie91
 categories: [linux]
-tags: bash, zsh, color, "tab completion"
+tags: bash, zsh, color, completion
 excerpt: Az alábbi szkript egy függvényt tartalmaz, amivel lehetőségünk van **bash** alatt a zsh-tól olyannyira irigyelt színes tab completion-t szimulálni.
 ---
 Az alábbi szkript egy függvényt tartalmaz, amivel lehetőségünk van **bash** alatt a [zsh](http://zsh.sourceforge.net/)-tól olyannyira irigyelt színes tab completion-t szimulálni.
