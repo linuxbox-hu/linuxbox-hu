@@ -4,16 +4,13 @@ title: Védett módban futtatott Firefox
 date: 2015-04-08
 author: szimszon
 categories: [firefox]
-tags: Ubuntu, Docker, Firefox
-excerpt: "Régóta szerettem volna valamit amivel kicsit biztonságosabbnak érezhetem
+tags: Firefox, Docker, Ubuntu
+image:
+  path: ../assets/img/logos/firefox-logo.png
+excerpt: Régóta szerettem volna valamit amivel kicsit biztonságosabbnak érezhetem
   a bankolást, annál mintha a mindenféle kiterjesztéssel telepakolt Firefoxot használnám
-  amivel egyébként minden mást is böngészek a világhálón.\r\n\r\nValahogy a <a href=\"https://www.qubes-os.org/\"
-  target=\"blank\">Qubes OS</a>, bár az elgondolás nem rossz, a túl sok erőforrás
-  igény és nehézkes kezelés miatt sose volt igazán vonzó.\r\n\r\nAztán jött a <a href=\"https://www.docker.com/\"
-  target=\"blank\">Docker</a> láz, és volt mindenféle <a href=\"https://registry.hub.docker.com/search?q=firefox&searchfield=\"
-  target=\"blank\">firefox konténer</a> ami közül lehet választani. Nekem a <a href=\"https://registry.hub.docker.com/u/chrisdaish/firefox/\"
-  target=\"blank\">chrisdaish</a> féle tetszett meg, Ubuntu alapokon. Úgyhogy az Ő
-  munkáját vettem alapul az ötlet megvalósításához.\r\n"
+  amivel egyébként minden mást is böngészek a világhálón. Valahogy a Qubes OS, bár az elgondolás nem rossz, a túl sok erőforrás
+  igény és nehézkes kezelés miatt sose volt igazán vonzó. Aztán jött a  Docker láz, és volt mindenféle firefox konténer ami közül lehet választani. Nekem a chrisdaish féle tetszett meg, Ubuntu alapokon. Úgyhogy az Ő munkáját vettem alapul az ötlet megvalósításához.
 ---
 Régóta szerettem volna valamit amivel kicsit biztonságosabbnak érezhetem a bankolást, annál mintha a mindenféle kiterjesztéssel telepakolt Firefoxot használnám amivel egyébként minden mást is böngészek a világhálón.
 
