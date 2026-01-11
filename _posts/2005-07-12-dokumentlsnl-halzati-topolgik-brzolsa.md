@@ -10,7 +10,6 @@ categories:
 - debian
 layout: story
 author: dc
-mail: dc@ktk.bme.hu
 title: Dokumentálásnál halózati topológiák ábrázolása
 created: 1121171394
 ---

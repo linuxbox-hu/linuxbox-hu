@@ -3,7 +3,6 @@ excerpt: "Ebben a bejegyzésemben egy apró de annál hasznosabb hack-et mutatok
 categories: []
 layout: blog
 author: bAndie91
-mail: bandie9100@freemail.hu
 title: Kalandjaim LD_PRELOAD-dal
 created: 1366435307
 ---

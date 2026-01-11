@@ -9,7 +9,6 @@ categories:
 - linux
 layout: story
 author: szimszon
-mail: szimszon@oregpreshaz.eu
 title: GPG kódolt (pgp-mime) levelek automatikus visszafejtése
 created: 1173630397
 ---

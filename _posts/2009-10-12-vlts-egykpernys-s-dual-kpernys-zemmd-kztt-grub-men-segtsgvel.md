@@ -7,7 +7,6 @@ excerpt: "Egyik Ubuntu 9.04-et használó barátom kérdezett meg arról, hogy h
 categories: []
 layout: blog
 author: tibcsi
-mail: tibalogh@gmail.com
 title: Váltás egyképernyős és dual-képernyős üzemmód között Grub menü segítségével
 created: 1255352395
 ---

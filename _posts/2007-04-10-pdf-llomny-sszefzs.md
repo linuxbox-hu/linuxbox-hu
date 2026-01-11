@@ -6,7 +6,6 @@ categories:
 - linux
 layout: story
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: PDF állomány összefűzés
 created: 1176217621
 ---

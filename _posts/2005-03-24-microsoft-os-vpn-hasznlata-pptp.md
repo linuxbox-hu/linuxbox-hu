@@ -11,7 +11,6 @@ categories:
 - debian
 layout: story
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: Microsoft-os VPN használata; pptp
 created: 1111702838
 ---

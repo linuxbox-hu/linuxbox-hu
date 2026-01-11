@@ -7,7 +7,6 @@ categories:
 - linux
 layout: story
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: 'Shell-fu: szkirpt a legfrisebb kernel letöltésére'
 created: 1224489553
 ---

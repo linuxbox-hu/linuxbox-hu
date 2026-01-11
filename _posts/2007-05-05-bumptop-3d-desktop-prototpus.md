@@ -8,7 +8,6 @@ categories:
 - linux
 layout: story
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: BumpTop 3D Desktop Prototípus
 created: 1178358652
 ---

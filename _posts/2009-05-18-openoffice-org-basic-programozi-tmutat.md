@@ -4,7 +4,6 @@ excerpt: "Remélem hasznos lesz:\r\n<a href=\"http://wiki.services.openoffice.or
 categories: []
 layout: blog
 author: kanyi
-mail: grrrhhh@citromail.hu
 title: OpenOffice.org BASIC programozói útmutató
 created: 1242626454
 ---

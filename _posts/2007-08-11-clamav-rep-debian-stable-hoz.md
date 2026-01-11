@@ -10,7 +10,6 @@ categories:
 - debian
 layout: story
 author: szimszon
-mail: szimszon@oregpreshaz.eu
 title: Clamav repó Debian stable-hoz
 created: 1186826452
 ---

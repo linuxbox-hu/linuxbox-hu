@@ -5,7 +5,6 @@ categories:
 - linux
 layout: story
 author: andrewjsi
-mail: linuxbox.jsi@jss.hu
 title: Program futtatása csak üresjáratban
 created: 1340771023
 ---

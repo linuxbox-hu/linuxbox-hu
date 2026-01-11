@@ -5,7 +5,6 @@ categories:
 - linux
 layout: story
 author: szimszon
-mail: szimszon@oregpreshaz.eu
 title: Ha utólag vesszük észre, hogy  a kameránk órája rosszul jár...
 created: 1147687053
 ---

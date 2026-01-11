@@ -6,7 +6,6 @@ categories:
 - linux
 layout: story
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: JPG automatikus forgatása helyzet alapján; jhead
 created: 1113248639
 ---

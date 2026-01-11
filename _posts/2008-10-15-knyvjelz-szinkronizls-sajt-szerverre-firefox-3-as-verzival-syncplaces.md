@@ -9,7 +9,6 @@ categories:
 - firefox
 layout: story
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: Könyvjelző szinkronizálás saját szerverre Firefox 3-as verzióval; syncplaces
 created: 1224071669
 ---

@@ -7,7 +7,6 @@ excerpt: "Fel lehet fogni poénnak is, de azt is el tudom képzelni hogy valaki 
 categories: []
 layout: blog
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: Windows-os parancssori prompt linux alatt :)
 created: 1230896181
 ---

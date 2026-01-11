@@ -5,7 +5,6 @@ categories:
 - debian
 layout: story
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: GNU Debian Linux 3.1 Sarge
 created: 1118062187
 ---

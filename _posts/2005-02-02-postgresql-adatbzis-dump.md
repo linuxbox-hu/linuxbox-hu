@@ -6,7 +6,6 @@ categories:
 - linux
 layout: story
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: postgresql adatbázis dump
 created: 1107351636
 ---

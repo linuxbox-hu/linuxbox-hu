@@ -5,7 +5,6 @@ categories:
 - linux
 layout: story
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: 'Parancsoljunk linuxunknak: perlbox'
 created: 1168966183
 ---

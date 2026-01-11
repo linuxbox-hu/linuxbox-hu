@@ -4,7 +4,6 @@ categories:
 - linux
 layout: story
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: Regexpes csere több állományban egyszerre
 created: 1108502702
 ---

@@ -7,7 +7,6 @@ excerpt: "Ha már 1x <a href=\"http://drupal.org/drupal-4.7.0\">elkészült</a> 
 categories: []
 layout: blog
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: Frissítettem Drupal 4.7.0-re
 created: 1146738766
 ---

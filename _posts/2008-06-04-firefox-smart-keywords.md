@@ -8,7 +8,6 @@ categories:
 - firefox
 layout: story
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: Firefox Smart Keywords
 created: 1212587469
 ---

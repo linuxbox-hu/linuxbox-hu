@@ -10,7 +10,6 @@ categories:
 - linux
 layout: story
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: Linux Volume Manager (LVM)
 created: 1107213842
 ---

@@ -4,7 +4,6 @@ categories:
 - linux
 layout: story
 author: szimszon
-mail: szimszon@oregpreshaz.eu
 title: isc-dhcp-server kapcsolata bind9-cel dinamikus IP cím változtatásahoz...
 created: 1329164430
 ---

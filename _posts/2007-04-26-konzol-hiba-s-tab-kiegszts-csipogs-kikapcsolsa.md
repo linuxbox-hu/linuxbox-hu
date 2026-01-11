@@ -6,7 +6,6 @@ categories:
 - linux
 layout: story
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: Konzol hiba és tab kiegészítés csipogás kikapcsolása
 created: 1177590865
 ---

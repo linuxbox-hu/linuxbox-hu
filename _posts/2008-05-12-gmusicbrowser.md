@@ -4,7 +4,6 @@ excerpt: "majd oldalra, csak még formálom..\r\nÜdv  linuxbox olvasóknak!\r\n
 categories: []
 layout: blog
 author: Boobek
-mail: bkanyo@gmail.com
 title: gmusicbrowser
 created: 1210597462
 ---

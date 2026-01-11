@@ -7,7 +7,6 @@ categories:
 - linux
 layout: story
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: Linuxbios
 created: 1145621782
 ---

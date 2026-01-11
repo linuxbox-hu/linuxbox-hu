@@ -7,7 +7,6 @@ excerpt: "<a href=\"http://www.ubuntuvideo.com/songbird_media_player\">Ubuntuvid
 categories: []
 layout: blog
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: Songbird video
 created: 1160670463
 ---

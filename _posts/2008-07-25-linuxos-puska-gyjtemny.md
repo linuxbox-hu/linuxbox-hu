@@ -4,7 +4,6 @@ excerpt: <a href="http://www.scottklarr.com/topic/115/linux-unix-cheat-sheets---
 categories: []
 layout: blog
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: Linuxos puska gyűjtemény
 created: 1216979760
 ---

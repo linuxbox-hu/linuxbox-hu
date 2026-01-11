@@ -8,7 +8,6 @@ categories:
 - x
 layout: story
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: Karaoke progi; UltraStar-NG
 created: 1180509192
 ---

@@ -7,7 +7,6 @@ categories:
 - linux
 layout: story
 author: Goosfrabaa
-mail: gabrea@freemail.hu
 title: MS Windows megosztások tallózása
 created: 1264633429
 ---

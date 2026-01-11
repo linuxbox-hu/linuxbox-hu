@@ -6,7 +6,6 @@ excerpt: "Egyszerũ, gyors megoldás szín kiválasztásához.\r\n\r\n#!/bin/bas
 categories: []
 layout: blog
 author: bAndie91
-mail: bandie9100@freemail.hu
 title: color select
 created: 1250635692
 ---

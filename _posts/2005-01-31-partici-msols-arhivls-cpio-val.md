@@ -7,7 +7,6 @@ categories:
 - linux
 layout: story
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: partició másolás, arhiválás cpio-val
 created: 1107213963
 ---

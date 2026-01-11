@@ -4,7 +4,6 @@ categories:
 - linux
 layout: story
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: suexec-es binárisok keresése
 created: 1108502415
 ---

@@ -7,7 +7,6 @@ categories:
 - linux
 layout: story
 author: vandor
-mail: vandor@mezitlab.eu
 title: Windows sorvég cseréje rekurzívan, parancssorból
 created: 1366035062
 ---

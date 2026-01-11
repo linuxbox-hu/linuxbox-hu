@@ -5,7 +5,6 @@ categories:
 - linux
 layout: story
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: recordMyDesktop
 created: 1185796922
 ---

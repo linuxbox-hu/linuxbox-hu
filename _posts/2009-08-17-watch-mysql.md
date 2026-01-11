@@ -8,7 +8,6 @@ categories:
 - debian
 layout: story
 author: 1soproni
-mail: csaba@sopron.hu
 title: watch mysql
 created: 1250516332
 ---

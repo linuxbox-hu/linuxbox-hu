@@ -4,7 +4,6 @@ categories:
 - linux
 layout: story
 author: Goosfrabaa
-mail: gabrea@freemail.hu
 title: Nikon tethered shooting
 created: 1319098603
 ---

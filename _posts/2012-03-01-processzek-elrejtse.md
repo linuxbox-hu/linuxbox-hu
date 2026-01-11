@@ -8,7 +8,6 @@ categories:
 - linux
 layout: story
 author: Goosfrabaa
-mail: gabrea@freemail.hu
 title: Processzek elrejtése
 created: 1330640227
 ---

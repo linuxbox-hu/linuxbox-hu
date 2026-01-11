@@ -5,7 +5,6 @@ categories:
 - x
 layout: story
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: windows terminal server kliens
 created: 1107348718
 ---

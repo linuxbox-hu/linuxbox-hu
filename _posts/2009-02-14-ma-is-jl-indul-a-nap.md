@@ -7,7 +7,6 @@ excerpt: " }:)  Ma is jól indult a napom, egy iszonyatosan nagy windows problé
 categories: []
 layout: blog
 author: nagyarnold15
-mail: nagyarnold15@gmail.com
 title: Ma is jól indul a nap
 created: 1234617274
 ---

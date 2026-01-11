@@ -8,7 +8,6 @@ categories:
 - debian
 layout: story
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: apache2 telepítése dutyiba zárva .)
 created: 1140770209
 ---

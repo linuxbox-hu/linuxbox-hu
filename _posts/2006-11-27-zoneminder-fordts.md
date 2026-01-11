@@ -8,7 +8,6 @@ categories:
 - hírek
 layout: story
 author: szimszon
-mail: szimszon@oregpreshaz.eu
 title: ZoneMinder fordítás
 created: 1164644135
 ---

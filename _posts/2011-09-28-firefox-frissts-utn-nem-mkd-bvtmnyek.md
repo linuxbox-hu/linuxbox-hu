@@ -5,7 +5,6 @@ categories:
 - firefox
 layout: story
 author: Goosfrabaa
-mail: gabrea@freemail.hu
 title: Firefox frissítés után nem működő bővítmények
 created: 1317197199
 ---

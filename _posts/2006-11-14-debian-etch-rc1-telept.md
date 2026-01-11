@@ -4,7 +4,6 @@ categories:
 - debian
 layout: story
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: Debian etch RC1 telepítő
 created: 1163501085
 ---

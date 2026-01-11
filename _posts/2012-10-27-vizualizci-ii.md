@@ -7,7 +7,6 @@ excerpt: "Újabb rendszeradminisztrálást segítõ webes alkalmazát szeretnék
 categories: []
 layout: blog
 author: bAndie91
-mail: bandie9100@freemail.hu
 title: vizualizáció II.
 created: 1351354573
 ---

@@ -6,7 +6,6 @@ categories:
 - ubuntu
 layout: story
 author: szimszon
-mail: szimszon@oregpreshaz.eu
 title: fixubuntu.com - ha valaki nem akarja, hogy a Canonical figyelje minden billentyűzet
   leütésedet
 created: 1383943213

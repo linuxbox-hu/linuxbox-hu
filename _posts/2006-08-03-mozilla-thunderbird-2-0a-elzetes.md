@@ -11,7 +11,6 @@ categories:
 - firefox
 layout: story
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: Mozilla Thunderbird 2.0a előzetes
 created: 1154590831
 ---

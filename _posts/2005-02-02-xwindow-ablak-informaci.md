@@ -9,7 +9,6 @@ categories:
 - x
 layout: story
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: Xwindow ablak informació
 created: 1107349005
 ---

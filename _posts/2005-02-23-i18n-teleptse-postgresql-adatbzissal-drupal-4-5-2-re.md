@@ -10,7 +10,6 @@ categories:
 - drupal
 layout: story
 author: szimszon
-mail: szimszon@oregpreshaz.eu
 title: I18n telepítése Postgresql adatbázissal Drupal 4.5.2-re
 created: 1109168370
 ---

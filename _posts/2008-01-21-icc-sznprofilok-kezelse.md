@@ -9,7 +9,6 @@ categories:
 - x
 layout: story
 author: Goosfrabaa
-mail: gabrea@freemail.hu
 title: ICC színprofilok kezelése
 created: 1200957213
 ---

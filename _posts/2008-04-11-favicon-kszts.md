@@ -10,7 +10,6 @@ categories:
 - x
 layout: story
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: Favicon készítés
 created: 1207924241
 ---

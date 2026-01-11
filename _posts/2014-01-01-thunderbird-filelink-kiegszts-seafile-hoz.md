@@ -7,7 +7,6 @@ categories:
 - hírek
 layout: story
 author: szimszon
-mail: szimszon@oregpreshaz.eu
 title: Thunderbird FileLink kiegészítés SeaFile-hoz
 created: 1388603977
 ---

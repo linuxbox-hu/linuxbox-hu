@@ -7,7 +7,6 @@ categories:
 - x
 layout: story
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: 'CD/DVD írás: Bonfire 0.4'
 created: 1152738086
 ---

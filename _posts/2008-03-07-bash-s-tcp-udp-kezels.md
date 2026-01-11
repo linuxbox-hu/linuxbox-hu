@@ -8,7 +8,6 @@ categories:
 - linux
 layout: story
 author: Goosfrabaa
-mail: gabrea@freemail.hu
 title: Bash és tcp/udp kezelés
 created: 1204895446
 ---

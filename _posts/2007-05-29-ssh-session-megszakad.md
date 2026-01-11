@@ -7,7 +7,6 @@ categories:
 - linux
 layout: story
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: Ssh session megszakad?
 created: 1180444921
 ---

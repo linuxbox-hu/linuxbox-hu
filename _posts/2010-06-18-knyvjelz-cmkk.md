@@ -6,7 +6,6 @@ excerpt: "Tudom egy újszülöttnek minden vicc új, valahogy így vagyok én is
 categories: []
 layout: blog
 author: szimszon
-mail: szimszon@oregpreshaz.eu
 title: Könyvjelző címkék
 created: 1276855317
 ---

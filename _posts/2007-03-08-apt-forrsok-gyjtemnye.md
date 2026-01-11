@@ -7,7 +7,6 @@ excerpt: "Találtam egy APT forrásokat gyűjtő oldalt, melyről letölthető a
 categories: []
 layout: blog
 author: sanya
-mail: snagy.sandor@gmail.com
 title: APT források gyűjteménye
 created: 1173346832
 ---

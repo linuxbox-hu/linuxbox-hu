@@ -7,7 +7,6 @@ categories:
 - hírek
 layout: story
 author: szimszon
-mail: szimszon@oregpreshaz.eu
 title: Google üzenetköldő Jabber protokollal
 created: 1124890033
 ---

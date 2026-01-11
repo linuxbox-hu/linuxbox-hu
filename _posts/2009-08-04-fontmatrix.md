@@ -6,7 +6,6 @@ categories:
 - x
 layout: story
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: Fontmatrix
 created: 1249392242
 ---

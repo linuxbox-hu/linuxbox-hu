@@ -11,7 +11,6 @@ categories:
 - linux
 layout: story
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: ctime, atime és mtime
 created: 1148981416
 ---

@@ -10,7 +10,6 @@ categories:
 - linux
 layout: story
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: X-es kurzor eltüntetése; unclutter
 created: 1175793981
 ---

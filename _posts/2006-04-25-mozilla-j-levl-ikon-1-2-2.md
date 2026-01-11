@@ -7,7 +7,6 @@ categories:
 - x
 layout: story
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: Mozilla új levél Ikon 1.2.2
 created: 1145976663
 ---

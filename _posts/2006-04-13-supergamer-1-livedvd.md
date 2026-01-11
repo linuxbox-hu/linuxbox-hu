@@ -13,7 +13,6 @@ categories:
 - linux
 layout: story
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: SuperGamer-1 livedvd
 created: 1144929746
 ---

@@ -6,7 +6,6 @@ categories:
 - linux
 layout: story
 author: szimszon
-mail: szimszon@oregpreshaz.eu
 title: Mobil-OTP avagy azonosítás máshogy Debiánon/Ubuntun/Linuxon...
 created: 1327949158
 ---

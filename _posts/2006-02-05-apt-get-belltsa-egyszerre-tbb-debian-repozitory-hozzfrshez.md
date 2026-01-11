@@ -10,7 +10,6 @@ categories:
 - debian
 layout: story
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: apt-get beállítása egyszerre több debian repozitory hozzáféréséhez
 created: 1139135994
 ---

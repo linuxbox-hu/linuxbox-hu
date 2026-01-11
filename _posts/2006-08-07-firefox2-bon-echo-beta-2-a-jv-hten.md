@@ -10,7 +10,6 @@ categories:
 - firefox
 layout: story
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: Firefox2 - Bon Echo Beta 2 a jövő héten?
 created: 1154950340
 ---

@@ -7,7 +7,6 @@ categories:
 - x
 layout: story
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: BitStormLite
 created: 1184584434
 ---

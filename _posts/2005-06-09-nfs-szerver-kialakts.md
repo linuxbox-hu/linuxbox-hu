@@ -10,7 +10,6 @@ categories:
 - linux
 layout: story
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: nfs szerver kialakítás
 created: 1118306675
 ---

@@ -11,7 +11,6 @@ categories:
 - linux
 layout: story
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: Visszaállítás lehetséges
 created: 1126209441
 ---

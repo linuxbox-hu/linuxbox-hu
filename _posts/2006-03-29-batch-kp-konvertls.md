@@ -8,7 +8,6 @@ categories:
 - linux
 layout: story
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: batch kép konvertálás
 created: 1143625446
 ---

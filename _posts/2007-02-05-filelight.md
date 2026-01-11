@@ -14,7 +14,6 @@ excerpt: "Először is üdvözletem mindenkinek első blogbejegyzésem alkalmáb
 categories: []
 layout: blog
 author: Lord Gabor
-mail: lordgabor@gmail.com
 title: Filelight
 created: 1170696704
 ---

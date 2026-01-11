@@ -6,7 +6,6 @@ categories:
 - debian
 layout: story
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: Automatikus csomag frissítés emlékeztetők debianon
 created: 1438158884
 ---

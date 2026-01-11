@@ -6,7 +6,6 @@ excerpt: "A következő: tiffrecompress, egy apró script, pl a gimp separate pl
 categories: []
 layout: blog
 author: batyu
-mail: batyuu@gmail.com
 title: Multimédia scriptek IV.
 created: 1263659431
 ---

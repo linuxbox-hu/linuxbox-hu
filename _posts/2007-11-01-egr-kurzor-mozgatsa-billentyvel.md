@@ -10,7 +10,6 @@ categories:
 - x
 layout: story
 author: Goosfrabaa
-mail: gabrea@freemail.hu
 title: Egér kurzor mozgatása billentyűvel
 created: 1193945705
 ---

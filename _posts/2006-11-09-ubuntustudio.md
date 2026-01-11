@@ -6,7 +6,6 @@ categories:
 - hírek
 layout: story
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: Ubuntustudio
 created: 1163068137
 ---

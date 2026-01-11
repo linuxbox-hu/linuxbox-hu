@@ -7,7 +7,6 @@ excerpt: "Néha muzsikálgatok. Mivel csak néha ezért szükség van pár mank�
 categories: []
 layout: blog
 author: leslie
-mail: laszlo.karpati@pontez.hu
 title: Szintén zenész? - Hangoló és metronóm
 created: 1209477114
 ---

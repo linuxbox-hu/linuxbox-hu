@@ -5,7 +5,6 @@ categories:
 - linux
 layout: story
 author: Goosfrabaa
-mail: gabrea@freemail.hu
 title: Wifi (és vezetékes) hálózat beállítása a legegyszerűbben
 created: 1245067038
 ---

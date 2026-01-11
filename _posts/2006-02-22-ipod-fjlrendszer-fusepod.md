@@ -5,7 +5,6 @@ categories:
 - linux
 layout: story
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: IPOD Fájlrendszer; fusepod
 created: 1140614697
 ---

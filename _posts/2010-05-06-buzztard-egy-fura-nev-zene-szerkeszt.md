@@ -6,7 +6,6 @@ categories:
 - x
 layout: story
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: Buzztard egy fura nevű zene szerkesztő
 created: 1273134651
 ---

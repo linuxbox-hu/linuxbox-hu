@@ -9,7 +9,6 @@ categories:
 - linux
 layout: story
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: nrg2iso, NRG nero cd image formátum konvertálása ISO-ra
 created: 1111000365
 ---

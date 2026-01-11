@@ -8,7 +8,6 @@ categories:
 - debian
 layout: story
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: debian csomag befagyasztás; "hold" csomag státusz beállítása
 created: 1107511687
 ---

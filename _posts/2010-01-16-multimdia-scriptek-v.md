@@ -7,7 +7,6 @@ excerpt: "RGBimg2CMYKtiff: Nos, sokadik próbálgatásra sikerült egy működő
 categories: []
 layout: blog
 author: batyu
-mail: batyuu@gmail.com
 title: multimédia scriptek V.
 created: 1263659722
 ---

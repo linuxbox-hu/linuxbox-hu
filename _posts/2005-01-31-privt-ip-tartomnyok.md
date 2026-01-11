@@ -6,7 +6,6 @@ categories:
 - linux
 layout: story
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: Privát IP tartományok
 created: 1107212030
 ---

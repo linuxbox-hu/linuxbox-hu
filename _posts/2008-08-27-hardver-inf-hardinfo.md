@@ -5,7 +5,6 @@ excerpt: "<p>Ha tudni szeretnénk milyen gyártotól származnak a gépünkben t
 categories: []
 layout: blog
 author: leslie
-mail: laszlo.karpati@pontez.hu
 title: Hardver infó - hardinfo
 created: 1219795517
 ---

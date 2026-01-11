@@ -7,7 +7,6 @@ categories:
 - linux
 layout: story
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: Admin alkalmazás gyűjtemény
 created: 1174985763
 ---

@@ -7,7 +7,6 @@ categories:
 - hírek
 layout: story
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: Felhívás! Elkelne egy kis KDE-s segítség
 created: 1168510605
 ---

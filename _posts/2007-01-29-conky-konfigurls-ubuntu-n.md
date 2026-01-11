@@ -7,7 +7,6 @@ categories:
 - ubuntu
 layout: story
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: Conky konfigurálás Ubuntu-n
 created: 1170071808
 ---

@@ -6,7 +6,6 @@ categories:
 - x
 layout: story
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: Grafikus arhív kezelés; xarchiver
 created: 1163517403
 ---

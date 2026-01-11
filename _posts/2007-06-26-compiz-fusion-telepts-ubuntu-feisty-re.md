@@ -9,7 +9,6 @@ categories:
 - ubuntu
 layout: story
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: Compiz Fusion telepítés Ubuntu Feisty-re
 created: 1182843185
 ---

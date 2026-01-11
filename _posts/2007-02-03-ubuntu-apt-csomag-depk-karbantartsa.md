@@ -8,7 +8,6 @@ categories:
 - ubuntu
 layout: story
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: Ubuntu apt csomag depók karbantartása
 created: 1170488867
 ---

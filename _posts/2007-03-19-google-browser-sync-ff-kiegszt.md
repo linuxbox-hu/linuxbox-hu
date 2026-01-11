@@ -9,7 +9,6 @@ categories:
 - firefox
 layout: story
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: Google Browser Sync FF kiegészítő
 created: 1174316093
 ---

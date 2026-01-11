@@ -3,7 +3,6 @@ excerpt: <p><a href="http://linuxbox.hu/files/compiz-switch-panel.png"><img src=
 categories: []
 layout: blog
 author: leslie
-mail: laszlo.karpati@pontez.hu
 title: Compiz gyors Ki/Be kapcsolása - Kiegészítve
 created: 1215349278
 ---

@@ -10,7 +10,6 @@ categories:
 - x
 layout: story
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: Extra kép(ek) megjelenítés X-es asztalunkon; telak
 created: 1173779801
 ---

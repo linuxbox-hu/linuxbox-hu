@@ -10,7 +10,6 @@ categories:
 - x
 layout: story
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: xgl és compiz játszva ubuntu dapperen
 created: 1154072099
 ---

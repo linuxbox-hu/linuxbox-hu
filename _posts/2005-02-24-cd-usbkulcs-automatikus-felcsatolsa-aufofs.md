@@ -6,7 +6,6 @@ categories:
 - debian
 layout: story
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: CD, USBKulcs automatikus felcsatolása; AufoFS
 created: 1109271135
 ---

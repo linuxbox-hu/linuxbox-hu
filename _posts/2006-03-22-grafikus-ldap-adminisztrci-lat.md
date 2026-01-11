@@ -9,7 +9,6 @@ categories:
 - debian
 layout: story
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: Grafikus LDAP adminisztráció; lat
 created: 1143015609
 ---

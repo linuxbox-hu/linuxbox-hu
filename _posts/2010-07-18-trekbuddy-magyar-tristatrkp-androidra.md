@@ -7,7 +7,6 @@ excerpt: "Ha valakinek van egy Andoridos telefonja és szeret túrázni akkor j�
 categories: []
 layout: blog
 author: szimszon
-mail: szimszon@oregpreshaz.eu
 title: TrekBuddy - Magyar túristatérkép Androidra
 created: 1279481014
 ---

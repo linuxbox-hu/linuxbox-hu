@@ -8,7 +8,6 @@ categories:
 - linux
 layout: story
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: tar, file.tar.gz, file.bz2, file.tar.Z
 created: 1107254439
 ---

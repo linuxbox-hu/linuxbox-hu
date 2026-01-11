@@ -9,7 +9,6 @@ categories:
 - ubuntu
 layout: story
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: debubuntu repo
 created: 1158141565
 ---

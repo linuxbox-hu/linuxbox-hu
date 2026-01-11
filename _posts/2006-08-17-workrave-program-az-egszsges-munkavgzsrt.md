@@ -11,7 +11,6 @@ categories:
 - linux
 layout: story
 author: nevergone
-mail: never@delfin.unideb.hu
 title: Workrave, program az egészséges munkavégzésért
 created: 1155825467
 ---

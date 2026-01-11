@@ -7,7 +7,6 @@ excerpt: "A Newsforge egyik hírének olvasása közben kavarodtam az alábbi ol
 categories: []
 layout: blog
 author: log69
-mail: han@log69.com
 title: QCad program számítógépes vázlat tervezéshez 2D-ben
 created: 1190554312
 ---

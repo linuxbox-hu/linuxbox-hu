@@ -8,7 +8,6 @@ categories:
 - debian
 layout: story
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: vnc szerver kialakítása
 created: 1119378842
 ---

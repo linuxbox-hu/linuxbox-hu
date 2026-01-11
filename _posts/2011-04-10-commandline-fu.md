@@ -4,7 +4,6 @@ excerpt: "Ez lesz itten az én <a href=\"http://commandlinefu.com\">commandline-
 categories: []
 layout: blog
 author: bAndie91
-mail: bandie9100@freemail.hu
 title: commandline-fu
 created: 1302445032
 ---

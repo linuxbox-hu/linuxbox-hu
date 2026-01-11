@@ -8,7 +8,6 @@ categories:
 - linux
 layout: story
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: Konzolos cdirás
 created: 1115063467
 ---

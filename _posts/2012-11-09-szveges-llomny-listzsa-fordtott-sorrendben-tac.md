@@ -8,7 +8,6 @@ categories:
 - linux
 layout: story
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: Szöveges állomány listázása fordított sorrendben; tac
 created: 1352471263
 ---

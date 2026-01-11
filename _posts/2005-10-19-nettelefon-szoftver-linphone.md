@@ -5,7 +5,6 @@ categories:
 - x
 layout: story
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: Nettelefon szoftver; linphone
 created: 1129697654
 ---

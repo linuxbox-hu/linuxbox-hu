@@ -6,7 +6,6 @@ excerpt: Akár az előző scriptet kiegészítendő, akár más esetben, szüks�
 categories: []
 layout: blog
 author: batyu
-mail: batyuu@gmail.com
 title: Multimédia scriptek III.
 created: 1263659165
 ---

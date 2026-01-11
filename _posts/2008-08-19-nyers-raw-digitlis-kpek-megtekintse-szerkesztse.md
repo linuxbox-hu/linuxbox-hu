@@ -7,7 +7,6 @@ categories:
 - x
 layout: story
 author: Goosfrabaa
-mail: gabrea@freemail.hu
 title: Nyers (raw) digitális képek megtekintése, szerkesztése
 created: 1219151901
 ---

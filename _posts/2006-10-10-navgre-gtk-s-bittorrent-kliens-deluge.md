@@ -8,7 +8,6 @@ categories:
 - linux
 layout: story
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: 'Navégre! GTK-s bittorrent kliens: deluge'
 created: 1160468185
 ---

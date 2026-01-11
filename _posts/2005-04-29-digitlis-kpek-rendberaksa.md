@@ -9,7 +9,6 @@ excerpt: Tegnap egész este a digitlális képeim rendezgettem. A nemrég írt <
 categories: []
 layout: blog
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: Digitális képek rendberakása
 created: 1114772540
 ---

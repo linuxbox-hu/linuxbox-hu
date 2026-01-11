@@ -11,7 +11,6 @@ categories:
 - linux
 layout: story
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: wajig - minden egyben csomagkezelő
 created: 1137058446
 ---

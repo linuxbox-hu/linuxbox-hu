@@ -9,7 +9,6 @@ categories:
 - ubuntu
 layout: story
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: Ubuntu Edgy telepítéshez
 created: 1165420946
 ---

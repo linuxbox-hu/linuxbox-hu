@@ -9,7 +9,6 @@ excerpt: "Biztos sokan találkoztak azzal a problémával, hogy egy Divx filmbő
 categories: []
 layout: blog
 author: sanya
-mail: snagy.sandor@gmail.com
 title: DVD filmkészítés
 created: 1172822291
 ---

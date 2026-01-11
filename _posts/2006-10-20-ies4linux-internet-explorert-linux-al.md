@@ -10,7 +10,6 @@ categories:
 - ubuntu
 layout: story
 author: miamano
-mail: miamano@gmail.com
 title: IEs4Linux - Internet Explorert linux alá
 created: 1161303832
 ---

@@ -5,7 +5,6 @@ excerpt: "A phpmysqladmin segítségével mysql-konzol szerũen adminisztrálhat
 categories: []
 layout: blog
 author: bAndie91
-mail: bandie9100@freemail.hu
 title: Ez PhpMyAdmin? Nem! PhpMySqlAdmin.
 created: 1297887305
 ---

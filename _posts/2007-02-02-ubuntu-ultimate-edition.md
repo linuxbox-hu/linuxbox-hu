@@ -7,7 +7,6 @@ categories:
 - ubuntu
 layout: story
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: Ubuntu Ultimate Edition
 created: 1170413667
 ---

@@ -9,7 +9,6 @@ categories:
 - x
 layout: story
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: billentyűkiosztás csere gyorsbillentyűvel X alatt
 created: 1108918091
 ---

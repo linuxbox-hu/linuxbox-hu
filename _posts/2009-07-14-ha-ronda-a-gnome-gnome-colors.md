@@ -4,7 +4,6 @@ excerpt: "Sokan vannak akiknek nem tetszik a Gnome színvilága, erre próbál m
 categories: []
 layout: blog
 author: kanyi
-mail: grrrhhh@citromail.hu
 title: 'Ha ronda a Gnome: Gnome Colors'
 created: 1247575733
 ---

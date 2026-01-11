@@ -10,7 +10,6 @@ categories:
 - linux
 layout: story
 author: batyu
-mail: batyuu@gmail.com
 title: Scannelés pdf-be
 created: 1163341549
 ---

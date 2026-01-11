@@ -6,7 +6,6 @@ categories:
 - x
 layout: story
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: Acrobat reader 8.1 linuxos verzió
 created: 1190126093
 ---

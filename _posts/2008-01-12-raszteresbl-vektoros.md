@@ -7,7 +7,6 @@ categories:
 - x
 layout: story
 author: Goosfrabaa
-mail: gabrea@freemail.hu
 title: Raszteresből vektoros
 created: 1200156823
 ---

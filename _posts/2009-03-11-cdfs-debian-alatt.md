@@ -8,7 +8,6 @@ excerpt: "Egy VCD replikálása miatt vettem elő ezt az általam már régen is
 categories: []
 layout: blog
 author: grgbox
-mail: grgbox@gmail.com
 title: CDfs Debian alatt
 created: 1236755516
 ---

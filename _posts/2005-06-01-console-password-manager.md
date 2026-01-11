@@ -8,7 +8,6 @@ categories:
 - linux
 layout: story
 author: szimszon
-mail: szimszon@oregpreshaz.eu
 title: Console Password Manager
 created: 1117644133
 ---

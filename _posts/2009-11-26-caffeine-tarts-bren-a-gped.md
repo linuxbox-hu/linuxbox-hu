@@ -8,7 +8,6 @@ excerpt: "<p>A <a href=\"http://www.blastfromthepast.se/blabbermouth/2009/10/caf
 categories: []
 layout: blog
 author: leslie
-mail: laszlo.karpati@pontez.hu
 title: Caffeine - Tarts ébren a géped!
 created: 1259266602
 ---

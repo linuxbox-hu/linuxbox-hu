@@ -7,7 +7,6 @@ excerpt: "<style>\r\ncode {\r\nfont-family: monospace; color: #fff; background-c
 categories: []
 layout: blog
 author: bAndie91
-mail: bandie9100@freemail.hu
 title: Újra bash - Szines fájlnévkiegészítés!
 created: 1401192864
 ---

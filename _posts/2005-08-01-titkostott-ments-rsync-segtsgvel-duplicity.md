@@ -9,7 +9,6 @@ categories:
 - linux
 layout: story
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: Titkosított mentés rsync segítségével; duplicity
 created: 1122930878
 ---

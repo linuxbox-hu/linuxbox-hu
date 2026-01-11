@@ -10,7 +10,6 @@ categories:
 - ubuntu
 layout: story
 author: ricsi-pontaz
-mail: ricsipontaz@citromail.hu
 title: WhatsOnTV Screenlet HowTo (TV müsor)
 created: 1211118287
 ---

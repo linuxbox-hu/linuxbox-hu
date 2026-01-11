@@ -10,7 +10,6 @@ categories:
 - ubuntu
 layout: story
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: 'Ubuntu USBre telepítés egyszerűen: liveusb'
 created: 1219658676
 ---

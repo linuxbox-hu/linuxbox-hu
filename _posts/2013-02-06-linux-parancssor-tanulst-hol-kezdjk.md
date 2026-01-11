@@ -5,7 +5,6 @@ categories:
 - linux
 layout: story
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: Linux parancssor tanulást hol kezdjük?
 created: 1360157664
 ---

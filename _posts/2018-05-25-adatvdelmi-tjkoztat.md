@@ -2,7 +2,6 @@
 categories: []
 layout: article
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: Adatvédelmi tájékoztató
 created: 1527275734
 ---

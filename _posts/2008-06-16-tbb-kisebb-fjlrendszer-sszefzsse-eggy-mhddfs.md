@@ -8,7 +8,6 @@ categories:
 - linux
 layout: story
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: Több kisebb fájlrendszer összefűzésse eggyé; mhddfs
 created: 1213598417
 ---

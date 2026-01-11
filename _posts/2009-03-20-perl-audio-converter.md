@@ -5,7 +5,6 @@ categories:
 - linux
 layout: story
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: Perl Audio Converter
 created: 1237539068
 ---

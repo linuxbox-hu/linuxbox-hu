@@ -10,7 +10,6 @@ categories:
 - firefox
 layout: story
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: Alapértelmezett FF beviteli mezők, gombok szépítése.
 created: 1173084942
 ---

@@ -6,7 +6,6 @@ categories:
 - linux
 layout: story
 author: szimszon
-mail: szimszon@oregpreshaz.eu
 title: 'Parancssoros bűvészet: CheckInstall'
 created: 1129120260
 ---

@@ -8,7 +8,6 @@ categories:
 - ubuntu
 layout: story
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: Ubuntuból kéket gyorsan :)
 created: 1216029128
 ---

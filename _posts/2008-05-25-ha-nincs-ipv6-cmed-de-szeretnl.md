@@ -7,7 +7,6 @@ categories:
 - linux
 layout: story
 author: szimszon
-mail: szimszon@oregpreshaz.eu
 title: Ha nincs IPv6 címed, de szeretnél
 created: 1211718206
 ---

@@ -6,7 +6,6 @@ excerpt: "A \"gnome gmail\" alkalmazás telepítése után lehetőségünk adód
 categories: []
 layout: blog
 author: leslie
-mail: laszlo.karpati@pontez.hu
 title: Hogyan legyen az alapértelmezett email kliens a Gmail?
 created: 1269811796
 ---

@@ -6,7 +6,6 @@ categories:
 - x
 layout: story
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: 'Desktop képek letöltéséhez szoftver?! Hm lehet, hogy igen: webilder'
 created: 1172606280
 ---

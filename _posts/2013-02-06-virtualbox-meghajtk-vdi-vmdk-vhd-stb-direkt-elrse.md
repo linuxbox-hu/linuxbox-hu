@@ -5,7 +5,6 @@ categories:
 - linux
 layout: story
 author: Goosfrabaa
-mail: gabrea@freemail.hu
 title: VirtualBox meghajtók (VDI, VMDK, VHD stb) direkt elérése
 created: 1360156644
 ---

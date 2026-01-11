@@ -9,7 +9,6 @@ categories:
 - x
 layout: story
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: xgestures
 created: 1126632268
 ---

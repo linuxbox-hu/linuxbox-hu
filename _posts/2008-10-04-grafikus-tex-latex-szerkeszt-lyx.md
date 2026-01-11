@@ -7,7 +7,6 @@ excerpt: "<p>A <a href=\"http://www.lyx.org/Home\"> Lyx </a> egy grafikus WYSIWY
 categories: []
 layout: blog
 author: leslie
-mail: laszlo.karpati@pontez.hu
 title: Grafikus Tex/LaTeX szerkesztő - LyX
 created: 1223109664
 ---

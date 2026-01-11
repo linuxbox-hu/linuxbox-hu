@@ -4,7 +4,6 @@ excerpt: 'Feladom a játék oprendszerem..... miközben böngészgettem a neten 
 categories: []
 layout: blog
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: Épp most formatálom le a windows partícióm...
 created: 1172001964
 ---

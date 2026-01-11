@@ -8,7 +8,6 @@ categories:
 - debian
 layout: story
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: 'SSH próbálkozások ellen: fail2ban'
 created: 1155733692
 ---

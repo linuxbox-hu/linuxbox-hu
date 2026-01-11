@@ -9,7 +9,6 @@ categories:
 - linux
 layout: story
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: pine -> alpine
 created: 1187859615
 ---

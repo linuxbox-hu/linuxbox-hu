@@ -6,7 +6,6 @@ categories:
 - linux
 layout: story
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: YouTube parancssori video letöltő
 created: 1158742674
 ---

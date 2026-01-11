@@ -7,7 +7,6 @@ categories:
 - debian
 layout: story
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: Debian csomagokhoz képernyőkép; screenshots.debian.net
 created: 1227128438
 ---

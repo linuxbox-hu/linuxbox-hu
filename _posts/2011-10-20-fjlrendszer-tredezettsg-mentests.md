@@ -6,7 +6,6 @@ categories:
 - linux
 layout: story
 author: Goosfrabaa
-mail: gabrea@freemail.hu
 title: Fájlrendszer töredezettség-mentesítés
 created: 1319101039
 ---

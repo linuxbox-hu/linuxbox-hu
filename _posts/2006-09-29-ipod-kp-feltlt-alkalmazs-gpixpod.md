@@ -6,7 +6,6 @@ categories:
 - x
 layout: story
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: IPod kép feltöltő alkalmazás; GPixPod
 created: 1159520241
 ---

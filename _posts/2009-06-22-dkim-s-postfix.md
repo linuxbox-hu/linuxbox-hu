@@ -9,7 +9,6 @@ categories:
 - debian
 layout: story
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: DKIM és Postfix
 created: 1245670759
 ---

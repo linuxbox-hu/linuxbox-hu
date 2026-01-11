@@ -8,7 +8,6 @@ categories:
 - debian
 layout: story
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: xmms2 debian csomag
 created: 1126063184
 ---

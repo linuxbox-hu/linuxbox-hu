@@ -8,7 +8,6 @@ categories:
 - linux
 layout: story
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: Szinkronizálás több gépre; mrsync (multicast remote sync)
 created: 1148029661
 ---

@@ -5,7 +5,6 @@ categories:
 - linux
 layout: story
 author: szimszon
-mail: szimszon@oregpreshaz.eu
 title: Merevlemez hőmérsékletének figyelése
 created: 1111750108
 ---

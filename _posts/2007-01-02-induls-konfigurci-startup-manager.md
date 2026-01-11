@@ -7,7 +7,6 @@ categories:
 - ubuntu
 layout: story
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: Indulás konfiguráció; StartUp-Manager
 created: 1167741400
 ---

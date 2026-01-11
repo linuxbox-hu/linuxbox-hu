@@ -8,7 +8,6 @@ categories:
 - debian
 layout: story
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: gmail tárhely felcsatolása; gmailfs
 created: 1123015652
 ---

@@ -4,7 +4,6 @@ categories:
 - linux
 layout: story
 author: szimszon
-mail: szimszon@oregpreshaz.eu
 title: Puppy Linux
 created: 1263586063
 ---

@@ -6,7 +6,6 @@ excerpt: "Egy egyszerű válgolap manager gnome alá. Van egy kisikonja a panelb
 categories: []
 layout: blog
 author: leslie
-mail: laszlo.karpati@pontez.hu
 title: Glipper - Vágólap menedzser
 created: 1212934081
 ---

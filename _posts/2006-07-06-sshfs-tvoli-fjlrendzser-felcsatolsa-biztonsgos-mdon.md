@@ -10,7 +10,6 @@ categories:
 - debian
 layout: story
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: sshfs - távoli fájlrendzser felcsatolása biztonságos módon
 created: 1152200214
 ---

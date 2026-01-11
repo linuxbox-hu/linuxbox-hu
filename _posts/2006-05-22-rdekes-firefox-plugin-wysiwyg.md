@@ -10,7 +10,6 @@ categories:
 - linux
 layout: story
 author: szimszon
-mail: szimszon@oregpreshaz.eu
 title: Érdekes Firefox plugin (WYSIWYG)
 created: 1148303532
 ---

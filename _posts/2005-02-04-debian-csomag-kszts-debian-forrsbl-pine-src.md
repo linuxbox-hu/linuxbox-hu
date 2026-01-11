@@ -11,7 +11,6 @@ categories:
 - debian
 layout: story
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: debian csomag készítés debian forrásból (pine src)
 created: 1107510916
 ---

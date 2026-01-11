@@ -6,7 +6,6 @@ categories:
 - linux
 layout: story
 author: Goosfrabaa
-mail: gabrea@freemail.hu
 title: Adatok elrejtése hang vagy kép fájlokba
 created: 1360249822
 ---

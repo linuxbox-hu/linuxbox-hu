@@ -7,7 +7,6 @@ categories:
 - x
 layout: story
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: Dob gépek; smack; hydrogen
 created: 1210693032
 ---

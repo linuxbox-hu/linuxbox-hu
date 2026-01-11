@@ -6,7 +6,6 @@ categories:
 - debian
 layout: story
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: www.debian-database.org
 created: 1190891506
 ---

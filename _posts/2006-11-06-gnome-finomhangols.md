@@ -7,7 +7,6 @@ categories:
 - x
 layout: story
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: Gnome finomhangolás
 created: 1162824213
 ---

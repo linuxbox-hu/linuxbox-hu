@@ -10,7 +10,6 @@ categories:
 - linux
 layout: story
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: SSH kulcsok használata
 created: 1146247811
 ---

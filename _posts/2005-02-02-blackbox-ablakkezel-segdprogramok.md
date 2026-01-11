@@ -11,7 +11,6 @@ categories:
 - x
 layout: story
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: blackbox ablakkezelő segédprogramok
 created: 1107350140
 ---

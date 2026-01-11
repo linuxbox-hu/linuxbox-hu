@@ -9,7 +9,6 @@ excerpt: "<p>\r\nOlvastam régen ezen az oldalon az <a href=\"http://linuxbox.hu
 categories: []
 layout: blog
 author: leslie
-mail: laszlo.karpati@pontez.hu
 title: Egy újabb dokk - Docky (Gnome-do)
 created: 1241175110
 ---

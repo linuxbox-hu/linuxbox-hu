@@ -8,7 +8,6 @@ excerpt: "Üdv Mindenkinek,\r\n\r\n<strong>Egy kisméretű képmanipuláló szof
 categories: []
 layout: blog
 author: log69
-mail: han@log69.com
 title: Auto Adjust Photo
 created: 1183901569
 ---

@@ -8,7 +8,6 @@ categories:
 - x
 layout: story
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: Kép megjelenítése könyvtár ikonként nautilus alatt.
 created: 1233494930
 ---

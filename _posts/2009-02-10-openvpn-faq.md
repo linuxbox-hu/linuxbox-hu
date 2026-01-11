@@ -5,7 +5,6 @@ excerpt: "http://www.ossg.ru/docs/OpenVPN/faq.html\r\n\r\nUDPv4 []: No buffer sp
 categories: []
 layout: blog
 author: szimszon
-mail: szimszon@oregpreshaz.eu
 title: openvpn faq
 created: 1234259664
 ---

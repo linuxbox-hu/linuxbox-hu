@@ -11,7 +11,6 @@ categories:
 - ubuntu
 layout: story
 author: attisan
-mail: ferencz.attila@gmail.com
 title: Wmv fájlok lejátszásához szükséges codec-ek
 created: 1159686304
 ---

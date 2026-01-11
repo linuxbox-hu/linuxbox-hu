@@ -8,7 +8,6 @@ categories:
 - linux
 layout: story
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: Magyar IPv4 címtartományok listája
 created: 1263546095
 ---

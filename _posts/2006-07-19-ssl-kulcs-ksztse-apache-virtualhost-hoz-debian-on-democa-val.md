@@ -8,7 +8,6 @@ categories:
 - linux
 layout: story
 author: szimszon
-mail: szimszon@oregpreshaz.eu
 title: SSL kulcs készítése Apache virtualHost-hoz Debian-on demoCA-val
 created: 1153322993
 ---

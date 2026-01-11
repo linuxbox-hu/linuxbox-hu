@@ -7,7 +7,6 @@ categories:
 - firefox
 layout: story
 author: szimszon
-mail: szimszon@oregpreshaz.eu
 title: FireGPG Firefox kiterjesztés
 created: 1181038654
 ---

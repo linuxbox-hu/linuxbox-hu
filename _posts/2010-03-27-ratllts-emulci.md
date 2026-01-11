@@ -2,7 +2,6 @@
 categories: []
 layout: blog
 author: bAndie91
-mail: bandie9100@freemail.hu
 title: óraátállítás (emuláció)
 created: 1269717257
 ---

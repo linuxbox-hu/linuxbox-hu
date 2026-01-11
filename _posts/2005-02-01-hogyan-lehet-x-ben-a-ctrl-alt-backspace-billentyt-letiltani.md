@@ -5,7 +5,6 @@ categories:
 - x
 layout: story
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: Hogyan lehet X-ben a CTRL-ALT-BACKSPACE billentyût letiltani?
 created: 1107253691
 ---

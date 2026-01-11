@@ -6,7 +6,6 @@ excerpt: "A minap kiváncsi lettem arra, hogy a gépem milyen protokolokon, mily
 categories: []
 layout: blog
 author: leslie
-mail: laszlo.karpati@pontez.hu
 title: EtherApe - a hálozat figyelő
 created: 1209258336
 ---

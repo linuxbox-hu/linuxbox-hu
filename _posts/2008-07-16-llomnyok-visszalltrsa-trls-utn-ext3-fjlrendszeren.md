@@ -9,7 +9,6 @@ categories:
 - linux
 layout: story
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: Állományok visszaállítrása törlés után ext3 fájlrendszeren
 created: 1216212785
 ---

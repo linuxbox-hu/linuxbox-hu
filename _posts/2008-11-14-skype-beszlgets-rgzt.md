@@ -9,7 +9,6 @@ categories:
 - x
 layout: story
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: Skype beszélgetés rögzítő
 created: 1226676563
 ---

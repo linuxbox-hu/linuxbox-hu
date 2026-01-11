@@ -9,7 +9,6 @@ categories:
 - hírek
 layout: story
 author: szimszon
-mail: szimszon@oregpreshaz.eu
 title: KeePass2 a jelszótároló mindenes
 created: 1365449012
 ---

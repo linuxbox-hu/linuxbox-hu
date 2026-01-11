@@ -4,7 +4,6 @@ categories:
 - drupal
 layout: story
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: Megjelent a drupal 4.6.7 és 4.7.1
 created: 1148544223
 ---

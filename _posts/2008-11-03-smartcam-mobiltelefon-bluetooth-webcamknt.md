@@ -6,7 +6,6 @@ excerpt: "Ajánlanék egy nagyon pró progit, nem tom ismeritek-e.\r\nBluetootho
 categories: []
 layout: blog
 author: danesz
-mail: freeboy3@freemail.hu
 title: SmartCAM - Mobiltelefon Bluetooth webcamként
 created: 1225749322
 ---

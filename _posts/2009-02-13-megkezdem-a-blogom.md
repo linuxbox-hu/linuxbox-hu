@@ -5,7 +5,6 @@ excerpt: " :scared:  Elkezdem írni a napolómat. Most ott tartok, hogy előbb m
 categories: []
 layout: blog
 author: nagyarnold15
-mail: nagyarnold15@gmail.com
 title: Megkezdem a Blogom
 created: 1234560987
 ---

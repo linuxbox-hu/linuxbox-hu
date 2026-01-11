@@ -7,7 +7,6 @@ excerpt: Már régóta szerettem volna egy antivírus programot az Ubuntu-mra te
 categories: []
 layout: blog
 author: sanya
-mail: snagy.sandor@gmail.com
 title: Antivírus programok
 created: 1173785871
 ---

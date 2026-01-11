@@ -3,7 +3,6 @@ categories:
 - tune2fs
 layout: article
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: Hogyan szabadisuk fel rootnak fenntartott teruletet pl. EXT4 particiónál
 created: 1543218161
 ---

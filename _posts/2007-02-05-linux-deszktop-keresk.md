@@ -10,7 +10,6 @@ categories:
 - linux
 layout: story
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: Linux Deszktop keresők
 created: 1170674941
 ---

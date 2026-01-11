@@ -8,7 +8,6 @@ excerpt: "Találtam egy nagyon jó kis pyton alkalmazást, mellyel Windows-os h�
 categories: []
 layout: blog
 author: sanya
-mail: snagy.sandor@gmail.com
 title: Windows-os hálózatban
 created: 1175003166
 ---

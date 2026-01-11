@@ -6,7 +6,6 @@ categories:
 - linux
 layout: story
 author: Goosfrabaa
-mail: gabrea@freemail.hu
 title: 4 GiB (Gigabyte)-nál nagyobb fájlok DVD-re írása
 created: 1286217072
 ---

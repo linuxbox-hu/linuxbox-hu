@@ -8,7 +8,6 @@ categories:
 - linux
 layout: story
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: Csapatmunka szövegszerkesztő
 created: 1129605309
 ---

@@ -8,7 +8,6 @@ excerpt: Karácsonyra szerkáltunk egy laptopot. Azért kipróbálhattam hamarab
 categories: []
 layout: blog
 author: zsolt
-mail: antario91@gmail.com
 title: Laptop, Ubuntu
 created: 1194360006
 ---

@@ -7,7 +7,6 @@ categories:
 - linux
 layout: story
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: Tömeg átnevező; namefix.pl
 created: 1151073329
 ---

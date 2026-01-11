@@ -11,7 +11,6 @@ categories:
 - debian
 layout: story
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: Debian heti hírek- 2006. Augustus 15.
 created: 1155715149
 ---

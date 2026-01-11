@@ -10,7 +10,6 @@ categories:
 - linux
 layout: story
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: Automatikus asztal zárolás; BlueProximity
 created: 1194604767
 ---

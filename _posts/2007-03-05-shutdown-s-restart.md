@@ -9,7 +9,6 @@ excerpt: "Előfordult már veled, hogy elindítottál egy letöltést és tudtad
 categories: []
 layout: blog
 author: sanya
-mail: snagy.sandor@gmail.com
 title: Shutdown és restart
 created: 1173095359
 ---

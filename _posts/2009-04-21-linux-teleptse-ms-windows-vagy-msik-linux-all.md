@@ -8,7 +8,6 @@ categories:
 - linux
 layout: story
 author: Goosfrabaa
-mail: gabrea@freemail.hu
 title: Linux telepítése MS Windows vagy másik Linux alól
 created: 1240299978
 ---

@@ -6,7 +6,6 @@ categories:
 - x
 layout: story
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: Egy újabb bittorrent kliens; sharktorrent
 created: 1166355374
 ---

@@ -5,7 +5,6 @@ categories:
 - hírek
 layout: story
 author: szimszon
-mail: szimszon@oregpreshaz.eu
 title: SeaFile - saját fájlmegosztó archiváló rendszer
 created: 1383917177
 ---

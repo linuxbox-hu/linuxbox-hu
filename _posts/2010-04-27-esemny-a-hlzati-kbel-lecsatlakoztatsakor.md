@@ -5,7 +5,6 @@ categories:
 - linux
 layout: story
 author: Goosfrabaa
-mail: gabrea@freemail.hu
 title: Esemény a hálózati kábel (le)csatlakoztatásakor
 created: 1272404505
 ---

@@ -5,7 +5,6 @@ excerpt: "Néha jó lenne egy weboldal tartalmát figyelni és a változásokró
 categories: []
 layout: blog
 author: siposg
-mail: rg@linuxscripting.hu
 title: wget használata
 created: 1304275076
 ---

@@ -7,7 +7,6 @@ categories:
 - linux
 layout: story
 author: Goosfrabaa
-mail: gabrea@freemail.hu
 title: Hogy szolgál az egészsége... a merevlemeznek?
 created: 1265288655
 ---

@@ -8,7 +8,6 @@ excerpt: Már mindenki reflexből ír CD-t és DVD-t. Sokan nem is sejtik, hogy 
 categories: []
 layout: blog
 author: sanya
-mail: snagy.sandor@gmail.com
 title: DVDisaster
 created: 1173263474
 ---

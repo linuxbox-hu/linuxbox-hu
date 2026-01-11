@@ -6,7 +6,6 @@ categories:
 - ubuntu
 layout: story
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: Ubuntu játék csomagok
 created: 1169728688
 ---

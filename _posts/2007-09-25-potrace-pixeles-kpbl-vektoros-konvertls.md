@@ -8,7 +8,6 @@ excerpt: "Amikor egy pixelekből álló képet nagyítani szeretnénk, akkor tö
 categories: []
 layout: blog
 author: log69
-mail: han@log69.com
 title: Potrace - pixeles képből vektoros konvertálás
 created: 1190740387
 ---

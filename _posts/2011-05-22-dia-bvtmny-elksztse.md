@@ -7,7 +7,6 @@ excerpt: "A napokban úgy adódott, hogy hálózati ábrát kellett készítenem
 categories: []
 layout: blog
 author: siposg
-mail: rg@linuxscripting.hu
 title: Dia bővítmény elkészítése
 created: 1306091115
 ---

@@ -5,7 +5,6 @@ categories:
 - debian
 layout: story
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: hosszú csomagnevek dpkg listában
 created: 1107865108
 ---

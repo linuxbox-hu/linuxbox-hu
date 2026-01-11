@@ -11,7 +11,6 @@ excerpt: "Nemrég fedeztem föl ezt a site-ot és egész megtetszett, annak elle
 categories: []
 layout: blog
 author: Adi
-mail: adi@adi.priv.hu
 title: Első naplóbejegyzés :)
 created: 1119782764
 ---

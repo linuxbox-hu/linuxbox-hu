@@ -5,7 +5,6 @@ excerpt: "<style>\r\ncode {background-color:black;color:limegreen;font-weight:bo
 categories: []
 layout: blog
 author: bAndie91
-mail: bandie9100@freemail.hu
 title: Jobb taszkkezelõ
 created: 1325387158
 ---

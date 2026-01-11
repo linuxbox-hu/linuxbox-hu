@@ -4,7 +4,6 @@ excerpt: "Talán újszerũ, soha nem gyártott átalakítót sikerült kitaláln
 categories: []
 layout: blog
 author: bAndie91
-mail: bandie9100@freemail.hu
 title: 'Egy kis hardveres poszt: Rollover-568AB Adapter'
 created: 1297884927
 ---

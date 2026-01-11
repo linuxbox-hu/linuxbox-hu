@@ -9,7 +9,6 @@ categories:
 - firefox
 layout: story
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: Megjelent Firefox 3 Alpha 3
 created: 1174727774
 ---

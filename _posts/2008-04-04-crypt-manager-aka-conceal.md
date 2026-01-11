@@ -8,7 +8,6 @@ categories:
 - ubuntu
 layout: story
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: Crypt manager aka Conceal
 created: 1207298630
 ---

@@ -5,7 +5,6 @@ excerpt: "<p>Ha van beépített bluetoothunk vagy esetleg vettünk a gépünkhö
 categories: []
 layout: blog
 author: leslie
-mail: laszlo.karpati@pontez.hu
 title: Ha bluetooth van a gépedben - Blueman
 created: 1221858214
 ---

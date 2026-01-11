@@ -7,7 +7,6 @@ categories:
 - linux
 layout: story
 author: szimszon
-mail: szimszon@oregpreshaz.eu
 title: Tanúsítvány beszerzése Firefox böngészővel Thawte-től lépésről lépésre
 created: 1215092533
 ---

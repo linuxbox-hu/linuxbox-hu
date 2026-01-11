@@ -10,7 +10,6 @@ categories:
 - debian
 layout: story
 author: szimszon
-mail: szimszon@oregpreshaz.eu
 title: A Tor hálózat
 created: 1195677094
 ---

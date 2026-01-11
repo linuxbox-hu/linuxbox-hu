@@ -7,7 +7,6 @@ excerpt: "Pár script, ami hasznos lehet, meg hogy meglegyen itt is.\r\nmp4audio
 categories: []
 layout: blog
 author: batyu
-mail: batyuu@gmail.com
 title: multimédia scriptek
 created: 1263658521
 ---

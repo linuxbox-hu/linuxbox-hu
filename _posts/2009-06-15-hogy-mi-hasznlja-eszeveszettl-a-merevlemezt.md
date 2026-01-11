@@ -7,7 +7,6 @@ categories:
 - linux
 layout: story
 author: Goosfrabaa
-mail: gabrea@freemail.hu
 title: Hogy mi használja eszeveszettül a merevlemezt
 created: 1245069457
 ---

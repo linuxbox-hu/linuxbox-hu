@@ -8,7 +8,6 @@ categories:
 - x
 layout: story
 author: szimszon
-mail: szimszon@oregpreshaz.eu
 title: Szintvonalak OsmAnd térképre
 created: 1317299669
 ---

@@ -6,7 +6,6 @@ categories:
 - linux
 layout: story
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: Apache verziószám és egyéb infó elrejtés
 created: 1115062852
 ---

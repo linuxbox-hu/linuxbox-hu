@@ -6,7 +6,6 @@ excerpt: "Annak idején írtam az [http://linuxbox.hu/node/645 OWL] dokumentumke
 categories: []
 layout: blog
 author: szimszon
-mail: szimszon@oregpreshaz.eu
 title: DKR - nagyon kicsi web alapú dokumentum kezelő rendszer síkágyas lapolvasó
   támogatással
 created: 1277356269

@@ -5,7 +5,6 @@ excerpt: "Egy <a href=\"http://farm1.static.flickr.com/1/123261849_7f56b0fbd6_o.
 categories: []
 layout: blog
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: star wars tux
 created: 1190877891
 ---

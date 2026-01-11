@@ -6,7 +6,6 @@ categories:
 - linux
 layout: story
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: Pidgin csevegés titkositás OTRrel
 created: 1229072159
 ---

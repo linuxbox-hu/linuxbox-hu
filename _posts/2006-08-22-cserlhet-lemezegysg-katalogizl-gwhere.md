@@ -6,7 +6,6 @@ categories:
 - linux
 layout: story
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: Cserélhető lemezegység katalogizáló; gwhere
 created: 1156239251
 ---

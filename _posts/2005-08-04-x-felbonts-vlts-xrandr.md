@@ -9,7 +9,6 @@ categories:
 - linux
 layout: story
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: X felbontás váltás; xrandr
 created: 1123187546
 ---

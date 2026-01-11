@@ -5,7 +5,6 @@ categories:
 - linux
 layout: story
 author: Goosfrabaa
-mail: gabrea@freemail.hu
 title: Mp3 fájlok hangerejének normalizálása
 created: 1245753558
 ---

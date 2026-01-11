@@ -6,7 +6,6 @@ categories:
 - linux
 layout: story
 author: szimszon
-mail: szimszon@oregpreshaz.eu
 title: Tanúsítvány használata Horde webmaillel lépésről lépésre
 created: 1215181160
 ---

@@ -7,7 +7,6 @@ excerpt: "Pár napja került a látókörömbe a sztakker. A program gyorsan ind
 categories: []
 layout: blog
 author: leslie
-mail: laszlo.karpati@pontez.hu
 title: SZTAKKER - Sztaki szótár frontend Gnome desktopra
 created: 1208726583
 ---

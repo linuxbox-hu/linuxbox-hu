@@ -6,7 +6,6 @@ excerpt: "Hosszas béta fázist követően elindult az online háttértárat kí
 categories: []
 layout: blog
 author: leslie
-mail: laszlo.karpati@pontez.hu
 title: Online háttértár - DropBox
 created: 1222852792
 ---

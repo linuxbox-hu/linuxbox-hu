@@ -8,7 +8,6 @@ categories:
 - linux
 layout: story
 author: szimszon
-mail: szimszon@oregpreshaz.eu
 title: OpenID házilag egy PHP scripttel
 created: 1211293561
 ---

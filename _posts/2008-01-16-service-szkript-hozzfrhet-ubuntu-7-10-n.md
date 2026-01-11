@@ -8,7 +8,6 @@ categories:
 - ubuntu
 layout: story
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: '"service" szkript hozzáférhető Ubuntu 7.10-n'
 created: 1200510822
 ---

@@ -6,7 +6,6 @@ excerpt: "Ritkán de szükségem van egy friss gentoo linux telepítésre. Ilyen
 categories: []
 layout: blog
 author: siposg
-mail: rg@linuxscripting.hu
 title: Gentoo telepítése röviden
 created: 1312118178
 ---

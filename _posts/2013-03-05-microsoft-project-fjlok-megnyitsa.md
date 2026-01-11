@@ -7,7 +7,6 @@ categories:
 - linux
 layout: story
 author: Goosfrabaa
-mail: gabrea@freemail.hu
 title: Microsoft Project fájlok megnyitása
 created: 1362477268
 ---

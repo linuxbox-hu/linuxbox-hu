@@ -10,7 +10,6 @@ categories:
 - x
 layout: story
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: Felhasználói adatok szinkronizálása gnome deszktophoz; Conduit
 created: 1179301221
 ---

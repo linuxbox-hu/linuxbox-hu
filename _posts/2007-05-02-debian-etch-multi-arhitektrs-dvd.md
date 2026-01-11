@@ -9,7 +9,6 @@ categories:
 - debian
 layout: story
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: Debian Etch multi arhitektúrás DVD
 created: 1178089544
 ---

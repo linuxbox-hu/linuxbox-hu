@@ -4,7 +4,6 @@ excerpt: "Mivel lecseréltem a SOHO routeremet, <a href=\"http://linuxbox.hu/nod
 categories: []
 layout: blog
 author: bAndie91
-mail: bandie9100@freemail.hu
 title: tp-link configoló
 created: 1280524317
 ---

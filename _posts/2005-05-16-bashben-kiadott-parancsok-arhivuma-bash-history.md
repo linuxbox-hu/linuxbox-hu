@@ -14,7 +14,6 @@ categories:
 - linux
 layout: story
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: bashben kiadott parancsok arhivuma; bash history
 created: 1116272804
 ---

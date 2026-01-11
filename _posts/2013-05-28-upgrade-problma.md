@@ -4,7 +4,6 @@ excerpt: Volt egy kis upgrade probléma és emmiatt nem  ment az oldal 1-2 hetet
 categories: []
 layout: blog
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: upgrade probléma
 created: 1369732256
 ---

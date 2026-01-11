@@ -5,7 +5,6 @@ categories:
 - x
 layout: story
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: Egy újabb iPod menedzser; floola
 created: 1169912104
 ---

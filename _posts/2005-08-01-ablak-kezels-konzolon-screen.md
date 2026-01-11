@@ -8,7 +8,6 @@ categories:
 - linux
 layout: story
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: '"Ablak kezelés" konzolon; screen'
 created: 1122917599
 ---

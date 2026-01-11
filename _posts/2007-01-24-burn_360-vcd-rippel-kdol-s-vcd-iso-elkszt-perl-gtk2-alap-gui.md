@@ -8,7 +8,6 @@ categories:
 - linux
 layout: story
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: Burn_360 - VCD rippelő, kódoló és VCD ISO előkészítő perl-Gtk2 alapú GUI
 created: 1169629077
 ---

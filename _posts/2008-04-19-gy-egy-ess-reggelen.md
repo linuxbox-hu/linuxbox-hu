@@ -6,7 +6,6 @@ excerpt: "Mit lehet csinálni, mint netezgetni. StumbleUpon linux kategóriát b
 categories: []
 layout: blog
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: Így egy esős reggelen
 created: 1208588929
 ---

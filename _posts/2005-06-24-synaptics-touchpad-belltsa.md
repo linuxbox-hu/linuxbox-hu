@@ -16,7 +16,6 @@ categories:
 - linux
 layout: story
 author: szimszon
-mail: szimszon@oregpreshaz.eu
 title: Synaptics touchpad beállítása
 created: 1119621993
 ---

@@ -8,7 +8,6 @@ categories:
 - x
 layout: story
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: Avant window navigator; awn
 created: 1194181523
 ---

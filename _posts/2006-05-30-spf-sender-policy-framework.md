@@ -11,7 +11,6 @@ categories:
 - linux
 layout: story
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: SPF (Sender Policy Framework)
 created: 1148985437
 ---

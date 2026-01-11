@@ -3,7 +3,6 @@ excerpt: "Ha készült wget leírás, nem hagyhatom ki a másik jó kis grabbert
 categories: []
 layout: blog
 author: siposg
-mail: rg@linuxscripting.hu
 title: curl használata
 created: 1304783024
 ---

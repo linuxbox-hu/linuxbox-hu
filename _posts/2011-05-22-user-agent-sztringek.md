@@ -7,7 +7,6 @@ excerpt: A curl és a wget grabber programok. Megadható, hogy mely böngészőn
 categories: []
 layout: blog
 author: siposg
-mail: rg@linuxscripting.hu
 title: User agent sztringek
 created: 1306052095
 ---

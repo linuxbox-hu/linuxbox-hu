@@ -9,7 +9,6 @@ categories:
 - hírek
 layout: story
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: Új hírfolyam - gnomethemes.org
 created: 1157366501
 ---

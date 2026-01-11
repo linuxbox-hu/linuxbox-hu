@@ -11,7 +11,6 @@ categories:
 - debian
 layout: story
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: Postfix levél küldés megadott IPn, postifx második példány konfigurálása
 created: 1245675899
 ---

@@ -7,7 +7,6 @@ categories:
 - linux
 layout: story
 author: masterminds
-mail: masterminds@vipmail.hu
 title: Adobe Flash Player 9 (x86)
 created: 1169073020
 ---

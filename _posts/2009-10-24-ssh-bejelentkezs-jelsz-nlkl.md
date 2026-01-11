@@ -7,7 +7,6 @@ excerpt: "Ha jelszó törésrõl szeretnél olvasni, ajánlom John the Ripper ol
 categories: []
 layout: blog
 author: bAndie91
-mail: bandie9100@freemail.hu
 title: SSH bejelentkezés jelszó nélkül
 created: 1256422760
 ---

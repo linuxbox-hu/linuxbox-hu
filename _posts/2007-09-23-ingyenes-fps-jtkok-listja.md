@@ -8,7 +8,6 @@ excerpt: "Egy informatikus srác (Nagy Sándor) oldalán bukkantam az alábbi ol
 categories: []
 layout: blog
 author: log69
-mail: han@log69.com
 title: Ingyenes FPS játékok listája
 created: 1190545210
 ---

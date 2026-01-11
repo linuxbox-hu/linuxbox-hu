@@ -7,7 +7,6 @@ categories:
 - linux
 layout: story
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: VNC és LogMeIn Hamachi
 created: 1185447403
 ---

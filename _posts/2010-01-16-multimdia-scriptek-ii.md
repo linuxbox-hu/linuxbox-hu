@@ -7,7 +7,6 @@ excerpt: "Jöjjön a következő: svg2png. Inkscape-t használ parancsmódban me
 categories: []
 layout: blog
 author: batyu
-mail: batyuu@gmail.com
 title: multimédia scriptek II.
 created: 1263658735
 ---

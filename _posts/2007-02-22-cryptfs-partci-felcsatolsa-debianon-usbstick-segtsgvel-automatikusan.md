@@ -9,7 +9,6 @@ categories:
 - debian
 layout: story
 author: szimszon
-mail: szimszon@oregpreshaz.eu
 title: Cryptfs partíció felcsatolása Debianon USBStick segítségével automatikusan
 created: 1172155295
 ---

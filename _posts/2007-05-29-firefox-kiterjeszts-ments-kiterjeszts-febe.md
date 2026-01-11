@@ -8,7 +8,6 @@ categories:
 - firefox
 layout: story
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: Firefox kiterjesztés mentés kiterjesztés :) FEBE
 created: 1180436849
 ---

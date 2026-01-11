@@ -7,7 +7,6 @@ categories:
 - linux
 layout: story
 author: szimszon
-mail: szimszon@oregpreshaz.eu
 title: OsmAnd, vektoros térképszoftver Android platformra ingyen
 created: 1294173630
 ---

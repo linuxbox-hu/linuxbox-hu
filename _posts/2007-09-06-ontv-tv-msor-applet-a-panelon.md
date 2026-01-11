@@ -8,7 +8,6 @@ excerpt: Nemrég akadtam egy hasznos kis programra,  az  <a href="http://johan.s
 categories: []
 layout: blog
 author: winters
-mail: mandzak.j@gmail.com
 title: OnTV - Tv műsor applet a panelon
 created: 1189099784
 ---

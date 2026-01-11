@@ -8,7 +8,6 @@ categories:
 - ubuntu
 layout: story
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: Turnkey linux
 created: 1229360194
 ---

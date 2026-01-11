@@ -9,7 +9,6 @@ categories:
 - firefox
 layout: story
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: Firefox használat vim parancsokkal; vimperator
 created: 1234879358
 ---

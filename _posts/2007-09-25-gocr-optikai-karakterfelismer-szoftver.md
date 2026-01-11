@@ -8,7 +8,6 @@ excerpt: "Akinek sokat kell nyomtatott szöveget szkennelnie és azokat visszaal
 categories: []
 layout: blog
 author: log69
-mail: han@log69.com
 title: Gocr - optikai karakterfelismerő szoftver
 created: 1190738403
 ---

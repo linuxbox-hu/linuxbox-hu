@@ -8,7 +8,6 @@ categories:
 - x
 layout: story
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: GNOME MPlayer
 created: 1212139267
 ---

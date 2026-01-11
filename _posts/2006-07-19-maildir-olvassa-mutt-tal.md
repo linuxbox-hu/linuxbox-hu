@@ -11,7 +11,6 @@ categories:
 - linux
 layout: story
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: Maildir olvasása mutt-tal
 created: 1153304846
 ---

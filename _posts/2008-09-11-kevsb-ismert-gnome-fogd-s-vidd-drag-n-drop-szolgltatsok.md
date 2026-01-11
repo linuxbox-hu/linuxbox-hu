@@ -9,7 +9,6 @@ categories:
 - x
 layout: story
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: Kevésbé ismert Gnome fogd és vidd (drag-n-drop) szolgáltatások
 created: 1221145639
 ---

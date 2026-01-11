@@ -7,7 +7,6 @@ categories:
 - x
 layout: story
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: Beesoft Commander ver. 2.02.1
 created: 1134592053
 ---

@@ -9,7 +9,6 @@ categories:
 - linux
 layout: story
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: M$ Word dokumentum karakteres terminálban
 created: 1120927768
 ---

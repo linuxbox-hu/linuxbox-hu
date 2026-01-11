@@ -10,7 +10,6 @@ categories:
 - x
 layout: story
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: AVI állomány DVD-re írása és fordítva
 created: 1193143968
 ---

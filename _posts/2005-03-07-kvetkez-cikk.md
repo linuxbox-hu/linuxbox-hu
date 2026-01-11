@@ -6,7 +6,6 @@ excerpt: "Itt gyűjtöm a lehetséges cikk téma 5leteim. Adhattok ti is!\r\n\r\
 categories: []
 layout: blog
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: Következő cikk
 created: 1110237587
 ---

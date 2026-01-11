@@ -7,7 +7,6 @@ excerpt: "Biztos másokkal is megtörtént, hogy kedvenc DVD lemeze lejátszása
 categories: []
 layout: blog
 author: sanya
-mail: snagy.sandor@gmail.com
 title: DVD biztonsági másolat
 created: 1174301987
 ---

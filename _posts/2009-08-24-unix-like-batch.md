@@ -5,7 +5,6 @@ excerpt: "Remélem a következõ project-nek is helye van a box-ban.\r\nKészít
 categories: []
 layout: blog
 author: bAndie91
-mail: bandie9100@freemail.hu
 title: Unix-like Batch
 created: 1251126858
 ---

@@ -10,7 +10,6 @@ categories:
 - linux
 layout: story
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: Memóriában tartott programok; tmpfs
 created: 1115905410
 ---

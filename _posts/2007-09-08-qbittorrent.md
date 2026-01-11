@@ -5,7 +5,6 @@ excerpt: "Egy újabb, Francia fejlesztésű bittorrent kliens. Van ubuntu és de
 categories: []
 layout: blog
 author: log69
-mail: han@log69.com
 title: qBittorrent
 created: 1189277362
 ---

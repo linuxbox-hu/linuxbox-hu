@@ -7,7 +7,6 @@ categories:
 - firefox
 layout: story
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: Firefox TABok csoportosítása, menedzselése látványosan a 4-es BETAban
 created: 1282228900
 ---

@@ -7,7 +7,6 @@ excerpt: Szeretném tudni, hogy mit csináljak, hogy újra visszakapjam az elves
 categories: []
 layout: blog
 author: campi
-mail: campiandy@freemail.hu
 title: elveszett adatok a pendrive-on
 created: 1273154981
 ---

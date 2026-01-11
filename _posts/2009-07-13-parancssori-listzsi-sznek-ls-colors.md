@@ -7,7 +7,6 @@ categories:
 - linux
 layout: story
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: Parancssori listázási színek; ls colors
 created: 1247489152
 ---

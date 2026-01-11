@@ -8,7 +8,6 @@ categories:
 - firefox
 layout: story
 author: szimszon
-mail: szimszon@oregpreshaz.eu
 title: FireFox kiterjesztések globális telepítése
 created: 1110622395
 ---

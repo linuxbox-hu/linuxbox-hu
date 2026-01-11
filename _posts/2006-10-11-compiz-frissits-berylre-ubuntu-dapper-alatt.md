@@ -11,7 +11,6 @@ categories:
 - ubuntu
 layout: story
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: Compiz frissités Berylre Ubuntu Dapper alatt
 created: 1160566034
 ---

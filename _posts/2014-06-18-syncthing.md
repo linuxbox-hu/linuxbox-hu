@@ -8,7 +8,6 @@ categories:
 - hírek
 layout: story
 author: szimszon
-mail: szimszon@oregpreshaz.eu
 title: Syncthing
 created: 1403097342
 ---

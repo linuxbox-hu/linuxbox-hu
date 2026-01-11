@@ -7,7 +7,6 @@ excerpt: "Ma este hekkelős kedvemben voltam és feldobtam a banner modult és �
 categories: []
 layout: blog
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: Új drupál modulok
 created: 1123712288
 ---

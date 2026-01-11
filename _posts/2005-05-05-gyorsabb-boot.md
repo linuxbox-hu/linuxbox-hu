@@ -9,7 +9,6 @@ excerpt: "Azt hiszem egyértelmű az utolsó <a href=\"http://linuxbox.hu/bootch
 categories: []
 layout: blog
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: gyorsabb boot
 created: 1115285073
 ---

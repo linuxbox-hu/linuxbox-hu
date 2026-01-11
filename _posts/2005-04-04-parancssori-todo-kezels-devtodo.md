@@ -9,7 +9,6 @@ categories:
 - linux
 layout: story
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: parancssori TODO kezelés; devtodo
 created: 1112649916
 ---

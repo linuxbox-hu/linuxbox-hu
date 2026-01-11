@@ -8,7 +8,6 @@ categories:
 - ubuntu
 layout: story
 author: batyu
-mail: batyuu@gmail.com
 title: friss csomagok
 created: 1164310639
 ---

@@ -6,7 +6,6 @@ excerpt: "Létezik firefox addon ami egy gombnyomásra letölti a youtube és eg
 categories: []
 layout: blog
 author: leslie
-mail: laszlo.karpati@pontez.hu
 title: pyTube - Youtube videó letöltő és konvertáló és etc...
 created: 1211810714
 ---

@@ -8,7 +8,6 @@ excerpt: Még régebben keresgéltem olyan programot linuxra mint a Yahoo Widget
 categories: []
 layout: blog
 author: zsolt
-mail: antario91@gmail.com
 title: Wallpaper Clock
 created: 1195203553
 ---

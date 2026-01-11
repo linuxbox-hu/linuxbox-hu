@@ -6,7 +6,6 @@ categories:
 - linux
 layout: story
 author: szimszon
-mail: szimszon@oregpreshaz.eu
 title: Digitális aláírás használatának beállítása OpenOffice.org-nál
 created: 1149840063
 ---

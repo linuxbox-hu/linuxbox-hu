@@ -7,7 +7,6 @@ categories:
 - ubuntu
 layout: story
 author: skuzzy
-mail: skuzzy@freemail.hu
 title: SZJA bevallás
 created: 1210875462
 ---

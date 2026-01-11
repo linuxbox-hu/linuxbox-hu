@@ -9,7 +9,6 @@ excerpt: "Grrrr nagyon dühös vagyok a spammerekre. Utálom mikor idepiszkítan
 categories: []
 layout: blog
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: spammerek
 created: 1190102750
 ---

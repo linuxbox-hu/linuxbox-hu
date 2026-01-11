@@ -8,7 +8,6 @@ categories:
 - linux
 layout: story
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: ssh kliens oldali VisualHostKey opció
 created: 1338300332
 ---

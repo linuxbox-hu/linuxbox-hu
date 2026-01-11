@@ -6,7 +6,6 @@ excerpt: Az internetet böngészve egy számomra jól használható terminál em
 categories: []
 layout: blog
 author: winters
-mail: mandzak.j@gmail.com
 title: Tilda terminál emulátor
 created: 1180627043
 ---

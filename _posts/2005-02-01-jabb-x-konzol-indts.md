@@ -5,7 +5,6 @@ categories:
 - x
 layout: story
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: Újabb X konzol indítás
 created: 1107254303
 ---

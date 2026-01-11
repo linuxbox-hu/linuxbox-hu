@@ -9,7 +9,6 @@ categories:
 - x
 layout: story
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: Bármit a tálcára; alltray!
 created: 1134254657
 ---

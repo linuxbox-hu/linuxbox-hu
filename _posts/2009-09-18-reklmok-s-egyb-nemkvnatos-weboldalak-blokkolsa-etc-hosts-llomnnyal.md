@@ -8,7 +8,6 @@ categories:
 - linux
 layout: story
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: Reklámok és egyéb nemkívánatos weboldalak blokkolása /etc/hosts állománnyal
 created: 1253267192
 ---

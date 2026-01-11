@@ -10,7 +10,6 @@ categories:
 - linux
 layout: story
 author: szimszon
-mail: szimszon@oregpreshaz.eu
 title: IPv6 konfigurálás avagy a linuxbox.hu IPv6 „Ready”
 created: 1213732354
 ---

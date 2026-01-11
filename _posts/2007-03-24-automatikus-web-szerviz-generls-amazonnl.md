@@ -8,7 +8,6 @@ excerpt: Ezek az amarikai gyerekek megint kitaláltak valamit. Ha értesz angolu
 categories: []
 layout: blog
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: Automatikus web szerviz generálás amazonnál.
 created: 1174729686
 ---

@@ -9,7 +9,6 @@ categories:
 - linux
 layout: story
 author: Goosfrabaa
-mail: gabrea@freemail.hu
 title: SystemRescueCd pendrivera grubbal
 created: 1265063553
 ---

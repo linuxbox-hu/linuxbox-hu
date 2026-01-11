@@ -8,7 +8,6 @@ excerpt: "Nemrég találtam egy figyelemreméltó Linux disztribúciót.\r\nAz r
 categories: []
 layout: blog
 author: csikosanyi
-mail: csikosanyi@gmail.com
 title: 'Nimblex: személyreszabott Live CD'
 created: 1218115687
 ---

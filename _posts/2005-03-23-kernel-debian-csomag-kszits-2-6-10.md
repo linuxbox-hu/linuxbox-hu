@@ -13,7 +13,6 @@ categories:
 - debian
 layout: story
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: kernel debian csomag készités 2.6.10
 created: 1111569964
 ---

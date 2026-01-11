@@ -6,7 +6,6 @@ excerpt: "Egy Holland fejlesztésű, terminálból futtatható kicsi <a href=\"h
 categories: []
 layout: blog
 author: log69
-mail: han@log69.com
 title: Herrie - egy mini zenelejátszó terminálból
 created: 1189275424
 ---

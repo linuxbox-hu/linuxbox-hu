@@ -10,7 +10,6 @@ categories:
 - x
 layout: story
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: Játék közben csevegés; Mumble, TeamSpeak...
 created: 1187000418
 ---

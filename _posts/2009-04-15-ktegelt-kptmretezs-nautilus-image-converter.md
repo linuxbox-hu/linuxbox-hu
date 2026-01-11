@@ -7,7 +7,6 @@ excerpt: "<p>Volt már szó <a href=\"http://linuxbox.hu/phatch\">programról</a
 categories: []
 layout: blog
 author: leslie
-mail: laszlo.karpati@pontez.hu
 title: Kötegelt képátméretezés -  Nautilus-Image-Converter
 created: 1239815251
 ---

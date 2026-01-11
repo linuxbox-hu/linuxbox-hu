@@ -7,7 +7,6 @@ categories:
 - linux
 layout: story
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: Több állomány átnevezése; multi rename tools
 created: 1115799348
 ---

@@ -8,7 +8,6 @@ categories:
 - debian
 layout: story
 author: szimszon
-mail: szimszon@oregpreshaz.eu
 title: Számítógép felébresztése hibernációból, titkosított swap terület és pendrive
   segítségével Debian Etch-en
 created: 1178466702

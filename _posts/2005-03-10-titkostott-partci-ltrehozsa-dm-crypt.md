@@ -7,7 +7,6 @@ categories:
 - linux
 layout: story
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: Titkosított partíció létrehozása; dm-crypt
 created: 1110484869
 ---

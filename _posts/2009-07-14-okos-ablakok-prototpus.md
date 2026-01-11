@@ -4,7 +4,6 @@ excerpt: "Böngészgetés közben akadtam a következő blenderrel készített a
 categories: []
 layout: blog
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: Okos ablakok prototípus
 created: 1247562737
 ---

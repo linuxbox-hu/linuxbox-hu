@@ -12,7 +12,6 @@ categories:
 - firefox
 layout: story
 author: szimszon
-mail: szimszon@oregpreshaz.eu
 title: Védett módban futtatott Firefox
 created: 1428519872
 ---

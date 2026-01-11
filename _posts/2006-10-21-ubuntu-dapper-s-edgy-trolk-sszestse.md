@@ -9,7 +9,6 @@ excerpt: "#---------------------------------------------------------------------
 categories: []
 layout: blog
 author: vaskalap
-mail: vaskalap@gmail.com
 title: Ubuntu dapper és edgy tárolók összesítése
 created: 1161421220
 ---

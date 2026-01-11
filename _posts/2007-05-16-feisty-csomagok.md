@@ -8,7 +8,6 @@ excerpt: Fordítgattam/ok pár csomagot most, hogy rászántam magam az upgrade-
 categories: []
 layout: blog
 author: batyu
-mail: batyuu@gmail.com
 title: Feisty csomagok
 created: 1179296827
 ---

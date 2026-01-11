@@ -7,7 +7,6 @@ excerpt: "Fel tettem az ubuntu mellé egy másik linuxot is. Próbaképp. Az ins
 categories: []
 layout: blog
 author: leslie
-mail: laszlo.karpati@pontez.hu
 title: QGRUBEditor - Annak ki grubba nyúl
 created: 1209772357
 ---

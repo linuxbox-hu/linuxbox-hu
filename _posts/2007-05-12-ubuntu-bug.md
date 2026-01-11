@@ -9,7 +9,6 @@ excerpt: "Nyomtam egy apt-get update/upgrade-et, puff, itt a vége:\r\n<code>\r\
 categories: []
 layout: blog
 author: miamano
-mail: miamano@gmail.com
 title: Ubuntu bug?
 created: 1178935106
 ---

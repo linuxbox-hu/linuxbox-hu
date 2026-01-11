@@ -9,7 +9,6 @@ categories:
 - firefox
 layout: story
 author: szimszon
-mail: szimszon@oregpreshaz.eu
 title: Swiftfox aggályok
 created: 1185875613
 ---

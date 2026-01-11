@@ -11,7 +11,6 @@ categories:
 - linux
 layout: story
 author: gthomas
-mail: gthomas@fw.hu
 title: teljesen partícionált diszken lvm2-re áttérés
 created: 1143301796
 ---

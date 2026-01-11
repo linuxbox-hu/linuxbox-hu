@@ -5,7 +5,6 @@ categories:
 - linux
 layout: story
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: Egy újabb ipopd menedzser szoftver; Hipo
 created: 1168616881
 ---

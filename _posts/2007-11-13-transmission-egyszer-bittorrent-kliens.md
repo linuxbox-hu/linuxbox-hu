@@ -8,7 +8,6 @@ excerpt: "Én személy szerint a kis erőforrású (angol hivatkozással 'lightw
 categories: []
 layout: blog
 author: log69
-mail: han@log69.com
 title: Transmission - egyszerű bittorrent kliens
 created: 1194984724
 ---

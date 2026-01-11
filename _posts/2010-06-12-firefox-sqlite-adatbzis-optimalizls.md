@@ -8,7 +8,6 @@ categories:
 - firefox
 layout: story
 author: szimszon
-mail: szimszon@oregpreshaz.eu
 title: Firefox SQLite adatbázis optimalizálás
 created: 1276341399
 ---

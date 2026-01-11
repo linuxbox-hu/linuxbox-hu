@@ -4,7 +4,6 @@ excerpt: A tegnap elészült weboldal témát át fogom írni XHTML verzióból 
 categories: []
 layout: blog
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: Weboldal fejlesztgetés
 created: 1108024093
 ---

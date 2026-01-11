@@ -7,7 +7,6 @@ excerpt: 'A Byobu egy terminál multiplexer, vagyis egy olyan eszköz, amivel eg
 categories: []
 layout: blog
 author: leslie
-mail: laszlo.karpati@pontez.hu
 title: Byobu szerverekre
 created: 1253975429
 ---

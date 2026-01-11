@@ -9,7 +9,6 @@ categories:
 - linux
 layout: story
 author: szimszon
-mail: szimszon@oregpreshaz.eu
 title: pidgin-read
 created: 1190703848
 ---

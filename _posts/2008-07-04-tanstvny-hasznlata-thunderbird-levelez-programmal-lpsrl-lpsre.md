@@ -6,7 +6,6 @@ categories:
 - linux
 layout: story
 author: szimszon
-mail: szimszon@oregpreshaz.eu
 title: Tanúsítvány használata Thunderbird levelező programmal lépésről lépésre
 created: 1215172641
 ---

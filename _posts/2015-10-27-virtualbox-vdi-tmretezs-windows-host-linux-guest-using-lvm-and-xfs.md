@@ -8,7 +8,6 @@ categories:
 - linux
 layout: story
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: Virtualbox vdi átméretezés (windows host, linux guest using LVM and xfs)
 created: 1445938099
 ---

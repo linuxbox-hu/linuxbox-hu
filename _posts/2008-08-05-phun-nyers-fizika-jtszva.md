@@ -8,7 +8,6 @@ excerpt: "Ki látott már olyan számítógépes játékot, ahol nem kell senkit
 categories: []
 layout: blog
 author: leslie
-mail: laszlo.karpati@pontez.hu
 title: Phun - Nyers fizika, játszva
 created: 1217957552
 ---

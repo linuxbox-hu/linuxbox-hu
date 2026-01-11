@@ -8,7 +8,6 @@ categories:
 - ubuntu
 layout: story
 author: siposg
-mail: rg@linuxscripting.hu
 title: Postgresql teljesítmény hangolás
 created: 1300635058
 ---

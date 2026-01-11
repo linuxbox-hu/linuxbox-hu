@@ -7,7 +7,6 @@ categories:
 - x
 layout: story
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: Digitalizálás PDF állományba; gscan2pdf
 created: 1204799006
 ---

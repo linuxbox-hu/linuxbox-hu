@@ -7,7 +7,6 @@ categories:
 - hírek
 layout: story
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: Compiz Fusion 0.5.2 kiadás
 created: 1187036122
 ---

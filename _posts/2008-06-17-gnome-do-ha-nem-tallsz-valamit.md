@@ -6,7 +6,6 @@ excerpt: "Dicsérni fogom, pedig csak pár órája futottam véletlen bele a Gno
 categories: []
 layout: blog
 author: leslie
-mail: laszlo.karpati@pontez.hu
 title: Gnome Do - Ha nem találsz valamit
 created: 1213663994
 ---

@@ -8,7 +8,6 @@ categories:
 - hírek
 layout: story
 author: szimszon
-mail: szimszon@oregpreshaz.eu
 title: Google smtp szolgáltatás
 created: 1110985027
 ---

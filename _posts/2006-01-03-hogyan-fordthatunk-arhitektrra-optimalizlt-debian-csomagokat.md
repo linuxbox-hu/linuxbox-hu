@@ -10,7 +10,6 @@ categories:
 - debian
 layout: story
 author: kecsi
-mail: kecsi@linuxbox.hu
 title: Hogyan fordíthatunk arhitektúrára optimalizált debian csomagokat.
 created: 1136325221
 ---

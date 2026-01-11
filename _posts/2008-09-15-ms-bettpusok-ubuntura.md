@@ -9,7 +9,6 @@ excerpt: "Jól jöhet az alábbi Microsoftos betűkészlet csomag, aki szeretné
 categories: []
 layout: blog
 author: leslie
-mail: laszlo.karpati@pontez.hu
 title: MS betűtípusok Ubuntura
 created: 1221498748
 ---

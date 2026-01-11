@@ -7,7 +7,6 @@ excerpt: "Mindenki találkozik időnként valamilyen lemezképpel. Ezek kiírás
 categories: []
 layout: blog
 author: sanya
-mail: snagy.sandor@gmail.com
 title: Iso lemezképek kezelése
 created: 1173526058
 ---
