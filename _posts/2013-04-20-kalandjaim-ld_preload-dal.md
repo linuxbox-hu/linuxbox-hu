@@ -20,6 +20,7 @@ Az x2vnc arra való, hogy az X11 képernyõt megtoldja egy VNC által hordozott 
 Az elégedetlenségem oka az volt, hogy - bár egy switch-elt LAN-ban vagyok a vnc-t futtató géppel - elõfordul, hogy újraindítom, lefagy, kirúgom a kábelt, tehát megszakad az x2vnc hálózati kapcsolata és ilyenkor az egérmutatóm és vele együtt a gépelési fókusz ottmarad a semmiben! Az x2vnc várja, amíg a hálózati stack kézbesíti a legutóbbi egérmozgató parancsát...
 
 Elõször gondoltam, majd a TCP socket-ot okosítom meg mondván "haver, kettõ szegmens retransmitt után hagyd a fenébe, mert az a peer halott!". Persze nem rendszerszinten alkalmaztam volna, csak az x2vnc által nyitott socket-ekre.
+
 Ennél sokkal egyszerũbbnek bizonyult a következõ:
 
 ```c
@@ -35,7 +36,8 @@ ssize_t write(int fd, const void *buf, size_t count)
         return real_write_return;
 }
 ```
+[forrás](https://github.com/bAndie91/libyazzy-preload/blob/master/src/alarmwrite.c#L6)
 
 A program végsõ soron a write(2) hívást használja, hogy a hálózatra adatot küldjön. Meghatároztam egy kettõ másodperces türelmi idõt (alarm_sec változó), ameddig a rendszerhívásban tartózkodhat. Az alarm() függvénnyel húzom fel az ''ébresztõórát'' és amikor csörög, a folyamatszál kap egy SIGALRM-ot én pedig visszakapom az irányítást (és lecsapom a wekkert: alram(0)).
 
-A teljes kódért nyisd meg a csatolt fájlt.
+A teljes kódért nyisd meg a [libyazzy-preload](https://github.com/bAndie91/libyazzy-preload) repot.
