@@ -4,7 +4,8 @@ title: Syncthing
 date: 2014-06-18
 author: szimszon
 categories: [linux]
-tags: Syncthing
+tags: 
+ - Syncthing
 excerpt: Syncthing egy multi platformos, nyílt kódú fájl szinkronizáló megoldás BTSync  helyett.
 ---
 [Syncthing](http://syncthing.net/) multi platformos, [nyílt kódú](https://github.com/calmh/syncthing/blob/master/protocol/PROTOCOL.md) fájl szinkronizáló megoldás [BTSync](http://www.bittorrent.com/sync) helyett.

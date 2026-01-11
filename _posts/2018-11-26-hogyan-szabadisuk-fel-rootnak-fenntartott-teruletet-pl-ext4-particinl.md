@@ -4,7 +4,8 @@ title: Hogyan szabadisuk fel rootnak fenntartott teruletet pl. EXT4 particióná
 date: 2018-11-26
 author: kecsi
 categories: [linux]
-tags: tune2fs
+tags: 
+ - tune2fs
 ---
 Alap értelmezetten mikor fájl rendszert készítünk egy partícióra a beállítások szerint marad egy átlag felhasználó számára elérhetetlen csak root szamara fenntartott védett terület. Ez egy nagy porciónál egész tetemes lehet igy talán érdemes kisebbre bizonyos esetben akar nullara is állítani.
 

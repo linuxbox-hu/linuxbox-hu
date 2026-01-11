@@ -4,7 +4,10 @@ title: Thunderbird FileLink kiegészítés SeaFile-hoz
 date: 2014-01-01
 author: szimszon
 categories: [linux]
-tags: Seafile, Thunderbird
+tags:
+ - Thunderbird
+ - Seafile
+ - Filelink
 ---
 Nem régen írtam a [SeaFile](https://seafile.com)\-ról [itt](https://linuxbox.hu/node/860). Azóta közeledik a 2.1-es kiadása pár érdekes új képességgel mint a [WebDAV](https://webdav.org/).
 

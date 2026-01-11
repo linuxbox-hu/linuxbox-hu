@@ -4,7 +4,10 @@ title: Védett módban futtatott Firefox
 date: 2015-04-08
 author: szimszon
 categories: [firefox]
-tags: Firefox, Docker, Ubuntu
+tags: 
+ - Firefox
+ - Docker
+ - Ubuntu
 image:
   path: ../assets/img/logos/firefox-logo.png
 excerpt: Régóta szerettem volna valamit amivel kicsit biztonságosabbnak érezhetem

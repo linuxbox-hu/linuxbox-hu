@@ -4,7 +4,10 @@ title: Automatikus csomag frissítés emlékeztetők Debian Linuxon
 date: 2015-07-29
 author: kecsi
 categories: [linux]
-tags: Debian, apticron, cron-apt
+tags: 
+ - Debian
+ - apticron
+ - cron-apt
 excerpt: "Debian alapú rendszereken már három alkalmazással lehet emlékeztetőket küldeni
   csomag frissítésekről. \r\nAz apticron és a cron-apt csomagok már jóideje használhatóak
   erre. Ezek levélben értesítenek a frissítésekről.\r"

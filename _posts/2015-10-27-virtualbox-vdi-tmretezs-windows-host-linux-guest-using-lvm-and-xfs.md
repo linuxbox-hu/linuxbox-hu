@@ -4,12 +4,17 @@ title: Virtualbox vdi átméretezés (windows host, linux guest using LVM and xf
 date: 2015-10-27
 author: kecsi
 categories: [linux]
-tags: virtualbox, fdisk, LVM, pvresize, lvresize, mount, xfs, xfs_growfs
-excerpt: "Amikor a virtualbox particionkon elfogy a hely gondolkodhatunk, hogy megnagyobbitjuk
-  vagy beadunk egy ujabb particiót. Én a komplikáltabb nagyobbítást választottam:\r\n(ha
-  nem gond angolul hagyom a procedura lépéseit, valószínűleg így is érthetőek mindenki
-  számára aki ilyesmivel dolgozik.)\r\n\r\n- Shutdown guest\r\n- Resize dvi using
-  vboxmanage to 86G\r"
+tags: 
+ - virtualbox
+ - fdisk
+ - LVM
+ - pvresize
+ - lvresize
+ - mount
+ - xfs
+ - xfs_growfs
+excerpt: Amikor a virtualbox particionkon elfogy a hely gondolkodhatunk, hogy megnagyobbitjuk
+  vagy beadunk egy ujabb particiót...
 
 ---
 Amikor a virtualbox particionkon elfogy a hely gondolkodhatunk, hogy megnagyobbitjuk vagy beadunk egy ujabb particiót. Én a komplikáltabb nagyobbítást választottam:
