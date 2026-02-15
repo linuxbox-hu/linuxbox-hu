@@ -11,8 +11,9 @@ image:
 Drupal-ról Jekyll-re migraltam az oldalt. Nem akartam és nem is tudtam már a drupal frissitéseket követni.
 A Jekyll mint statikus site generátor töletesen megfelel a célnak.
 Feltöltöttem a markdown formátumra migrált régi tartalmakat github-ra és generáltam az oldalt. Bárki adhat be tartalmat továbbra is.
-De ezent]l Github pull request (PR) formában.
+De ezentul Github pull request (PR) formában.
 
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+[[jekyll-docs]](https://jekyllrb.com/docs/home)
+[[jekyll-gh]](https://github.com/jekyll/jekyll)
+[[jekyll-talk]](https://talk.jekyllrb.com)
+
