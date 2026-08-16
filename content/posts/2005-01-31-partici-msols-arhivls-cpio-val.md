@@ -1,0 +1,14 @@
+---
+author: kecsi
+categories:
+- linux
+created: 1107213963
+date: '2005-01-31T00:00:00Z'
+excerpt: 'root partició másolása:\r\n<strong>cd /; find -print0 -mount | cpio -p -0 -d -m -u /masikparticio</strong>\r\nvagy:\r\n<strong>arhiv készítés: find -print0 -mount|cpio -o -0 -O arhiv.cpio</strong>\r\n<strong>arhivból visszaállítás: cpio -i -m -d -u -I arhiv.cpio</strong>'
+title: partició másolás, arhiválás cpio-val
+---
+root partició másolása:
+<strong>cd /; find -print0 -mount | cpio -p -0 -d -m -u /masikparticio</strong>
+vagy:
+<strong>arhiv készítés: find -print0 -mount|cpio -o -0 -O arhiv.cpio</strong>
+<strong>arhivból visszaállítás: cpio -i -m -d -u -I arhiv.cpio</strong>

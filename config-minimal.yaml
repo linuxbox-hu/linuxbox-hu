@@ -1,0 +1,4 @@
+baseURL: https://linuxbox-hu.github.io/linuxbox-hu
+disablePathToLower: true
+languageCode: en-us
+title: linuxbox.hu
