@@ -23,7 +23,7 @@ Nevezetesen azt, hogy firewall szkriptjeinket a hálózati eszköz inicializál�
 
 auto eth0
 iface eth0 inet dhcp
-```
+```text
   pre-up /root/firewall-setup/firewall.setup.sh start
   pre-down /root/firewall-setup/firewall.setup.sh stop
 ```

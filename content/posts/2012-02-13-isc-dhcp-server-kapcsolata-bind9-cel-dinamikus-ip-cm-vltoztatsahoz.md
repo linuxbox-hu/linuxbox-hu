@@ -26,7 +26,7 @@ dnssec-keygen -r /dev/urandom -a RSAMD5 -b 1024 -T KEY -n ZONE thorin.example.co
 
 Ezennel eldöntöttük, hogy *thorin* barátunk lesz felhatalmazva a változások ismertetésére. A fenti parancs lefuttatásával valami ilyen fájlokat kapunk:
 
-```
+```text
 Kthorin.example.com.+001+06581.key
 Kthorin.example.com.+001+06581.private
 ```
@@ -37,7 +37,7 @@ Hát azért legyünk óvatosak és csak azt engedjük amit szeretnénk:
 
 A *named.conf.local* fájlban kicsit bővítsük ki a zónára vonatkozó beállításokat:
 
-```
+```text
 zone "example.com" {
         type master;
         file "/etc/bind/db.example.com";
@@ -71,7 +71,7 @@ exit $E
 
 Sajnos jelenleg (Debian Squeeze-en) az nsupdate egy hatalmas hibaüzenettel lép ki. Ez
 
-```
+```text
 mem.c:1099: INSIST(ctx->stats[i].gets == 0U) failed, back trace
 #0 0xb73f6e27 in ??
 #1 0xb73f7093 in ??

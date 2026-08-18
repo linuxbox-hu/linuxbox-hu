@@ -18,7 +18,7 @@ Először is szükséged lesz az előző kernel készítés cikkben is emlegett 
 Ezután jöhet a kapcsolatot és minden mást kezelő pptpconfig és az általa használt util csomag telpítése:
 
 pptpconfig extra apt forrásból szerezhető csak be egyenlőre:
-```
+```text
 # James Cameron's PPTP GUI packaging
 deb http://quozl.netrek.org/pptp/pptpconfig ./
 ```

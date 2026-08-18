@@ -21,7 +21,7 @@ Megjegyzem a vegyes rendszer karbantartása kicsit nehézkesebb.
 
 Mindösszé két konfigurációs állományt kell szerkesztenünk.<!--break-->
 1. a jól ismert /etc/apt/sources.list állomány lehet akár a következő:
-```
+```text
 #Stable
 deb http://ftp.us.debian.org/debian stable main non-free contrib
 deb http://non-us.debian.org/debian-non-US stable/non-US main contrib non-free
@@ -37,7 +37,7 @@ deb http://non-us.debian.org/debian-non-US unstable/non-US main contrib non-free
 avagy az <a href="http://linuxbox.hu/public/files/sources.list">enyémhez</a> hasonló.
 
 2. /etc/apt/preferences tartalma pedig ilyesmi:
-```
+```text
 Package: *
 Pin: release a=stable
 Pin-Priority: 700

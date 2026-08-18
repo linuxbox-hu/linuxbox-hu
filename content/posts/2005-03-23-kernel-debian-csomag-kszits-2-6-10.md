@@ -16,7 +16,7 @@ aliases:
 Telepítsük fel a szüksélges csomagokat:
 `apt-get install gcc bin86 libc6-dev bzip2 kernel-package kernel-patch-mppe kernel-source-2.6.10 tk8.3 libncurses5-dev fakeroot kernel-patch-mppe kernel-patch-bootsplash bootsplash bootsplash-theme-tuxinfo-debian`
 Extra apt forrás szükséges!
-```
+```text
 #bootsplash unstable
 deb http://www.bootsplash.de/files/debian unstable main
 deb-src http://www.bootsplash.de/files/debian unstable main
@@ -43,12 +43,12 @@ make menuconfig
 ```
 Amire figyelni kell:
 Befordítva kell legyen a következő két kernel modul, hogy a bootsplash kód jól forduljon.
-```
+```text
 CONFIG_FRAMEBUFFER_CONSOLE=y
 CONFIG_FB_VESA=y
 ```
 Egykis extra hackelés(saját extraverzió):
-```
+```text
 vi Makefile
 #EXTRAVERSION = -lb
 #export  INSTALL_PATH=/boot

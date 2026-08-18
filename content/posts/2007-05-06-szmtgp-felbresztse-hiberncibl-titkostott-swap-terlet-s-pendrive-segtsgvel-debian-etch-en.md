@@ -71,7 +71,7 @@ update-initramfs -v -u 2.6.21
 
 Ellenőrizzük, ha LILO-t használunk, hogy a kernelünkhöz be van-e állítva az
 
-```
+```text
 initrd=/initrd.img
 ```
 

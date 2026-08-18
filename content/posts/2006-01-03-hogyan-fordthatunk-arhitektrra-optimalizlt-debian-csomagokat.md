@@ -15,7 +15,7 @@ Telepítsük fel először a csomagot.
 wajig install apt-build
 ```
 közben kérdez bennünk pár opcióról, ezek a `/etc/apt/apt-build.conf` állományba kerülnek lementésre:
-```
+```text
 build-dir = /var/cache/apt-build/build
 repository-dir = /var/cache/apt-build/repository
 Olevel = -O2

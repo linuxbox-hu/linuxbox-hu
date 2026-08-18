@@ -300,7 +300,7 @@ Ha a script-ben a `DEBUG` változót `1`-re állítottuk, a syslog-ban megjelenn
 
 A syslog-ban valami hasonlót kell látnunk:
 
-```
+```text
 mount_home: Megvan a pendrive...
 mount_home: Pendrive felcsatolasa: [/dev/disk/by-label/secret] -> [/mnt/usb/pendrive]
 moria mount_home: Crypto device inicializalasa megtortent.

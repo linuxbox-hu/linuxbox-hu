@@ -69,7 +69,7 @@ Hát még nem. Még meg kell gyógyítani a [PAM](http://en.wikipedia.org/wiki/P
 
 --- sshd cut ---
 
-```
+```text
 # PAM configuration for the Secure Shell service
 auth   sufficient      pam_exec.so expose_authtok /usr/local/otp/otp-auth-exec  # <-- ÚJ
 # Read environment variables from /etc/environment and
@@ -125,7 +125,7 @@ session    required     pam_limits.so
 
 --- common-auth ---
 
-```
+```text
 #
 # /etc/pam.d/common-auth - authentication settings common to all services
 #

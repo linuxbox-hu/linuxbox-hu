@@ -11,7 +11,7 @@ aliases:
 - /story/64/
 ---
 A httpd.conf-ba a köv két sort tegyük be:
-```
+```text
 ServerSignature Off
 ServerTokens Prod
 ```

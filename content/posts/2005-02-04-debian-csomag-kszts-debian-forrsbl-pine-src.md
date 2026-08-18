@@ -16,7 +16,7 @@ A művelethez szükséges apt-get konfigurációban src soroknak lennie!
 pl.:```
 deb-src ftp://ftp.hu.debian.org/debian/ sarge main non-free contrib
 deb-src ftp://ftp.hu.debian.org/debian-non-US sarge/non-US main contrib non-free
-```
+```text
 Lépjünk a src könyvtárba mielőtt letöltenénk a forrást.
 ```bash
 cd /usr/src

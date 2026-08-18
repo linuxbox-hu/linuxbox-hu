@@ -12,7 +12,7 @@ aliases:
 ---
 Mivel lecseréltem a SOHO routeremet, <http://linuxbox.hu/node/664> testvéreként írtam TP-LINK konfigoló szkriptet. Ezt tudja, igyekszem bõvíteni:
 <!--break-->
-```
+```text
 tl-wr543g.sh: [command] [-u user] [--] [host]
   command    one of these:
      dhclients    list hosts that requested DHCP address

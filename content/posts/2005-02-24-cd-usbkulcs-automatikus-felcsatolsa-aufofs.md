@@ -24,7 +24,7 @@ linuxbox:~>```bash
 grep AUTOFS /boot/config-2.6.8-2-686
 CONFIG_AUTOFS_FS=m
 CONFIG_AUTOFS4_FS=m
-```
+```text
 Telepítsük fel az autofs csomagot
 
 linuxbox:~>`apt-get install autofs`
@@ -42,7 +42,7 @@ Az `/etc/auto.media` állomany nálam igy néz ki:
 cdrom           -fstype=iso9660,ro,nodev                       :/dev/scd1
 cdwriter        -fstype=iso9660,ro,nodev                       :/dev/scd0
 pendrive        -fstype=vfat,rw,uid=1000,gid=1000,umask=002    :/dev/sda1
-```
+```text
 
 Végül már csak három tennivalónk maradt:
 `/etc/default/autofs` állományban kisebb `TIMEOUT=1` értéket állítsunk, készítsük el a gyökér könyvtárát `mkdir /media`

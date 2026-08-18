@@ -30,7 +30,7 @@ A könyvtár struktúrája ahova a visszafejtett levél el lesz mentve:
 - minden levél külön könyvtárba kerül, ennek a könyvtárnak a neve a levél érkezésének időbéllyege (time.time())
 - a levélhez tartozó könyvtárba a könyvtár nevével megegyező időbélyeg nevű fájlba belekerül a:
 
-```
+```text
 ------- cut -------
 From: <az eredeti levél feladója>
 Subject: <az eredeti levél tárgya>

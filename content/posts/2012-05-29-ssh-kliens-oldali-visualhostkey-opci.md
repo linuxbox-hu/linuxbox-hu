@@ -18,12 +18,12 @@ ssh -o VisualHostKey=yes user@host
 ```
 
 Avagy ha be akarjuk kapcsolni véglegesen megadott szerverekhez vagy akár minden szerverre akkor az .ssh/config állományunkhoz kell hozzáadnunk a következő két sort:
-```
+```text
 Host *
         VisualHostKey           yes
 ```
 Bekapcsolás után igy fog kinézni a kapcsolódás:
-```
+```text
 [me@server]:~> ssh localhost
 The authenticity of host 'localhost (127.0.0.1)' can't be established.
 RSA key fingerprint is 11:2e:1e:17:ea:2d:c1:fb:4d:16:11:b3:a2:06:11:11.

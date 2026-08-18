@@ -4,24 +4,8 @@ categories:
 - linux
 created: 1137058446
 date: '2006-01-12T00:00:00Z'
-excerpt: |
-  Wajig mindenféle műveletre képes ami szóba kerülhet csomagokkal, démonokkal kapcsolatban.
-  
-Íme a teljes JIG utasítás készlet:
-  
-
-  
- <strong>addcdrom</strong>          CD-ROM hozzáadás a csomagok forrásaihoz
-  
- <strong>auto-alts</strong>         alternatív csomag megmutatása (prioritások használatával)
-  
- <strong>auto-clean</strong>        etöltött és telepített csomagok törlése az átmenti tárból
-  
- <strong>auto-download</strong>     frissülő csomagok letöltése majd telepítése
-  
- <strong>auto-install</strong>      telepítés interaktivitás nélkül
-  
- <strong>available</strong>         hozzáférhető és telepíthető összes csomag listája
+excerpt: Wajig mindenféle műveletre képes ami szóba kerülhet csomagokkal, démonokkal
+  kapcsolatban.
 title: 'wajig - minden egyben csomagkezelő'
 aliases:
 - /node/120/
@@ -30,117 +14,118 @@ aliases:
 Wajig mindenféle műveletre képes ami szóba kerülhet csomagokkal, démonokkal kapcsolatban.
 Íme a teljes JIG utasítás készlet:
 
- <strong>addcdrom</strong>          CD-ROM hozzáadás a csomagok forrásaihoz
- <strong>auto-alts</strong>         alternatív csomag megmutatása (prioritások használatával)
- <strong>auto-clean</strong>        etöltött és telepített csomagok törlése az átmenti tárból
- <strong>auto-download</strong>     frissülő csomagok letöltése majd telepítése
- <strong>auto-install</strong>      telepítés interaktivitás nélkül
- <strong>available</strong>         hozzáférhető és telepíthető összes csomag listája
- <strong>bug</strong>               jelentett hibák ellenőrzése a Debian hibajelentő rendszerben
- <strong>build</strong>             letölti a forrás csomagot és deban csomagot készít
- <strong>build-depend</strong>      letölti a megadott csomag függőségeit forrásból és elkészíti a csomagokat
- <strong>changelog</strong>         letölti az legutolsó változások listáját a csomaghoz
- <strong>clean</strong>             átmeneti állománzok törlése
- <strong>commands</strong>          ez a lista angolul :)
- <strong>daily-upgrade</strong>     egy update madj egy dist-upgrade végrehajtása
- <strong>dependents</strong>        a megadott csomagtól függő csomagok listája
- <strong>describe</strong>          egysoros csomag információ
- <strong>describe-new</strong>      egysoros csomag információ az új csomagokhoz
- <strong>detail</strong>            teljes leírás a csomagról
- <strong>detail-new</strong>        teljes leírás az új csomagról
- <strong>dist-upgrade</strong>      disztribúció frissítés
- <strong>docs</strong>              segítség
- <strong>download</strong>          csak letölti a telepíthető csomagot
- <strong>file-download</strong>     szövegálomanyban felsorolt csomagokat mind letölti
- <strong>file-install</strong>      szövegálomanyban felsorolt csomagokat telepít
- <strong>file-remove</strong>       szövegálomanyban felsorolt csomagokat eltávolít
- <strong>find-file</strong>         telepített csomagokban állomány keresés
- <strong>find-pkg</strong>          apt-get.org-on keres nem hivatalos csomagra
- <strong>fix-configure</strong>     egyenértékű: dpkg --configure -a (tehát újra konfigurál egy csomagot)
- <strong>fix-install</strong>       végrehajt egy: apt-get -f install (javítja a hibásan telepített függőségeket)
- <strong>fix-missing</strong>       végrehajt egy: apt-get --fix-missing upgrade
- <strong>force</strong>             csomag teleítéskor figyelmen kívül hagy felülírási és függőségi figyelmeztetéseket
- <strong>help</strong>              dokumentáció (részletesség függ a --verbose kapcsolótól)
- <strong>hold</strong>              a felsorolt csomagokat "megtart" állapotba teszi, így azok kimaradnak a frissítésekből
- <strong>init</strong>              JIG arhív állományok inicializálása
- <strong>install</strong>           csoamag(ok) telepítése (vagy frissítése) hálózatról vagy lokális .deb állomány telepítése
- <strong>installr</strong>          csoamag(ok) telepítése ajánlott csomagokkal együtt
- <strong>installrs</strong>         csoamag(ok) telepítése ajánlott és javasolt csomagokkal együtt
- <strong>installs</strong>          csoamag(ok) telepítése javasolt csomagokkal együtt
- <strong>install/dist</strong>      csoamag(ok) telepítése megadott distribúcióból
- <strong>integrity</strong>         telepített csomagok integritás ellenőrzése (checksummal)
- <strong>large</strong>          feltelepített nagy méretű csomagok listája (>10MB)
- <strong>last-update</strong>    utolsó frissítés időpontjának lekérdezése
- <strong>list</strong>           telepített csomagok listája státusszal
- <strong>list-all</strong>       csomaglista, csomagonként egy soros
- <strong>list-alts</strong>      ojektumok listája amlyekhez lehet alternatív csomagokat definiálni
- <strong>list-cache</strong>     letöltési átmeneti tároló listája
- <strong>list-commands</strong>  segítség, minden utasításról egy sor
- <strong>list-daemons</strong>   dámonok listája amelyeket lehet kezelni a JIGgel
- <strong>list-files</strong>     a megadott csomag állományainak listája
- <strong>list-hold</strong>      megtartott(hold) csomagok listája
- <strong>list-installed</strong> telepített csomagok listája, szűkíthető
- <strong>list-log</strong>       install log tartalma
- <strong>list-names</strong>     a teljes ismert csomagok lista, szűkíthető
- <strong>list-orphans</strong>   elárvult csomagok listája
- <strong>list-section</strong>   szekcióhoz tartozó csomagok listája, paraméter nélkül a szekciók listája
- <strong>list-status</strong>    hasonló mint a list, de csak az első két oszlopot listázza, teljes
- <strong>list-wide</strong>      hasonló mint a list, de ez igazán teljes
- <strong>local-dist-upgrade</strong> disztribúció frissítés már előre letöltött csomagokból
- <strong>local-upgrade</strong>  frissítés már előre letöltött csomagokból
- <strong>move</strong>           a letöltési átmeneti tár tartalmát lokális tükörbe mozgatja
- <strong>new</strong>            újonnan hozzáférhető csomagok listája
- <strong>news</strong>           híreket ad a megadott csomagról 
- <strong>new-upgrades</strong>   új fissítendő csomagok listája
- <strong>non-free</strong>       telepített nem ingyenes csomagok listája
- <strong>orphans</strong>        olyan összetevők listája amiket egyetlen csomag sem használ. aka feleslegesek
- <strong>package</strong>        telepített csomagból deb csomag visszanyerése
- <strong>policy</strong>         elsőbbségek szabályok listája ha hozzáférhető
- <strong>purge</strong>          teljes eltávolítás még a konfigurációs állományokat is!
- <strong>purge-depend</strong>   teljes eltávolítás függőségekkel együtt
- <strong>purge-orphans</strong>  felesleges csomagok teljes eltávolítása
- <strong>readme</strong>         dokumentáció kilistázása a /usr/share/doc-ból
- <strong>recursive</strong>      csomagok letöltése függőségekkel együtt
- <strong>recommended</strong>    csomag telepítése az hozzá ajánlott csomagokkal együtt
- <strong>reconfigure</strong>    csomag beállítása újra gkconfiggal
- <strong>reinstall</strong>      csomag(ok) újratelepítése
- <strong>reload</strong>         démon konfigurációs állományának újratöltése
- <strong>remove</strong>        csomag(ok) eltávolítása
- <strong>remove-depend</strong>  csomag és függőségeinek eltávolítása
- <strong>remove-orphans</strong> elárvult csomagok eltávolítása
- <strong>repackage</strong>      telepített csomagból deb csomag visszanyerése
- <strong>reset</strong>          JIG archív inicializálása
- <strong>restart</strong>        démon újraindítása
- <strong>rpm2deb</strong>        RedHat .rpm állomány konvertálás Debian .deb állománnyá
- <strong>rpminstall</strong>     RedHat .rpm csmag telepítése
- <strong>rpmtodeb</strong>       azonos mint rpm2deb
- <strong>search</strong>       csomag keresése kulcsszóval
- <strong>search-apt</strong>     lokális Debian archív keresése sources.list számára
- <strong>setup</strong>          sources.list konfigurálása menüvel támogatva
- <strong>show</strong>           csomag részletes infomrációja
- <strong>showdistupgrade</strong> disztribúció frissítés szimulálása
- <strong>showinstall</strong>    telepítés szimulálása
- <strong>showremove</strong>     csomag eltávolítás szimulálása
- <strong>showupgrade</strong>    frissítés szimulálása
- <strong>size</strong>           telepített vagy megadott csomag méretének listázása kbyte-ban
- <strong>sizes</strong>          azonos az előzővel
- <strong>snapshot</strong>       egy lista generálása telepített csomaggal és verzióval benne
- <strong>source</strong>         letölti a megadott csomag forrását 
- <strong>start</strong>          démon indítás
- <strong>status</strong>       verzió és státusz listázása a megadott csomaghoz
- <strong>status-match</strong>   a telepített és telepíthető csomagok összevetése
- <strong>status-search</strong>  telepített és hozzáférhető csomag keresése
- <strong>stop</strong>           démon megállítása
- <strong>suggested</strong>      csomag telepítése a hozzá ajánlott csomagokkal együtt
- <strong>tasksel</strong>        Gnome csomag csoport telepítő indítása
- <strong>toupgrade</strong>      frissítendő csomagok listája
- <strong>unhold</strong>         megtartás levétele a megadott csomagról
- <strong>unofficial</strong>     csomag keresése az apt-get.org-on
- <strong>update</strong>         hozzáférhető csomagok listájának frissítése
- <strong>update-alts</strong>    alternatívák frissítése
- <strong>upgrade</strong>        frissítés
- <strong>whatis</strong>         azonos a describe utasítással
- <strong>whichpkg</strong>       utasítás, állomány keresése csomagokban
+```text
+ addcdrom          CD-ROM hozzáadás a csomagok forrásaihoz
+ auto-alts         alternatív csomag megmutatása (prioritások használatával)
+ auto-clean        etöltött és telepített csomagok törlése az átmenti tárból
+ auto-download     frissülő csomagok letöltése majd telepítése
+ auto-install      telepítés interaktivitás nélkül
+ available         hozzáférhető és telepíthető összes csomag listája
+ bug               jelentett hibák ellenőrzése a Debian hibajelentő rendszerben
+ build             letölti a forrás csomagot és deban csomagot készít
+ build-depend      letölti a megadott csomag függőségeit forrásból és elkészíti a csomagokat
+ changelog         letölti az legutolsó változások listáját a csomaghoz
+ clean             átmeneti állománzok törlése
+ commands          ez a lista angolul :)
+ daily-upgrade     egy update madj egy dist-upgrade végrehajtása
+ dependents        a megadott csomagtól függő csomagok listája
+ describe          egysoros csomag információ
+ describe-new      egysoros csomag információ az új csomagokhoz
+ detail            teljes leírás a csomagról
+ detail-new        teljes leírás az új csomagról
+ dist-upgrade      disztribúció frissítés
+ docs              segítség
+ download          csak letölti a telepíthető csomagot
+ file-download     szövegálomanyban felsorolt csomagokat mind letölti
+ file-install      szövegálomanyban felsorolt csomagokat telepít
+ file-remove       szövegálomanyban felsorolt csomagokat eltávolít
+ find-file         telepített csomagokban állomány keresés
+ find-pkg          apt-get.org-on keres nem hivatalos csomagra
+ fix-configure     egyenértékű: dpkg --configure -a (tehát újra konfigurál egy csomagot)
+ fix-install       végrehajt egy: apt-get -f install (javítja a hibásan telepített függőségeket)
+ fix-missing       végrehajt egy: apt-get --fix-missing upgrade
+ force             csomag teleítéskor figyelmen kívül hagy felülírási és függőségi figyelmeztetéseket
+ help              dokumentáció (részletesség függ a --verbose kapcsolótól)
+ hold              a felsorolt csomagokat "megtart" állapotba teszi, így azok kimaradnak a frissítésekből
+ init              JIG arhív állományok inicializálása
+ install           csoamag(ok) telepítése (vagy frissítése) hálózatról vagy lokális .deb állomány telepítése
+ installr          csoamag(ok) telepítése ajánlott csomagokkal együtt
+ installrs         csoamag(ok) telepítése ajánlott és javasolt csomagokkal együtt
+ installs          csoamag(ok) telepítése javasolt csomagokkal együtt
+ install/dist      csoamag(ok) telepítése megadott distribúcióból
+ integrity         telepített csomagok integritás ellenőrzése (checksummal)
+ large          feltelepített nagy méretű csomagok listája (>10MB)
+ last-update    utolsó frissítés időpontjának lekérdezése
+ list           telepített csomagok listája státusszal
+ list-all       csomaglista, csomagonként egy soros
+ list-alts      ojektumok listája amlyekhez lehet alternatív csomagokat definiálni
+ list-cache     letöltési átmeneti tároló listája
+ list-commands  segítség, minden utasításról egy sor
+ list-daemons   dámonok listája amelyeket lehet kezelni a JIGgel
+ list-files     a megadott csomag állományainak listája
+ list-hold      megtartott(hold) csomagok listája
+ list-installed telepített csomagok listája, szűkíthető
+ list-log       install log tartalma
+ list-names     a teljes ismert csomagok lista, szűkíthető
+ list-orphans   elárvult csomagok listája
+ list-section   szekcióhoz tartozó csomagok listája, paraméter nélkül a szekciók listája
+ list-status    hasonló mint a list, de csak az első két oszlopot listázza, teljes
+ list-wide      hasonló mint a list, de ez igazán teljes
+ local-dist-upgrade disztribúció frissítés már előre letöltött csomagokból
+ local-upgrade  frissítés már előre letöltött csomagokból
+ move           a letöltési átmeneti tár tartalmát lokális tükörbe mozgatja
+ new            újonnan hozzáférhető csomagok listája
+ news           híreket ad a megadott csomagról
+ new-upgrades   új fissítendő csomagok listája
+ non-free       telepített nem ingyenes csomagok listája
+ orphans        olyan összetevők listája amiket egyetlen csomag sem használ. aka feleslegesek
+ package        telepített csomagból deb csomag visszanyerése
+ policy         elsőbbségek szabályok listája ha hozzáférhető
+ purge          teljes eltávolítás még a konfigurációs állományokat is!
+ purge-depend   teljes eltávolítás függőségekkel együtt
+ purge-orphans  felesleges csomagok teljes eltávolítása
+ readme         dokumentáció kilistázása a /usr/share/doc-ból
+ recursive      csomagok letöltése függőségekkel együtt
+ recommended    csomag telepítése az hozzá ajánlott csomagokkal együtt
+ reconfigure    csomag beállítása újra gkconfiggal
+ reinstall      csomag(ok) újratelepítése
+ reload         démon konfigurációs állományának újratöltése
+ remove        csomag(ok) eltávolítása
+ remove-depend  csomag és függőségeinek eltávolítása
+ remove-orphans elárvult csomagok eltávolítása
+ repackage      telepített csomagból deb csomag visszanyerése
+ reset          JIG archív inicializálása
+ restart        démon újraindítása
+ rpm2deb        RedHat .rpm állomány konvertálás Debian .deb állománnyá
+ rpminstall     RedHat .rpm csmag telepítése
+ rpmtodeb       azonos mint rpm2deb
+ search       csomag keresése kulcsszóval
+ search-apt     lokális Debian archív keresése sources.list számára
+ setup          sources.list konfigurálása menüvel támogatva
+ show           csomag részletes infomrációja
+ showdistupgrade disztribúció frissítés szimulálása
+ showinstall    telepítés szimulálása
+ showremove     csomag eltávolítás szimulálása
+ showupgrade    frissítés szimulálása
+ size           telepített vagy megadott csomag méretének listázása kbyte-ban
+ sizes          azonos az előzővel
+ snapshot       egy lista generálása telepített csomaggal és verzióval benne
+ source         letölti a megadott csomag forrását
+ start          démon indítás
+ status       verzió és státusz listázása a megadott csomaghoz
+ status-match   a telepített és telepíthető csomagok összevetése
+ status-search  telepített és hozzáférhető csomag keresése
+ stop           démon megállítása
+ suggested      csomag telepítése a hozzá ajánlott csomagokkal együtt
+ tasksel        Gnome csomag csoport telepítő indítása
+ toupgrade      frissítendő csomagok listája
+ unhold         megtartás levétele a megadott csomagról
+ unofficial     csomag keresése az apt-get.org-on
+ update         hozzáférhető csomagok listájának frissítése
+ update-alts    alternatívák frissítése
+ upgrade        frissítés
+ whatis         azonos a describe utasítással
+ whichpkg       utasítás, állomány keresése csomagokban
 
 Parancssori opciók:
 
@@ -149,5 +134,6 @@ Parancssori opciók:
  -s|--simulate  telepítési folyamat szimulálása, ellenőrzése.
  -t|--teaching  tanító mód, kiírja a végrehajtáshoz szükséges parancsokat.
  -v|--verbose=n beszédesség szintjének beállítása.
+```
 
-A teljes dokumentáció megtalálható a <a href="http://www.togaware.com/wajig">togaware.com-on</a>.
+A teljes dokumentáció megtalálható a [togaware.com](http://www.togaware.com/wajig)-on.

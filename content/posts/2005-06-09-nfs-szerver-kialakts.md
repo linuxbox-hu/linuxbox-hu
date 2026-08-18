@@ -12,7 +12,7 @@ aliases:
 ---
 A szerveren telepítsük fel a két szükséges szoftvert: `portmapot és nfs-kernel-servert`. Kernel támogatás is legyen. Majd konfiguráljuk be.
 
-```
+```text
 # /etc/exports: the access control list for filesystems which may be exported
 #               to NFS clients.  See exports(5).
 /exportnev            152.66.X.X(rw,sync,no_root_squash)
