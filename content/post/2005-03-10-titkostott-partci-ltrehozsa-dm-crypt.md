@@ -1,0 +1,33 @@
+---
+author: kecsi
+categories:
+- linux
+created: 1110484869
+date: '2005-03-10T00:00:00Z'
+description: A dolog lényege annyi, hogy egy titkosítási módszerrel és kulccsal vagy jelszóval létrehozunk egy virtuális eszközt amin keresztül használjuk a partíciónkat. Mielőtt nekilátunk ellenőrizzük, hogy van-e dmsetup csomagunk telepítve és van-e dm-crypt kernel modulunk.
+title: Titkosított partíció létrehozása; dm-crypt
+aliases:
+- /node/36/
+- /story/36/
+---
+A dolog lényege annyi, hogy egy titkosítási módszerrel és kulccsal vagy jelszóval létrehozunk egy virtuális eszközt amin keresztül használjuk a partíciónkat.
+
+Mielőtt nekilátunk ellenőrizzük, hogy van-e `dmsetup` csomagunk telepítve és van-e `dm-crypt` kernel modulunk.
+<!--break-->
+Ezután nekiugorhatunk:
+Létrehozzuk az eszközt pl. így:
+
+`echo 0 `blockdev --getsize /dev/hda5` crypt aes-plain 0123456789abcdef0123456789abcdef 0 /dev/hda5 0 | dmsetup create volume1`
+
+Nem felejtjük megváltoztatni és elmenteni a kulcsnak szánt 32 bites számot, amivel a jövőben ismételgetni tudjuk a létrehozást és így használni tudjuk az adatokat.
+
+pl. így:
+```bash
+echo 0 `blockdev --getsize /dev/hda5` crypt aes-plain `cat keyfile.mentes` 0 /dev/hda5 0 | dmsetup create volume1
+
+mkfs.ext3 /dev/mapper/volume1
+
+mount /dev/maper/volume1 /mnt
+```
+
+További info <a href="http://hu.gentoo-wiki.com/BIZTONS%C3%81G_F%C3%A1jlrendszer_titkos%C3%ADt%C3%A1s">itt magyarul,</a> és <a href="http://www.saout.de/misc/dm-crypt/">itt angolul</a> plusz egy <a href="http://gentoo-wiki.com/HOWTO_dmcrypt"> jó howto szintén angolul</a> itt.

@@ -1,0 +1,27 @@
+[highlight]
+  anchorLineNos = false
+  codeFences = true
+  # Off deliberately: with guessSyntax on, Chroma's heuristic on short/
+  # unlabeled code blocks was randomly wrong (see the 2026-08-18 fix in
+  # the content history) - every block in this corpus already carries an
+  # explicit language (bash/text/perl/etc.), so no guessing is needed.
+  guessSyntax = false
+  hl_Lines = ''
+  hl_inline = false
+  lineAnchors = ''
+  lineNoStart = 1
+  lineNos = true
+  lineNumbersInTable = true
+  noClasses = false
+  tabWidth = 4
+  wrapperClass = 'highlight'
+
+[goldmark.parser]
+  wrapStandAloneImageWithinParagraph = false
+
+[goldmark.parser.attribute]
+  block = true
+  title = true
+
+[goldmark.renderer]
+  unsafe = true

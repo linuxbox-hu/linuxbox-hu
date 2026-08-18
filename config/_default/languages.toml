@@ -1,0 +1,7 @@
+[hu]
+  languageName = "Magyar"
+  languageCode = "hu"
+  weight = 1
+  title = "linuxbox.hu"
+  [hu.params]
+    tagline = "Linux apróságok gyűjteménye"

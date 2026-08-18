@@ -1,0 +1,21 @@
+---
+author: bAndie91
+categories: []
+created: 1349133255
+date: '2012-10-01T00:00:00Z'
+image:
+  path: debtree-screenshot.png
+  alt: Online Debtree Browser screenshot
+title: debtree
+aliases:
+- /blog/712/
+- /node/712/
+---
+De régen blogoltam már! A <a href='/node/706'>parancssoros taskbar</a> óta már csináltam egy-két ügyetlenséget, dehát plublikálni nem szeret úgy az ember, ha még nem érzi készen a projektjét.
+
+Nem így esett a mai hirtelen felindulásból megírt <a href='http://bandie91.x3.hu/admin/debtree.php'>Online Debtree Browser</a>rel.
+
+Létezik a dpkg-alapú disztribúciókhoz ez a csodálatos <a href='http://collab-maint.alioth.debian.org/debtree/'>debtree</a>, amivel szépen meg lehet vizualizálni a szoftvercsomagok egymás közti függõségi viszonyait, hogy el ne vesszünk el a dependency hell-ben.
+
+El nem tudom képzelni, hogy nem létezik kényelmes, kézreálló frontend-je, mint amit magam is összeraktam. Persze nagy a valószínũsége, hogy miután megírtam, fogok találni funkciójában vele azonos oldalt. Így szokott lenni :-)
+Ezek után íme, a fenti linken böngészhetõ egy Debian 6 csomagtára.

@@ -1,0 +1,22 @@
+baseURL = "https://hugo.linuxbox.hu/"
+title = "linuxbox.hu"
+defaultContentLanguage = "hu"
+defaultContentLanguageInSubdir = false
+enableRobotsTXT = true
+enableGitInfo = false
+enableEmoji = true
+
+[pagination]
+  pagerSize = 12
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+# Keep our existing clean URL scheme (/:slug/), same as under LoveIt -
+# preserves every already-live URL and the 930 legacy-redirect aliases.
+[Permalinks]
+  post = ":contentbasename"
+
+[module]
+  [[module.imports]]
+    path = "github.com/geekifan/hugo-theme-chirpy"

@@ -1,0 +1,36 @@
+# boolean type, the global switch for TOC in posts.
+toc = true
+# the avatar on sidebar, relative to /assets. No avatar image exists in
+# this repo yet (was already a dead reference under the old LoveIt
+# config too - /images/avatar.png never existed) - using the theme's
+# bundled default until a real one is supplied.
+avatar = "img/commons/avatar.jpg"
+author = "kecsi"
+
+[assets]
+  self_host = false
+
+# Empty on purpose (no analytics configured) - the theme's head.html
+# ranges over this table unconditionally in production builds, so it
+# needs to exist even when empty.
+[analytics]
+
+[social]
+  name = "kecsi"
+  url = "https://github.com/kecskemethy"
+
+[[social.links]]
+  type = "github"
+  id = "kecskemethy"
+  icon = "fab fa-github"
+
+[[social.links]]
+  type = "rss"
+  icon = "fas fa-rss"
+  noblank = true
+
+[comments]
+# Off - matches the old config, where every comment backend (LeanCloud,
+# Facebook, Telegram) was already disabled or unconfigured.
+enable = false
+provider = ""
