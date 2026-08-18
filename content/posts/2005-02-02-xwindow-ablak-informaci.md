@@ -10,7 +10,7 @@ aliases:
 - /node/14/
 - /story/14/
 ---
-Legszerűbben elindítod egy shellben <strong>xwininfo</strong> nevű progit majd ráböksz az ablakra aminek az infóira kíváncsi vagy.
+Legszerűbben elindítod egy shellben `xwininfo` nevű progit majd ráböksz az ablakra aminek az infóira kíváncsi vagy.
 
 De ha pl. én a <a href="http://www.goof.com/pcg/marc/root-tail.html">root-tail</a> log kiiró X-es alkalmazással a desktopom(Xfce) root ablakába akarok kiratni egy megadott log allományt, minden X induláskor automatikusan, akkor létrehozok egy ~/Desktop/Autostart/roottail shellszkriptet a következő tartalommal:
 <strong>#!/bin/bash

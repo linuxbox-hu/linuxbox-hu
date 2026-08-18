@@ -17,16 +17,16 @@ aliases:
 ---
 nem kell elkeseredni, mert létezik egy okos kis eszköz, melynek neve:
 
-<strong>exiftags</strong>
+`exiftags`
 
 <a href="http://johnst.org/sw/exiftags/">http://johnst.org/sw/exiftags/</a>
 <!--break-->
 
 Csak egy példa a <a href="http://johnst.org/sw/exiftags/exiftime.1.html">http://johnst.org/sw/exiftags/exiftime.1.html</a> oldalról:
 
-<strong>exiftime -v+5d -v-7M -fw -tg *.jpg</strong>
+`exiftime -v+5d -v-7M -fw -tg *.jpg`
 
-Ez a parancs átállítja a dátumot <em>+5</em> nappal és az időt visszaállítja <em>7</em> perccel, és az új értékeket visszaírja az <strong>Elkészült</strong> (Generated) mezőbe, mindezt kérdés nélkül teszi azokon a fájlokon amire illeszkedik a <em>*.jpg</em>.
+Ez a parancs átállítja a dátumot `+5` nappal és az időt visszaállítja `7` perccel, és az új értékeket visszaírja az **Elkészült** (Generated) mezőbe, mindezt kérdés nélkül teszi azokon a fájlokon amire illeszkedik a `*.jpg`.
 
 A kimenet így néz ki:
 

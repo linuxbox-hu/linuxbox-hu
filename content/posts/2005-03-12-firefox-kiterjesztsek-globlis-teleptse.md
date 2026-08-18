@@ -17,4 +17,4 @@ Ahhoz, hogy minden felhasználó használni tudja a firefox böngésző egyes ki
 ./firefox -install-global-extension /teljes/elérési/út/kiterjesztés.xpi
 </code>
 
-Viszont ilyenkor a <em>kiterjesztés.xpi</em> nem lehet telepítve egyik felhasználónál sem!
+Viszont ilyenkor a *kiterjesztés.xpi* nem lehet telepítve egyik felhasználónál sem!

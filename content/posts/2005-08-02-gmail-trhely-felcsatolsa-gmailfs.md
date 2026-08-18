@@ -23,7 +23,7 @@ Hm, az imént két perc alatt alatt sikerült hozzáférnem 2,4 G backup tárhel
 <pre>[18.][kecsi@linuxbox]:~>  mkdir google
 [19.][kecsi@linuxbox]:~>  sudo apt-get install gmailfs
 [20.][kecsi@linuxbox]:~>  sudo module-assistant auto-install fuse-source
-[21.][kecsi@linuxbox]:~>  sudo mount -t gmailfs none /home/kecsi/google/ -o username=<em>a_te_hozzaferesed@gmail.com</em>,password=<em>a_te_jelszavad</em>,fsname=<em>a_te_kulcsod</em></pre>
+[21.][kecsi@linuxbox]:~>  sudo mount -t gmailfs none /home/kecsi/google/ -o username=`a_te_hozzaferesed@gmail.com`,password=`a_te_jelszavad`,fsname=`a_te_kulcsod`</pre>
 <!--break-->
 Egy kis magyarázat:
 - 18-19-hez ugye nem kell magyarázat.

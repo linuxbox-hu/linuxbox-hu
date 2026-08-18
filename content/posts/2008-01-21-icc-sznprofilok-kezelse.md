@@ -15,7 +15,7 @@ Utánanéztem, hogy is megy ez Linux alatt:
 <ul>
 <li>Az <a href="http://www.etg.e-technik.uni-erlangen.de/web/doe/xcalib/">xcalib</a> (az opcionálisan megadható kapcsolók után) mindössze az ICC fájl nevét várja
 </li>
-<li>a <strong>dispwin</strong> egy sokkal komplexebb megoldást nyújtó program az <a href="http://argyllcms.com/">ArgyllCMS </a> csomag része
+<li>a `dispwin` egy sokkal komplexebb megoldást nyújtó program az <a href="http://argyllcms.com/">ArgyllCMS </a> csomag része
  </li>
 </ul>Mindkét programnak létezik MS verziója is!
 

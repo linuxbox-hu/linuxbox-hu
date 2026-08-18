@@ -18,13 +18,13 @@ Ezek a lépések teljesen nélkülöznek minden körültekintést, megfontolást
 Készítsünk új virtulális gépet virtualbox alatt bridzselt hálózati kártyával, majd adjuk meg a gentoo telepítő cd iso-t: install-x86-minimal-20110322.iso
 Indítsuk el a virtuális gépet és bootoljuk be a telepítőről.
 **********
-<strong>Kezdjük el használni a bebootolt rendszert:</strong>
+**Kezdjük el használni a bebootolt rendszert:**
 <code>
 net-setup eth0;dhcpcd eth0;ifconfig eth0; ping startlap.hu
 /etc/init.d/sshd start
 passwd</code>
 **********
-<strong>Gazdagépről jelentkezzünk be ssh-val:</strong>
+**Gazdagépről jelentkezzünk be ssh-val:**
 <code>ssh root@192.168.1.100
 cfdisk /dev/sda
 mkfs.ext3 /dev/sda1; mkswap /dev/sda2
@@ -63,7 +63,7 @@ exit
 umount -l /mnt/gentoo/dev; umount -l /mnt/gentoo/proc
 reboot</code>
 **********
-<strong>Távolítsuk el a virtuális gép CD meghajtójából az install CD imidzs fájlt és lépjünk be ssh-n:</strong>
+**Távolítsuk el a virtuális gép CD meghajtójából az install CD imidzs fájlt és lépjünk be ssh-n:**
 **********
 <code>ssh root@192.168.1.100
 useradd -m -G users,wheel,audio -s /bin/bash proba; passwd proba
@@ -71,4 +71,4 @@ rm stage3-i686-20110726.tar.bz2; rm portage-latest.tar.bz2
 echo "hu_HU UTF-8" >> /etc/locale.gen; locale-gen
 emerge --sync; emerge --update --ask world</code>
 **********
-<strong>A gentoo alaprendszer kész, használatba lehet venni.</strong>
+**A gentoo alaprendszer kész, használatba lehet venni.**

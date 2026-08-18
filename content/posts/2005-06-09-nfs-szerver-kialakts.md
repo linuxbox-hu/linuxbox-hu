@@ -10,7 +10,7 @@ aliases:
 - /node/78/
 - /story/78/
 ---
-A szerveren telepítsük fel a két szükséges szoftvert: <strong>portmapot és nfs-kernel-servert</strong>. Kernel támogatás is legyen. Majd konfiguráljuk be.
+A szerveren telepítsük fel a két szükséges szoftvert: `portmapot és nfs-kernel-servert`. Kernel támogatás is legyen. Majd konfiguráljuk be.
 
 <strong># /etc/exports: the access control list for filesystems which may be exported
 #               to NFS clients.  See exports(5).
@@ -18,5 +18,5 @@ A szerveren telepítsük fel a két szükséges szoftvert: <strong>portmapot és
 
 A rw - írást biztosít; synvc - működési típus; no_root_squash - rootnak is engedi mindezt.
 
-<strong>Kliens oldalra is kell a portmap!</strong> Aztán mehet a mount: <strong>mount -t nfs gepnev:/exportnev /mountpont</strong>
+**Kliens oldalra is kell a portmap!** Aztán mehet a mount: `mount -t nfs gepnev:/exportnev /mountpont`
 

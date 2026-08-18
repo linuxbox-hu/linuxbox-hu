@@ -26,6 +26,6 @@ Percek alatt sikerült
 
 A program egyszerűen átlátható, könnyen kezelhető, gyors és szép.
 
-<strong>Letöltés / repo hozzáadás:</strong>
+**Letöltés / repo hozzáadás:**
 <p><a href="http://blueman.tuxfamily.org/index.php?option=com_content&view=article&id=51&Itemid=56">http://blueman.tuxfamily.org/index.php?option=com_content&view=article&id=51&Itemid=56</a></p>
 

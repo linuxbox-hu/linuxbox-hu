@@ -39,4 +39,4 @@ macro pager c "<change-folder>?<toggle-mailboxes>" "open a different folder"
 <code>macro index C "<copy-message>?<toggle-mailboxes>" "copy a message to a mailbox"
 macro index M "<save-message>?<toggle-mailboxes>" "move a message to a mailbox"
 </code>
-<cite>mbox_type</cite> és <cite>folder</cite> konfigurációs paraméter beállítása önmagában nem volt elég ahogy a <a href="http://www.elho.net/mutt/maildir/">fülest kaptam</a> <strong>spoolfile</strong> is kellett.
+<cite>mbox_type</cite> és <cite>folder</cite> konfigurációs paraméter beállítása önmagában nem volt elég ahogy a <a href="http://www.elho.net/mutt/maildir/">fülest kaptam</a> `spoolfile` is kellett.

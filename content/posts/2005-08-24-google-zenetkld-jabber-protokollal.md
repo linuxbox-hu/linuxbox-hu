@@ -15,19 +15,19 @@ aliases:
 ---
 Most olvastam a <a href="http://slashdot.org">Slashdot</a>on, hogy a <a href="http://google.com">Google</a> elindította üzenetküldő rendszerét, amit <a href="http://jabber.org">Jabber</a>t támogató klienssel lehet igénybe venni a saját kliensén kívül.
 
-Csak egy <strong>gmail</strong> postafiók kell hozzá:
+Csak egy `gmail` postafiók kell hozzá:
 <!--break-->
 
-<strong>Beállítás - Gaim:</strong>
+**Beállítás - Gaim:**
 
-<strong>Protocol:</strong> Jabber
-<strong>Screen Name:</strong> email cím @ előtti része
-<strong>Server:</strong> gmail.com
+**Protocol:** Jabber
+**Screen Name:** email cím @ előtti része
+**Server:** gmail.com
 
-<strong>Show more options</strong>
+**Show more options**
 
-pipa <strong>Use TLS if avaible</strong>
-nincs pipa <strong>Force old SSL</strong>
-nincs pipa <strong>Allow plaintext auth over unencrypted streams</strong>
-<strong>Port:</strong> 5222
-<strong>Connect server:</strong> talk.google.com
+pipa **Use TLS if avaible**
+nincs pipa **Force old SSL**
+nincs pipa **Allow plaintext auth over unencrypted streams**
+**Port:** 5222
+**Connect server:** talk.google.com

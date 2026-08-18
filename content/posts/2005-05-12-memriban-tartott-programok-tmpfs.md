@@ -13,8 +13,8 @@ aliases:
 - /node/70/
 - /story/70/
 ---
-Nem tudom találkoztatok-e már a linux kernel tmpfs filerendszer szolgáltatásával. Amennyiben bekapcsoljátok a <strong>CONFIG_TMPFS</strong> kernel opciót, akkor alapból (amennyiben devfs-t használsz) a fizikai memória fele megy a /dev/shm alá mint megosztott memória terület.  Természetesen ezt lehet módosítani, ha beadunk az <strong>fstab</strong>ba egy ilyen sort:
-<strong>tmpfs           /dev/shm        tmpfs   defaults,size=50M       0       0</strong>
+Nem tudom találkoztatok-e már a linux kernel tmpfs filerendszer szolgáltatásával. Amennyiben bekapcsoljátok a `CONFIG_TMPFS` kernel opciót, akkor alapból (amennyiben devfs-t használsz) a fizikai memória fele megy a /dev/shm alá mint megosztott memória terület.  Természetesen ezt lehet módosítani, ha beadunk az `fstab`ba egy ilyen sort:
+`tmpfs           /dev/shm        tmpfs   defaults,size=50M       0       0`
 Ekkor csak egy 50 Mbyte méretű RAM drive-ot hozunk létre.
 <!--break-->
 Mire is lehet ezt használni?

@@ -68,17 +68,17 @@ Ezután rendezzük a fájl tartalmát, hogy képes legyen a program megjeleníte
 
 
 Ha ez kész kattintsunk jobb gombbal a screenletre, options, majd settings. És ott állítsuk be WhatsOnTVScreenlet/XMLTV file path-nál a musor.xml fájlt. Majd ismét jobb gomb a screenletre és Refresh Data.
-Ha mindent jól csináltuk már meg kell jelennie a műsornak. Most TV logókat varázsolunk mellé. Van egy olyan opciója a screenletnek, hogy download logo, azaz logók letöltése, de nálam nem működik, gondolom, hogy csak ismertebb csatornákkal használható. Na mindegy, állítunk be mi logót kézileg. Köszönet <strong>wuuk23</strong>-nak aki elkészítette 98 magyar csatorna logóját, persze ha valakinek vannak más igényei, egy-két szóból lehet csinálni új logókat.
+Ha mindent jól csináltuk már meg kell jelennie a műsornak. Most TV logókat varázsolunk mellé. Van egy olyan opciója a screenletnek, hogy download logo, azaz logók letöltése, de nálam nem működik, gondolom, hogy csak ismertebb csatornákkal használható. Na mindegy, állítunk be mi logót kézileg. Köszönet `wuuk23`-nak aki elkészítette 98 magyar csatorna logóját, persze ha valakinek vannak más igényei, egy-két szóból lehet csinálni új logókat.
 
 Na szóval innen érhetitek el wuuk23 logó packját:
 <a href=http://data.hu/get/277976/logos.tar.gz.html target=_blank>http://data.hu/get/277976/logos.tar.gz.html</a> vagy <a href=http://www.mediafire.com/?ngnxyvbezyj target=_blank>http://www.mediafire.com/?ngnxyvbezyj</a>
 
 Csomagoljuk ki a logókat, majd pedig befogjuk őket másolni a helyükre.
-Ami a saját mappádban a .screenlets/WhatsOnTV/logos könyvtár. Ha ide másolod a logókat, akkor azok automatikusan megjelennek. <strong>FONTOS: A logók nevét nem szabad megváltoztatni, mert azok alapján azonosítja a program.</strong> Ha készítesz egy logót akkor a nevét a saját mappádon belül a .xmltv/musor.xml fájlból tudod kinézni. Például a TV2-nél ez a sor azonosítja a nevet:
+Ami a saját mappádban a .screenlets/WhatsOnTV/logos könyvtár. Ha ide másolod a logókat, akkor azok automatikusan megjelennek. **FONTOS: A logók nevét nem szabad megváltoztatni, mert azok alapján azonosítja a program.** Ha készítesz egy logót akkor a nevét a saját mappádon belül a .xmltv/musor.xml fájlból tudod kinézni. Például a TV2-nél ez a sor azonosítja a nevet:
 
 channel id="003.port.hu"
 
-Ezért 003.port.hu.png a logó neve. <strong>Másik fontos kritérium, hogy a logók csak akkor jelennek meg ha PNG formátumúak.</strong>
+Ezért 003.port.hu.png a logó neve. **Másik fontos kritérium, hogy a logók csak akkor jelennek meg ha PNG formátumúak.**
 
 A nehezén túl vagyunk. Csak az a baj, hogy csak egy napi műsort töltöttünk most le. Ezért elfogjuk érni, hogy az Ubuntu minden indításakor töltse le nekünk a napi műsorokat. Ehhez pedig készítünk egy fájlt, nevezzük el letolt.sh -nak és tegyük a saját mappánkon belül az .xmltv könyvtárba.
 

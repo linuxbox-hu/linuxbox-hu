@@ -15,12 +15,12 @@ Amennyiben VirtualBoxban létrehozott fájlrendszereinket közvetlenül akarjuk 
 <!--break-->
 Figyelem! Az itt bemutatásra kerülő megoldást célszerű kikapcsolt állapotú (azaz fájlrendszert nem használó) virtuális gép mellett kell végezni, hogy elkerüljük az adatvesztést.
 <ul>
-<li>Először is telepíteni kell a <em>virtualbox-fuse</em> (vagy <em>vdfuse</em>) csomagot. Fontos, hogy a <em>/etc/fuse.conf</em> fájlban aktiváljuk a <em>user_allow_other opciót</em>.</li>
+<li>Először is telepíteni kell a `virtualbox-fuse` (vagy `vdfuse`) csomagot. Fontos, hogy a `/etc/fuse.conf` fájlban aktiváljuk a *user_allow_other opciót*.</li>
 <li>Ezt követően először is 'láthatóvá tesszük' a virtuális image fájl szerkezetét (a partíciókat):
-<strong>vdfuse -f /utvonal/file.vdi /celkonyvtar/</strong></li>
-<li>Egyetlen partíció esetén a <em>/celkonyvtar/Partition1</em> fájl lesz az, amit konkrétan fel tudunk csatolni (rootként!):
-<strong>mount /celkonyvtar/Partition1 /masik_celkonyvtar</strong></li>
+`vdfuse -f /utvonal/file.vdi /celkonyvtar/`</li>
+<li>Egyetlen partíció esetén a `/celkonyvtar/Partition1` fájl lesz az, amit konkrétan fel tudunk csatolni (rootként!):
+`mount /celkonyvtar/Partition1 /masik_celkonyvtar`</li>
 <li>A felmountolt meghajtók leválasztása:
-<strong>umount /masik_celkonyvtar</strong>
-<strong>fusermount -u /celkonyvtar</strong></li>
+`umount /masik_celkonyvtar`
+`fusermount -u /celkonyvtar`</li>
 </ul>

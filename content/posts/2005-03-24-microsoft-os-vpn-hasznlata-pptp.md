@@ -13,7 +13,7 @@ aliases:
 Amennyiben a munkahelyi belső hálózatot csak m$ VPN-en keresztül éred el a pptp használatát ajánlom.
 
 Először is szükséged lesz az előző kernel készítés cikkben is emlegett mmpe kernel foltra és még jópár másik alap kernel modulra. Egészen pontosan:
-<strong>ip_gre, ppp_mppe, ppp_deflate, sha1, arc4</strong>
+`ip_gre, ppp_mppe, ppp_deflate, sha1, arc4`
 
 Ezután jöhet a kapcsolatot és minden mást kezelő pptpconfig és az általa használt util csomag telpítése:
 
@@ -23,7 +23,7 @@ deb http://quozl.netrek.org/pptp/pptpconfig ./</strong>
 (/etc/apt/source.list -hez hozzáadandó sorok)
 
 A valódi telepítés:
-<strong>apt-get install pptp-linux pptpconfig</strong>
+`apt-get install pptp-linux pptpconfig`
 
 A konfigurálás innét már értelemszerű! (A Routing fül kitöltése nálam szükséges volt a működéshez.)
 

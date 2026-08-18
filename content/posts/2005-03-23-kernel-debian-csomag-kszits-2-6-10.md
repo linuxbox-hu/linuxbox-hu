@@ -13,7 +13,7 @@ aliases:
 <em>A következő kis telepítési mini jegyzet pptp számára <strong>mppe</strong> folttal, <strong>bootsplash</strong> folttal plusz extra <strong>nvidia</strong> modullal ellátott kernel fordítást mutat be debian rendszeren.</em>
 
 Telepítsük fel a szüksélges csomagokat:
-<strong>apt-get install gcc bin86 libc6-dev bzip2 kernel-package kernel-patch-mppe kernel-source-2.6.10 tk8.3 libncurses5-dev fakeroot kernel-patch-mppe kernel-patch-bootsplash bootsplash bootsplash-theme-tuxinfo-debian</strong>
+`apt-get install gcc bin86 libc6-dev bzip2 kernel-package kernel-patch-mppe kernel-source-2.6.10 tk8.3 libncurses5-dev fakeroot kernel-patch-mppe kernel-patch-bootsplash bootsplash bootsplash-theme-tuxinfo-debian`
 Extra apt forrás szükséges!
 <strong>#bootsplash unstable
 deb http://www.bootsplash.de/files/debian unstable main
@@ -42,9 +42,9 @@ Egykis extra hackelés(saját extraverzió):
 #export  INSTALL_PATH=/boot</strong>
 
 Készítsük el a kernel csomagunk:
-<strong>make-kpkg --initrd --revision=1 --bzimage kernel_image</strong>
+`make-kpkg --initrd --revision=1 --bzimage kernel_image`
 Adjuk hozzá a kiválasztott boot képernyőt az initrdnkhez:
-<strong>splash -s -f /etc/bootsplash/themes/tuxinfo-debian/config/bootsplash-1024x768.cfg >>/boot/initrd.img-2.6.10-lb</strong>
+`splash -s -f /etc/bootsplash/themes/tuxinfo-debian/config/bootsplash-1024x768.cfg >>/boot/initrd.img-2.6.10-lb`
 
 Telepítsük fel:
 lilo boot loader esetén:
@@ -59,7 +59,7 @@ cd ..
 dpkg -i kernel-image-2.6.10-lb_1_i386.deb
 lilo</strong>
 grub boot esetén a debian csomag teleítésekor automatikusan frissül a boot loader menübe az új kernel!
-avagy <strong>update-grub</strong>
+avagy `update-grub`
 Ujraindítás után az X nem fog még működni először persze. jöhetnek az extra modulok pl nvidia:
 <strong>apt-get install nvidia-kernel-common nvidia-glx nvidia-kernel-source
 module-assistant auto-install nvidia</strong>

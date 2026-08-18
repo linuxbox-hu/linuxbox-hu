@@ -15,4 +15,4 @@ Kár, hogy nem találkoztam korábban a szoftverrel: <a href="http://www.nongnu.
 (Természetesen pl. debian csomag is van belőle.)
 
 Az angol bemutatás szerényen ennyi: "Encrypted bandwidth-efficient backup using the rsync algorithm"
-Én ezt <strong>"Takarékos és biztonságos mentési eljárásnak"</strong> fordítanám.
+Én ezt **"Takarékos és biztonságos mentési eljárásnak"** fordítanám.

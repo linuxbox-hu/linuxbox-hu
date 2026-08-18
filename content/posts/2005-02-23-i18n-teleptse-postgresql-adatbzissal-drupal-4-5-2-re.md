@@ -39,7 +39,7 @@ ALTER TABLE locales_target DROP CONSTRAINT locales_target_lid_key;
 ALTER TABLE locales_target ADD CONSTRAINT locales_target_lid_key UNIQUE (lid,locale);
 </code>
 
-A jelenlegi <em>node</em>-ok átállítása a megfelelő nyelvre (pl.: hu):
+A jelenlegi `node`-ok átállítása a megfelelő nyelvre (pl.: hu):
 <code>
 UPDATE node SET language = 'hu';
 UPDATE term_data SET language = 'hu';
@@ -49,7 +49,7 @@ UPDATE term_data SET language = 'hu';
 </ol>
 <ol>
 <li>Létre kell hozni egy <code>modules/i18n</code> könyvtárat és bele kell másolni a csomag teljes tartalmát.</li>
-<li>Foltozni kell a <em>bootstrap.inc</em>, <em>module.inc</em>, <em>common.inc</em>, <em>node.module</em>, <em>taxonomy.module</em> (nekem gond nélkül ment 4.5.2-es Drupallal)</li>
-<li><code>$i18n_languages = array("es" => "spanish", "en" => "english");</code>-et be kell írni a <em>includes/conf.php</em>-ba</li>
+<li>Foltozni kell a `bootstrap.inc`, `module.inc`, `common.inc`, `node.module`, `taxonomy.module` (nekem gond nélkül ment 4.5.2-es Drupallal)</li>
+<li><code>$i18n_languages = array("es" => "spanish", "en" => "english");</code>-et be kell írni a `includes/conf.php`-ba</li>
 <li>továbbá a nyelvfüggő globális változókat (ld.: INSTALL.txt)</li>
 </ol>

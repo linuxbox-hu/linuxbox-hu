@@ -10,4 +10,4 @@ aliases:
 - /node/26/
 - /story/26/
 ---
-<strong>find / -type f -perm +06000 -print</strong>
+`find / -type f -perm +06000 -print`

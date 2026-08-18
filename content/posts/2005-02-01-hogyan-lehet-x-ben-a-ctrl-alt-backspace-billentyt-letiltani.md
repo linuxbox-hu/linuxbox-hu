@@ -12,5 +12,5 @@ aliases:
 - /node/8/
 - /story/8/
 ---
-<strong>Option "DontZap" "true"</strong>
+`Option "DontZap" "true"`
 sort kell bírni a /etc/X11/XF86Config{-4} -ba a ServerLayout szekcióba. (man XF86Config)

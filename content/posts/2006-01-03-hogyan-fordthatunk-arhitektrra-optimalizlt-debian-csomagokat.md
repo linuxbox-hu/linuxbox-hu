@@ -9,12 +9,12 @@ aliases:
 - /node/119/
 - /story/119/
 ---
-Az <b>apt-build</b> debian csomag segítségével gentoo stílusú architektúrára optimalizált debian csomagokat készíthetünk magunknak.
+Az `apt-build` debian csomag segítségével gentoo stílusú architektúrára optimalizált debian csomagokat készíthetünk magunknak.
 Telepítsük fel először a csomagot.
 <pre>
   $ wajig install apt-build
 </pre>
-közben kérdez bennünk pár opcióról, ezek a <em>/etc/apt/apt-build.conf</em> állományba kerülnek lementésre:
+közben kérdez bennünk pár opcióról, ezek a `/etc/apt/apt-build.conf` állományba kerülnek lementésre:
 <code>
   build-dir = /var/cache/apt-build/build
   repository-dir = /var/cache/apt-build/repository
@@ -23,7 +23,7 @@ közben kérdez bennünk pár opcióról, ezek a <em>/etc/apt/apt-build.conf</em
   mcpu = -mcpu=pentium4
   options = " "
 </code>
-Az elkészült csomagok a <em>/var/cache/apt-build/repository</em> könyvtárba kerülnek. Innét aztán egyszerűen telepíthetjük is őket, ha beadjuk a következő sort a <em>/etc/apt/sources.list</em> konfigurációs állományunk elejére. (apt-build telepítése közben automatikusan is megtehettük ezt.)
+Az elkészült csomagok a `/var/cache/apt-build/repository` könyvtárba kerülnek. Innét aztán egyszerűen telepíthetjük is őket, ha beadjuk a következő sort a `/etc/apt/sources.list` konfigurációs állományunk elejére. (apt-build telepítése közben automatikusan is megtehettük ezt.)
 <code>deb file:/var/cache/apt-build/repository apt-build main</code>
 
 Továbbá természetesen meg kell adnunk a források elérhetőségét is ugyanitt!

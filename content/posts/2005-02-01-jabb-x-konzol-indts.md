@@ -10,5 +10,5 @@ aliases:
 - /node/10/
 - /story/10/
 ---
-A második X példány indítása: <strong>startx -- :1</strong>
-harmadik : <strong>startx -- :2</strong>
+A második X példány indítása: `startx -- :1`
+harmadik : `startx -- :2`

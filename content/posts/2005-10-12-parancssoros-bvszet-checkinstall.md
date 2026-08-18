@@ -14,15 +14,15 @@ aliases:
 A minap bukkantam egy irasra az <a href=""http://osnews.com/>OSNews</a> oldalon, ami egy kis segédeszköt mutatott be. Amivel a forrásból fordított programokat telepítve azok bele kerülnek a rendszer csomagkezelőjének látóterébe :)
 <!--break-->
 
-<strong>A program neve:</strong> CheckInstall
-<strong>Telepítés Debian rendszeren:</strong> apt-get install checkinstall
-<strong>Weboldal:</strong> <a href="http://asic-linux.com.mx/~izto/checkinstall/">http://asic-linux.com.mx/~izto/checkinstall/</a>
+**A program neve:** CheckInstall
+**Telepítés Debian rendszeren:** apt-get install checkinstall
+**Weboldal:** <a href="http://asic-linux.com.mx/~izto/checkinstall/">http://asic-linux.com.mx/~izto/checkinstall/</a>
 
-<strong>Használat:</strong>
+**Használat:**
 
-Miután lefordítottuk a programunkat, <strong>make install</strong> helyett adjuk ki: ,,<strong>checkinstall</strong> <em>[paraméter] make install</em>''
+Miután lefordítottuk a programunkat, `make install` helyett adjuk ki: ,,`checkinstall` `[paraméter] make install`''
 
 Érdemes elolvasni a <a href="http://asic-linux.com.mx/~izto/checkinstall/docs/README">leírást</a> hozzá.
 
 
-<strong>Forrás:</strong> <a href="http://osnews.com/story.php?news_id=12184">http://osnews.com/story.php?news_id=12184</a>
+**Forrás:** <a href="http://osnews.com/story.php?news_id=12184">http://osnews.com/story.php?news_id=12184</a>

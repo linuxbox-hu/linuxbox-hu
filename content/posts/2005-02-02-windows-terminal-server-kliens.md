@@ -10,6 +10,6 @@ aliases:
 - /node/13/
 - /story/13/
 ---
-<strong>rdesktop IP</strong>
-Magyarul: <strong>rdesktop -4 -k hu szervernév/IP</strong>
-Teljes képrenyős módban: <strong>rdesktop -f IP</strong>
+`rdesktop IP`
+Magyarul: `rdesktop -4 -k hu szervernév/IP`
+Teljes képrenyős módban: `rdesktop -f IP`

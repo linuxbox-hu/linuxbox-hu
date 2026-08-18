@@ -11,7 +11,7 @@ aliases:
 - /story/7/
 ---
 root partició másolása:
-<strong>cd /; find -print0 -mount | cpio -p -0 -d -m -u /masikparticio</strong>
+`cd /; find -print0 -mount | cpio -p -0 -d -m -u /masikparticio`
 vagy:
-<strong>arhiv készítés: find -print0 -mount|cpio -o -0 -O arhiv.cpio</strong>
-<strong>arhivból visszaállítás: cpio -i -m -d -u -I arhiv.cpio</strong>
+`arhiv készítés: find -print0 -mount|cpio -o -0 -O arhiv.cpio`
+`arhivból visszaállítás: cpio -i -m -d -u -I arhiv.cpio`

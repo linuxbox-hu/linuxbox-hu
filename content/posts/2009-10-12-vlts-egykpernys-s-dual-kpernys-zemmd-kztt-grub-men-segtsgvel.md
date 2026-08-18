@@ -48,7 +48,7 @@ fi
 
 Ez a script nem csinál mást, minthogy ellenőrzi, szerepel-e a kernel-opciók között a 'dualkepernyo' szócska.
 Ettől függően a választott boot-menünek megfelelő XOrg konfigurációs fájlt másolja a helyére. 
-<em>Természetesen ezeket a konfigurációs fájlokat előzetesen létre kell hozni a megfelelő XOrg beállításokkal.</em>
+*Természetesen ezeket a konfigurációs fájlokat előzetesen létre kell hozni a megfelelő XOrg beállításokkal.*
 
 Már csak azt kell elérni, hogy a script lefusson boot-időben, még a gdm indulása előtt:
 

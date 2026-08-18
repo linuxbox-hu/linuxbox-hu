@@ -15,26 +15,26 @@ aliases:
 Nem szándékozom teljes leírást készíteni, de fel szeretném kelteni azok figyelmét akik még nem ismerik és meg szeretném mutatni azoknak akik már használják a programot, hogy én mely szolgáltatásait használom.
 <!--break-->
 <ul>Kezdjük mindjárt az elején:
-<li><strong>screen</strong>
+<li>`screen`
 o [shellből] egy új környezet létrehozása</li>
-<li><strong>screen -R</strong>
+<li>`screen -R`
 o [shellből] csatlakozás egy korábban félbehagyott munkához</li>
-<li><strong>screen -DD -R</strong>
+<li>`screen -DD -R`
 o [shellből] csatlakozás egy korábban kilépés nélkül félbehagyott munkafolyamathoz</li>
-<li><em>Ctrl-a + c</em>
+<li>`Ctrl-a + c`
 o [billentyűkombináció működés közben] egy új virtuális ablak létrehozása</li>
-<li><em>Ctrl-a + k</em>
+<li>`Ctrl-a + k`
 o [bill.] virtuális ablak bezárása</li>
-<li><em>Ctrl-a Ctrl-a</em>  vagy <em>Ctrl-a Szóköz</em>
+<li>`Ctrl-a Ctrl-a`  vagy `Ctrl-a Szóköz`
 o [bill.] következő ablakra váltás</li>
-<li><em>Ctrl-a + S</em>
+<li>`Ctrl-a + S`
 o [bill.] jelenlegi ablak kettéosztása</li>
-<li><em>Ctrl-a + TAB</em>
+<li>`Ctrl-a + TAB`
 o [bill.] mozgás a szétosztott ablakok közt</li>
-<li><em>Ctrl-a + A</em>
+<li>`Ctrl-a + A`
 o jelenlegi ablak elnevezése</li>
-<li><em>Ctrl-a + "</em>
+<li>`Ctrl-a + "`
 o [bill.] összes ablak listája - mozgás az ablakok közt a nyilakkal</li>
-<li><em>Ctrl-a + d</em>
+<li>`Ctrl-a + d`
 o [bill.] és vegül a leglényegesebb. ezzel deattach-olni azaz magára lehet hagyni amit legközelebb újra lehet folytatni</li>
 </ul>

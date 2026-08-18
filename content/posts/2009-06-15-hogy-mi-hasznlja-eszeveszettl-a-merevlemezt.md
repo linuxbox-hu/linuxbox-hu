@@ -13,7 +13,7 @@ megmondja az <a href="http://www.atcomputing.nl/Tools/atop/">atop</a> ami a legt
 
 A parancssoros (ám színes megjelenítésre képes) programot legalábbis erre használom főleg.
 Persze ezen kívül tud mindent, ami egy rendszer monitorozó programtól elvárható:
-processzor, lemez, memória, hálózat, swap átvitel/terheltség vizsgálatot periódikusan mérve, mint a <strong>top</strong>.
+processzor, lemez, memória, hálózat, swap átvitel/terheltség vizsgálatot periódikusan mérve, mint a `top`.
 
 Számtalan kapcsolóval lehet indítani, amelyek funkcióját interaktívan is előcsalhatjuk a megfelelő billentyűk lenyomásával.
-Pl a címben említett vizsgálatot az <strong>atop -dD</strong> kapcsolókkal szoktam végezni.
+Pl a címben említett vizsgálatot az `atop -dD` kapcsolókkal szoktam végezni.

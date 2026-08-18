@@ -25,7 +25,7 @@ A minap akadtam rá:
 <strong><a href="http://www.guzu.net/linux/hddtemp.php">hddtemp</a></strong>
 
 
-<strong>apt-get install hddtemp</strong>
+`apt-get install hddtemp`
 
 Használata:
 

@@ -9,10 +9,10 @@ aliases:
 - /node/140/
 - /story/140/
 ---
-<em>Avagy hogyan lehet egy resize-t eltolni, aztán helyrehozni :)</em>
+`Avagy hogyan lehet egy resize-t eltolni, aztán helyrehozni :)`
 
 
-<strong>Kiindulás</strong>
+**Kiindulás**
 
 Adott egy 80Gb-os winchester:
 <ol>
@@ -27,7 +27,7 @@ A szerveremmel a kapcsolat meghalt (leköltözött a pincébe, kábelezés még 
 Gondoltam áttérek LVM2-re, mert az összes teszt azt mondja, hogy az XFS jó (a reiser-rel pedig már én is szívtam), ki kéne próbálni, meg amúgy is lehetne jobban szervezni ezt a helyet.
 
 
-<strong>Első (rossz) lépés</strong> 
+**Első (rossz) lépés** 
 
 resize2fs-el az /mnt/D-t lecsökkentettem 30Gb-ra (28Gb adat van rajta) - gondoltam a felszabaduló kb. 30Gb-on elindítom az lvm-et, csinálok xfs-t a root-nak, meg kisebb reiserfs-eket mondjuk /var, /home-nak, esetleg /usr-nek...
 
@@ -39,12 +39,12 @@ Aztán jött a TestDisk, ami eleinte szemetet adott, majd egy teljes 3 órás An
 
 Ezek után már fel tudtam mountolni, és umount után parted-el magát a partíciót is a megfelelő méretűre tudtam szerkeszteni (azért nem ezzel indítottam, mert a fájlrendszert is méretezi, nekem akkor pedig már össze volt az csugorítva).
 
-<strong>Helyes sorrend</strong>
+**Helyes sorrend**
 
 Ha a parted kezeli a fájlrendszert, akkor egyszerűen parted-el resiye.
 Ha nem kezeli, akkor először a megfelelő eszközzel (resize_reiserfs, xfs_growfs... etc) méretre igazítjuk a fájlrendszert, majd ezután parted-el a partíciót.
 
-<strong>LVM</strong>
+`LVM`
 Evms-el nem kísérleteztem, mert ahhoz foltozott kernel kell.
 <ol>
 <li>üres partíció létrehozása</li>
@@ -55,7 +55,7 @@ Evms-el nem kísérleteztem, mert ahhoz foltozott kernel kell.
 <li>utolsó 2 lépés még akárhányszor</li>
 </ol>
 
-<strong>Csak tervezett hibák</strong>
+**Csak tervezett hibák**
 Eddig ezek vannak meg. Tervezem, hogy 
 <ol>
 <li>

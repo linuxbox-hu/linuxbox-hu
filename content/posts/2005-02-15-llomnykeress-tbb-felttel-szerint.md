@@ -10,4 +10,4 @@ aliases:
 - /node/28/
 - /story/28/
 ---
-<strong>find . ( -name "*.jpg" -o -name "*.gif" ) -exec do_something_wih {} ;</strong>
+`find . ( -name "*.jpg" -o -name "*.gif" ) -exec do_something_wih {} ;`

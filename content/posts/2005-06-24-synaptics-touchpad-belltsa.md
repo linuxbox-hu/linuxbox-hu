@@ -12,7 +12,7 @@ aliases:
 ---
 Synaptics touchpad beállítása XFree86/X.org-hoz...
 
-<strong>Tulajdonságok</strong>
+**Tulajdonságok**
 
 <ul>
 <li>Egérmozgás állítható sebességgel, gyorsulással</li>
@@ -21,7 +21,7 @@ Synaptics touchpad beállítása XFree86/X.org-hoz...
 <li>Érintés és húzás a padon a mozgatás</li>
 <li>Középső és jobb klikk a pad felső és alsó szegélyénél</li>
 <li>Függőleges görgetés a pad jobb szegélyénél egy ujj fel-le húzásával (4. és 5. gomb)</li>
-<li>A <em>fel</em>, <em>le</em> gombok a 4. és 5. eseményt generálják</li>
+<li>A *fel*, *le* gombok a 4. és 5. eseményt generálják</li>
 <li>Vízszíntes görgetés a pad alsó szegélyénél (6. és 7. gomb)</li>
 <li>Állítható érintés érzékenység</li>
 <li>2 ujjal való érintés a középső gombot szimulálja - nem minden modellnél</li>
@@ -35,12 +35,12 @@ Synaptics touchpad beállítása XFree86/X.org-hoz...
 
 <ol>
 <li>Le kell töltenünk az X-hez a drivert: http://web.telia.com/~u89404340/touchpad/files/</li>
-<li>A kernelbe be kell fordítani a <strong>CONFIG_INPUT_EVDEV</strong> eszközt.</li>
+<li>A kernelbe be kell fordítani a `CONFIG_INPUT_EVDEV` eszközt.</li>
 <li>A driver fordításához szükségünk lesz az x-dev, libx11-dev és libxext-dev csomagok telepítésére</li>
-<li>Kicsomagolás után <strong>make</strong> és <strong>make install</strong> parancsokkal fordíthatjuk és telepíthetjük</li>
-<li>A betöltendő modulok köze (X config) írjuk be: <strong>Load "synaptics"</strong></li>
-<li>Készítsünk egy <strong>InpudDevice</strong> szekciót (csatolva)</li>
-<li>Írjuk be a <strong>ServerLayout</strong> szekcióba: <strong>InputDevice    "Synaptics Mouse" "AlwaysCore"</strong></li>
+<li>Kicsomagolás után `make` és `make install` parancsokkal fordíthatjuk és telepíthetjük</li>
+<li>A betöltendő modulok köze (X config) írjuk be: `Load "synaptics"`</li>
+<li>Készítsünk egy `InpudDevice` szekciót (csatolva)</li>
+<li>Írjuk be a `ServerLayout` szekcióba: `InputDevice    "Synaptics Mouse" "AlwaysCore"`</li>
 </ol>
 
 És kész is vagyunk.

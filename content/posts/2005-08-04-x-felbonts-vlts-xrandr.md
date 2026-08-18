@@ -17,6 +17,6 @@ aliases:
 ---
 Létezik egy kicsi ügyes alkalmazás ami ki tudja használni mind az XFree86 és X.Org "RandR" moduljának a hardveres képernyő felbontás változtatás és elforgatási lehtőségét. 
  Használata egyszerú:
-Lekérdezni a beállítható felbontásokat <strong>xrandr</strong> paranccsal paraméterek nélkül lehet.
-Váltani pedig pl.:<strong> xrandr --size 1280x1024</strong> 
+Lekérdezni a beállítható felbontásokat `xrandr` paranccsal paraméterek nélkül lehet.
+Váltani pedig pl.:` xrandr --size 1280x1024` 
 Természetesen van belőle debian csomag is. 8)

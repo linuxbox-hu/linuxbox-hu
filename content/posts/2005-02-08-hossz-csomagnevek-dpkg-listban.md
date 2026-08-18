@@ -15,4 +15,4 @@ aliases:
 ---
 Nem látod a hosszú csomagneveket a dpkg listában?
 Használd így:
-<strong>COLUMNS=160 dpkg -l</strong>
+`COLUMNS=160 dpkg -l`

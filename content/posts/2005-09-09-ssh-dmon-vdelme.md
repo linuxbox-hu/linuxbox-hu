@@ -15,8 +15,8 @@ Manapság az interneten robotok kutatnak a gyenge jelszavas felhasználók shell
 Természetesen tudunk védekezni a probléma ellen.
 Két fejta egyszerű megoldás is van:
 
-1. Beállíthatunk egy speciálisan erre fejlesztett ssh démon konfigurációs paramétert: <strong>MaxStartups</strong>
- <strong>/etc/ssh/sshd_config</strong> konfigurációs állomány végén. További információt kahatunk a manuálokból. man sshd_config
+1. Beállíthatunk egy speciálisan erre fejlesztett ssh démon konfigurációs paramétert: `MaxStartups`
+ `/etc/ssh/sshd_config` konfigurációs állomány végén. További információt kahatunk a manuálokból. man sshd_config
 
 2. iptables tűzfal szabályokat is létrehozhatunk a problémára.
 <strong>iptables -I INPUT -p tcp --dport 22 -i eth0 -m state --state NEW -m recent --set

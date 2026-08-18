@@ -11,7 +11,7 @@ aliases:
 ---
 Jól jöhet az alábbi Microsoftos betűkészlet csomag, aki szeretné hogy a honlapok úgy nézzenek ki ahogy a designerek megálmodták őket, vagy rendszeresen küld win-es gépekre dokumentumokat.
 
-Ubuntu tárolókban benne van, a csomag neve: <strong>msttcorefonts</strong>
+Ubuntu tárolókban benne van, a csomag neve: `msttcorefonts`
 
 Az alábbi betűtípus családokat tartalmazza:
 <ul>

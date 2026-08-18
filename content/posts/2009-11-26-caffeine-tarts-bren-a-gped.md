@@ -24,24 +24,24 @@ Letöltés útmutató, (ubuntu 9.10-hez)
 
 1. Szerkezd sources.list fájlod:
 
-<b>$gksudo gedit /etc/apt/sources.list</b>
+`$gksudo gedit /etc/apt/sources.list`
 
 2. Add a következőt a fájlod végéhez:
 
-<b>deb http://ppa.launchpad.net/caffeine-developers/ppa/ubuntu karmic main </b>
+`deb http://ppa.launchpad.net/caffeine-developers/ppa/ubuntu karmic main `
 Mentsd és zárd be.
 
 3. Vedd fel a PPA kulcsot:
 
-<b>$sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 569113AE</b>
+`$sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 569113AE`
 
 4. Frissítsd a csomaglistád
 
-<b>$sudo apt-get update</b>
+`$sudo apt-get update`
 
 5. Instaláld a Caffeine szoftvert :
 
-<b>$sudo apt-get install caffeine</b>
+`$sudo apt-get install caffeine`
 
 Kész!
  </p>

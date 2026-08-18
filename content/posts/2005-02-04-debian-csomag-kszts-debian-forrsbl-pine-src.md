@@ -22,10 +22,10 @@ Lépjünk a src könyvtárba mielőtt letöltenénk a forrást.
 apt-get update
 apt-get source pine</strong>
 Előfordulhat, hogy nincs feltelpítve a dpkg-dev csomag a gépünkre, ami a source kicsomagolásához kell. 
-Ezesetben: <strong>apt-get install dpkg-dev fakeroot </strong>
+Ezesetben: `apt-get install dpkg-dev fakeroot `
 
 Nézzük meg fel van-e telepítve minden függőség:
-<strong>apt-get build-dep pine</strong>
+`apt-get build-dep pine`
 
 Most készítsük el a csomagot(4.62-es verzió a cikk írásokor volt legfrisebb verzió, értelemszerűen ez változni fog.):
 <strong>dpkg-source -x pine_4.62-1.dsc

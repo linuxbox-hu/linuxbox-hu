@@ -14,24 +14,24 @@ aliases:
 
 Ha valakinek lenne kedve kipróbálni, szívesen vennék minden véleményt. Hasznos lenne számomra a további fejlesztésekhez.</strong>
 
-<strong>Név:</strong>
+**Név:**
 aaPhoto (Auto Adjust Photo)
 
-<strong>Linkek:</strong>
+**Linkek:**
 http://log69.com/aaphoto.html
 
-<strong>Letöltés (linuxhoz):</strong>
+**Letöltés (linuxhoz):**
 http://log69.com/downloads/aaphoto_linux.tar.gz
 http://log69.com/downloads/linux/aaphoto
 
-<strong>Platform:</strong>
+**Platform:**
 Linux, Win32, Solaris, Aros
 (tervben *BSD, OSX)
 
-<strong>Futtatás (parancs-sorból):</strong>
+**Futtatás (parancs-sorból):**
 $aaphoto mappa
 
-<strong>Bővebb leírás:</strong>
+**Bővebb leírás:**
 Fotó beállító szoftver, automatikusan korrigálja a kép színeit.
 
 A program azt a célt szolgálja, hogy egy tetszõleges fotó képet automatikusan tudjunk beállítani, más szóval legjobban láthatóvá tenni mindössze egyetlen klikkeléssel. Ez a kép kontrasztjának, színegyensúlyának és gammájának analizálás utáni automatikus beállítását jelenti.
@@ -43,5 +43,5 @@ Fõként olyan egyszerû felhasználók számára jelenthet ez kényelmet vagy m
 A program az alábbi kép formátumokat kezeli:
 mif, pnm / pgm / ppm, bmp, ras, jp2, jpc, jpg, pgx
 
-<strong>Köszi és üdv,</strong>
+**Köszi és üdv,**
 Horváth András

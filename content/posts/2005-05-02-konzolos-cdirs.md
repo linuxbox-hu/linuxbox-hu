@@ -17,14 +17,14 @@ Készítsük elő az anyagot mksisofs-sel majd írjuk fel:
  cdrecord speed=4 dev=0,3,0 -data -dao -v xp2600.iso
  dvdrecord -v -dao -eject dvdtest.bin</strong>
 avagy
-<strong> cdrdao write --speed 4 --device 0,3,0 --driver generic-mmc x.cue</strong>
+` cdrdao write --speed 4 --device 0,3,0 --driver generic-mmc x.cue`
  <!--break-->
 audio cd esetén eljárhatunk pl. így:
 <strong>cdparanoia -B "1-"
 cdrecord dev=0,3,0 -eject -v -dao -audio track*
 cdrecord speed=2 dev=0,3,0 -eject -v -audio track*</strong>
 újraírható törlés:
-<strong>cdrecord speed=4 dev=0,3,0 -eject -v blank=fast</strong>
+`cdrecord speed=4 dev=0,3,0 -eject -v blank=fast`
 multisession cd
 <strong>NEXT_TRACK=`cdrecord -msinfo dev=1,0,0`
 mkisofs -R -J -l -o cd_image2.iso -C $NEXT_TRACK -M 1,0,0 egetni_valo/

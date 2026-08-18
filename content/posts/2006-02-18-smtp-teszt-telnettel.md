@@ -34,4 +34,4 @@ QUIT
 221 Bye
 Connection closed by foreign host. 
 </code>
-A levél végét a szöveg utolsó sorában a <strong>.</strong> adja!
+A levél végét a szöveg utolsó sorában a `.` adja!

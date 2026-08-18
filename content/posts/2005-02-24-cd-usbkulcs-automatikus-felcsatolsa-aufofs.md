@@ -26,17 +26,17 @@ CONFIG_AUTOFS4_FS=m
 </strong>
 Telepítsük fel az autofs csomagot
 
-linuxbox:~><strong>apt-get install autofs</strong>
+linuxbox:~>`apt-get install autofs`
 Figyeljünk a verzió legyen 4.1.3, vagy újabb.
 
 Majd konfiguráljuk most a csomagot:
-Kedvenc szerkesztőnkkel nézzünk bele a <strong>/etc/auto.master</strong> állományba.
+Kedvenc szerkesztőnkkel nézzünk bele a `/etc/auto.master` állományba.
 
 A következő sor 
-<strong>/media  /etc/auto.media --ghost --timeout=1</strong>
-a media alkönyvtár alá fog inditani egy autofs démont, ami további konfigurációval azaz <strong>/etc/auto.media</strong> állományban megadott eszközöket automatikusan fogja kezelni egy-egy alkönyvtárban.
+`/media  /etc/auto.media --ghost --timeout=1`
+a media alkönyvtár alá fog inditani egy autofs démont, ami további konfigurációval azaz `/etc/auto.media` állományban megadott eszközöket automatikusan fogja kezelni egy-egy alkönyvtárban.
 
-Az <strong>/etc/auto.media</strong> állomany nálam igy néz ki:
+Az `/etc/auto.media` állomany nálam igy néz ki:
 <strong>
 cdrom           -fstype=iso9660,ro,nodev                       :/dev/scd1
 cdwriter        -fstype=iso9660,ro,nodev                       :/dev/scd0
@@ -44,9 +44,9 @@ pendrive        -fstype=vfat,rw,uid=1000,gid=1000,umask=002    :/dev/sda1
 </strong>
 
 Végül már csak három tennivalónk maradt:
-<strong>/etc/default/autofs</strong> állományban kisebb <strong>TIMEOUT=1</strong> értéket állítsunk, készítsük el a gyökér könyvtárát <strong>mkdir /media</strong>
+`/etc/default/autofs` állományban kisebb `TIMEOUT=1` értéket állítsunk, készítsük el a gyökér könyvtárát `mkdir /media`
  majd íjraindítani a 
-<strong>/etc/init.d/autofs restart</strong>
+`/etc/init.d/autofs restart`
 bekonfigurált szoftvert.
 
 Kellemes hekkelést kívánok!

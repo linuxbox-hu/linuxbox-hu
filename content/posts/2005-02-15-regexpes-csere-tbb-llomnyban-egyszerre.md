@@ -10,4 +10,4 @@ aliases:
 - /node/27/
 - /story/27/
 ---
-<strong>perl -pi.bak -e 's/OLDSTRING/NEWSTRING/g' *.html</strong>
+`perl -pi.bak -e 's/OLDSTRING/NEWSTRING/g' *.html`

@@ -15,12 +15,12 @@ aliases:
 ---
 A dolog lényege annyi, hogy egy titkosítási módszerrel és kulccsal vagy jelszóval létrehozunk egy virtuális eszközt amin keresztül használjuk a partíciónkat.
 
-Mielőtt nekilátunk ellenőrizzük, hogy van-e <em>dmsetup</em> csomagunk telepítve és van-e <em>dm-crypt</em> kernel modulunk.
+Mielőtt nekilátunk ellenőrizzük, hogy van-e `dmsetup` csomagunk telepítve és van-e `dm-crypt` kernel modulunk.
 <!--break-->
 Ezután nekiugorhatunk:
 Létrehozzuk az eszközt pl. így:
 
-<strong>echo 0 `blockdev --getsize /dev/hda5` crypt aes-plain 0123456789abcdef0123456789abcdef 0 /dev/hda5 0 | dmsetup create volume1</strong>
+`echo 0 `blockdev --getsize /dev/hda5` crypt aes-plain 0123456789abcdef0123456789abcdef 0 /dev/hda5 0 | dmsetup create volume1`
 
 Nem felejtjük megváltoztatni és elmenteni a kulcsnak szánt 32 bites számot, amivel a jövőben ismételgetni tudjuk a létrehozást és így használni tudjuk az adatokat.
 

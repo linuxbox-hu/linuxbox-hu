@@ -12,7 +12,7 @@ aliases:
 ---
 Gnome alapokon újragondolt lejátszó. Egy próbát megér!
 
-<strong>deb http://exodus.xmms.se/debian stable main</strong>
+`deb http://exodus.xmms.se/debian stable main`
 
 Újdonságok:
  - párhuzamosan több példány futtatható

@@ -12,7 +12,7 @@ aliases:
 - /blog/555/
 - /node/555/
 ---
-<p>A <a href="http://www.lyx.org/Home"> Lyx </a> egy grafikus WYSIWYM (<strong>W</strong>hat <strong>Y</strong>ou <strong>S</strong>ee <strong>I</strong>s <strong>W</strong>hat <strong>Y</strong>ou <strong>M</strong>ean) Tex/LaTeX szerkesztő. 
+<p>A <a href="http://www.lyx.org/Home"> Lyx </a> egy grafikus WYSIWYM (`W`hat `Y`ou `S`ee `I`s `W`hat `Y`ou `M`ean) Tex/LaTeX szerkesztő. 
 
 <p><img src="http://linuxbox.hu/sites/default/files/main_window_sm.png" /></p>
 

@@ -11,7 +11,7 @@ aliases:
 - /story/18/
 ---
 Lekérdezzük a csomagok jelenlegi statuszát:
-<strong>dpkg --get-selections \* &gt; selections.txt</strong>
+`dpkg --get-selections \* &gt; selections.txt`
 
 Majd szerkesszük a készített állományt.
 Megkeresed a csomagod:
@@ -19,4 +19,4 @@ Megkeresed a csomagod:
 Átírod a statuszát:
      pine                                           hold
 Majd érvényesíted a változtatásokat:
-<strong>dpkg --set-selections &lt; selections.txt</strong>
+`dpkg --set-selections &lt; selections.txt`
