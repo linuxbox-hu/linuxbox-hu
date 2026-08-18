@@ -43,10 +43,14 @@ Known gaps and planned work around the switch to the Chirpy Hugo theme (`geekifa
 - [x] ~~Remove the `themes/LoveIt` git submodule~~ - done (2026-08-18). Leftover from before the switch to
   Chirpy; the theme now loads via Hugo Modules (`go.mod`, `geekifan/hugo-theme-chirpy`). `.gitmodules` and
   the `themes/LoveIt` submodule entry removed.
-- [ ] **Automatic deploy (GitHub Actions or similar) instead of the current manual `git pull` + `hugo
-  build`.** Right now every production update is a manual SSH step on the server. This should also make the
-  build command use `--cleanDestinationDir` (2026-08-18: without it, files removed/renamed out of `public/`
-  - see the `static/tools` case above - silently stick around from the previous build and keep being served).
+- [x] ~~Automatic deploy (GitHub Actions or similar) instead of the current manual `git pull` + `hugo
+  build`~~ - done (2026-08-18). `.github/workflows/deploy.yml` added: SSHes into the server as a dedicated
+  unprivileged deploy user (own OS user, no sudo) and runs
+  `git fetch <public HTTPS URL> main && git reset --hard FETCH_HEAD` (an explicit URL, not touching the
+  checkout's own `origin` remote, so manual pushes/pulls from the same checkout keep working over SSH
+  untouched) then `hugo --gc --minify --cleanDestinationDir`, then explicit `chmod 755`/`644` on `public/` -
+  this makes the build output world-readable directly, sidestepping the `www-data` group-membership approach
+  entirely for future deploys. Server-side account/access setup was done out of band, not tracked here.
 
 ## Article ideas
 
