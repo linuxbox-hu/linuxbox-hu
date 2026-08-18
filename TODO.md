@@ -4,13 +4,15 @@ Ismert hiányosságok, tervezett munkák a Chirpy Hugo-témára (`geekifan/hugo-
 
 ## i18n
 
-- [ ] **Magyar i18n fordítás a témához, és PR upstream.** A téma jelenleg csak `fa-IR.yaml`-t tartalmaz
-  (`_vendor/github.com/geekifan/hugo-theme-chirpy/i18n/`) - nincs `hu.yaml`, így az olyan UI szövegek mint
-  "Posted on"/"Updated on"/"Written by"/pagination stb. angolul jelennek meg a magyar oldalon is, a
-  `languages.hu.locale = "hu"` beállítás ellenére. A Jekyll-es Chirpy saját `hu-HU.yml` fordítása
-  (`_data/locales/hu-HU.yml` a `jekyll-theme-chirpy` gemben) jó kiindulópont/referencia a kulcsokhoz és a
-  fordításokhoz. Cél: `i18n/hu.yaml` elkészítése ebben a repóban (helyi override, a téma saját i18n mappájával
-  megegyező struktúrában), majd PR-ban felajánlani a `geekifan/hugo-theme-chirpy` upstream repónak is.
+- [x] ~~Magyar i18n fordítás a témához~~ - kész (2026-08-18). A téma valójában tartalmaz magyar fordítást
+  (`_vendor/github.com/geekifan/hugo-theme-chirpy/i18n/hu-HU.yml`), csak a fájlnév/nyelvkulcs nem egyezett:
+  Hugo a fordítási bundle-t a `languages.toml`-ban definiált nyelvkulcs (`hu`) alapján keresi, nem a
+  `locale` mezőt nézi - így a `hu-HU.yml` sosem talált egyezést, és a lábléc/copyright szövegek üresen
+  jelentek meg. Megoldás: `i18n/hu.yaml` hozzáadva helyi override-ként (a `hu-HU.yml` másolata).
+- [ ] **PR upstream a `hu`/`hu-HU` fájlnév-eltérésről.** Érdemes jelezni a `geekifan/hugo-theme-chirpy`
+  repónak, hogy a `hu-HU.yml` néven szállított fordítás gyakorlatban sosem illeszkedik semelyik `[hu]`
+  nyelvkulcsú Hugo confighoz - vagy át kellene nevezni `hu.yaml`-ra, vagy dokumentálni kellene, hogy a
+  `languages.toml`-ban `hu-HU`-t kell nyelvkulcsként használni, ha valaki ezt a fordítást szeretné.
 
 - [ ] **`preview-img` bug PR upstream.** `layouts/index.html` és `layouts/post/single.html` is a
   `preview-img` classt közvetlenül az `<img>`-re teszi ahelyett, hogy egy körülötte lévő wrapper divre tenné -
@@ -32,3 +34,12 @@ Ismert hiányosságok, tervezett munkák a Chirpy Hugo-témára (`geekifan/hugo-
   átvéve - ellenőrizni, hogy az új Chirpy configban egyáltalán szükség van-e ezekre.
 - [ ] `site.webmanifest` favicon fájl hiányzik (PWA jelenleg kikapcsolva, `site.Params.pwa.enabled` nincs
   beállítva, úgyhogy ez egyelőre nem probléma - de ha valaha PWA-t szeretnénk, ez is kelleni fog).
+- [x] ~~`static/tools/run.sh` és `test.sh`~~ - törölve (2026-08-18). Ezek a régi Jekyll-es dev scriptek
+  (`tools/run.sh`, `tools/test.sh`) tévedésből a `static/` alá kerültek a migráció során, így minden buildnél
+  élesben is publikálódtak (`linuxbox.hu/tools/run.sh`, `/tools/test.sh`) - jekyll/html-proofer parancsokat
+  hivatkozó, ma már irreleváns scriptek voltak kint nyilvánosan. Eltávolítva.
+- [ ] **`themes/LoveIt` git submodule eltávolítása.** A repo még mindig tartalmazza a `themes/LoveIt`
+  submodule-t (lásd `.gitmodules`) a Chirpy-témára váltás előtti kísérletből - a téma ma már Hugo Modules-ön
+  keresztül (`go.mod`, `geekifan/hugo-theme-chirpy`) töltődik be, a LoveIt checkout élő kód által nem
+  hivatkozott, holt súly. `git submodule deinit -f themes/LoveIt && git rm -f themes/LoveIt` + `.gitmodules`
+  törlése rendbe tenné.
