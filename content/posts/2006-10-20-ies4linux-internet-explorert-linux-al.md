@@ -4,72 +4,83 @@ categories:
 - ubuntu
 created: 1161303832
 date: '2006-10-20T00:00:00Z'
-excerpt: |
-  <a href="http://linuxbox.hu/node/224><img src="http://linuxbox.hu/file/IEs4.png"></a>
-  A napokban telepítettem egy Ubuntut (Drapper).
-  Úgy alakult, hogy elkerülhetetlenné vált számomra az Internet Explorer használata.
-  
-  Egy okos kis tool a megoldás:
-  Az <a href="http://www.tatanka.com.br/ies4linux/">IEs4Linux</a> lényegében egy script halmazt, melynek segítségével egyszerűen használatba vehetjük a sokak által nem különösebben kedvelt, de eléggé elterjedt böngészőt.
-  A scriptek a nyelvi beállításokat, az IE hozzávalók letöltését és a wine konfigurálását végzik.
+image:
+  path: http://linuxbox.hu/file/IEs4.png
+  alt: IEs4Linux
+excerpt: 'A napokban telepítettem egy Ubuntut (Drapper). Úgy alakult, hogy elkerülhetetlenné
+  vált számomra az Internet Explorer használata.'
 title: 'IEs4Linux - Internet Explorert linux alá'
 aliases:
 - /node/224/
 - /story/224/
 ---
-<a href="http://linuxbox.hu/node/224><img src="http://linuxbox.hu/file/IEs4.png"></a>
 A napokban telepítettem egy Ubuntut (Drapper).
 Úgy alakult, hogy elkerülhetetlenné vált számomra az Internet Explorer használata.
 
 Egy okos kis tool a megoldás:
-Az <a href="http://www.tatanka.com.br/ies4linux/">IEs4Linux</a> lényegében egy script halmazt, melynek segítségével egyszerűen használatba vehetjük a sokak által nem különösebben kedvelt, de eléggé elterjedt böngészőt.
+Az [IEs4Linux](http://www.tatanka.com.br/ies4linux/) lényegében egy script halmazt, melynek segítségével egyszerűen használatba vehetjük a sokak által nem különösebben kedvelt, de eléggé elterjedt böngészőt.
 A scriptek a nyelvi beállításokat, az IE hozzávalók letöltését és a wine konfigurálását végzik.
 <!--break-->
-<code>wget http://www.tatanka.com.br/ies4linux/downloads/ies4linux-2.0.3.tar.gz</code>
+`wget http://www.tatanka.com.br/ies4linux/downloads/ies4linux-2.0.3.tar.gz`
 (327K)
 
-Használatához szükségünk lesz <a href="http://packages.ubuntu.com/dapper/otherosfs/wine">wine</a> (8.5M) és <a href="http://packages.ubuntu.com/dapper/utils/cabextract">cabextract</a> (44K) csomagok installálására:
+Használatához szükségünk lesz [wine](http://packages.ubuntu.com/dapper/otherosfs/wine) (8.5M) és [cabextract](http://packages.ubuntu.com/dapper/utils/cabextract) (44K) csomagok installálására:
 Mindekettő szerepel a dapper universe repository-jában.
 
-<code>apt-get install wine cabextract</code>
+`apt-get install wine cabextract`
 
-Kicsomagolás után 
-<code>tar -xzf ies4linux-2.0.3.tar.gz</code>
+Kicsomagolás után
+`tar -xzf ies4linux-2.0.3.tar.gz`
 futtassuk a
-<code>ies4linux-2.0.3/ies4linux</code>
+`ies4linux-2.0.3/ies4linux`
 install scriptet.
 
-<code>
+```
 wine: creating configuration directory '/home/miamano/.wine'...
 fixme:midi:OSS_MidiInit Synthesizer support MIDI in. Not supported yet (please report)
 wine: '/home/miamano/.wine' created successfully.
 Wine 0.9.9
 Üdvözöljük, miamano! Ez a program az IEs4Linux.
 Lehetővé teszi az IE 6, 5.5 és 5.0 Gyors és könnyű telepítését.
-Már csak négy kérdést kell megválaszolnia az IE használatáig.</code>
-<code>
-A program fel fog tenni néhány kérdést, amire igennel (i) vagy nemmel (n) válaszolhat. Az alapértelmezett minden esetben a félkövéren szedett.</code>
-<code>
+Már csak négy kérdést kell megválaszolnia az IE használatáig.
+```
+
+A program fel fog tenni néhány kérdést, amire igennel (i) vagy nemmel (n) válaszolhat. Az alapértelmezett minden esetben a félkövéren szedett.
+
+```
 Az IE 6 automatikusan települni fog.
-Szeretné az IE 5.5 SP2-t is telepíteni? [ i / n ] n</code>
-<code>
-Szeretné telepíteni az IE 5.01 SP2-t is? [ i / n ] n</code>
-<code>
+Szeretné az IE 5.5 SP2-t is telepíteni? [ i / n ] n
+```
+
+```
+Szeretné telepíteni az IE 5.01 SP2-t is? [ i / n ] n
+```
+
+```
 Az IE-k a következő „locale”-k használatával telepíthetőek:
 EN-US PT-BR DE FR ES IT NL SV JA KO NO
 DA CN TW FI PL HU AR HE CS PT RU EL TR
-Alapértelmezett: HU. Gépelje be a választott „locale”-t vagy üssön egy entert az alapértelmezett használatához.</code>
-<code>
+Alapértelmezett: HU. Gépelje be a választott „locale”-t vagy üssön egy entert az alapértelmezett használatához.
+```
+
+```
 Alapértelmezésben minden a következő helyre települ: /home/miamano/.ies4linux
 A Flash 9 beépülő telepítve lesz, és a program létrehoz munkaasztali indítóikonokat is.
-Megfelel ez önnek? (További beállításokért válaszoljon n-t.) [ i / n ]</code>
-<code>
+Megfelel ez önnek? (További beállításokért válaszoljon n-t.) [ i / n ]
+```
+
+```
 A telepítés megkezdése…
-A szükséges fájlok letöltése…</code>
-##Itt jó néhány .exe és .cab kerül letöltésre a Microsoft és a Macromedia oldalairól.
-##(14.5M)
-<code>[ OK ]</code>
-<code>
+A szükséges fájlok letöltése…
+```
+
+(Itt jó néhány .exe és .cab kerül letöltésre a Microsoft és a Macromedia oldalairól. 14.5M)
+
+```
+[ OK ]
+```
+
+```
 Telepítés… IE 6
  A telepítés előkészítése
  Wine előtagok létrehozása
@@ -82,18 +93,24 @@ Telepítés… IE 6
  Telepítés… DCOM98
  Registry telepítése
  Telepítés befejezése
-[ OK ]</code>
-<code>
+[ OK ]
+```
+
+```
 A Flash Player 9 telepítése…
  Fájlok kicsomagolása
  Flash telepítése ie6
-[ OK ]</code>
-<code>
-Az IEs 4 Linux telepítése befejeződött.</code>
-<code>
+[ OK ]
+```
+
+```
+Az IEs 4 Linux telepítése befejeződött.
+```
+
+```
 Az IE-k futtatásához a következő parancsokat használhatja:
  /home/miamano/bin/ie6
-</code>
+```
 
 Konklúzió/Tapasztalatok:
 
