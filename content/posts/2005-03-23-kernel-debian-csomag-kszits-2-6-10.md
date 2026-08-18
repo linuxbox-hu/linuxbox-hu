@@ -4,13 +4,14 @@ categories:
 - debian
 created: 1111569964
 date: '2005-03-23T00:00:00Z'
-excerpt: '<em>A következő kis telepítési mini jegyzet pptp számára <strong>mppe</strong> folttal, <strong>bootsplash</strong> folttal plusz extra <strong>nvidia</strong> modullal ellátott kernel fordítást mutat be debian rendszeren.</em>\r\n\r\nTelepítsük fel a szüksélges csomagokat:\r\n<strong>apt-get install gcc bin86 libc6-dev bzip2 kernel-package kernel-patch-mppe kernel-source-2.6.10 tk8.3 libncurses5-dev fakeroot kernel-patch-mppe kernel-patch-bootsplash bootsplash bootsplash-theme-tuxinfo-debian</strong>\r\nExtra apt forrás szükséges!\r\n<strong>#bootsplash unstable\r\ndeb http://www.bootsplash.de/files/debian unstable main\r\ndeb-src http://www.bootsplash.de/files/debian unstable main</strong>\r\n(/etc/apt/sources.list -hez hozzáadandó sorok)\r\n\r\nHát akkor hajrá, tömörítsük ki a kernel forrást:\r\n<strong>cd /usr/src\r\ntar xjf kernel-source-2.6.10.tar.bz2\r\nln -s kernel-source-2.6.10 linux</strong>\r\n'
+excerpt: 'Kis telepítési mini jegyzet pptp számára mppe folttal, bootsplash folttal
+  plusz extra nvidia modullal ellátott kernel fordítást mutat be debian rendszeren.'
 title: kernel debian csomag készités 2.6.10
 aliases:
 - /node/5/
 - /story/5/
 ---
-<em>A következő kis telepítési mini jegyzet pptp számára <strong>mppe</strong> folttal, <strong>bootsplash</strong> folttal plusz extra <strong>nvidia</strong> modullal ellátott kernel fordítást mutat be debian rendszeren.</em>
+*A következő kis telepítési mini jegyzet pptp számára `mppe` folttal, `bootsplash` folttal plusz extra `nvidia` modullal ellátott kernel fordítást mutat be debian rendszeren.*
 
 Telepítsük fel a szüksélges csomagokat:
 `apt-get install gcc bin86 libc6-dev bzip2 kernel-package kernel-patch-mppe kernel-source-2.6.10 tk8.3 libncurses5-dev fakeroot kernel-patch-mppe kernel-patch-bootsplash bootsplash bootsplash-theme-tuxinfo-debian`

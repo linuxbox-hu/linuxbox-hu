@@ -52,5 +52,5 @@ Pin-Priority: 600
 ```
 
 Ezután már használhatjuk is a testing vagy unstable csomagokat is:
-Így: <strong>apt-get -t testing install <csomag></strong>
-avagy így: <strong>apt-get install <csomag>/unstable</strong>
+Így: `apt-get -t testing install <csomag>`
+avagy így: `apt-get install <csomag>/unstable`

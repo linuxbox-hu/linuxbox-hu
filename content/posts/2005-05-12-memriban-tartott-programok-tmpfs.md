@@ -23,4 +23,4 @@ Mire is lehet ezt használni?
 
 De van aki a /tmp vagy a /var/tmp mount pontját helyezi így memóriába, igy adva sebességnövekedési lehetőséget azon alkalmazásoknak, amelyek sokat használják ezt a területet.
 
-tmpfs dokumentació: <strong>/<kernel forrás>/Documentation/filesystems/tmpfs</strong> állományban.
+tmpfs dokumentació: `/<kernel forrás>/Documentation/filesystems/tmpfs` állományban.
