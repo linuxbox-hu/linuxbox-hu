@@ -4,7 +4,7 @@ draft: false
 layout: page
 menu:
   main:
-    name: About
+    name: Bemutatkozás
     weight: 5
     pre: fa-info-circle
 ---

@@ -2,7 +2,7 @@
 title: "Tags"
 menu:
   main:
-    name: Tags
+    name: Címkék
     weight: 3
     pre: fa-tags
 ---

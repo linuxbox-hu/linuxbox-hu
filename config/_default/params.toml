@@ -1,10 +1,9 @@
 # boolean type, the global switch for TOC in posts.
 toc = true
-# the avatar on sidebar, relative to /assets. No avatar image exists in
-# this repo yet (was already a dead reference under the old LoveIt
-# config too - /images/avatar.png never existed) - using the theme's
-# bundled default until a real one is supplied.
-avatar = "img/commons/avatar.jpg"
+# the avatar on sidebar. Not a Hugo Pipes asset (lives under static/,
+# not assets/), so this resolves via the template's absURL fallback -
+# same value the Jekyll site's Chirpy config already uses.
+avatar = "assets/img/logos/linuxbox-logo-new-dark-512.png"
 author = "kecsi"
 
 [assets]
@@ -17,12 +16,17 @@ author = "kecsi"
 
 [social]
   name = "kecsi"
-  url = "https://github.com/kecskemethy"
+  url = "https://github.com/linuxbox-hu"
 
 [[social.links]]
   type = "github"
-  id = "kecskemethy"
+  id = "linuxbox-hu"
   icon = "fab fa-github"
+
+[[social.links]]
+  type = "custom"
+  id = "javascript:location.href = 'mailto:' + ['kecsi','linuxbox.hu'].join('@')"
+  icon = "fas fa-envelope"
 
 [[social.links]]
   type = "rss"
