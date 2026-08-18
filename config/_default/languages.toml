@@ -1,6 +1,6 @@
 [hu]
-  languageName = "Magyar"
-  languageCode = "hu"
+  label = "Magyar"
+  locale = "hu"
   weight = 1
   title = "linuxbox.hu"
   [hu.params]

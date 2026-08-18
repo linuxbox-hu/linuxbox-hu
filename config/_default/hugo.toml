@@ -20,3 +20,14 @@ enableEmoji = true
 [module]
   [[module.imports]]
     path = "github.com/geekifan/hugo-theme-chirpy"
+
+# Hugo 0.165 started denying raw text/html content files by default
+# (content/archives/index.html, the theme's own documented pattern, needs
+# it). allowContent's own default is a single deny rule,
+# `['! ^text/html$']`; a deny-only list implicitly allows everything it
+# doesn't match, so replacing it with a deny rule that matches nothing
+# effectively allows everything, text/html included. (Tested and ruled
+# out: a literal `[]`, or a positive `['^text/html$']`, both act as a
+# strict allow-only whitelist and end up blocking markdown content too.)
+[security]
+  allowContent = ['! ^nonexistent/type$']
