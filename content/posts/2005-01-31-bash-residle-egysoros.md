@@ -9,6 +9,8 @@ aliases:
 - /node/3/
 - /story/3/
 ---
-<strong>while (echo '') do w; sleep 60; done</strong>
+```bash
+while (echo '') do w; sleep 60; done
+```
 
 Ez a pici kód percenként egy üres sort ir ki a terminálodban. Így pl. meg tudod tartani a kapcsolatod akkor is a távoli géppel, ha azon idled működik.

@@ -4,19 +4,31 @@ categories:
 - linux
 created: 1107211302
 date: '2005-01-31T00:00:00Z'
-excerpt: 'Aktualis mailsor: \r\n&nbsp;<strong>mailq</strong>\r\nLevél kivétele a sorbol:\r\n&nbsp;<strong>exim -Mrm 175TfP-0004uA-00 17CTav-0007R5-00</strong>\r\nA reject/retry azaz kézbesíthetetlen címek adatbázisának törlése:\r\n&nbsp;<strong>exim_tidydb -t 0d /var/spool/exim/ reject</strong>\r\n&nbsp;<strong>exim_tidydb -t 0d /var/spool/exim/ retry</strong>\r\nMailq újrafeldolgozás: \r\n&nbsp;<strong>exim -qf</strong>\r\n&nbsp;<strong>exim -qff</strong>\r\n'
+excerpt: 'Aktualis mailsor: mailq. Levél kivétele a sorbol: exim -Mrm <id>. A reject/retry
+  adatbázisok törlése: exim_tidydb. Mailq újrafeldolgozás: exim -qf / exim -qff.'
 title: exim mailsor kezelés
 aliases:
 - /node/2/
 - /story/2/
 ---
-Aktualis mailsor: 
-&nbsp;<strong>mailq</strong>
+Aktualis mailsor:
+```bash
+mailq
+```
+
 Levél kivétele a sorbol:
-&nbsp;<strong>exim -Mrm 175TfP-0004uA-00 17CTav-0007R5-00</strong>
+```bash
+exim -Mrm 175TfP-0004uA-00 17CTav-0007R5-00
+```
+
 A reject/retry azaz kézbesíthetetlen címek adatbázisának törlése:
-&nbsp;<strong>exim_tidydb -t 0d /var/spool/exim/ reject</strong>
-&nbsp;<strong>exim_tidydb -t 0d /var/spool/exim/ retry</strong>
-Mailq újrafeldolgozás: 
-&nbsp;<strong>exim -qf</strong>
-&nbsp;<strong>exim -qff</strong>
+```bash
+exim_tidydb -t 0d /var/spool/exim/ reject
+exim_tidydb -t 0d /var/spool/exim/ retry
+```
+
+Mailq újrafeldolgozás:
+```bash
+exim -qf
+exim -qff
+```
