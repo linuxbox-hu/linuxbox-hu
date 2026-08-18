@@ -4,7 +4,7 @@ categories:
 - linux
 created: 1263546095
 date: '2010-01-15T00:00:00Z'
-excerpt: 'Csatolok egy messze nem teljes listát - de az üzleti IP címek egy része benne van - a lista forrása: <a href="http://www.nirsoft.net/countryip/hu.html">nirsoft</a>.\r\nAhogy látom hiányoznak belőle például az egyetemi hálózati tartományok - melyet angolul "academic" jelzővel illetnek - de ettől még érdemes megjegyezni, hogy valaki már gyűjtögetett ilyen információkat... \r'
+excerpt: 'Csatolok egy messze nem teljes listát - de az üzleti IP címek egy része benne van - a lista forrása: nirsoft . Ahogy látom hiányoznak belőle például az egyetemi hálózati tartományok - melyet angolul "academic" jelzővel illetnek - de ettől még érdemes megjegyezni, hogy valaki már gyűjtögetett ilyen információkat...'
 title: Magyar IPv4 címtartományok listája
 aliases:
 - /node/647/

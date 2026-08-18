@@ -3,7 +3,7 @@ author: grgbox
 categories: []
 created: 1236755516
 date: '2009-03-11T00:00:00Z'
-excerpt: 'Egy VCD replikálása miatt vettem elő ezt az általam már régen is használt modult.\r\nLényege, hogy kernelbe illesztés után a cdfs tipussal felcsatolt lemezeket ISO-image ként kapjuk meg.\r\n\r\nHogyan tegyünk szert a modulra?\r\n\r\nKapjuk le a  csomagot.\r\n~# apt-get install cdfs-src\r\n\r\nmodule-assistant segítségével ferdítsük be a modult.\r\n~# module-assistant\r\n\r\nSELECT > válasszuk ki a cdfs modult\r'
+excerpt: Egy VCD replikálása miatt vettem elő ezt az általam már régen is használt modult. Lényege, hogy kernelbe illesztés után a cdfs tipussal felcsatolt lemezeket ISO-image ként kapjuk meg. Hogyan tegyünk szert a modulra? Kapjuk le a csomagot. ~# apt-get install cdfs-src module-assistant segítségével ferdítsük be a modult. ~# module-assistant SELECT > válasszuk ki a cdfs modult
 title: CDfs Debian alatt
 aliases:
 - /blog/598/

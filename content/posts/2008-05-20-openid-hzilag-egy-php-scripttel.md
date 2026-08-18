@@ -4,7 +4,7 @@ categories:
 - linux
 created: 1211293561
 date: '2008-05-20T00:00:00Z'
-excerpt: 'Mostanában egyre több oldal ajánlja fel belépési mechanizmusként az [http://openid.net/ OpenID]-t, amivel is egy elosztott azonosítási rendszerhez jutunk.\r\n\r\nCsakhogy szükség van arra, hogy valaki azonosítson. Én nagyon nem szeretném, ha engem olyan szerveren tartanának nyilván amit nem én felügyelek, főleg akkor ha az ott tárolt adataimmal sok weboldalhoz, alkalmazáshoz hozzáférhetnek - esetleg a tudtom nélkül.\r\n'
+excerpt: Mostanában egyre több oldal ajánlja fel belépési mechanizmusként az [http://openid.net/ OpenID]-t, amivel is egy elosztott azonosítási rendszerhez jutunk. Csakhogy szükség van arra, hogy valaki azonosítson. Én nagyon nem szeretném, ha engem olyan szerveren tartanának nyilván amit nem én felügyelek, főleg akkor ha az ott tárolt adataimmal sok weboldalhoz, alkalmazáshoz hozzáférhetnek - esetleg a tudtom nélkül.
 title: OpenID házilag egy PHP scripttel
 aliases:
 - /node/515/

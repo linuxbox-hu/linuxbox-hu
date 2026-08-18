@@ -4,7 +4,7 @@ categories:
 - linux
 created: 1194604767
 date: '2007-11-09T00:00:00Z'
-excerpt: 'Megszokhattuk az öletes szoftvereket a linux közösségben, ugye?!\r\nItt van egy újabb amihez hasonlóról én még nem hallottam: <a href="http://blueproximity.sourceforge.net">BlueProximity</a> egy kékfog szerkentyű(pl. mobiltelefon) távolságát folyamatosan méregető szoftver. Ha a kütyü eltávolodik a géptől ahol fut a progi akkor automatikusan lezárja a GNOME grafikus felhasználói felületünket védve azt kíváncsi szemektől, amikor újra közeledik a figyelt tárgy akkor pedig automatikusan feloldja a zárt. Brilliáns biztonsági szoftvernek tartom mivel nem zavaró!\r'
+excerpt: 'Megszokhattuk az öletes szoftvereket a linux közösségben, ugye?! Itt van egy újabb amihez hasonlóról én még nem hallottam: BlueProximity egy kékfog szerkentyű(pl. mobiltelefon) távolságát folyamatosan méregető szoftver. Ha a kütyü eltávolodik a géptől ahol fut a progi akkor automatikusan lezárja a GNOME grafikus felhasználói felületünket védve azt kíváncsi szemektől, amikor újra közeledik a figyelt tárgy akkor pedig automatikusan feloldja a zárt. Brilliáns biztonsági szoftvernek tartom mivel nem zavaró!'
 title: Automatikus asztal zárolás; BlueProximity
 aliases:
 - /node/451/

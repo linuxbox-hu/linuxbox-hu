@@ -4,13 +4,7 @@ categories:
 - linux
 created: 1117644133
 date: '2005-06-01T00:00:00Z'
-excerpt: |
-  Ez egy egész pofás kis, <strong>konzolos</strong> jelszó kezelő program, ami a gpg-t használja fel, hogy az adatbázist titkosítsa, méghozzá az illető nyilvános kulcsával.
-  
-  Az adatbázis <strong>XML</strong> formában van gzippel tömörítve tárolva.
-  
-  A program felépítése viszonylag egyszerű, tetszőleges szintre bonthatjuk le a jelszavakat.
-  Például az alapértelmezett struktúra (ami változtatható):
+excerpt: 'Ez egy egész pofás kis, konzolos jelszó kezelő program, ami a gpg-t használja fel, hogy az adatbázist titkosítsa, méghozzá az illető nyilvános kulcsával. Az adatbázis XML formában van gzippel tömörítve tárolva. A program felépítése viszonylag egyszerű, tetszőleges szintre bonthatjuk le a jelszavakat. Például az alapértelmezett struktúra (ami változtatható):'
 title: Console Password Manager
 aliases:
 - /node/74/

@@ -4,7 +4,7 @@ categories:
 - debian
 created: 1111702838
 date: '2005-03-24T00:00:00Z'
-excerpt: 'Amennyiben a munkahelyi belső hálózatot csak m$ VPN-en keresztül éred el a pptp használatát ajánlom.\r\n\r\nElőször is szükséged lesz az előző kernel készítés cikkben is emlegett mmpe kernel foltra és még jópár másik alap kernel modulra. Egészen pontosan:\r\n<strong>ip_gre, ppp_mppe, ppp_deflate, sha1, arc4</strong>\r\n\r\nEzután jöhet a kapcsolatot és minden mást kezelő pptpconfig és az általa használt util csomag telpítése:\r\n\r\npptpconfig extra apt forrásból szerezhető csak be egyenlőre:\r\n<strong># James Cameron''s PPTP GUI packaging\r\ndeb http://quozl.netrek.org/pptp/pptpconfig ./</strong>\r'
+excerpt: 'Amennyiben a munkahelyi belső hálózatot csak m$ VPN-en keresztül éred el a pptp használatát ajánlom. Először is szükséged lesz az előző kernel készítés cikkben is emlegett mmpe kernel foltra és még jópár másik alap kernel modulra. Egészen pontosan: ip_gre, ppp_mppe, ppp_deflate, sha1, arc4 Ezután jöhet a kapcsolatot és minden mást kezelő pptpconfig és az általa használt util csomag telpítése: pptpconfig extra apt forrásból szerezhető csak be egyenlőre: # James Cameron''s PPTP GUI packaging deb http://quozl.netrek.org/pptp/pptpconfig ./'
 title: Microsoft-os VPN használata; pptp
 aliases:
 - /node/49/

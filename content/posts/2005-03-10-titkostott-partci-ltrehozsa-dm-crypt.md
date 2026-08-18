@@ -4,10 +4,7 @@ categories:
 - linux
 created: 1110484869
 date: '2005-03-10T00:00:00Z'
-excerpt: |
-  A dolog lényege annyi, hogy egy titkosítási módszerrel és kulccsal vagy jelszóval létrehozunk egy virtuális eszközt amin keresztül használjuk a partíciónkat.
-  
-  Mielőtt nekilátunk ellenőrizzük, hogy van-e <em>dmsetup</em> csomagunk telepítve és van-e <em>dm-crypt</em> kernel modulunk.
+excerpt: A dolog lényege annyi, hogy egy titkosítási módszerrel és kulccsal vagy jelszóval létrehozunk egy virtuális eszközt amin keresztül használjuk a partíciónkat. Mielőtt nekilátunk ellenőrizzük, hogy van-e dmsetup csomagunk telepítve és van-e dm-crypt kernel modulunk.
 title: Titkosított partíció létrehozása; dm-crypt
 aliases:
 - /node/36/

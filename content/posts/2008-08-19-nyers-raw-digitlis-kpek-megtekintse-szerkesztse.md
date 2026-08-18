@@ -4,7 +4,7 @@ categories:
 - x
 created: 1219151901
 date: '2008-08-19T00:00:00Z'
-excerpt: 'Ez idáig nem nagyon sikerült nyers képeimet gyorsan megnézni Linux alatt, mert:\r\n- vagy csak az icipici előnézeti képet mutatta a program (igaz gyorsan)\r\n- vagy konvertálni kellett a képet, ami viszonylag időigényes feladat\r\n\r\nKicsit körbenézve az alábbiakat találtam (a leggyorsabb legelől):\r'
+excerpt: 'Ez idáig nem nagyon sikerült nyers képeimet gyorsan megnézni Linux alatt, mert: - vagy csak az icipici előnézeti képet mutatta a program (igaz gyorsan) - vagy konvertálni kellett a képet, ami viszonylag időigényes feladat Kicsit körbenézve az alábbiakat találtam (a leggyorsabb legelől):'
 title: Nyers (raw) digitális képek megtekintése, szerkesztése
 aliases:
 - /node/543/

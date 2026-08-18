@@ -4,17 +4,7 @@ categories:
 - debian
 created: 1152200214
 date: '2006-07-06T00:00:00Z'
-excerpt: |
-  A már ismert <a href="http://fuse.sourceforge.net/">fuse</a> kernel modullal fel tudunk csatolni távoli fájlrendszereket az sshd démont használva <a href="http://fuse.sourceforge.net/sshfs.html">sshfs</a> ségítségével.
-  1. Pl. debian rendszeren a szoftver telepítése:
-  <code> apt-get install sshfs</code>
-  2. Majd ellenőrizzük be van-e töltve a fuse kernel modul:
-  <code>modprobe fuse</code>
-  3. Adjuk be felhasználónk a fuse csoportba:
-  <code>usermod -G fuse felhasznalo</code>
-  4. Majd neki is eshetünk használni a dolgot:
-  <code>mkdir ~/remote_folder
-  sshfs user1@remote_server:/tmp ~/remote_folder</code>
+excerpt: 'A már ismert fuse kernel modullal fel tudunk csatolni távoli fájlrendszereket az sshd démont használva sshfs ségítségével. 1. Pl. debian rendszeren a szoftver telepítése: apt-get install sshfs 2. Majd ellenőrizzük be van-e töltve a fuse kernel modul: modprobe fuse 3. Adjuk be felhasználónk a fuse csoportba: usermod -G fuse felhasznalo 4. Majd neki is eshetünk használni a dolgot: mkdir ~/remote_folder sshfs user1@remote_server:/tmp ~/remote_folder'
 title: 'sshfs - távoli fájlrendzser felcsatolása biztonságos módon'
 aliases:
 - /node/176/

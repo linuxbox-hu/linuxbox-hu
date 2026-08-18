@@ -3,7 +3,7 @@ author: szimszon
 categories: []
 created: 1279481014
 date: '2010-07-18T00:00:00Z'
-excerpt: 'Ha valakinek van egy Andoridos telefonja és szeret túrázni akkor jöhet jól a Trekbuddy program. Market-ből letölthető és java-s eszközzel lehet térképet faragni hozzá, akár Magyar túristatérképet is...\r\n\r\nProgram amivel térképet lehet készíteni hozzá: http://www.trekbuddy.net/forum/viewtopic.php?t=3755 (Ha már elavult lenne, akkor a fórumban lépjünk egyet fel)\r\n\r'
+excerpt: 'Ha valakinek van egy Andoridos telefonja és szeret túrázni akkor jöhet jól a Trekbuddy program. Market-ből letölthető és java-s eszközzel lehet térképet faragni hozzá, akár Magyar túristatérképet is... Program amivel térképet lehet készíteni hozzá: http://www.trekbuddy.net/forum/viewtopic.php?t=3755 (Ha már elavult lenne, akkor a fórumban lépjünk egyet fel)'
 title: 'TrekBuddy - Magyar túristatérkép Androidra'
 aliases:
 - /blog/669/

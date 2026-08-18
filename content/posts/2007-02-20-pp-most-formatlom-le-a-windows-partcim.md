@@ -3,7 +3,7 @@ author: kecsi
 categories: []
 created: 1172001964
 date: '2007-02-20T00:00:00Z'
-excerpt: 'Feladom a játék oprendszerem..... miközben böngészgettem a neten és ezt találtam: <img src="/files/linuxonthewall.jpg" alt="hehhe"/>'
+excerpt: 'Feladom a játék oprendszerem..... miközben böngészgettem a neten és ezt találtam:'
 title: Épp most formatálom le a windows partícióm...
 aliases:
 - /blog/312/

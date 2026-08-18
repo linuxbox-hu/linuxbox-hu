@@ -4,9 +4,7 @@ categories:
 - linux
 created: 1113248639
 date: '2005-04-11T00:00:00Z'
-excerpt: |
-  Megtaláltam azt a kis <a href="http://www.sentex.net/~mwandel/jhead/">eszközt</a> ami magadja azt a szolgáltatást amit rég hiányoltam kedvenc fénykép <a href="http://marginalhacks.com/Hacks/album/">album</a> készítő alkalmazásomból. 
-  Jó bonyolultan leírtam mi? :) 
+excerpt: Megtaláltam azt a kis eszközt ami magadja azt a szolgáltatást amit rég hiányoltam kedvenc fénykép album készítő alkalmazásomból. Jó bonyolultan leírtam mi? :)
 title: JPG automatikus forgatása helyzet alapján; jhead
 aliases:
 - /node/53/

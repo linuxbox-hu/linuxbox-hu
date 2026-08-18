@@ -4,7 +4,7 @@ categories:
 - linux
 created: 1126209441
 date: '2005-09-08T00:00:00Z'
-excerpt: 'Ez a neve egy boot CDnek vagy floppynak <a href="http://www.tux.org/pub/people/kent-robotti/looplinux/rip/">(R)ecovery (I)s (P)ossible!</a> amit igencsak hasznosnak találok. Most jött ki a legfrissebb verzió pár napja: </strong>14.3</strong> Szóval már sok verziót megért kis gyűjtemény sok hasznos kis programot tartalmaz: partimage/partimaged, parted,\r\ndump/restore, reiserfsck, fsck.reiser4, fdisk, cfdisk, sfdisk, mke2fs,\r\ne2fsck, tune2fs, debugfs, jfs_mkfs, jfs_fsck, mkfs.xfs, xfs_repair,\r\nxfsdump/restore, cdrecord/dvdrecord, mkisofs, dvd+rw-format, growisofs,\r\nntfsresize, mkntfs, ntfsclone, lynx, links, mutt, fetchmail, ncftp,\r'
+excerpt: 'Ez a neve egy boot CDnek vagy floppynak (R)ecovery (I)s (P)ossible! amit igencsak hasznosnak találok. Most jött ki a legfrissebb verzió pár napja: 14.3 Szóval már sok verziót megért kis gyűjtemény sok hasznos kis programot tartalmaz: partimage/partimaged, parted, dump/restore, reiserfsck, fsck.reiser4, fdisk, cfdisk, sfdisk, mke2fs, e2fsck, tune2fs, debugfs, jfs_mkfs, jfs_fsck, mkfs.xfs, xfs_repair, xfsdump/restore, cdrecord/dvdrecord, mkisofs, dvd+rw-format, growisofs, ntfsresize, mkntfs, ntfsclone, lynx, links, mutt, fetchmail, ncftp,'
 title: Visszaállítás lehetséges
 aliases:
 - /node/97/

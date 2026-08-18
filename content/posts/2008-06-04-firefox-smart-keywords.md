@@ -4,12 +4,7 @@ categories:
 - firefox
 created: 1212587469
 date: '2008-06-04T00:00:00Z'
-excerpt: |+
-  A legtöbb firefox felhasználó tud a könyvjelzőkhöz hozzáadható gyorsítókról pl.
-  <img src="/sites/default/files/slashdot1.png" alt="slashdot1"/>
-  azaz ha csak a gyorsítónak beállított /. -ot irjuk a címsorba akkor is a slashdot.org-ra navigálunk mivel a böngészőnk lecseréli a címsorban szereplő gyorsítót így:
-  <img src="/sites/default/files/slashdot2.png" alt="slashdot2"/>
-
+excerpt: 'A legtöbb firefox felhasználó tud a könyvjelzőkhöz hozzáadható gyorsítókról pl. azaz ha csak a gyorsítónak beállított /. -ot irjuk a címsorba akkor is a slashdot.org-ra navigálunk mivel a böngészőnk lecseréli a címsorban szereplő gyorsítót így:'
 title: Firefox Smart Keywords
 aliases:
 - /node/521/

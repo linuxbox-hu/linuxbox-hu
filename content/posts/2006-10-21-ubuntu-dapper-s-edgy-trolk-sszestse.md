@@ -3,7 +3,7 @@ author: vaskalap
 categories: []
 created: 1161421220
 date: '2006-10-21T00:00:00Z'
-excerpt: '#------------------------------------------------------------------------------\r\n# Bonfire avagy Brasero ubuntu alá, CD-író progi\r\n# GPG kulcs az apt-getnek\r\n# <code>wget -q http://mrpouit.tuxfamily.org/12B83718.gpg -O- | sudo apt-key add -</code>\r\n\r\n# deb http://mrpouit.tuxfamily.org dapper-pouit contrib\r\n# deb-src http://mrpouit.tuxfamily.org dapper-pouit contrib\r\n\r\n<code>deb http://mrpouit.tuxfamily.org edgy-pouit extra</code>\r\n<code>deb-src http://mrpouit.tuxfamily.org edgy-pouit extra</code>\r\n#------------------------------------------------------------------------------\r\n# Beleakadtam a debuntu Dapper Drake és Edgy Eft deb csomag repozitorijába.\r'
+excerpt: '#------------------------------------------------------------------------------ # Bonfire avagy Brasero ubuntu alá, CD-író progi # GPG kulcs az apt-getnek # wget -q http://mrpouit.tuxfamily.org/12B83718.gpg -O- | sudo apt-key add - # deb http://mrpouit.tuxfamily.org dapper-pouit contrib # deb-src http://mrpouit.tuxfamily.org dapper-pouit contrib deb http://mrpouit.tuxfamily.org edgy-pouit extra deb-src http://mrpouit.tuxfamily.org edgy-pouit extra #------------------------------------------------------------------------------ # Beleakadtam a debuntu Dapper Drake és Edgy Eft deb csomag repozitorijába.'
 title: Ubuntu dapper és edgy tárolók összesítése
 aliases:
 - /blog/225/

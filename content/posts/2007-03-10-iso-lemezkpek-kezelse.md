@@ -3,7 +3,7 @@ author: sanya
 categories: []
 created: 1173526058
 date: '2007-03-10T00:00:00Z'
-excerpt: 'Mindenki találkozik időnként valamilyen lemezképpel. Ezek kiírása lemezre talán a legkönnyebb, de még ez a feladat is nehézségeket okozhat, ha olyan formátumot kell kiírni melyet nem ismer a programunk. Ilyen esetekben kezdődik a vadászat megfelelő szoftver után. Ilyen lehet például:\r\n- Mdf2iso\r\n- Nrg2iso\r\n- Kiso\r\n- Isomaster\r\n- AcetoneISO\r\nStb.\r\n\r'
+excerpt: 'Mindenki találkozik időnként valamilyen lemezképpel. Ezek kiírása lemezre talán a legkönnyebb, de még ez a feladat is nehézségeket okozhat, ha olyan formátumot kell kiírni melyet nem ismer a programunk. Ilyen esetekben kezdődik a vadászat megfelelő szoftver után. Ilyen lehet például: - Mdf2iso - Nrg2iso - Kiso - Isomaster - AcetoneISO Stb.'
 title: Iso lemezképek kezelése
 aliases:
 - /blog/334/

@@ -3,7 +3,7 @@ author: sanya
 categories: []
 created: 1174301987
 date: '2007-03-19T00:00:00Z'
-excerpt: 'Biztos másokkal is megtörtént, hogy kedvenc DVD lemeze lejátszása közben megakadt a lejátszás, esetleg teljesen leállt. Én egy újsághoz adott DVD filmmel jártam így és mivel meg szerettem volna tartani elkezdtem utána járni, hogyan menthető meg.\r\nFigyelmeztetés: Csak biztonsági másolat készítésére szabad használni az itt felsorolásra kerülő programokat!!!\r\n\r'
+excerpt: 'Biztos másokkal is megtörtént, hogy kedvenc DVD lemeze lejátszása közben megakadt a lejátszás, esetleg teljesen leállt. Én egy újsághoz adott DVD filmmel jártam így és mivel meg szerettem volna tartani elkezdtem utána járni, hogyan menthető meg. Figyelmeztetés: Csak biztonsági másolat készítésére szabad használni az itt felsorolásra kerülő programokat!!!'
 title: DVD biztonsági másolat
 aliases:
 - /blog/339/

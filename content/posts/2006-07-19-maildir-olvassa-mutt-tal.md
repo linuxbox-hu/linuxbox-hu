@@ -4,7 +4,7 @@ categories:
 - linux
 created: 1153304846
 date: '2006-07-19T00:00:00Z'
-excerpt: 'A minap megküzdöttem a jó öreg mutt levelzőprogramommal, mire be tudtam konfigurálni, hogy maildir formtumot tudjak vele olvasni. De sikerült, íime a konfiguráció:\r\n\r\nkecsi@rivendel:~$ cat .muttrc\r\n\r\n<code>#\r\n# User configuration file for Mutt\r\n#\r\nset mbox_type=Maildir\r\nset folder="~/Maildir/"\r\nset spoolfile=~/Maildir/\r\nset mask="!^\\.[^.]"\r\nset record="+.Sent"\r\nset postponed="+.Drafts"\r\nmailboxes `\\r\necho -n "+ "; \\r\nfor file in ~/Maildir/.*; do \\r\n  box=$(basename "$file"); \\r\n  if [ ! "$box" = ''.'' -a ! "$box" = ''..'' -a ! "$box" = ''.customflags'' \\r\n       -a ! "$box" = ''.subscriptions'' ]; then \\r'
+excerpt: 'A minap megküzdöttem a jó öreg mutt levelzőprogramommal, mire be tudtam konfigurálni, hogy maildir formtumot tudjak vele olvasni. De sikerült, íime a konfiguráció: kecsi@rivendel:~$ cat .muttrc # # User configuration file for Mutt # set mbox_type=Maildir set folder="~/Maildir/" set spoolfile=~/Maildir/ set mask="!^\\.[^.]" set record="+.Sent" set postponed="+.Drafts" mailboxes `\ echo -n "+ "; \ for file in ~/Maildir/.*; do \ box=$(basename "$file"); \ if [ ! "$box" = ''.'' -a ! "$box" = ''..'' -a ! "$box" = ''.customflags'' \ -a ! "$box" = ''.subscriptions'' ]; then \'
 title: Maildir olvasása mutt-tal
 aliases:
 - /node/179/

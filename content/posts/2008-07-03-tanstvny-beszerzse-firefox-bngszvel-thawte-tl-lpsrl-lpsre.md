@@ -4,7 +4,7 @@ categories:
 - linux
 created: 1215092533
 date: '2008-07-03T00:00:00Z'
-excerpt: '# Látogassunk el az alábbi weboldalra: ''''http://www.thawte.com/secure-email/personal-email-certificates/index.html?click=main-nav-products-email#'''' és kattintsunk a ''''''Click here'''''' szövegre a lap alján\r\n# Olvassuk el „''''Felhasználói feltételeket''''” a megnyíló ablak közepén. Ha megértettük és elfogadjuk őket, kattintsunk a ''''''next'''''' gombra. '
+excerpt: '# Látogassunk el az alábbi weboldalra: ''''http://www.thawte.com/secure-email/personal-email-certificates/index.html?click=main-nav-products-email#'''' és kattintsunk a ''''''Click here'''''' szövegre a lap alján # Olvassuk el „''''Felhasználói feltételeket''''” a megnyíló ablak közepén. Ha megértettük és elfogadjuk őket, kattintsunk a ''''''next'''''' gombra.'
 title: Tanúsítvány beszerzése Firefox böngészővel Thawte-től lépésről lépésre
 aliases:
 - /node/531/

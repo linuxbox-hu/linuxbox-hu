@@ -4,9 +4,7 @@ categories:
 - linux
 created: 1245067038
 date: '2009-06-15T00:00:00Z'
-excerpt: |
-  A <a href="http://wicd.sourceforge.net/">wicd</a> eddigi ismereteim szerint a legegyszerűbb GTK-s eszköz a hálózat beállításához.
-  Amit kínál:
+excerpt: 'A wicd eddigi ismereteim szerint a legegyszerűbb GTK-s eszköz a hálózat beállításához. Amit kínál:'
 title: Wifi (és vezetékes) hálózat beállítása a legegyszerűbben
 aliases:
 - /node/617/

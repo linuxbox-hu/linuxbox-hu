@@ -4,7 +4,7 @@ categories:
 - linux
 created: 1237539068
 date: '2009-03-20T00:00:00Z'
-excerpt: <a href="http://pacpl.sourceforge.net/">Perl Audio Converter</a> mint a neve is mutatja egy audio média konverter alkalmazás.
+excerpt: Perl Audio Converter mint a neve is mutatja egy audio média konverter alkalmazás.
 title: Perl Audio Converter
 aliases:
 - /node/602/

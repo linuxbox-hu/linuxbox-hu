@@ -4,9 +4,7 @@ categories:
 - ubuntu
 created: 1169728688
 date: '2007-01-25T00:00:00Z'
-excerpt: |
-  Johnatan Carter oldalán talált <a href="http://jonathancarter.co.za/10-games-in-the-ubuntu-universe">cikk</a> és hozzászólások alapján meglehetősen sok játékot fedezhetünk fel az ubuntu linux csomagok közt! (természetesen az universe repoból!)
-  Lássuk csak a listát:
+excerpt: 'Johnatan Carter oldalán talált cikk és hozzászólások alapján meglehetősen sok játékot fedezhetünk fel az ubuntu linux csomagok közt! (természetesen az universe repoból!) Lássuk csak a listát:'
 title: Ubuntu játék csomagok
 aliases:
 - /node/294/

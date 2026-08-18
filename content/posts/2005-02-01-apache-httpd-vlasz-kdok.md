@@ -4,7 +4,7 @@ categories:
 - linux
 created: 1107254116
 date: '2005-02-01T00:00:00Z'
-excerpt: '1xx: Információ jellegű (Informational - Request received, continuing process)\r\n2xx: Sikeres (Success - The action was successfully received, understood, and accepted)\r\n3xx: Átirányítás (Redirection - Further action must be taken in order to complete the request)\r\n4xx: Kliens hiba (Client Error - The request contains bad syntax or cannot be fulfilled)\r'
+excerpt: '1xx: Információ jellegű (Informational - Request received, continuing process) 2xx: Sikeres (Success - The action was successfully received, understood, and accepted) 3xx: Átirányítás (Redirection - Further action must be taken in order to complete the request) 4xx: Kliens hiba (Client Error - The request contains bad syntax or cannot be fulfilled)'
 title: apache/httpd válasz kódok
 aliases:
 - /node/9/

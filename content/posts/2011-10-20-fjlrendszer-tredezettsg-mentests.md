@@ -4,8 +4,7 @@ categories:
 - linux
 created: 1319101039
 date: '2011-10-20T00:00:00Z'
-excerpt: |
-  Érdekes program a <a href="http://www.vleu.net/shake/">shake</a>. A működő rendszer (felcsatolt fájlrendszer) kiválasztott fájljait, könyvtárait képes defragmentálni úgy, hogy egyszerűen újraírja a fájlokat.
+excerpt: Érdekes program a shake . A működő rendszer (felcsatolt fájlrendszer) kiválasztott fájljait, könyvtárait képes defragmentálni úgy, hogy egyszerűen újraírja a fájlokat.
 title: Fájlrendszer töredezettség-mentesítés
 aliases:
 - /node/705/

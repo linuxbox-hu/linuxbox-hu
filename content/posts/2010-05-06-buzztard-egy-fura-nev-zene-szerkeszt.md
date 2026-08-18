@@ -4,7 +4,7 @@ categories:
 - x
 created: 1273134651
 date: '2010-05-06T00:00:00Z'
-excerpt: 'Látva az <a href="/audacity">Audacity</a> zene szerkesztőről készült  cikk népszerűségét  - jó ideje tartja a toplista élén elfoglalt helyét - bemutatnék egy újabbat.\r'
+excerpt: Látva az Audacity zene szerkesztőről készült cikk népszerűségét - jó ideje tartja a toplista élén elfoglalt helyét - bemutatnék egy újabbat.
 title: Buzztard egy fura nevű zene szerkesztő
 aliases:
 - /node/662/

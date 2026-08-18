@@ -4,10 +4,7 @@ categories:
 - ubuntu
 created: 1207298630
 date: '2008-04-04T00:00:00Z'
-excerpt: |
-  <a href="http://www.ubuntugeek.com/crypt-manager-an-encrypted-folder-manager-for-ubuntu-linux.html">Ubuntugeek</a> -en akadtam a <a href="http://code.google.com/p/crypt-manager/">Crypt manager</a>-re ami könyvtárak titkosításához ad grafikus felületet.
-  
-  A <a href="http://code.google.com/p/crypt-manager/downloads/list">honlapon van bináris debian csomag letöltési</a> lehetőség de a svn verzió telepítése sem túl bonyolult (Ubuntura):
+excerpt: 'Ubuntugeek -en akadtam a Crypt manager -re ami könyvtárak titkosításához ad grafikus felületet. A honlapon van bináris debian csomag letöltési lehetőség de a svn verzió telepítése sem túl bonyolult (Ubuntura):'
 title: Crypt manager aka Conceal
 aliases:
 - /node/485/

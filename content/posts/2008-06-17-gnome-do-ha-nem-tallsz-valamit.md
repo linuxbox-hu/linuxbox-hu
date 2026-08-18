@@ -3,10 +3,7 @@ author: leslie
 categories: []
 created: 1213663994
 date: '2008-06-17T00:00:00Z'
-excerpt: |-
-  Dicsérni fogom, pedig csak pár órája futottam véletlen bele a Gnome-do nevü programba. így még előjöhetnek komoly hiányosságok, de amit eddig láttam belőle...
-  
-  <p><a href="http://linuxbox.hu/sites/linuxbox.hu/files/gnomedo1.png"><img src="http://linuxbox.hu/sites/linuxbox.hu/files/gnomedo1.png"></a> </p>
+excerpt: Dicsérni fogom, pedig csak pár órája futottam véletlen bele a Gnome-do nevü programba. így még előjöhetnek komoly hiányosságok, de amit eddig láttam belőle...
 title: 'Gnome Do - Ha nem találsz valamit'
 aliases:
 - /blog/525/

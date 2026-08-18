@@ -4,7 +4,7 @@ categories:
 - x
 created: 1107254303
 date: '2005-02-01T00:00:00Z'
-excerpt: 'A második X példány indítása: <strong>startx -- :1</strong>\r\nharmadik : <strong>startx -- :2</strong>'
+excerpt: 'A második X példány indítása: startx -- :1 harmadik : startx -- :2'
 title: Újabb X konzol indítás
 aliases:
 - /node/10/

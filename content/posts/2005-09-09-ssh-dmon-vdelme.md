@@ -4,7 +4,7 @@ categories:
 - linux
 created: 1126296389
 date: '2005-09-09T00:00:00Z'
-excerpt: 'Manapság az interneten robotok kutatnak a gyenge jelszavas felhasználók shelljei után. Meglehetősen kellemetlen dolog mikor látjuk a logjainkban a sikertelen belépési kísérleteket, mikor próbálgatják kitalálni a felhasználóink a jelszavát, usernevét.\r\n\r\nTermészetesen tudunk védekezni a probléma ellen.\r\nKét fejta egyszerű megoldás is van:\r\n\r\n1. Beállíthatunk egy speciálisan erre fejlesztett ssh démon konfigurációs paramétert: <strong>MaxStartups</strong>\r\n <strong>/etc/ssh/sshd_config</strong> konfigurációs állomány végén. További információt kahatunk a manuálokból. man sshd_config\r'
+excerpt: 'Manapság az interneten robotok kutatnak a gyenge jelszavas felhasználók shelljei után. Meglehetősen kellemetlen dolog mikor látjuk a logjainkban a sikertelen belépési kísérleteket, mikor próbálgatják kitalálni a felhasználóink a jelszavát, usernevét. Természetesen tudunk védekezni a probléma ellen. Két fejta egyszerű megoldás is van: 1. Beállíthatunk egy speciálisan erre fejlesztett ssh démon konfigurációs paramétert: MaxStartups /etc/ssh/sshd_config konfigurációs állomány végén. További információt kahatunk a manuálokból. man sshd_config'
 title: SSH démon védelme
 aliases:
 - /node/98/

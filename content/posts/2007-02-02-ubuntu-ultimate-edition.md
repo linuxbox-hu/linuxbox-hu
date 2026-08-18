@@ -4,7 +4,7 @@ categories:
 - ubuntu
 created: 1170413667
 date: '2007-02-02T00:00:00Z'
-excerpt: 'Hogy mi is az <a href="http://ubuntusoftware.info/ultimate/index.html">Ubuntu Ultimate Edition</a>: ez egy Ubuntu Edgy Eft a következő szoftverekkel előre megspécizve, aka egy ideális DVD-s telepítő hálózat nélküli Ubuntu telepítéshez! Na lássuk csak a tartalmát:\r\n'
+excerpt: 'Hogy mi is az Ubuntu Ultimate Edition : ez egy Ubuntu Edgy Eft a következő szoftverekkel előre megspécizve, aka egy ideális DVD-s telepítő hálózat nélküli Ubuntu telepítéshez! Na lássuk csak a tartalmát:'
 title: Ubuntu Ultimate Edition
 aliases:
 - /node/300/

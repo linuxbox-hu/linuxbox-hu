@@ -3,10 +3,7 @@ author: leslie
 categories: []
 created: 1222852792
 date: '2008-10-01T00:00:00Z'
-excerpt: |-
-  Hosszas béta fázist követően elindult az online háttértárat kínáló Dropbox. A multiplatform szolgáltatás alapcsomagja bárki által ingyenesen igénybe vehető. Alapból 2GB tárhelyet kapunk, de némi pénzért további kapacitáshoz is juthatunk.
-  
-  <p><img src="http://linuxbox.hu/files/ScFileBrowser.png"></p>
+excerpt: Hosszas béta fázist követően elindult az online háttértárat kínáló Dropbox. A multiplatform szolgáltatás alapcsomagja bárki által ingyenesen igénybe vehető. Alapból 2GB tárhelyet kapunk, de némi pénzért további kapacitáshoz is juthatunk.
 title: 'Online háttértár - DropBox'
 aliases:
 - /blog/554/

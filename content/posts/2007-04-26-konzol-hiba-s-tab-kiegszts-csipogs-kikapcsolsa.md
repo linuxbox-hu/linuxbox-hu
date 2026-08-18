@@ -4,7 +4,7 @@ categories:
 - linux
 created: 1177590865
 date: '2007-04-26T00:00:00Z'
-excerpt: 'Egyszerűen hozzunk létre a következő új sorokat az <code>/etc/inputrc</code> állományban.:\r\n<code># do not bell on tab-completion\r\nset bell-style none</code>\r\nLehet, megtalálható kikommentezve már ez a beállítás az említett állományban.'
+excerpt: 'Egyszerűen hozzunk létre a következő új sorokat az /etc/inputrc állományban.: # do not bell on tab-completion set bell-style none Lehet, megtalálható kikommentezve már ez a beállítás az említett állományban.'
 title: Konzol hiba és tab kiegészítés csipogás kikapcsolása
 aliases:
 - /node/361/

@@ -4,8 +4,7 @@ categories:
 - linux
 created: 1158742957
 date: '2006-09-20T00:00:00Z'
-excerpt: |
-  <a href="http://sourceforge.net/projects/mplayer-tools/">mplayer-tools</a> egy csokor perl szkript ami az <a href="http://www.mplayerhq.hu">mplayer</a> használatát teszi könnyebbé.  Ha TV Tunerről veszel fel, ha mozit félbehagysz megjegyzi hol hagytad abba, tudod folytatni. Plusz sorozat támogatást is ad!
+excerpt: mplayer-tools egy csokor perl szkript ami az mplayer használatát teszi könnyebbé. Ha TV Tunerről veszel fel, ha mozit félbehagysz megjegyzi hol hagytad abba, tudod folytatni. Plusz sorozat támogatást is ad!
 title: mplayer-tools
 aliases:
 - /node/205/

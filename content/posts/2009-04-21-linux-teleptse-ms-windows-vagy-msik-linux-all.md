@@ -4,12 +4,7 @@ categories:
 - linux
 created: 1240299978
 date: '2009-04-21T00:00:00Z'
-excerpt: |
-  <ul>
-  <li>Ha van egy telepített Linux disztribúciód és másikat (is) akarsz telepíteni...</li>
-  <li>Ha van egy telepített MS Windowsod és Linuxot is akarsz telepíteni... </li>
-  </ul>
-  de nem akarsz (vagy nem tudsz) telepítő CD-t/DVD-t írni akkor az <a href="http://unetbootin.sourceforge.net/">UNetbootin-t</a> neked találták ki.
+excerpt: Ha van egy telepített Linux disztribúciód és másikat (is) akarsz telepíteni... Ha van egy telepített MS Windowsod és Linuxot is akarsz telepíteni... de nem akarsz (vagy nem tudsz) telepítő CD-t/DVD-t írni akkor az UNetbootin-t neked találták ki.
 title: Linux telepítése MS Windows vagy másik Linux alól
 aliases:
 - /node/606/

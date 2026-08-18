@@ -4,8 +4,7 @@ categories:
 - linux
 created: 1129120260
 date: '2005-10-12T00:00:00Z'
-excerpt: |
-  A minap bukkantam egy irasra az <a href=""http://osnews.com/>OSNews</a> oldalon, ami egy kis segédeszköt mutatott be. Amivel a forrásból fordított programokat telepítve azok bele kerülnek a rendszer csomagkezelőjének látóterébe :)
+excerpt: A minap bukkantam egy irasra az OSNews oldalon, ami egy kis segédeszköt mutatott be. Amivel a forrásból fordított programokat telepítve azok bele kerülnek a rendszer csomagkezelőjének látóterébe :)
 title: 'Parancssoros bűvészet: CheckInstall'
 aliases:
 - /node/105/

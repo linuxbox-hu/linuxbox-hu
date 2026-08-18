@@ -4,7 +4,7 @@ categories:
 - firefox
 created: 1174727774
 date: '2007-03-24T00:00:00Z'
-excerpt: '<a href="http://mozillalinks.org/wp/category/subject/firefox3/"><img src="/files/ffx3-tuned.png" alt="ff3a3"/></a>\r\nMegérkezett a <a href="http://www.mozilla.org/projects/firefox/3.0a3/releasenotes/">3-as alfa verzió</a>, ez még persze erősen fejlesztési verzió, de tesztelgetni már lehet.\r\n<ul>Néhány újdonság: \r\n<li>animált PNG támogatás</li>\r\n<li>kezdeti offline web oldal támogatás</li>\r\n<li>oldal átirányítás(redirect) és újratöltési(reload) figyelmeztetési lehetőség bekapcsolható</li>\r\n<li>Render motor fejlesztés</li>\r\n</ul>'
+excerpt: 'Megérkezett a 3-as alfa verzió , ez még persze erősen fejlesztési verzió, de tesztelgetni már lehet. Néhány újdonság: animált PNG támogatás kezdeti offline web oldal támogatás oldal átirányítás(redirect) és újratöltési(reload) figyelmeztetési lehetőség bekapcsolható Render motor fejlesztés'
 title: Megjelent Firefox 3 Alpha 3
 aliases:
 - /node/344/

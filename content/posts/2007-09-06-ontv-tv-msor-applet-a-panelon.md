@@ -3,7 +3,7 @@ author: winters
 categories: []
 created: 1189099784
 date: '2007-09-06T00:00:00Z'
-excerpt: Nemrég akadtam egy hasznos kis programra,  az  <a href="http://johan.svedberg.com/projects/coding/ontv/">OnTV</a> "személyében" amit hozzáadhatunk a panelhez és egy kattintással megnézhetjük az éppen aktuális és a következő TV műsort. A program konfigurálása egyszerű, mert amikor hozzáadjuk a panelhez, akkor csak be kell állítani az országot, majd, hogy mely csatornák műsorát szeretném lekérdezni és már le is tölti a TV műsorok listáját az internetről, előre egy hétre.
+excerpt: Nemrég akadtam egy hasznos kis programra, az OnTV "személyében" amit hozzáadhatunk a panelhez és egy kattintással megnézhetjük az éppen aktuális és a következő TV műsort. A program konfigurálása egyszerű, mert amikor hozzáadjuk a panelhez, akkor csak be kell állítani az országot, majd, hogy mely csatornák műsorát szeretném lekérdezni és már le is tölti a TV műsorok listáját az internetről, előre egy hétre.
 title: 'OnTV - Tv műsor applet a panelon'
 aliases:
 - /blog/422/

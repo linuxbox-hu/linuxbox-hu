@@ -4,7 +4,7 @@ categories:
 - linux
 created: 1360249822
 date: '2013-02-07T00:00:00Z'
-excerpt: 'A szteganográfia (steganography) olyan eljárás, amellyel információt rejthetünk el meglévő audió- vagy kép fájlunkba úgy, hogy azok tartalma (látszólag) nem változik. Természetesen az elrejtett információt megfelelő alkalmazás segítségével visszanyerhetjük.\r\n'
+excerpt: A szteganográfia (steganography) olyan eljárás, amellyel információt rejthetünk el meglévő audió- vagy kép fájlunkba úgy, hogy azok tartalma (látszólag) nem változik. Természetesen az elrejtett információt megfelelő alkalmazás segítségével visszanyerhetjük.
 title: Adatok elrejtése hang vagy kép fájlokba
 aliases:
 - /node/853/

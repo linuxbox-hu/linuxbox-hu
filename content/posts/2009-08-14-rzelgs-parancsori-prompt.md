@@ -4,10 +4,7 @@ categories:
 - linux
 created: 1250249750
 date: '2009-08-14T00:00:00Z'
-excerpt: |
-  <a href="http://www.commandlinefu.com/commands/view/2528/smiley-face-bash-prompt">Commandlinefu</a>-n találtam egy fópofa parancssori prompt beállítást. A prompt asszerint ha helyes utasítást adtál ki mosolyog (jó pofát vág) vagy ha hibás parancsot sikerült begépelned akkor furcsán vagy szomorúan néz rád. :D
-  
-Első eredeti verzió:
+excerpt: Commandlinefu -n találtam egy fópofa parancssori prompt beállítást. A prompt asszerint ha helyes utasítást adtál ki mosolyog (jó pofát vág) vagy ha hibás parancsot sikerült begépelned akkor furcsán vagy szomorúan néz rád. :D
 title: Érzelgős parancsori prompt
 aliases:
 - /node/631/

@@ -4,9 +4,7 @@ categories:
 - x
 created: 1172606280
 date: '2007-02-27T00:00:00Z'
-excerpt: |
-  Ennyire én azért nem vagyok kényelmes, de ha már ilyen szoftver is készül, miért ne írnék róla! Tiszta M$ érzésem támadt :)
-  Mivel a <a href="http://www.webilder.org/">Webilder</a> szolgáltatásai a következők:
+excerpt: 'Ennyire én azért nem vagyok kényelmes, de ha már ilyen szoftver is készül, miért ne írnék róla! Tiszta M$ érzésem támadt :) Mivel a Webilder szolgáltatásai a következők:'
 title: 'Desktop képek letöltéséhez szoftver?! Hm lehet, hogy igen: webilder'
 aliases:
 - /node/321/

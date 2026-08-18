@@ -4,7 +4,7 @@ categories:
 - debian
 created: 1178089544
 date: '2007-05-02T00:00:00Z'
-excerpt: 'A debian hírlevélből tudom, hogy Joey Hess blogjában <a href="http://kitenet.net/~joey/blog/entry/tour_of_the_Debian_4.0_CDs/">megszámlálta és megvizsgálta</a> a debian etch CD-ket és DVD-ket így 331-et tudott összeadni  (292 CD és 39 DVD) de rámutatott hogy ezekből 324 csak ritkán használt. Valamint felhívta a figyelmet a maradék 7 többet használat cdképből létezik <a href="http://cdimage.debian.org/debian-cd/current/multi-arch/iso-dvd/">multi-architecture DVD</a> amely képes 32 és 64 bit x86 rendszerek plusz powerpc kezelésére egyben - aka 7 az 1-ben.'
+excerpt: A debian hírlevélből tudom, hogy Joey Hess blogjában megszámlálta és megvizsgálta a debian etch CD-ket és DVD-ket így 331-et tudott összeadni (292 CD és 39 DVD) de rámutatott hogy ezekből 324 csak ritkán használt. Valamint felhívta a figyelmet a maradék 7 többet használat cdképből létezik multi-architecture DVD amely képes 32 és 64 bit x86 rendszerek plusz powerpc kezelésére egyben - aka 7 az 1-ben.
 title: Debian Etch multi arhitektúrás DVD
 aliases:
 - /node/362/

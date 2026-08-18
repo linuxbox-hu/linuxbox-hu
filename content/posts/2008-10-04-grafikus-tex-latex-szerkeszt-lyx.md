@@ -3,10 +3,7 @@ author: leslie
 categories: []
 created: 1223109664
 date: '2008-10-04T00:00:00Z'
-excerpt: |-
-  <p>A <a href="http://www.lyx.org/Home"> Lyx </a> egy grafikus WYSIWYM (<strong>W</strong>hat <strong>Y</strong>ou <strong>S</strong>ee <strong>I</strong>s <strong>W</strong>hat <strong>Y</strong>ou <strong>M</strong>ean) Tex/LaTeX szerkesztő. 
-  
-  <p><img src="http://linuxbox.hu/sites/linuxbox.hu/files/main_window_sm.png" /></p>
+excerpt: A Lyx egy grafikus WYSIWYM ( W hat Y ou S ee I s W hat Y ou M ean) Tex/LaTeX szerkesztő.
 title: 'Grafikus Tex/LaTeX szerkesztő - LyX'
 aliases:
 - /blog/555/

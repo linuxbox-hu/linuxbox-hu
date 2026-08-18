@@ -3,7 +3,7 @@ author: sanya
 categories: []
 created: 1173095359
 date: '2007-03-05T00:00:00Z'
-excerpt: 'Előfordult már veled, hogy elindítottál egy letöltést és tudtad, hogy mire véget ér a letöltés már nem leszel a gép mellet és sokáig nem tudsz visszamenni kikapcsolni. Erre a problémára nyújt megoldást a gshutdown nevű program.\r\nLetöltés: <a  href=http://download.tuxfamily.org/asher256/dists/edgy/main/binary-i386/gshutdown_0.1-2ubuntu1_i386.deb>gshutdown</a>\r\nEz egy egyszerű program, mellyel időzíteni lehet a gép leállítását vagy újraindítását. Még nem volt időm kipróbálni, de nagyon kellemes kezelőfelülete van, melyet könnyű áttekinteni.\r\n\r'
+excerpt: 'Előfordult már veled, hogy elindítottál egy letöltést és tudtad, hogy mire véget ér a letöltés már nem leszel a gép mellet és sokáig nem tudsz visszamenni kikapcsolni. Erre a problémára nyújt megoldást a gshutdown nevű program. Letöltés: gshutdown Ez egy egyszerű program, mellyel időzíteni lehet a gép leállítását vagy újraindítását. Még nem volt időm kipróbálni, de nagyon kellemes kezelőfelülete van, melyet könnyű áttekinteni.'
 title: Shutdown és restart
 aliases:
 - /blog/328/

@@ -4,15 +4,7 @@ categories:
 - firefox
 created: 1181038654
 date: '2007-06-05T00:00:00Z'
-excerpt: |-
-  <p> Egyenlőre <a title="http://gmail.com/" target="_blank" href="http://gmail.com/">GMail</a> támogatással.
-  </p>
-  <p>
-    <img alt="FireGPG" src="http://firegpg.tuxfamily.org/images/little_screenshot.jpg" align="bottom" border="0" hspace="0" vspace="0" />
-    <br />
-  </p>
-  <p>Segítségével GnuPG-vel titkosított és, vagy aláírt levelet küldhetünk webmail-en keresztül.
-  </p>
+excerpt: Egyenlőre GMail támogatással. Segítségével GnuPG-vel titkosított és, vagy aláírt levelet küldhetünk webmail-en keresztül.
 title: FireGPG Firefox kiterjesztés
 aliases:
 - /node/387/

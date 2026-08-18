@@ -3,7 +3,7 @@ author: batyu
 categories: []
 created: 1263658735
 date: '2010-01-16T00:00:00Z'
-excerpt: 'Jöjjön a következő: svg2png. Inkscape-t használ parancsmódban meghívva, zenity felületen paraméterezhető, exportált terület és a kimeneti felbontás állítható.\r\nA kód:\r\n<code>#!/bin/bash \r\n#################################################\r\n#\tWHAT is svg2png ?\r\n# Script to convert svg files to png\r\n# svg2png does not modify the file which you select, it creates a new file.\r'
+excerpt: 'Jöjjön a következő: svg2png. Inkscape-t használ parancsmódban meghívva, zenity felületen paraméterezhető, exportált terület és a kimeneti felbontás állítható. A kód: #!/bin/bash ################################################# #\tWHAT is svg2png ? # Script to convert svg files to png # svg2png does not modify the file which you select, it creates a new file.'
 title: multimédia scriptek II.
 aliases:
 - /blog/650/

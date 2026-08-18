@@ -3,7 +3,7 @@ author: winters
 categories: []
 created: 1180627043
 date: '2007-05-31T00:00:00Z'
-excerpt: Az internetet böngészve egy számomra jól használható terminál emulátorra akadtam, és úgy gondoltam, megosztom másokkal is. A neve <a href="http://tilda.sourceforge.net/wiki/index.php/Contributing_to_Tilda">Tilda</a> Az érdekessége az, hogy a felső panel alól gördül le és vissza egy tetszőlegesen beállítható billentyűkombinációval.
+excerpt: Az internetet böngészve egy számomra jól használható terminál emulátorra akadtam, és úgy gondoltam, megosztom másokkal is. A neve Tilda Az érdekessége az, hogy a felső panel alól gördül le és vissza egy tetszőlegesen beállítható billentyűkombinációval.
 title: Tilda terminál emulátor
 aliases:
 - /blog/383/

@@ -4,7 +4,7 @@ categories:
 - linux
 created: 1108502889
 date: '2005-02-15T00:00:00Z'
-excerpt: <strong>find . ( -name "*.jpg" -o -name "*.gif" ) -exec do_something_wih {} ;</strong>
+excerpt: find . ( -name "*.jpg" -o -name "*.gif" ) -exec do_something_wih {} ;
 title: Állománykeresés több feltétel szerint
 aliases:
 - /node/28/

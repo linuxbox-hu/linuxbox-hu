@@ -4,12 +4,7 @@ categories:
 - linux
 created: 1147687053
 date: '2006-05-15T00:00:00Z'
-excerpt: |
-  nem kell elkeseredni, mert létezik egy okos kis eszköz, melynek neve:
-  
-  <strong>exiftags</strong>
-  
-  <a href="http://johnst.org/sw/exiftags/">http://johnst.org/sw/exiftags/</a>
+excerpt: 'nem kell elkeseredni, mert létezik egy okos kis eszköz, melynek neve: exiftags http://johnst.org/sw/exiftags/'
 title: Ha utólag vesszük észre, hogy  a kameránk órája rosszul jár...
 aliases:
 - /node/157/

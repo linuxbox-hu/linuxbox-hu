@@ -4,7 +4,7 @@ categories:
 - x
 created: 1107349005
 date: '2005-02-02T00:00:00Z'
-excerpt: 'Legszerűbben elindítod egy shellben <strong>xwininfo</strong> nevű progit majd ráböksz az ablakra aminek az infóira kíváncsi vagy.\r\n\r\nDe ha pl. én a <a href="http://www.goof.com/pcg/marc/root-tail.html">root-tail</a> log kiiró X-es alkalmazással a desktopom(Xfce) root ablakába akarok kiratni egy megadott log allományt, minden X induláskor automatikusan, akkor létrehozok egy ~/Desktop/Autostart/roottail shellszkriptet a következő tartalommal:\r\n<strong>#!/bin/bash\r'
+excerpt: 'Legszerűbben elindítod egy shellben xwininfo nevű progit majd ráböksz az ablakra aminek az infóira kíváncsi vagy. De ha pl. én a root-tail log kiiró X-es alkalmazással a desktopom(Xfce) root ablakába akarok kiratni egy megadott log allományt, minden X induláskor automatikusan, akkor létrehozok egy ~/Desktop/Autostart/roottail shellszkriptet a következő tartalommal: #!/bin/bash'
 title: Xwindow ablak informació
 aliases:
 - /node/14/

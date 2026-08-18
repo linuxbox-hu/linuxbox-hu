@@ -4,8 +4,7 @@ categories:
 - linux
 created: 1107211302
 date: '2005-01-31T00:00:00Z'
-excerpt: 'Aktualis mailsor: mailq. Levél kivétele a sorbol: exim -Mrm <id>. A reject/retry
-  adatbázisok törlése: exim_tidydb. Mailq újrafeldolgozás: exim -qf / exim -qff.'
+excerpt: 'Aktualis mailsor: mailq. Levél kivétele a sorbol: exim -Mrm . A reject/retry adatbázisok törlése: exim_tidydb. Mailq újrafeldolgozás: exim -qf / exim -qff.'
 title: exim mailsor kezelés
 aliases:
 - /node/2/

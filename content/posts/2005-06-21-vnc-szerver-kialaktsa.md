@@ -4,8 +4,7 @@ categories:
 - debian
 created: 1119378842
 date: '2005-06-21T00:00:00Z'
-excerpt: |
-  Kezdjük talán az elején. Aki nem ismeri a <a href="http://www.realvnc.com/what.html">vnc szoftvert</a> annak leírom, hogy ezzel az eszközzel egy XDCMPhez, terminal szerverhez hasonló távoli grafikus hozzáférést tudunk magunknak készíteni az X-es felületünkhöz. A szoftver lényege, hogy szinte operációs rendszer függetlenül tudunk létrehozni szervert és annak grafikus felületét el tudjuk érni bármely másik operációs rendszerről.
+excerpt: Kezdjük talán az elején. Aki nem ismeri a vnc szoftvert annak leírom, hogy ezzel az eszközzel egy XDCMPhez, terminal szerverhez hasonló távoli grafikus hozzáférést tudunk magunknak készíteni az X-es felületünkhöz. A szoftver lényege, hogy szinte operációs rendszer függetlenül tudunk létrehozni szervert és annak grafikus felületét el tudjuk érni bármely másik operációs rendszerről.
 title: vnc szerver kialakítása
 aliases:
 - /node/79/
