@@ -12,7 +12,7 @@ aliases:
 <p>
 Olvastam régen ezen az oldalon az <a href="http://linuxbox.hu/awn">AWN </a>dokkról, de csak úgy mint a szerzője az írásnak én is elég hamar meguntam a sok bugot meg a lomhaságot, ráadásul nem volt annyira szép és praktikus mint amennyire elsőre gondoltam. Azóta kipróbáltam pár hasonló alkalmazást de valahogy egyik sem volt elég stabil/szép/hasznos/gyors/..../. Most végre megtaláltam amit kerestem!
 <br/><br/>
-<center><img src="http://linuxbox.hu/sites/default/files/700px-ConfigureDocky.png" style="border: 1px solid black"/></center>
+![Docky beállítása](http://linuxbox.hu/sites/default/files/700px-ConfigureDocky.png)
 <!--break-->
 <br/>
 <br/>
