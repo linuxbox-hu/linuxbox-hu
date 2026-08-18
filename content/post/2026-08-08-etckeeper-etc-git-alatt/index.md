@@ -10,13 +10,15 @@ tags:
 - etckeeper
 - git
 - sysadmin
-title: 'etckeeper: a /etc könyvtár git alatt'
+title: 'etckeeper: a /etc könyvtár git verzió követése'
 ---
 ![git](/assets/img/logos/git-logo.png)
 
-Ha valaha módosítottál egy config fájlt a `/etc` alatt, aztán két hét múlva már nem emlékeztél mit és miért állítottál át - erre való az `etckeeper`.
+Az `etckeeper` eszközzel, könnyedén követhetjük minden konfigurációs állományunnk módosítását az `/etc` mappában.
 
-Egyetlen csomag, ami a `/etc` könyvtárat automatikusan git repóba teszi, és minden csomagkezelő (apt/dnf/pacman) művelet előtt-után automatikusan commitol. Így minden változás nyomon követhető, visszaállítható, és összehasonlítható.
+A csomag telepítéskor automatikusan git verzió követés alá helyezi az `/etc` könyvtárunkat. 
+Minden csomagkezelő (apt/dnf/pacman) művelet előtt-után automatikusan könyveli a változásokat "hook"-ok segíségével.
+Minden változás nyomon követhető, visszaállítható, és összehasonlítható.
 
 Telepítés Debian/Ubuntu-n:
 
@@ -24,15 +26,13 @@ Telepítés Debian/Ubuntu-n:
 sudo apt install etckeeper
 ```
 
-Ennyi. A `/etc` már init-elve van git repóként, és a csomagkezelő hookjai automatikusan commitolnak minden `apt install`/`apt upgrade` körül.
-
-Saját kézi változtatásnál érdemes commitolni:
+Saját kézi config változtatásnál érdemes commitolni, pl.:
 
 ```bash
 sudo etckeeper commit "sshd_config: PermitRootLogin no"
 ```
 
-Hasznos parancsok utólag:
+Hasznos parancsok használathoz:
 
 ```bash
 # mi változott mostanában?
@@ -45,6 +45,4 @@ sudo git -C /etc log -p /etc/ssh/sshd_config
 sudo git -C /etc checkout <commit> -- /etc/ssh/sshd_config
 ```
 
-> Ha több gépet is Ansible-lel (vagy bármilyen más automatizálással) kezelünk, érdemes minden gépen bekapcsolni - így egy hibás automatizált változtatás után pontosan látszik mi változott és mikor.
-
-Kis, ingyenes biztonság: nem kell több, mint egy `apt install`, és a következő "miért nem működik már megint ez a config" pillanatban össze tudod hasonlítani a mostani és a régi állapotot.
+> akár több gépre is bevezethetjük Ansible-lel (vagy hasonló "configuration management" eszközzel).
