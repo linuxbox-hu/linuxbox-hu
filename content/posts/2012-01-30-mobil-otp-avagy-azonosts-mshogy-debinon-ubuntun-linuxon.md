@@ -4,77 +4,74 @@ categories:
 - linux
 created: 1327949158
 date: '2012-01-30T00:00:00Z'
-excerpt: '<p><a href="http://en.wikipedia.org/wiki/The_Hitchhiker''s_Guide_to_the_Galaxy">„So long ago...</a>\r\n</p>\r\n\r\n<p><strong>Frissítve: 2012.02.07.</strong>Készítettem egy új <a href=''https://github.com/szimszon/motpy/''>scriptet</a></p>'
+excerpt: '„So long ago... Frissítve: 2012.02.07. Készítettem egy új scriptet.'
 title: Mobil-OTP avagy azonosítás máshogy Debiánon/Ubuntun/Linuxon...
 aliases:
 - /node/707/
 - /story/707/
 ---
-<p><a href="http://en.wikipedia.org/wiki/The_Hitchhiker's_Guide_to_the_Galaxy">„So long ago...</a>
-</p>
+[„So long ago...](http://en.wikipedia.org/wiki/The_Hitchhiker's_Guide_to_the_Galaxy)
 
-<p><strong>Frissítve: 2012.02.07.</strong>Készítettem egy új <a href='https://github.com/szimszon/motpy/'>scriptet</a></p>
-<p>...de kezdjük az elején. Két <a title="m1" href="http://tv.hir24.hu/musorinfo/sorozat/Hacktion/13394">Hacktion</a> rész között mikor felsírt a gyerek és kinn olvadt formában havazott a téli kora őszi tavaszon kinyitottam a böngészőm és azt látom, hogy kedvenc <a title="Web2py" href="http://web2py.com/">Web2py</a> web frameworkömhöz valaki készített egy <a href="https://groups.google.com/forum/#!topic/web2py/KrCzcTGYNIQ">Mobil-OTP authentikációs modult</a>...
-</p>
-<p>...hmm, Mobil-OTP, ez azért nem az <a title="OTP" href="https://www.otpbank.hu/portal/hu/fooldal">Országos Takarék Pénztár</a>, mindig is szerettem volna valamit, ha vonaton utazok, vagy nyilvános helyen be kell jelentkezni valahova, a vállam fölött ne lássák már a <em>root</em> jelszót. Mondjuk azt eddig sem, mert <em>root</em>ként nem jelentkezek be sehova. Dehát vannak azért <em>local root exploit</em>ok, mint az a napokban <a href="http://hup.hu/cikkek/20120123/mempodipper_linux_local_root_exploit_szabadon">kiderüt</a>.
-</p>
-<p>Szóval ha lenne valami, hogy olcsón, értsd 0 költséggel, hogy ne egyből a biztonsági kamera felvételén a tényleges jelszavam jelenjen meg, hanem valami ami már többször nem lesz alkalmas arra, hogy bejelentkezzen vele valaki. Na ilyen nincs. Költsége mindennek van. Ha nem anyagi akkor is a normál felhasználást bonyolító megoldásnak idő vagy egyéb vonzata akár forintosítható is. De törekedjünk a költségek csökkentésére.
-</p>
-<p>Valami több elemes azonosítás kellene. Na de mi a fene az a <a href="http://motp.sourceforge.net/">Mobil-One-Time-Password</a>?
-</p>
-<p><font face="arial"> </font>
-</p>
-<h2><font face="arial">Mobile One Time Passwords </font>
-</h2><font face="arial">
-<h1>Mobile-OTP
-</h1><strong>strong, two-factor authentication with mobile phones</strong>
-<p> <font size="-1"><a href="http://motp.sourceforge.net/#2">Standard phone and BlackBerry (J2ME)</a> <a href="http://motp.sourceforge.net/#7">iPhone</a> <a href="http://motp.sourceforge.net/#6">Google Android</a> <a href="http://motp.sourceforge.net/#7">Windows Phone 7</a> <a href="http://motp.sourceforge.net/#6">PalmOS</a> <a href="http://motp.sourceforge.net/#7">webOS</a> <a href="http://motp.sourceforge.net/#7">Maemo</a> <a href="http://motp.sourceforge.net/#7">Openmoko</a> <a href="http://motp.sourceforge.net/#6">Universal Web App</a> <a href="http://motp.sourceforge.net/#7">Windows</a> <a href="http://motp.sourceforge.net/#7">Linux</a> <a href="http://motp.sourceforge.net/#7">MacOS</a></font>
-</p>
-<p>Hát ez jó... Legtöbbször akinek olyan gondjai vannak, hogy nehogy a válla fölött nézelődve ellopják a jelszavát ilyen kemény téli időjárásban, ahol még a Mikulás szánkójáról is leolvadnak a sítalpak a kátyúkkal szabdalt <a href="http://www.cylex-tudakozo.hu/ceg-info/magyar-aszfalt-kft-42117.html">magyar aszfalt</a>on. És bár nyakunkon a <a href="http://index.hu/x.php?id=inxcl&amp;url=http://index.hu/gazdasag/magyar/2012/01/30/zabalja_a_gazt_a_teli_hideg/">szibériai fagy</a> (a cikkben -11 - -12 Cfokról beszélnek, bár ugyanez az oldal egy másik <a title="Tél a szibériai nomádok között" href="http://index.hu/tudomany/sziberia/">cikkében</a> így kezdi: „<em>Télen a hőmérő szála gyakran mínusz ötven fok alá is zuhan a közép-szibériai Tuturiban</em>” most akkor a rövid idejű -11 - -12 fok szibériai? Lehet onnan fúj majd a szél:) egyszóval nem bízhatunk abban sem ha csak szuszog mögöttünk valaki. És akkor nem beszéltünk még a <a href="http://lmgtfy.com/?q=keylogger">keylogger</a>ekről <a href="http://lmgtfy.com/?q=netcafe">net-cafe</a>kről... De vissza az eredeti témához.
-</p>
-<p> Szóval tfh és itt nem a<a href="http://www.tfh.org.uk/" class="l"> Together For The Harvest</a> -ra gondolok, hanem tegyük fel hogy rendelkezünk legalább egy mobil telefonnal (tulajdonképpen az sem kell, van pc-s kliens is). De ha már Mobile akkor maradjunk a telefonnál.
-</p>
-<p>Most akkor mi is ez?
-</p>
-<p> Ez egy két faktorú beléptetést (azonosítást) megvalósító mifene. Egyrészt szükséged van valamire amit birtokolsz, esetünkben ez a telefon; és szükséged van valamire amit tudsz, ez a PIN kód. Nagyszerű. Akkor ezzel megvagyunk.
-</p>
-<p> Na várjunk csak, honnan tudja a szerver, hogy melyik a telefonunk, meg PIN kódunk? Sehogy. A telefonnak nem ez a szerepe. A telefon tud valamit amit nekünk nem kell tudnunk, legalábbis nem fejből. <a href="http://www.imdb.com/title/tt0095953/">Esőemberek</a> előnyben.
-</p>
-<p>De akkor ez sms-be adatforgalomba kerül?
-</p>
-<p>Had mondjam végig!
-</p>
-<p>&nbsp;Szóval letöltjük a telefonra valamelyik <a title="Client-Side" href="http://motp.sourceforge.net/#6">MOTP kliens alkalmazás</a>t (client-side), nekem Androidra a <a href="https://market.android.com/details?id=net.marinits.android.droidotp">DroidOTP</a> jött be (csak 4 karakteres PIN-t támogat és csak MOTP-ot) több profilt is kezel. Miért is kell a több profil támogatás? Ugyanis ez a jóképességű eljárás abból áll, hogy indításnak 16 karakterből álló véletlenszerű betű és számsort kell megadni, ez az amire a telefon emlékszik majd helyettünk. 1 ilyen sorozat egy profilhoz tartozik. Ezt a karaktersorozatot a szervernek is ismernie kell. Ha megvan a karaktersorozat az eljárásnak szüksége van a pin kódra. Ezt a szervernek szintén előre ismernie kell. Majd a telefon veszi a <a href="http://en.wikipedia.org/wiki/Unix_time">UNIX epoch</a>-ot másodpercben - tulajdonképpen 10-es másodperc léptékben -. a pin-t és a véletlen karaktersorozatot. Ebből a három összetevőből képez egy <a href="http://en.wikipedia.org/wiki/MD5">md5 hash</a>-t és a hash első 6 karakterét megjeleníti. Ez a bejelentkezéshez használható jelszó. Szuper. Akkor nincs más hátra, mint előre. A program a telón, jó előre beélesítve, senki nem látta a véletlen karakter sorozatot, akkor mostmár jöhet a belépés bárhol.
-</p>
-<p>Upsz. És a szerver? Ez már keményebb dió. Az <a href="http://motp.sourceforge.net/">motp oldal</a>on több leírás is van <a href="http://freeradius.org/">Radius</a>-ra és <a href="http://en.wikipedia.org/wiki/Pluggable_authentication_module">PAM</a>-ra is. Most az utóbbiról beszélnék. Az is több lehetőséget kínál.
-</p>
-<p>Először a <a href="http://motp.sourceforge.net/pam_mobile_otp-0.6.1.tgz">natív</a> pam modult próbáltam, de ezt nem sikerült lefordítani.
-</p>
-<p>Másodszor van egy <a href="http://motp.sourceforge.net/PAM-script.zip">script</a> a <a href="http://sourceforge.net/projects/pam-script/">pam-script</a>-hez. A libpam-script szépen telepíthető <a href="http://ubuntu.hu/">Ubuntu</a>n de volt egy apró bökkenő, bizonyos esetekben a pam-script nem adta át a bejelentkezéshez az adatokat az otp scriptnek. Pl. ssh ment de a login, sudo esetében nem mentek át a paraméterek.
-</p>
-<p>Nini lehet egyszerűbben is. Van egy <a href="http://www.gsp.com/cgi-bin/man.cgi?section=8&amp;topic=pam_exec">pam-exec</a> és már fenn is volt, nem kellett külön telepíteni. Csakhogy a <font face="arial"><a href="http://www.gsp.com/cgi-bin/man.cgi?section=8&amp;topic=pam_exec">pam-exec</a></font> nem környezeti változóban adja át a jelszót (authtok) hanem a script alapértelmezett bemenetére.
-</p>
-<p>&nbsp;De akkor hogy is van ez? Kezdjük a <a href="http://lmgtfy.com/?q=k%E1lyha">kályhá</a>tól.
-</p></font>
-<ul>
-  <li>hozzunk létre egy könyvtárat: /usr/local/otp</li>
-  <li>és még egyet: /usr/local/otp/cache</li>
-  <li>chown -R root:root /usr/local/otp</li>
-  <li>chmod -R go-rwx /usr/local/otp</li>
-  <li>kell a kicsit módosított script (<a href="http://linuxbox.hu/sites/default/files/otp-auth-exec.txt">otp-auth-exec</a>) -- csatolmány (a <em>.txt</em> kiterjesztést szedjétek le)
-  <br /></li>
-  <li>a <a href="http://sourceforge.net/projects/pam-script/">pam-script</a>-ből ki kell másolni a otp-secrets fájlt és betenni a /usr/local/otp könyvtárba. Ebben a fájlban van benn a véletlen karaktersor és pin kód a felhasználóhoz a felhasználói névhez.</li>
-</ul>
-<p>Wow, ennyi volt.
-</p>
-<p>Hát még nem. Még meg kell gyógyítani a <font face="arial"><a href="http://en.wikipedia.org/wiki/Pluggable_authentication_module">PAM</a></font>-ot. <a href="http://ubuntu.hu/">Ubuntu</a>n én a következőket tettem (a módosítás félkövéren):
-</p>
-<p>&nbsp;--- sshd cut ---
-  <br />
-</p>
-<p><font face="courier new,courier,monospace">
+**Frissítve: 2012.02.07.** Készítettem egy új [scriptet](https://github.com/szimszon/motpy/)
+
+...de kezdjük az elején. Két [Hacktion](http://tv.hir24.hu/musorinfo/sorozat/Hacktion/13394) rész között mikor felsírt a gyerek és kinn olvadt formában havazott a téli kora őszi tavaszon kinyitottam a böngészőm és azt látom, hogy kedvenc [Web2py](http://web2py.com/) web frameworkömhöz valaki készített egy [Mobil-OTP authentikációs modult](https://groups.google.com/forum/#!topic/web2py/KrCzcTGYNIQ)...
+
+...hmm, Mobil-OTP, ez azért nem az [OTP](https://www.otpbank.hu/portal/hu/fooldal) (Országos Takarék Pénztár), mindig is szerettem volna valamit, ha vonaton utazok, vagy nyilvános helyen be kell jelentkezni valahova, a vállam fölött ne lássák már a `root` jelszót. Mondjuk azt eddig sem, mert `root`ként nem jelentkezek be sehova. Dehát vannak azért *local root exploit*ok, mint az a napokban [kiderüt](http://hup.hu/cikkek/20120123/mempodipper_linux_local_root_exploit_szabadon).
+
+Szóval ha lenne valami, hogy olcsón, értsd 0 költséggel, hogy ne egyből a biztonsági kamera felvételén a tényleges jelszavam jelenjen meg, hanem valami ami már többször nem lesz alkalmas arra, hogy bejelentkezzen vele valaki. Na ilyen nincs. Költsége mindennek van. Ha nem anyagi akkor is a normál felhasználást bonyolító megoldásnak idő vagy egyéb vonzata akár forintosítható is. De törekedjünk a költségek csökkentésére.
+
+Valami több elemes azonosítás kellene. Na de mi a fene az a [Mobil-One-Time-Password](http://motp.sourceforge.net/)?
+
+Az [motp oldalán](http://motp.sourceforge.net/) ezt írják magukról:
+
+> **Mobile One Time Passwords**
+>
+> **Mobile-OTP** — strong, two-factor authentication with mobile phones
+>
+> [Standard phone and BlackBerry (J2ME)](http://motp.sourceforge.net/#2) [iPhone](http://motp.sourceforge.net/#7) [Google Android](http://motp.sourceforge.net/#6) [Windows Phone 7](http://motp.sourceforge.net/#7) [PalmOS](http://motp.sourceforge.net/#6) [webOS](http://motp.sourceforge.net/#7) [Maemo](http://motp.sourceforge.net/#7) [Openmoko](http://motp.sourceforge.net/#7) [Universal Web App](http://motp.sourceforge.net/#6) [Windows](http://motp.sourceforge.net/#7) [Linux](http://motp.sourceforge.net/#7) [MacOS](http://motp.sourceforge.net/#7)
+
+Hát ez jó... Legtöbbször akinek olyan gondjai vannak, hogy nehogy a válla fölött nézelődve ellopják a jelszavát ilyen kemény téli időjárásban, ahol még a Mikulás szánkójáról is leolvadnak a sítalpak a kátyúkkal szabdalt [magyar aszfalt](http://www.cylex-tudakozo.hu/ceg-info/magyar-aszfalt-kft-42117.html)on. És bár nyakunkon a [szibériai fagy](http://index.hu/x.php?id=inxcl&url=http://index.hu/gazdasag/magyar/2012/01/30/zabalja_a_gazt_a_teli_hideg/) (a cikkben -11 - -12 Cfokról beszélnek, bár ugyanez az oldal egy másik [cikkében](http://index.hu/tudomany/sziberia/) így kezdi: „*Télen a hőmérő szála gyakran mínusz ötven fok alá is zuhan a közép-szibériai Tuturiban*” most akkor a rövid idejű -11 - -12 fok szibériai? Lehet onnan fúj majd a szél:) egyszóval nem bízhatunk abban sem ha csak szuszog mögöttünk valaki. És akkor nem beszéltünk még a [keylogger](http://lmgtfy.com/?q=keylogger)ekről [net-cafe](http://lmgtfy.com/?q=netcafe)kről... De vissza az eredeti témához.
+
+Szóval tfh és itt nem a [Together For The Harvest](http://www.tfh.org.uk/)-ra gondolok, hanem tegyük fel hogy rendelkezünk legalább egy mobil telefonnal (tulajdonképpen az sem kell, van pc-s kliens is). De ha már Mobile akkor maradjunk a telefonnál.
+
+Most akkor mi is ez?
+
+Ez egy két faktorú beléptetést (azonosítást) megvalósító mifene. Egyrészt szükséged van valamire amit birtokolsz, esetünkben ez a telefon; és szükséged van valamire amit tudsz, ez a PIN kód. Nagyszerű. Akkor ezzel megvagyunk.
+
+Na várjunk csak, honnan tudja a szerver, hogy melyik a telefonunk, meg PIN kódunk? Sehogy. A telefonnak nem ez a szerepe. A telefon tud valamit amit nekünk nem kell tudnunk, legalábbis nem fejből. [Esőemberek](http://www.imdb.com/title/tt0095953/) előnyben.
+
+De akkor ez sms-be adatforgalomba kerül?
+
+Had mondjam végig!
+
+Szóval letöltjük a telefonra valamelyik [MOTP kliens alkalmazás](http://motp.sourceforge.net/#6)t (client-side), nekem Androidra a [DroidOTP](https://market.android.com/details?id=net.marinits.android.droidotp) jött be (csak 4 karakteres PIN-t támogat és csak MOTP-ot) több profilt is kezel. Miért is kell a több profil támogatás? Ugyanis ez a jóképességű eljárás abból áll, hogy indításnak 16 karakterből álló véletlenszerű betű és számsort kell megadni, ez az amire a telefon emlékszik majd helyettünk. 1 ilyen sorozat egy profilhoz tartozik. Ezt a karaktersorozatot a szervernek is ismernie kell. Ha megvan a karaktersorozat az eljárásnak szüksége van a pin kódra. Ezt a szervernek szintén előre ismernie kell. Majd a telefon veszi a [UNIX epoch](http://en.wikipedia.org/wiki/Unix_time)-ot másodpercben - tulajdonképpen 10-es másodperc léptékben -. a pin-t és a véletlen karaktersorozatot. Ebből a három összetevőből képez egy [md5 hash](http://en.wikipedia.org/wiki/MD5)-t és a hash első 6 karakterét megjeleníti. Ez a bejelentkezéshez használható jelszó. Szuper. Akkor nincs más hátra, mint előre. A program a telón, jó előre beélesítve, senki nem látta a véletlen karakter sorozatot, akkor mostmár jöhet a belépés bárhol.
+
+Upsz. És a szerver? Ez már keményebb dió. Az [motp oldal](http://motp.sourceforge.net/)on több leírás is van [Radius](http://freeradius.org/)-ra és [PAM](http://en.wikipedia.org/wiki/Pluggable_authentication_module)-ra is. Most az utóbbiról beszélnék. Az is több lehetőséget kínál.
+
+Először a [natív](http://motp.sourceforge.net/pam_mobile_otp-0.6.1.tgz) pam modult próbáltam, de ezt nem sikerült lefordítani.
+
+Másodszor van egy [script](http://motp.sourceforge.net/PAM-script.zip) a [pam-script](http://sourceforge.net/projects/pam-script/)-hez. A libpam-script szépen telepíthető [Ubuntu](http://ubuntu.hu/)n de volt egy apró bökkenő, bizonyos esetekben a pam-script nem adta át a bejelentkezéshez az adatokat az otp scriptnek. Pl. ssh ment de a login, sudo esetében nem mentek át a paraméterek.
+
+Nini lehet egyszerűbben is. Van egy [pam-exec](http://www.gsp.com/cgi-bin/man.cgi?section=8&topic=pam_exec) és már fenn is volt, nem kellett külön telepíteni. Csakhogy a [pam-exec](http://www.gsp.com/cgi-bin/man.cgi?section=8&topic=pam_exec) nem környezeti változóban adja át a jelszót (authtok) hanem a script alapértelmezett bemenetére.
+
+De akkor hogy is van ez? Kezdjük a [kályhá](http://lmgtfy.com/?q=k%E1lyha)tól.
+
+- hozzunk létre egy könyvtárat: /usr/local/otp
+- és még egyet: /usr/local/otp/cache
+- `chown -R root:root /usr/local/otp`
+- `chmod -R go-rwx /usr/local/otp`
+- kell a kicsit módosított script ([otp-auth-exec](http://linuxbox.hu/sites/default/files/otp-auth-exec.txt)) -- csatolmány (a *.txt* kiterjesztést szedjétek le)
+- a [pam-script](http://sourceforge.net/projects/pam-script/)-ből ki kell másolni a otp-secrets fájlt és betenni a /usr/local/otp könyvtárba. Ebben a fájlban van benn a véletlen karaktersor és pin kód a felhasználóhoz a felhasználói névhez.
+
+Wow, ennyi volt.
+
+Hát még nem. Még meg kell gyógyítani a [PAM](http://en.wikipedia.org/wiki/Pluggable_authentication_module)-ot. [Ubuntu](http://ubuntu.hu/)n én a következőket tettem (a módosítás `<-- ÚJ` jelöléssel):
+
+--- sshd cut ---
+
+```
 # PAM configuration for the Secure Shell service
-<strong>auth   sufficient      pam_exec.so expose_authtok /usr/local/otp/otp-auth-exec</strong>
+auth   sufficient      pam_exec.so expose_authtok /usr/local/otp/otp-auth-exec  # <-- ÚJ
 # Read environment variables from /etc/environment and
 # /etc/security/pam_env.conf.
 auth       required     pam_env.so # [1]
@@ -83,7 +80,7 @@ auth       required     pam_env.so # [1]
 auth       required     pam_env.so envfile=/etc/default/locale
 #
 # Standard Un*x authentication.
-<strong>#@include common-auth</strong>
+#@include common-auth  # <-- ÚJ (kikommentezve)
 # here's the fallback if no module succeeds
 auth    requisite                       pam_deny.so
 # prime the stack with a positive return value if there isn't one already;
@@ -92,7 +89,7 @@ auth    requisite                       pam_deny.so
 auth    required                        pam_permit.so
 # and here are more per-package modules (the "Additional" block)
 auth    optional        pam_ecryptfs.so unwrap
-auth    optional                        pam_cap.so 
+auth    optional                        pam_cap.so
 #
 # Disallow non-root logins when /etc/nologin exists.
 account    required     pam_nologin.so
@@ -121,12 +118,14 @@ session    required     pam_limits.so
 #
 # Standard Un*x password updating.
 @include common-password
+```
 
-</font>--- sshd cut ---
-  <br /> Így csak MOTP-vel lehet ssh-n bejelentkezni.
-</p>
-<p>--- common-auth ---
-</p> <font face="courier new,courier,monospace">
+--- sshd cut ---
+Így csak MOTP-vel lehet ssh-n bejelentkezni.
+
+--- common-auth ---
+
+```
 #
 # /etc/pam.d/common-auth - authentication settings common to all services
 #
@@ -142,7 +141,7 @@ session    required     pam_limits.so
 # pam-auth-update to manage selection of other modules.  See
 # pam-auth-update(8) for details.
 # here are the per-package modules (the "Primary" block)
-<strong>auth   [success=3 default=ignore]      pam_exec.so expose_authtok /usr/local/otp/otp-auth-exec</strong>
+auth   [success=3 default=ignore]      pam_exec.so expose_authtok /usr/local/otp/otp-auth-exec  # <-- ÚJ
 auth    [success=2 default=ignore]      pam_unix.so nullok_secure try_first_pass
 auth    [success=1 default=ignore]      pam_winbind.so krb5_auth krb5_ccache_type=FILE cached_login try_first_pass
 # here's the fallback if no module succeeds
@@ -153,25 +152,20 @@ auth    requisite                       pam_deny.so
 auth    required                        pam_permit.so
 # and here are more per-package modules (the "Additional" block)
 auth    optional        pam_ecryptfs.so unwrap
-auth    optional                        pam_cap.so 
+auth    optional                        pam_cap.so
 # end of pam-auth-update config
+```
 
-</font>
-<p>--- common-auth ---
-  <br />
-</p>
-<p>Így minden common-auth-ot importáló pam-ot használó alkalmazás beenged MOTP-vel vagy a rendes jelszóval.
-</p>
-<p>Na álljunk csak meg egy pillanatra. Az elején arról volt szó, hogy a unix timestamp alapján generálódik a belépő kód, akkor most legjobb esetben is 10 másodpercem van belépni (10 mp-es lépték van)?
-</p>
-<p>&nbsp;Erről szerencsére nincs szó, ha megnézzük a scriptet, látszik hogy van ±3 percünk, egyrészt az eszközök órája nem biztos, hogy pontos másrészt a 10 másodperc nem biztos, hogy elég...
-</p>
-<p>Ühüm... de akkor egy-egy kód összesen 6 percig érvényes?
-</p>
-<p>Nem teljesen. Csak amíg valaki be nem jelentkezik vele. Hogy valóban egy alkalmas jelszó legyen a script eltárolja a már felhasznált kódot és az legközelebb már nem lesz érvényes.
-</p>
-<p><a href="http://en.wikipedia.org/wiki/The_Hitchhiker's_Guide_to_the_Galaxy">...and thanks for all the fish”</a>
-  <br />
-</p>
-<ul>
-</ul>
+--- common-auth ---
+
+Így minden common-auth-ot importáló pam-ot használó alkalmazás beenged MOTP-vel vagy a rendes jelszóval.
+
+Na álljunk csak meg egy pillanatra. Az elején arról volt szó, hogy a unix timestamp alapján generálódik a belépő kód, akkor most legjobb esetben is 10 másodpercem van belépni (10 mp-es lépték van)?
+
+Erről szerencsére nincs szó, ha megnézzük a scriptet, látszik hogy van ±3 percünk, egyrészt az eszközök órája nem biztos, hogy pontos másrészt a 10 másodperc nem biztos, hogy elég...
+
+Ühüm... de akkor egy-egy kód összesen 6 percig érvényes?
+
+Nem teljesen. Csak amíg valaki be nem jelentkezik vele. Hogy valóban egy alkalmas jelszó legyen a script eltárolja a már felhasznált kódot és az legközelebb már nem lesz érvényes.
+
+[...and thanks for all the fish”](http://en.wikipedia.org/wiki/The_Hitchhiker's_Guide_to_the_Galaxy)
