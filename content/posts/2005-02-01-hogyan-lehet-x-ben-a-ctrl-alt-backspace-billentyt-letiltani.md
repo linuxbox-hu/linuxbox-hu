@@ -8,6 +8,9 @@ excerpt: |-
   <strong>Option "DontZap" "true"</strong>
   sort kell bírni a /etc/X11/XF86Config{-4} -ba a ServerLayout szekcióba. (man XF86Config)
 title: Hogyan lehet X-ben a CTRL-ALT-BACKSPACE billentyût letiltani?
+aliases:
+- /node/8/
+- /story/8/
 ---
 <strong>Option "DontZap" "true"</strong>
 sort kell bírni a /etc/X11/XF86Config{-4} -ba a ServerLayout szekcióba. (man XF86Config)

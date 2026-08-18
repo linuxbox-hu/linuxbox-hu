@@ -8,6 +8,9 @@ excerpt: |
   
 
 title: 'pyTube - Youtube videó letöltő és konvertáló és etc...'
+aliases:
+- /blog/518/
+- /node/518/
 ---
 Létezik firefox addon ami egy gombnyomásra letölti a youtube és egyéb hasonszőrű motorral rendelkező oldalakról a videókat (https://addons.mozilla.org/en-US/firefox/addon/2390), de ez még nincs kész FF3 RC1-re (2008.05.26) meg különben sem használ mindenki firefoxot. Találtam egy sokkal jobb youtube letöltőt!
 

@@ -5,6 +5,9 @@ categories:
 created: 1178466702
 date: '2007-05-06T00:00:00Z'
 title: Számítógép felébresztése hibernációból, titkosított swap terület és pendrive segítségével Debian Etch-en
+aliases:
+- /node/368/
+- /story/368/
 ---
 <h2>A megvalósításhoz szükséges
 </h2>

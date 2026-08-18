@@ -5,6 +5,9 @@ created: 1263658521
 date: '2010-01-16T00:00:00Z'
 excerpt: 'Pár script, ami hasznos lehet, meg hogy meglegyen itt is.\r\nmp4audioextract: faad segítségével kinyeri az aac hangot. Thunar egyéni műveletként kényelmes használni, zenity alapú egyszerű felületen megy.\r\nMivel csatolni nem nagyon lehet, a kód:\r\n<code>\r\n#!/bin/bash \r\n#################################################\r\n# Script to extract aac audio from mp4 video\r'
 title: multimédia scriptek
+aliases:
+- /blog/649/
+- /node/649/
 ---
 Pár script, ami hasznos lehet, meg hogy meglegyen itt is.
 mp4audioextract: faad segítségével kinyeri az aac hangot. Thunar egyéni műveletként kényelmes használni, zenity alapú egyszerű felületen megy.

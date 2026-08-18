@@ -6,6 +6,9 @@ created: 1153322993
 date: '2006-07-19T00:00:00Z'
 excerpt: '<p>Újra és újra felmerült a probléma, hogy egy IP címhez több weblap tartozik más névvel amihez külön ssl kulcs kellene. \r\n</p> \r\n<p>&nbsp;Ezt nem lehet kivitelezni már az ssl működése miatt sem. \r\n</p> \r\n<p>Tegnap talaltam egy jó leírást a <a title="http://wiki.cacert.org/wiki/VhostTaskForce" target="_blank" href="http://wiki.cacert.org/wiki/VhostTaskForce">http://wiki.cacert.org/wiki/VhostTaskForce</a> -on ami alapján nekilelkesülve elindultam. \r\n</p> '
 title: SSL kulcs készítése Apache virtualHost-hoz Debian-on demoCA-val
+aliases:
+- /node/180/
+- /story/180/
 ---
 <p>Újra és újra felmerült a probléma, hogy egy IP címhez több weblap tartozik más névvel amihez külön ssl kulcs kellene. 
 </p> 

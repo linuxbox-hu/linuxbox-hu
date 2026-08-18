@@ -6,6 +6,9 @@ created: 1109168370
 date: '2005-02-23T00:00:00Z'
 excerpt: '<ol>\r\n<li>A modul letöltése: <a href="http://drupal.org/files/projects/i18n-4.5.0.tar.gz">http://drupal.org/files/projects/i18n-4.5.0.tar.gz</a></li>\r\n<li>Adatbázis bővítése:\r\nTábla létrehozása a modulnak, és módosítások:\r\n<code>\r\nCREATE TABLE i18n_node (\r\n  trid int4 NOT NULL default ''0'',\r\n  nid int4 NOT NULL default ''0'',\r\n  status int4 NOT NULL default ''0'', \r\n  PRIMARY KEY  (trid,nid)\r\n);\r\n\r\nALTER TABLE node ADD language char(2);\r\nALTER TABLE node ALTER language SET NOT NULL;\r\nALTER TABLE node ALTER language SET DEFAULT ''0'';\r\n\r\nALTER TABLE term_data ADD language char(2);\r\nALTER TABLE term_data ALTER language SET NOT NULL;\r'
 title: I18n telepítése Postgresql adatbázissal Drupal 4.5.2-re
+aliases:
+- /node/33/
+- /story/33/
 ---
 <ol>
 <li>A modul letöltése: <a href="http://drupal.org/files/projects/i18n-4.5.0.tar.gz">http://drupal.org/files/projects/i18n-4.5.0.tar.gz</a></li>

@@ -15,6 +15,9 @@ excerpt: |
   
     strings /proc/acpi/dsdt | grep -i windows
 title: Hogyan verjük át a BIOS ACPI-t...
+aliases:
+- /node/540/
+- /story/540/
 ---
 A slashdot [http://linux.slashdot.org/linux/08/07/25/1150218.shtml cikke] nyomán (Foxconn alaplapra nem lehet linuxot telepíteni), találtam ezt az [http://howflow.com/tricks/medion_md_98300_fan_control oldalt].
 

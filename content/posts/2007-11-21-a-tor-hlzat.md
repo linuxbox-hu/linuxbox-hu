@@ -5,6 +5,9 @@ categories:
 created: 1195677094
 date: '2007-11-21T00:00:00Z'
 title: A Tor hálózat
+aliases:
+- /node/455/
+- /story/455/
 ---
 A hason című [http://hup.hu/ HUP] [http://hup.hu/node/47373 cikk] alapján...
 

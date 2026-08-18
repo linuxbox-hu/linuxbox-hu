@@ -5,6 +5,9 @@ categories:
 created: 1140770209
 date: '2006-02-24T00:00:00Z'
 title: apache2 telepítése dutyiba zárva .)
+aliases:
+- /node/133/
+- /story/133/
 ---
 Megosztanám apache2 chroot-os telepítési tapasztalataim. De miért is érdemes vesződni a jailbe zárással. A válasz egyértelmű. A web támadók nem fognak a webszerver feltörése után könnyű szerrel a további dolgainkhoz férni. Természetesen ez csak egy újabb akadály...
 

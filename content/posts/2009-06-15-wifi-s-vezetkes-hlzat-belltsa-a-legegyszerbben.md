@@ -8,6 +8,9 @@ excerpt: |
   A <a href="http://wicd.sourceforge.net/">wicd</a> eddigi ismereteim szerint a legegyszerűbb GTK-s eszköz a hálózat beállításához.
   Amit kínál:
 title: Wifi (és vezetékes) hálózat beállítása a legegyszerűbben
+aliases:
+- /node/617/
+- /story/617/
 ---
 A <a href="http://wicd.sourceforge.net/">wicd</a> eddigi ismereteim szerint a legegyszerűbb GTK-s eszköz a hálózat beállításához.
 Amit kínál:

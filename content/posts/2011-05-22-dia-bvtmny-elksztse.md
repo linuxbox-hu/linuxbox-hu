@@ -6,6 +6,9 @@ date: '2011-05-22T00:00:00Z'
 excerpt: |
   A napokban úgy adódott, hogy hálózati ábrát kellett készítenem. A dia nevű programot szerettem volna használni, mivel alapjában véve nem dolgozom windowson. Azonban a programhoz nem voltak megfelelő ábrák. Nem maga a kép hiányzott, hanem vele együtt a csatlakozási pontok is. Utána jártam miként lehet a célnak megfelelő alakokat készíteni megfelelő számú csomóponttal.
 title: Dia bővítmény elkészítése
+aliases:
+- /blog/693/
+- /node/693/
 ---
 A napokban úgy adódott, hogy hálózati ábrát kellett készítenem. A dia nevű programot szerettem volna használni, mivel alapjában véve nem dolgozom windowson. Azonban a programhoz nem voltak megfelelő ábrák. Nem maga a kép hiányzott, hanem vele együtt a csatlakozási pontok is. Utána jártam miként lehet a célnak megfelelő alakokat készíteni megfelelő számú csomóponttal.
 <!--break-->

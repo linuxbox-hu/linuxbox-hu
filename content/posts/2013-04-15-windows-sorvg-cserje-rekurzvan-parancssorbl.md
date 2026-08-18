@@ -11,6 +11,9 @@ tags:
 - flip
 - find
 title: Windows sorvég cseréje rekurzívan, parancssorból
+aliases:
+- /node/857/
+- /story/857/
 ---
 Hosszú évek után a múlt héten találkoztam újra azzal a problémával, hogy egy macintos rendszerben fejlesztett kódot, amihez egy windows-os környezetben is hozzányúltak, kellett bevezetnem verziókezelőbe. 2013 ide vagy oda, a sorvégek még mindíg gondot tudnak okozni a közös munka folyamán.
 Ilyen esetben megoldási lehetőség a verziókezelő megfelelő beállítása, amelyben el lehet érni, hogy adott dokumentumokat milyen szabályok teljesülése esetén fogadjon el. Tehát a forrás nem tartalmazhat tabulátort, windows-os sorvéget.

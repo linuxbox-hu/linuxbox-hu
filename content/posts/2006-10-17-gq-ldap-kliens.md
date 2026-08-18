@@ -5,6 +5,9 @@ categories:
 created: 1161088851
 date: '2006-10-17T00:00:00Z'
 title: GQ ldap kliens
+aliases:
+- /node/222/
+- /story/222/
 ---
 <a href="http://www.getdeb.net/category.php?id=10">Getdeb</a>-en találtam egz újabb LDAP klienst.
 <a href="http://www.gq-project.org/">GQ</a> GTK+ alapú.

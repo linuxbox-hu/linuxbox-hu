@@ -6,6 +6,9 @@ created: 1172155295
 date: '2007-02-22T00:00:00Z'
 excerpt: '<p>Az alap ötletet a <a set="yes" href="http://www.debian-administration.org/articles/428" class="external" rel="nofollow">http://www.debian-administration.org/articles/428</a> adta.\r\n</p>\r\n<p>Amit megvalósít:\r\n</p>\r\n<p>Debian Etch.\r\n</p>\r\n<p>Egy cryptfs-sel titkosított partíciót automatikusan, jelszó kérdezése nélkül, felcsatolni úgy, hogy a kulcs a pendrive-on van ((<b>b</b>)ami akár titkosítva is lehet a számítógépen tárolt kulcs segítségével(<b>/b</b>)).\r\n</p> '
 title: Cryptfs partíció felcsatolása Debianon USBStick segítségével automatikusan
+aliases:
+- /node/314/
+- /story/314/
 ---
 <p>Az alap ötletet a <a set="yes" href="http://www.debian-administration.org/articles/428" class="external" rel="nofollow">http://www.debian-administration.org/articles/428</a> adta.
 </p>

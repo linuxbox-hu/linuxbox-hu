@@ -5,6 +5,9 @@ categories:
 created: 1170488867
 date: '2007-02-03T00:00:00Z'
 title: Ubuntu apt csomag depók karbantartása
+aliases:
+- /node/301/
+- /story/301/
 ---
 Gondolom nem én vagyok az egyetlen aki nem szereti a rendetlenséget. :D Az utóbbi időben már nem volt átlátható az /etc/apt/sources.list állományom. Nemrég belefutottam a  /etc/apt/sources.list.d/ könyvtár használatának lehetőségébe és elkezdtem rendet teremteni...
 

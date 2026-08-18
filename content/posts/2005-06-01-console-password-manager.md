@@ -12,6 +12,9 @@ excerpt: |
   A program felépítése viszonylag egyszerű, tetszőleges szintre bonthatjuk le a jelszavakat.
   Például az alapértelmezett struktúra (ami változtatható):
 title: Console Password Manager
+aliases:
+- /node/74/
+- /story/74/
 ---
 Ez egy egész pofás kis, <strong>konzolos</strong> jelszó kezelő program, ami a gpg-t használja fel, hogy az adatbázist titkosítsa, méghozzá az illető nyilvános kulcsával.
 

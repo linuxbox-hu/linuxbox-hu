@@ -6,6 +6,9 @@ created: 1224489553
 date: '2008-10-20T00:00:00Z'
 excerpt: 'A <a href="http://www.shell-fu.org/">shell-fu</a> egy hasznos angol nyelvű shell szkript gyűjtemény. Jókat lehet benne böngészni. Ezt találtam pl:\r\n<a href="http://www.shell-fu.org/lister.php?id=313">szkirpt a legfrisebb kernel letöltésére</a>\r\n<code>\r\n#!/bin/bash\r\nkernelV=`finger finger@kernel.org | grep ''stable version'' | awk ''{print $NF}''`\r\nwget -c http://www.kernel.org/pub/linux/kernel/v2.6/linux-$kernelV.tar.bz2\r\n</code>'
 title: 'Shell-fu: szkirpt a legfrisebb kernel letöltésére'
+aliases:
+- /node/559/
+- /story/559/
 ---
 A <a href="http://www.shell-fu.org/">shell-fu</a> egy hasznos angol nyelvű shell szkript gyűjtemény. Jókat lehet benne böngészni. Ezt találtam pl:
 <a href="http://www.shell-fu.org/lister.php?id=313">szkirpt a legfrisebb kernel letöltésére</a>

@@ -5,6 +5,9 @@ created: 1189277362
 date: '2007-09-08T00:00:00Z'
 excerpt: 'Egy újabb, Francia fejlesztésű bittorrent kliens. Van ubuntu és debian repo-ja. A "libtorrent" komponensre támaszkodik és többek közt van magyar nyelvi felülete is.\r\n\r\nweboldal: <a href="http://www.qbittorrent.org">http://www.qbittorrent.org</a>\r\n'
 title: qBittorrent
+aliases:
+- /blog/424/
+- /node/424/
 ---
 Egy újabb, Francia fejlesztésű bittorrent kliens. Van ubuntu és debian repo-ja. A "libtorrent" komponensre támaszkodik és többek közt van magyar nyelvi felülete is.
 

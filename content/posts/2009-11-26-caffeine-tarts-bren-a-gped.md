@@ -10,6 +10,9 @@ excerpt: |
   
   <img src="http://linuxbox.hu/sites/linuxbox.hu/files/screenshot_002.png"></img>
 title: 'Caffeine - Tarts ébren a géped!'
+aliases:
+- /blog/644/
+- /node/644/
 ---
 <p>A <a href="http://www.blastfromthepast.se/blabbermouth/2009/10/caffeine-for-linux-1-released/">Coffeine</a> egy kis alkalmazás, mely a gnome-panelen ülve várja, hogy a felhasználó engedélyezze/letitlsa a képernyővédőt/suspendet/screen lock-ot.
 Hasznos lehet flash videók lejátszásánál, diavetítés közben ahol a gép,  sokat áll egy képet mutatva, vagy full screen játékok játszásakor.

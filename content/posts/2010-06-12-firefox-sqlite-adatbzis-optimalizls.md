@@ -6,6 +6,9 @@ created: 1276341399
 date: '2010-06-12T00:00:00Z'
 excerpt: 'Egyszer régen bukkantam a cikkre - sajnos most nem emlékszem a forrásra -, ami alapján telepítettem az [http://code.google.com/p/sqlite-manager/ SQLite Manager]t. Hogy mire is jó ez?\r\n\r\nNyissuk meg egyenként a Firefox profilban (.mozilla/firefox/..../):\r\n* places.sqlite\r\n* urlclassifier3.sqlite\r\n* illetve minden nagyobb fájlt...\r\n\r'
 title: Firefox SQLite adatbázis optimalizálás
+aliases:
+- /node/666/
+- /story/666/
 ---
 Egyszer régen bukkantam a cikkre - sajnos most nem emlékszem a forrásra -, ami alapján telepítettem az [http://code.google.com/p/sqlite-manager/ SQLite Manager]t. Hogy mire is jó ez?
 

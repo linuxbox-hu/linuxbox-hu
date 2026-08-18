@@ -7,6 +7,9 @@ date: '2012-06-27T00:00:00Z'
 excerpt: |
   Ha egy hosszadalmas, gépigényes folyamatot futtatunk, de nem szeretnénk, ha a többi user ebből bármit is megérezne, akkor vessük be az ionice és nice programokat.
 title: Program futtatása csak üresjáratban
+aliases:
+- /node/711/
+- /story/711/
 ---
 Ha egy hosszadalmas, gépigényes folyamatot futtatunk, de nem szeretnénk, ha a többi user ebből bármit is megérezne, akkor vessük be az ionice és nice programokat.
 <!--break-->

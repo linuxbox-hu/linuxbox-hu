@@ -8,6 +8,9 @@ excerpt: |
   
 
 title: 'DKR - nagyon kicsi web alapú dokumentum kezelő rendszer síkágyas lapolvasó támogatással'
+aliases:
+- /blog/668/
+- /node/668/
 ---
 Annak idején írtam az [http://linuxbox.hu/node/645 OWL] dokumentumkezelő rendszerről. A használata során sok kényelmetlenség tárult fel. Leginkább az, hogy a dokumentumokat külön be kellett scannelni, majd egy weboldalon feltölteni. A készített bash segéd script sem bizonyult tuti ötletnek.
 

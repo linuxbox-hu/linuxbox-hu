@@ -5,6 +5,9 @@ categories:
 created: 1213732354
 date: '2008-06-17T00:00:00Z'
 title: IPv6 konfigurálás avagy a linuxbox.hu IPv6 „Ready”
+aliases:
+- /node/526/
+- /story/526/
 ---
 == Hozzávalók ==
 

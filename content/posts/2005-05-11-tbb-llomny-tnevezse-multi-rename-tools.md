@@ -7,6 +7,9 @@ date: '2005-05-11T00:00:00Z'
 excerpt: |
   Biztosan ti is voltatok már olyan helyzetben amikor több állmányt szerettetek volna átnevezni, valamely szabály alapján. Talán ismeritek is a Windowsos Total kommander ügyes felületét erre. NA ilyet próbáltam keresni a minap linuxra. Mondanom sem kell, hogy jópárat találtam. :)
 title: Több állomány átnevezése; multi rename tools
+aliases:
+- /node/69/
+- /story/69/
 ---
 Biztosan ti is voltatok már olyan helyzetben amikor több állmányt szerettetek volna átnevezni, valamely szabály alapján. Talán ismeritek is a Windowsos Total kommander ügyes felületét erre. NA ilyet próbáltam keresni a minap linuxra. Mondanom sem kell, hogy jópárat találtam. :)
 <!--break-->

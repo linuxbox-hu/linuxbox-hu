@@ -4,6 +4,9 @@ categories: []
 created: 1212934081
 date: '2008-06-08T00:00:00Z'
 title: 'Glipper - Vágólap menedzser'
+aliases:
+- /blog/522/
+- /node/522/
 ---
 Egy egyszerű válgolap manager gnome alá. Van egy kisikonja a panelben melyre ráklikkelve lenyílik az elmúlt 30 (beállítás kérdése mennyi) vágólara másolt szövegünk. Ha valamelyikre ráklikkelünk akkor egyből az lesz az aktív vágólapon található tartalom.
 

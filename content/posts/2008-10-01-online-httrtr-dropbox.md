@@ -8,6 +8,9 @@ excerpt: |-
   
   <p><img src="http://linuxbox.hu/files/ScFileBrowser.png"></p>
 title: 'Online háttértár - DropBox'
+aliases:
+- /blog/554/
+- /node/554/
 ---
 Hosszas béta fázist követően elindult az online háttértárat kínáló Dropbox. A multiplatform szolgáltatás alapcsomagja bárki által ingyenesen igénybe vehető. Alapból 2GB tárhelyet kapunk, de némi pénzért további kapacitáshoz is juthatunk.
 

@@ -5,6 +5,9 @@ categories:
 created: 1317299669
 date: '2011-09-29T00:00:00Z'
 title: Szintvonalak OsmAnd térképre
+aliases:
+- /node/702/
+- /story/702/
 ---
 Sziasztok!
 

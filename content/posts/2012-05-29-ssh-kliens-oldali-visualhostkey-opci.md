@@ -5,6 +5,9 @@ categories:
 created: 1338300332
 date: '2012-05-29T00:00:00Z'
 title: ssh kliens oldali VisualHostKey opció
+aliases:
+- /node/710/
+- /story/710/
 ---
 Csatlakozás egy távoli szerverre tehető biztonságosabbá a SSH 5.1 óta létező VisualHostKey kliens oldali opció használatával. 
 Tudni illik ez az opció egy a kulcs ujlenyomatának egy generált képét jeleníti meg csatlakozáskor. Ami memorizálható. Így ha valaki "man in the middle" támadással akarja megszerezni az adatainkat előfordulhat, hogy könnyebben észleljük a változást...

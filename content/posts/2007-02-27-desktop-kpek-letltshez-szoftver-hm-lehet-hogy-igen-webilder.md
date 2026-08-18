@@ -8,6 +8,9 @@ excerpt: |
   Ennyire én azért nem vagyok kényelmes, de ha már ilyen szoftver is készül, miért ne írnék róla! Tiszta M$ érzésem támadt :)
   Mivel a <a href="http://www.webilder.org/">Webilder</a> szolgáltatásai a következők:
 title: 'Desktop képek letöltéséhez szoftver?! Hm lehet, hogy igen: webilder'
+aliases:
+- /node/321/
+- /story/321/
 ---
 Ennyire én azért nem vagyok kényelmes, de ha már ilyen szoftver is készül, miért ne írnék róla! Tiszta M$ érzésem támadt :)
 Mivel a <a href="http://www.webilder.org/">Webilder</a> szolgáltatásai a következők:

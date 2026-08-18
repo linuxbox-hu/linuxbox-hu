@@ -16,6 +16,9 @@ excerpt: |-
   
   <strong>hddtemp <em>/dev/...</em></strong>
 title: Merevlemez hőmérsékletének figyelése
+aliases:
+- /node/50/
+- /story/50/
 ---
 A minap akadtam rá:
 

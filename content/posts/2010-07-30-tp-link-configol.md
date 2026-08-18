@@ -6,6 +6,9 @@ date: '2010-07-30T00:00:00Z'
 excerpt: |
   Mivel lecseréltem a SOHO routeremet, <a href="http://linuxbox.hu/node/664">http://linuxbox.hu/node/664</a> testvéreként írtam TP-LINK konfigoló szkriptet. Ezt tudja, igyekszem bõvíteni:
 title: tp-link configoló
+aliases:
+- /blog/670/
+- /node/670/
 ---
 Mivel lecseréltem a SOHO routeremet, <a href="http://linuxbox.hu/node/664">http://linuxbox.hu/node/664</a> testvéreként írtam TP-LINK konfigoló szkriptet. Ezt tudja, igyekszem bõvíteni:
 <!--break-->

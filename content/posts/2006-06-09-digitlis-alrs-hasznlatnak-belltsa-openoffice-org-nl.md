@@ -9,6 +9,9 @@ excerpt: |
   
   Ha a fent említett programokban vannak használható tanúsítványaink azokat tudjuk felhasználni
 title: Digitális aláírás használatának beállítása OpenOffice.org-nál
+aliases:
+- /node/173/
+- /story/173/
 ---
 A dolog rém egyszerű csak valamilyen programra van szükség a ''Mozilla''-tól (Thunderbird, Mozilla, Firefox...).
 

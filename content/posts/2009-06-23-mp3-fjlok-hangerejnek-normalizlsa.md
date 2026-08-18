@@ -7,6 +7,9 @@ date: '2009-06-23T00:00:00Z'
 excerpt: |
   Rengeteg mp3 fájlod van különböző hangerővel? A megoldás egy parancssori alkalmazás, ami veszteségmentes módon normalizálja az állományokat.
 title: Mp3 fájlok hangerejének normalizálása
+aliases:
+- /node/621/
+- /story/621/
 ---
 Rengeteg mp3 fájlod van különböző hangerővel? A megoldás egy parancssori alkalmazás, ami veszteségmentes módon normalizálja az állományokat.
 <!--break-->

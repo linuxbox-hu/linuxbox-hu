@@ -6,6 +6,9 @@ created: 1174985763
 date: '2007-03-27T00:00:00Z'
 excerpt: '<a href="http://list.techfiles.us/">Techfiles</a> nevű weboldalban egy szépen karbantartott admin svájcibicskára bukkantam. :)\r\nA hozzáférés rendkívül egyszerű. Pl egy memória teszter alkalmazásra van szükségünk: <code>wget memtester.techfiles.us</code> és már jön is.'
 title: Admin alkalmazás gyűjtemény
+aliases:
+- /node/347/
+- /story/347/
 ---
 <a href="http://list.techfiles.us/">Techfiles</a> nevű weboldalban egy szépen karbantartott admin svájcibicskára bukkantam. :)
 A hozzáférés rendkívül egyszerű. Pl egy memória teszter alkalmazásra van szükségünk: <code>wget memtester.techfiles.us</code> és már jön is.

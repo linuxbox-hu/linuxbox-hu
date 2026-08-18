@@ -5,6 +5,9 @@ categories:
 created: 1107211604
 date: '2005-01-31T00:00:00Z'
 title: Bash üres(idle) egysoros
+aliases:
+- /node/3/
+- /story/3/
 ---
 <strong>while (echo '') do w; sleep 60; done</strong>
 

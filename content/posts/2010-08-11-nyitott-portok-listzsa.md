@@ -10,6 +10,9 @@ excerpt: |-
   vagy
   <code>sudo netstat -lptu</code>
 title: Nyitott portok listázása
+aliases:
+- /node/671/
+- /story/671/
 ---
 Nyitott portok listázása a hozzájuk tartozó processzekkel.
 <code>sudo lsof -i</code>

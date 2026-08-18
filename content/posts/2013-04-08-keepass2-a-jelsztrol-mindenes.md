@@ -9,6 +9,9 @@ tags:
 - KeePass2
 - keefox
 title: KeePass2 a jelszótároló mindenes
+aliases:
+- /node/856/
+- /story/856/
 ---
 ## KeePass Password Safe  
 

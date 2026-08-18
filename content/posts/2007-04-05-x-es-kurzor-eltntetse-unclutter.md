@@ -6,6 +6,9 @@ created: 1175793981
 date: '2007-04-05T00:00:00Z'
 excerpt: 'Ugye a jobb videó lejátszók tudják, de mi van ha én böngészés közben sem akarom, hogy zavarjon az egér kuzor ha nem mozgatom az egeret.\r\nA megoldás az "unclutter" nevű progi amit csomagból telepíthetünk a legtöbb rendszeren. 3 paramétere létezik jelenleg. Az elsőben definiálhatjuk az eltelt másodperceket amelyek után megtörténik az eltüntetés - alapértelmezetten 5 másodperc az értéke ennek a paraméternek. A másodikkal beállíthatjuk, ha gépelünk akkor nem akarjuk látni az egérkurzort azaz azonnal tüntesse el. A harmadik paraméterben pedig kivétel ablakokat definiálhatunk.'
 title: X-es kurzor eltüntetése; unclutter
+aliases:
+- /node/352/
+- /story/352/
 ---
 Ugye a jobb videó lejátszók tudják, de mi van ha én böngészés közben sem akarom, hogy zavarjon az egér kuzor ha nem mozgatom az egeret.
 A megoldás az "unclutter" nevű progi amit csomagból telepíthetünk a legtöbb rendszeren. 3 paramétere létezik jelenleg. Az elsőben definiálhatjuk az eltelt másodperceket amelyek után megtörténik az eltüntetés - alapértelmezetten 5 másodperc az értéke ennek a paraméternek. A másodikkal beállíthatjuk, ha gépelünk akkor nem akarjuk látni az egérkurzort azaz azonnal tüntesse el. A harmadik paraméterben pedig kivétel ablakokat definiálhatunk.<!--break-->

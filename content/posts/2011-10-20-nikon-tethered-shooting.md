@@ -7,6 +7,9 @@ date: '2011-10-20T00:00:00Z'
 excerpt: |
   Azaz, hogyan lehet egyből exponálás után számítógépen megjeleníteni a képeket?
 title: Nikon tethered shooting
+aliases:
+- /node/704/
+- /story/704/
 ---
 Azaz, hogyan lehet egyből exponálás után számítógépen megjeleníteni a képeket?
 <!--break-->

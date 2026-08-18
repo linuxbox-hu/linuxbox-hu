@@ -9,6 +9,9 @@ excerpt: |
   
 
 title: Puppy Linux
+aliases:
+- /node/648/
+- /story/648/
 ---
 http://puppylinux.org/main/logo.png [http://puppylinux.org/ Puppy Linux]
 

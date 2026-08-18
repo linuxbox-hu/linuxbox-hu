@@ -9,6 +9,9 @@ excerpt: |
   
   Miután [http://linuxbox.hu/node/531 Beszereztük a Tanúsítványt Firefox-szal a Thawte-től lépésről lépésre], már be is importálhatjuk a levelező programunkba.
 title: Tanúsítvány használata Horde webmaillel lépésről lépésre
+aliases:
+- /node/533/
+- /story/533/
 ---
 == Telepítés ==
 

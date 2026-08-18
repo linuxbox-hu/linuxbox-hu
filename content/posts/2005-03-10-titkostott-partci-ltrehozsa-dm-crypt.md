@@ -9,6 +9,9 @@ excerpt: |
   
   Mielőtt nekilátunk ellenőrizzük, hogy van-e <em>dmsetup</em> csomagunk telepítve és van-e <em>dm-crypt</em> kernel modulunk.
 title: Titkosított partíció létrehozása; dm-crypt
+aliases:
+- /node/36/
+- /story/36/
 ---
 A dolog lényege annyi, hogy egy titkosítási módszerrel és kulccsal vagy jelszóval létrehozunk egy virtuális eszközt amin keresztül használjuk a partíciónkat.
 

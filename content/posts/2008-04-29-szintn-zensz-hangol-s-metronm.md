@@ -5,6 +5,9 @@ created: 1209477114
 date: '2008-04-29T00:00:00Z'
 excerpt: 'Néha muzsikálgatok. Mivel csak néha ezért szükség van pár mankóra. Az egyik a metronóm, a másik a hangoló. Ezeket boltba megvenni drága mulatság egy hobbihoz. És ha már van mikrofon a géphez akkor minek?\r\n\r\nÍme két remek program:\r\n\r\nMetronóm: \r\n   Állíthatsz ütemet, gyorsaságot, hangerőt, pittyeg, vizuálisan is mutatja hogy hol tartasz kikapcsolja a képernyővédőt, mi kell még?\r'
 title: 'Szintén zenész? - Hangoló és metronóm'
+aliases:
+- /blog/506/
+- /node/506/
 ---
 Néha muzsikálgatok. Mivel csak néha ezért szükség van pár mankóra. Az egyik a metronóm, a másik a hangoló. Ezeket boltba megvenni drága mulatság egy hobbihoz. És ha már van mikrofon a géphez akkor minek?
 

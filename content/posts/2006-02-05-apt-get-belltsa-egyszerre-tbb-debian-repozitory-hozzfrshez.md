@@ -11,6 +11,9 @@ excerpt: |-
   
   Mindösszé két konfigurációs állományt kell szerkesztenünk.
 title: apt-get beállítása egyszerre több debian repozitory hozzáféréséhez
+aliases:
+- /node/124/
+- /story/124/
 ---
 Amennyiben bosszantott már, hogy a stabil debian rendszered csomagjai már kicsit öregek és szeretnél újabbakat a következő kis okosság hasznos lehet számodra. Mivel leírom, hogy lehet megtartani a stabil alap rendszert, de már újabb debian csomagokat is hozzáférhetővé tenni. apt-get csomag lehtőséget ad egyszerre több repozitory beállítására plusz súlyozásra köztük.
 

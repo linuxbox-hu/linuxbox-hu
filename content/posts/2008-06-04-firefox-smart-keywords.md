@@ -11,6 +11,9 @@ excerpt: |+
   <img src="/sites/default/files/slashdot2.png" alt="slashdot2"/>
 
 title: Firefox Smart Keywords
+aliases:
+- /node/521/
+- /story/521/
 ---
 <p class="text-align-justify">A legtöbb firefox felhasználó tud a könyvjelzőkhöz hozzáadható gyorsítókról pl.</p>
 

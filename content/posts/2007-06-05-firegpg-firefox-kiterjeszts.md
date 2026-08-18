@@ -14,6 +14,9 @@ excerpt: |-
   <p>Segítségével GnuPG-vel titkosított és, vagy aláírt levelet küldhetünk webmail-en keresztül.
   </p>
 title: FireGPG Firefox kiterjesztés
+aliases:
+- /node/387/
+- /story/387/
 ---
 <p> Egyenlőre <a title="http://gmail.com/" target="_blank" href="http://gmail.com/">GMail</a> támogatással.
 </p>

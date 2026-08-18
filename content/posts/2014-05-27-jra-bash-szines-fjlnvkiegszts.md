@@ -10,6 +10,9 @@ tags:
 - color
 - tab completion
 title: 'Újra bash - Szines fájlnévkiegészítés!'
+aliases:
+- /blog/864/
+- /node/864/
 ---
 Az alábbi szkript egy függvényt tartalmaz, amivel lehetőségünk van **bash** alatt a [zsh](http://zsh.sourceforge.net/)-tól olyannyira irigyelt színes tab completion-t szimulálni.
 Telepítése két lépésből áll:

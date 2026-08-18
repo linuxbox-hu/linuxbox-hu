@@ -9,6 +9,9 @@ excerpt: |
   
   Nézzük hogyan is lehet elérni ezt pl. egy debian rendszeren.
 title: CD, USBKulcs automatikus felcsatolása; AufoFS
+aliases:
+- /node/34/
+- /story/34/
 ---
 Az autofs egy a linux  kernel által natívan támogatott fájlrendszer. Segítségével a cserélhető meghajtóinkat könnyedén kézi csatolás nélkül elérhetjük.
 

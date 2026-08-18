@@ -5,6 +5,9 @@ categories:
 created: 1107510916
 date: '2005-02-04T00:00:00Z'
 title: debian csomag készítés debian forrásból (pine src)
+aliases:
+- /node/17/
+- /story/17/
 ---
 Egy példán keresztül mutatnám be a dolgot:
 Készítsük el a jól ismert konzolos levelezőprogram a pine legfrissebb csomagját!

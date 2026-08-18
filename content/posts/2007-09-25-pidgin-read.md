@@ -5,6 +5,9 @@ categories:
 created: 1190703848
 date: '2007-09-25T00:00:00Z'
 title: pidgin-read
+aliases:
+- /node/435/
+- /story/435/
 ---
 Ryan Paul munkája nyomán készült (http://arstechnica.com/reviews/apps/pidgin-2-0.ars/4)
 

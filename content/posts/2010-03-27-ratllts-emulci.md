@@ -4,6 +4,9 @@ categories: []
 created: 1269717257
 date: '2010-03-27T00:00:00Z'
 title: óraátállítás (emuláció)
+aliases:
+- /blog/659/
+- /node/659/
 ---
 <!--break--><!--break-->Bizonytalan vagyok, hogy mikor, merre, melyik idozónában, melyik párhuzamos multiverzumban hány fokkal kell idoszámításunkat eltolni. Szerencsére a rendszerprogramozók tudják <!--break-->(ha maguk nem is, de programjaik), ezért csak egyszeruen ki kell nyerni az információkat. Így:
 

@@ -5,6 +5,9 @@ categories:
 created: 1204895446
 date: '2008-03-07T00:00:00Z'
 title: Bash és tcp/udp kezelés
+aliases:
+- /node/481/
+- /story/481/
 ---
 A <a href="http://hup.hu/node/51963">HUP-on</a> olvastam, hogy a Bash gond nélkül képes kezelni tcp és udp kapcsolatokat
 (socketen keresztül).  Kicsit utánajártam a dolognak, így találtam egy nagyon jó <a href="http://shudder.daemonette.org/source/BashNP-Guide.txt">leírást</a>

@@ -5,6 +5,9 @@ created: 1263659431
 date: '2010-01-16T00:00:00Z'
 excerpt: 'A következő: tiffrecompress, egy apró script, pl a gimp separate pluginja által előállított tiff fájlok tömörítéséhez, a kimeneti fájl LZW tömörítést kap, és lzw.tiff kiterjesztést. A libtiff csomag tiffcp parancsát használja, felület szintén zenity, de nem is kellene :-)\r\nA kód:\r\n<code>#!/bin/bash \r\n#################################################\r'
 title: Multimédia scriptek IV.
+aliases:
+- /blog/652/
+- /node/652/
 ---
 A következő: tiffrecompress, egy apró script, pl a gimp separate pluginja által előállított tiff fájlok tömörítéséhez, a kimeneti fájl LZW tömörítést kap, és lzw.tiff kiterjesztést. A libtiff csomag tiffcp parancsát használja, felület szintén zenity, de nem is kellene :-)
 A kód:

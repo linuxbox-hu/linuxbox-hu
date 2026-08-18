@@ -4,6 +4,9 @@ categories: []
 created: 1269811796
 date: '2010-03-28T00:00:00Z'
 title: Hogyan legyen az alapértelmezett email kliens a Gmail?
+aliases:
+- /blog/660/
+- /node/660/
 ---
 A "gnome gmail" alkalmazás telepítése után lehetőségünk adódik, hogy beállítsuk, hogy a gmail legyen az alapértelmezett email kliensünk.
 

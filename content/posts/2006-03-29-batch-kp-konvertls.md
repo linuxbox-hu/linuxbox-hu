@@ -17,6 +17,9 @@ excerpt: |-
   
   <code>for x in $(ls *.bmp); do convert $x ${x%.bmp}.jpg; done</code>
 title: batch kép konvertálás
+aliases:
+- /node/141/
+- /story/141/
 ---
 Az imagemagick csomag convert utasitását használjuk ebben az apró bash shell scriptben jpeg állományok gifre konvertálára:
 <code>

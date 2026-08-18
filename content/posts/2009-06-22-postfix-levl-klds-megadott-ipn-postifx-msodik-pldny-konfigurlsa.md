@@ -7,6 +7,9 @@ date: '2009-06-22T00:00:00Z'
 excerpt: |
   Azzal a problámával találkoztam amikor egy megadott IP címen kellett volna kiküldeni megadott domain alól küldött leveleket. Egészen pontosan volt egy levelező szerverem bekonfigurálva de egy altartományt (pl levelező listák lists.pelda.hu) leveleit külön IP címen kellene kiküldeni. Azért merült fel erre az igény mert egyes szolgáltatók pl hotmail, yahoo ideiglenesen letiltanak SPAM védelmi okokból amikor nagy mennyiségű levelt küld ki a szerver. Szóval a megoldás kézenfekvő mozgassuk külön IPre a levlistákat így azok forgalma miatti problémák esetén csak a lista IPt tiltánák le az említett szolgáltatók a további levelezést ez nem zavarná.
 title: Postfix levél küldés megadott IPn, postifx második példány konfigurálása
+aliases:
+- /node/620/
+- /story/620/
 ---
 Azzal a problámával találkoztam amikor egy megadott IP címen kellett volna kiküldeni megadott domain alól küldött leveleket. Egészen pontosan volt egy levelező szerverem bekonfigurálva de egy altartományt (pl levelező listák lists.pelda.hu) leveleit külön IP címen kellene kiküldeni. Azért merült fel erre az igény mert egyes szolgáltatók pl hotmail, yahoo ideiglenesen letiltanak SPAM védelmi okokból amikor nagy mennyiségű levelt küld ki a szerver. Szóval a megoldás kézenfekvő mozgassuk külön IPre a levlistákat így azok forgalma miatti problémák esetén csak a lista IPt tiltánák le az említett szolgáltatók a további levelezést ez nem zavarná.
 <!--break-->

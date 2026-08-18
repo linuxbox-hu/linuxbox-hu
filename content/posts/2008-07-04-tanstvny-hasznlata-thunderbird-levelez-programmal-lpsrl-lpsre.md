@@ -9,6 +9,9 @@ excerpt: |
   
   Miután [http://linuxbox.hu/node/531 Beszereztük a Tanúsítványt Firefox-szal a Thawte-től lépésről lépésre], már be is importálhatjuk a levelező programunkba.
 title: Tanúsítvány használata Thunderbird levelező programmal lépésről lépésre
+aliases:
+- /node/532/
+- /story/532/
 ---
 == Telepítés ==
 

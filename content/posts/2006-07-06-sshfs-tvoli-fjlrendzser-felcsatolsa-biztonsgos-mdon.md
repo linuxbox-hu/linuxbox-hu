@@ -16,6 +16,9 @@ excerpt: |
   <code>mkdir ~/remote_folder
   sshfs user1@remote_server:/tmp ~/remote_folder</code>
 title: 'sshfs - távoli fájlrendzser felcsatolása biztonságos módon'
+aliases:
+- /node/176/
+- /story/176/
 ---
 A már ismert <a href="http://fuse.sourceforge.net/">fuse</a> kernel modullal fel tudunk csatolni távoli fájlrendszereket az sshd démont használva <a href="http://fuse.sourceforge.net/sshfs.html">sshfs</a> ségítségével.
 1. Pl. debian rendszeren a szoftver telepítése:

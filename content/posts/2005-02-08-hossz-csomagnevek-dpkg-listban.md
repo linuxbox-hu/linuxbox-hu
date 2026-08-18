@@ -9,6 +9,9 @@ excerpt: |-
   Használd így:
   <strong>COLUMNS=160 dpkg -l</strong>
 title: hosszú csomagnevek dpkg listában
+aliases:
+- /node/21/
+- /story/21/
 ---
 Nem látod a hosszú csomagneveket a dpkg listában?
 Használd így:

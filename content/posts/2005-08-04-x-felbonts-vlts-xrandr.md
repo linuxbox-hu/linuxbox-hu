@@ -11,6 +11,9 @@ excerpt: |-
   Váltani pedig pl.:<strong> xrandr --size 1280x1024</strong> 
   Természetesen van belőle debian csomag is. 8)
 title: X felbontás váltás; xrandr
+aliases:
+- /node/92/
+- /story/92/
 ---
 Létezik egy kicsi ügyes alkalmazás ami ki tudja használni mind az XFree86 és X.Org "RandR" moduljának a hardveres képernyő felbontás változtatás és elforgatási lehtőségét. 
  Használata egyszerú:

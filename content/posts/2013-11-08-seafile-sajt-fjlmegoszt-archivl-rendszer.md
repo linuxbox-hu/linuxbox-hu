@@ -8,6 +8,9 @@ tags:
 - Seafile
 - Storage
 title: 'SeaFile - saját fájlmegosztó archiváló rendszer'
+aliases:
+- /node/860/
+- /story/860/
 ---
 [**Build a High Quality Cloud Storage with Seafile 2.0 !**](http://seafile.com)   
 

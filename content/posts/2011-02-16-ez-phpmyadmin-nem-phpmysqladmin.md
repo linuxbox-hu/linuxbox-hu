@@ -6,6 +6,9 @@ date: '2011-02-16T00:00:00Z'
 excerpt: |
   A phpmysqladmin segítségével mysql-konzol szerũen adminisztrálhatunk olyan mysql szervereket, melyeket távolról nem tudunk elérni (általában csak localhoston hallgatnak) de egy webszerverrõl igen!
 title: Ez PhpMyAdmin? Nem! PhpMySqlAdmin.
+aliases:
+- /blog/683/
+- /node/683/
 ---
 A phpmysqladmin segítségével mysql-konzol szerũen adminisztrálhatunk olyan mysql szervereket, melyeket távolról nem tudunk elérni (általában csak localhoston hallgatnak) de egy webszerverrõl igen!
 <!--break-->

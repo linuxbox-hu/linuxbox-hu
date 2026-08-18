@@ -5,5 +5,8 @@ created: 1234560987
 date: '2009-02-13T00:00:00Z'
 excerpt: ' :scared:  Elkezdem írni a napolómat. Most ott tartok, hogy előbb minden információt megszerzek, elsajátítok, addig nem merem feltenni a gépre éles rendszernek az Ubuntut  :bandit: '
 title: Megkezdem a Blogom
+aliases:
+- /blog/594/
+- /node/594/
 ---
  :scared:  Elkezdem írni a napolómat. Most ott tartok, hogy előbb minden információt megszerzek, elsajátítok, addig nem merem feltenni a gépre éles rendszernek az Ubuntut  :bandit: 

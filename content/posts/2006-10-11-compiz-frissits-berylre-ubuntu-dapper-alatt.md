@@ -6,6 +6,9 @@ created: 1160566034
 date: '2006-10-11T00:00:00Z'
 excerpt: 'Tegnap kíváncsiságból feltelepítettem a <a href="http://www.beryl-project.org/">Beryl-t</a> lecserélve az eddigi <a href="/xgl_compiz">compiz</a> ablakmenedzserem.\r\n\r\nItt találtam segítséget: <a href="http://wiki.beryl-project.org/index.php/Install/Ubuntu/Dapper/XGL">1</a>, <a href="http://ubuntuforums.org/showthread.php?t=268036">2</a>\r\n\r\nA dolog meglehetősen egyszerű volt:\r\nEgyenlőre az X szerverem békén hagytam (XGL-t), csak a beryl csomagokat telepítettem fel.\r\nElőször hozzáadtam a megfelelő csomag repot apt-hoz:\r\n<code>\r\n# Repositories added to enable Beryl\r\ndeb http://www.beerorkid.com/compiz dapper main aiglx\r\ndeb http://media.blutkind.org/xgl/ dapper main aiglx\r\n</code>\r\n'
 title: Compiz frissités Berylre Ubuntu Dapper alatt
+aliases:
+- /node/219/
+- /story/219/
 ---
 Tegnap kíváncsiságból feltelepítettem a <a href="http://www.beryl-project.org/">Beryl-t</a> lecserélve az eddigi <a href="/xgl_compiz">compiz</a> ablakmenedzserem.
 

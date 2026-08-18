@@ -6,6 +6,9 @@ created: 1122917599
 date: '2005-08-01T00:00:00Z'
 excerpt: '"Screen egy teljes képernyős ablakkezelő, ami megtöbbszörözi a fizikai terminálod processzek és természetesen shell programok segítségével: így több virtuális terminált szolgáltat egy shellen..."\r\n\r\nNem szándékozom teljes leírást készíteni, de fel szeretném kelteni azok figyelmét akik még nem ismerik és meg szeretném mutatni azoknak akik már használják a programot, hogy én mely szolgáltatásait használom.\r\n'
 title: '"Ablak kezelés" konzolon; screen'
+aliases:
+- /node/88/
+- /story/88/
 ---
 "Screen egy teljes képernyős ablakkezelő, ami megtöbbszörözi a fizikai terminálod processzek és természetesen shell programok segítségével: így több virtuális terminált szolgáltat egy shellen..."
 

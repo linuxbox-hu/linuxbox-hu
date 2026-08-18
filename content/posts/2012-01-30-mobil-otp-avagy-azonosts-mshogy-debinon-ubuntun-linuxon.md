@@ -6,6 +6,9 @@ created: 1327949158
 date: '2012-01-30T00:00:00Z'
 excerpt: '<p><a href="http://en.wikipedia.org/wiki/The_Hitchhiker''s_Guide_to_the_Galaxy">„So long ago...</a>\r\n</p>\r\n\r\n<p><strong>Frissítve: 2012.02.07.</strong>Készítettem egy új <a href=''https://github.com/szimszon/motpy/''>scriptet</a></p>'
 title: Mobil-OTP avagy azonosítás máshogy Debiánon/Ubuntun/Linuxon...
+aliases:
+- /node/707/
+- /story/707/
 ---
 <p><a href="http://en.wikipedia.org/wiki/The_Hitchhiker's_Guide_to_the_Galaxy">„So long ago...</a>
 </p>

@@ -8,6 +8,9 @@ tags:
 - apticron
 - cron-apt
 title: Automatikus csomag frissítés emlékeztetők Debian Linuxon
+aliases:
+- /node/871/
+- /story/871/
 ---
 Debian alapú rendszereken már három alkalmazással lehet emlékeztetőket küldeni csomag frissítésekről. 
 Az `apticron` és a `cron-apt` csomagok már jóideje használhatóak erre. Ezek levélben értesítenek a frissítésekről.

@@ -11,6 +11,9 @@ tags:
 - Docker
 - Ubuntu
 title: Védett módban futtatott Firefox
+aliases:
+- /node/869/
+- /story/869/
 ---
 Régóta szerettem volna valamit amivel kicsit biztonságosabbnak érezhetem a bankolást, annál mintha a mindenféle kiterjesztéssel telepakolt Firefoxot használnám amivel egyébként minden mást is böngészek a világhálón.
 

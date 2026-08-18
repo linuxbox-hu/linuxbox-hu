@@ -15,6 +15,9 @@ excerpt: |-
   
   Korrektül müxik ;)
 title: 'SmartCAM - Mobiltelefon Bluetooth webcamként'
+aliases:
+- /blog/562/
+- /node/562/
 ---
 Ajánlanék egy nagyon pró progit, nem tom ismeritek-e.
 Bluetoothon lehet a mobilt webcamként használni.

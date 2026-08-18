@@ -6,6 +6,9 @@ date: '2011-07-31T00:00:00Z'
 excerpt: |
   Ritkán de szükségem van egy friss gentoo linux telepítésre. Ilyenkor mindig elő kell vennem a gentoo.org oldalon található alapos, részletes dokumentációt és hosszasan kell olvasgatni a teendőket. Mivel gyorsan szeretek előre haladni készítettem egy rövid parancslistát mi a teendő.
 title: Gentoo telepítése röviden
+aliases:
+- /blog/698/
+- /node/698/
 ---
 Ritkán de szükségem van egy friss gentoo linux telepítésre. Ilyenkor mindig elő kell vennem a gentoo.org oldalon található alapos, részletes dokumentációt és hosszasan kell olvasgatni a teendőket. Mivel gyorsan szeretek előre haladni készítettem egy rövid parancslistát mi a teendő.
 <!--break-->

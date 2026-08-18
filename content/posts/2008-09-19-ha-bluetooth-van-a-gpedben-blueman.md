@@ -8,6 +8,9 @@ excerpt: |-
   
   <p><img src="	http://linuxbox.hu/sites/linuxbox.hu/files/10.png"></p>
 title: 'Ha bluetooth van a gépedben - Blueman'
+aliases:
+- /blog/552/
+- /node/552/
 ---
 <p>Ha van beépített bluetoothunk vagy esetleg vettünk a gépünkhöz egy adó-vevőt, akkor érdemes feltelepíteni a rendszerünkre a <a href="http://blueman.tuxfamily.org/">Blueman Bluetooth Managert (GTK)</a>.</p>
 

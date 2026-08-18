@@ -9,6 +9,9 @@ excerpt: |
   
 
 title: Microsoft Project fájlok megnyitása
+aliases:
+- /node/854/
+- /story/854/
 ---
 Az .mpp fájlok Linux alatt is megnyithatók. Amennyiben nem kívánunk fizetős alkalmazásokat használni és megelégszünk a megnyitás és nyomtatás lehetőségével, használjuk a (30 napig ingyenes) javas <a href="http://www.moosprojectviewer.com/download.php">Moos project viewer</a>t.
 

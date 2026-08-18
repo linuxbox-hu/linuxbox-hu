@@ -10,6 +10,9 @@ excerpt: |-
   Majd csatoljuk pl két állományt össze pl így:
   <code>gs -dNOPAUSE -sDEVICE=pdfwrite -sOUTPUTFILE=osszefuzve.pdf -dBATCH elso.pdf masodik.pdf</code>
 title: PDF állomány összefűzés
+aliases:
+- /node/354/
+- /story/354/
 ---
 Telepítsük fel a Ghostscriptet, ha még nincs fenn:
 <code>apt-get install gs</code>

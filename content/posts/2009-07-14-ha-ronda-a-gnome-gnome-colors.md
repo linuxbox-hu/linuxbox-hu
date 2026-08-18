@@ -6,6 +6,9 @@ date: '2009-07-14T00:00:00Z'
 excerpt: |
   Sokan vannak akiknek nem tetszik a Gnome színvilága, erre próbál megoldást nyújtani az alábbi projekt, ahol pillanatnyilag 6 különböző színből lehet választani.
 title: 'Ha ronda a Gnome: Gnome Colors'
+aliases:
+- /blog/627/
+- /node/627/
 ---
 Sokan vannak akiknek nem tetszik a Gnome színvilága, erre próbál megoldást nyújtani az alábbi projekt, ahol pillanatnyilag 6 különböző színből lehet választani.
 <!--break-->

@@ -5,6 +5,9 @@ created: 1304783024
 date: '2011-05-07T00:00:00Z'
 excerpt: 'Ha készült wget leírás, nem hagyhatom ki a másik jó kis grabbert: a curl-t.\r\n'
 title: curl használata
+aliases:
+- /blog/691/
+- /node/691/
 ---
 Ha készült wget leírás, nem hagyhatom ki a másik jó kis grabbert: a curl-t.
 <!--break-->

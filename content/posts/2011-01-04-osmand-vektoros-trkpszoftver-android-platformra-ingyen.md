@@ -9,6 +9,9 @@ excerpt: |
   
   Köszönet '''Trackman'''nak és '''péter68'''nak a hathatós közreműködésért, hogy az [http://openmaps.eu/] -nak lehetett OsmAnd kimenete.
 title: OsmAnd, vektoros térképszoftver Android platformra ingyen
+aliases:
+- /node/679/
+- /story/679/
 ---
 OsmAnd, vektoros térképszoftver Android platformra a [http://turistautak.hu] -tól átvett ''magyarországi'' és további [http://openmaps.eu] -s térképekkel. 
 

@@ -8,6 +8,9 @@ excerpt: |
   Frisshús neten akadtam egy új virtuális fájlrendszer kezdeményre a <a href="http://sourceforge.net/projects/fusepod/">FUSEPodra</a>.
   Jelenleg még csak olvasható verzió, de IPOD mahinálásra kiváló :)
 title: IPOD Fájlrendszer; fusepod
+aliases:
+- /node/129/
+- /story/129/
 ---
 Frisshús neten akadtam egy új virtuális fájlrendszer kezdeményre a <a href="http://sourceforge.net/projects/fusepod/">FUSEPodra</a>.
 Jelenleg még csak olvasható verzió, de IPOD mahinálásra kiváló :)

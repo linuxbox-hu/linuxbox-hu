@@ -9,6 +9,9 @@ excerpt: |
   <strong>tmpfs           /dev/shm        tmpfs   defaults,size=50M       0       0</strong>
   Ekkor csak egy 50 Mbyte méretű RAM drive-ot hozunk létre.
 title: Memóriában tartott programok; tmpfs
+aliases:
+- /node/70/
+- /story/70/
 ---
 Nem tudom találkoztatok-e már a linux kernel tmpfs filerendszer szolgáltatásával. Amennyiben bekapcsoljátok a <strong>CONFIG_TMPFS</strong> kernel opciót, akkor alapból (amennyiben devfs-t használsz) a fizikai memória fele megy a /dev/shm alá mint megosztott memória terület.  Természetesen ezt lehet módosítani, ha beadunk az <strong>fstab</strong>ba egy ilyen sort:
 <strong>tmpfs           /dev/shm        tmpfs   defaults,size=50M       0       0</strong>

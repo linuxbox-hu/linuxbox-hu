@@ -5,6 +5,9 @@ created: 1173785871
 date: '2007-03-13T00:00:00Z'
 excerpt: Már régóta szerettem volna egy antivírus programot az Ubuntu-mra telepíteni, de a biztonságérzetem miatt ez mostanáig elhúzódott. Elvileg Linux alatt kevés vírus létezik, így inkább a rendszer feltörésétől kell jobban félni. Keresgélésem olyan szoftverre irányult, mely nem található meg az alap Ubuntu tárolók közt. Alap esetben könnyen telepíthető a clamav és a KDE-s kezelőfelülete, a klamav.
 title: Antivírus programok
+aliases:
+- /blog/338/
+- /node/338/
 ---
 Már régóta szerettem volna egy antivírus programot az Ubuntu-mra telepíteni, de a biztonságérzetem miatt ez mostanáig elhúzódott. Elvileg Linux alatt kevés vírus létezik, így inkább a rendszer feltörésétől kell jobban félni. Keresgélésem olyan szoftverre irányult, mely nem található meg az alap Ubuntu tárolók közt. Alap esetben könnyen telepíthető a clamav és a KDE-s kezelőfelülete, a klamav. Biztos vagyok benne, hogy ez is nagyon jó, de engem a havp (http forgalmat ellenőrző démon) hibás feltelepülése felmérgesített és elkezdtem keresgélni másik víruskeresőt.
 

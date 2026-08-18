@@ -4,6 +4,9 @@ categories: []
 created: 1256422760
 date: '2009-10-24T00:00:00Z'
 title: SSH bejelentkezés jelszó nélkül
+aliases:
+- /blog/642/
+- /node/642/
 ---
 Ha jelszó törésrõl szeretnél olvasni, ajánlom John the Ripper oldalát. Most egyszerũen a DSA/RSA kulcsok segítségével történõ ssh-zásról írok.
 

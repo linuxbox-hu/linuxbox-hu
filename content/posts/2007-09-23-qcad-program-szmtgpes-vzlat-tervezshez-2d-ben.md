@@ -10,6 +10,9 @@ excerpt: |
   
   <img src="http://linuxbox.hu/files/qcad_shot.png" />
 title: QCad program számítógépes vázlat tervezéshez 2D-ben
+aliases:
+- /blog/434/
+- /node/434/
 ---
 A Newsforge egyik hírének olvasása közben kavarodtam az alábbi oldalon megtalálható terező programra. Az egyik építész mérnök szerint a <a href="http://www.qcad.org/qcad.html">QCad</a> program az AutoCAD egy kisebb tudású, ám jól használható nyílt forráskódú megfelelője.
 

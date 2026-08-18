@@ -5,6 +5,9 @@ categories:
 created: 1200957213
 date: '2008-01-21T00:00:00Z'
 title: ICC színprofilok kezelése
+aliases:
+- /node/470/
+- /story/470/
 ---
 Monitor (szkenner, nyomtató, fényképező gép) kalibrálása után kedvenc operációs rendszerünkkel is meg kell ismertetni az ICC színprofil állományt.
 Utánanéztem, hogy is megy ez Linux alatt:

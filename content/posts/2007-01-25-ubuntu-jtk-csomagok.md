@@ -8,6 +8,9 @@ excerpt: |
   Johnatan Carter oldalán talált <a href="http://jonathancarter.co.za/10-games-in-the-ubuntu-universe">cikk</a> és hozzászólások alapján meglehetősen sok játékot fedezhetünk fel az ubuntu linux csomagok közt! (természetesen az universe repoból!)
   Lássuk csak a listát:
 title: Ubuntu játék csomagok
+aliases:
+- /node/294/
+- /story/294/
 ---
 Johnatan Carter oldalán talált <a href="http://jonathancarter.co.za/10-games-in-the-ubuntu-universe">cikk</a> és hozzászólások alapján meglehetősen sok játékot fedezhetünk fel az ubuntu linux csomagok közt! (természetesen az universe repoból!)
 Lássuk csak a listát:

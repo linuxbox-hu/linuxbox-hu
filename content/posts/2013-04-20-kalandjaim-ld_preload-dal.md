@@ -9,6 +9,9 @@ tags:
 - ssize_t
 - LD_PRELOAD
 title: Kalandjaim LD_PRELOAD-dal
+aliases:
+- /blog/858/
+- /node/858/
 ---
 Ebben a bejegyzésemben egy apró de annál hasznosabb hack-et mutatok be.
 

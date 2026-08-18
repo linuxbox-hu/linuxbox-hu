@@ -15,6 +15,9 @@ excerpt: |-
   
   Ellenkező irányba (dvd -> avi) konvertáláskor használható akár a <a href="http://handbrake.m0k.org>HandBrake</a> nevű alkalmazás is.
 title: AVI állomány DVD-re írása és fordítva
+aliases:
+- /node/445/
+- /story/445/
 ---
 Ha egy AVI állományt DVD formátumra akarunk konvertálni a következő lépéseket érdemes követni:
 <code>mencoder -o finalmovie.avi -noidx -oac copy -ovc copy dvd.avi

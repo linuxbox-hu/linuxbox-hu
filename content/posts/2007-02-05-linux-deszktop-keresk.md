@@ -5,6 +5,9 @@ categories:
 created: 1170674941
 date: '2007-02-05T00:00:00Z'
 title: Linux Deszktop keresők
+aliases:
+- /node/302/
+- /story/302/
 ---
 A napi munka során rendszeresen kell keresgélni az állományaink közt. Van amikor a szokásos locate, grep és egyéb unix toolok már nem adnak megfelelő hatékonyságot. Ekkor jöhetnek szóba a "desktop search" eszközök. 
 

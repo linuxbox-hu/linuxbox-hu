@@ -6,6 +6,9 @@ created: 1211118287
 date: '2008-05-18T00:00:00Z'
 excerpt: 'Amióta Hardyn nem igazán akarnak működni a TV műsoros RSS olvasók, vagy nekem nem tetszenek, elkezdtem keresgélni valami más alternatíva után. Meg is lett:\r\n\r\nWhatsOnTV Screenlet: <a href=http://kepfeltolto.hu/i/?102116 target=_blank>Képernyőkép</a>\r\n\r\nMaximálisan 20 csatorna műsorát láthatjuk a képernyőnkön, az egyetlen negatívum, hogy csatornánként csak az éppen aktuális és az utána következő müsort mutatja. Itt kérnék segítséget, ha valaki ismeri a python nyelvet átírhatná, hogy 5 műsort mutasson csatornánként. :)\r\n\r'
 title: WhatsOnTV Screenlet HowTo (TV müsor)
+aliases:
+- /node/514/
+- /story/514/
 ---
 Amióta Hardyn nem igazán akarnak működni a TV műsoros RSS olvasók, vagy nekem nem tetszenek, elkezdtem keresgélni valami más alternatíva után. Meg is lett:
 

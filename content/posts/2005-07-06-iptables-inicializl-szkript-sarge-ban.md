@@ -10,6 +10,9 @@ excerpt: |
   Azért vette ki a csomagból a készítője ezeket a szkripteket, mert nem lehetett vele mindent jól kezelni.
   A csomag README állományában megtalálhatjuk, hogy mit ajánl a készítő a szkript kiváltására.
 title: iptables inicializáló szkript sarge-ban
+aliases:
+- /node/84/
+- /story/84/
 ---
 Aki woodyban jól ismerte az iptables csomagot, talán használta a <strong>/etc/init.d/iptables</strong> inicializáló szkriptet. Ezzel a szkripttel lehetett elmenteni különböző firewall beállításokat és autómatikusan visszaállítani őket pl. induláskor. Ez a szkript <strong>eltűnt</strong> a sargeból.
 

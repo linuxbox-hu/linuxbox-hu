@@ -7,6 +7,9 @@ date: '2013-02-06T00:00:00Z'
 excerpt: |
   Amennyiben VirtualBoxban létrehozott fájlrendszereinket közvetlenül akarjuk elérni (azaz mountolni), egyszerű parancssori alkalmazással megtehetjük azt.
 title: VirtualBox meghajtók (VDI, VMDK, VHD stb) direkt elérése
+aliases:
+- /node/849/
+- /story/849/
 ---
 Amennyiben VirtualBoxban létrehozott fájlrendszereinket közvetlenül akarjuk elérni (azaz mountolni), egyszerű parancssori alkalmazással megtehetjük azt.
 <!--break-->

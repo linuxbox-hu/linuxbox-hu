@@ -5,6 +5,9 @@ categories:
 created: 1253267192
 date: '2009-09-18T00:00:00Z'
 title: Reklámok és egyéb nemkívánatos weboldalak blokkolása /etc/hosts állománnyal
+aliases:
+- /node/635/
+- /story/635/
 ---
 Ezt a technikát még nem ismertem, pedig pofon egyszerű. 
 Ugye az interneten használt nevek feloldásakor az operációs rendszerek így a linux is használnak egy statikus hosts állományt(/etc/hosts) is. Ha mi egy nem kívánt weboldal nevét a localhost IPjével(127.0.0.1) betesszük ebbe az állományba akkor arra az oldalra a böngészőnkből többé még véletlen se tévedünk. :)

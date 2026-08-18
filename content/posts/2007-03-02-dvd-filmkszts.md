@@ -4,6 +4,9 @@ categories: []
 created: 1172822291
 date: '2007-03-02T00:00:00Z'
 title: DVD filmkészítés
+aliases:
+- /blog/325/
+- /node/325/
 ---
 Biztos sokan találkoztak azzal a problémával, hogy egy Divx filmből DVD-t kell készíteni, mert a családtagok nem szeretnék megnézni számítógépen a filmet. Van még számtalan indok, hogy miért van szükség erre, de számtalan program létezik a megoldásra.
 Én laikus emberként nem szeretek a mencoder paraméterezésével szenvedi, így grafikus programokat kerestem ehhez a feladathoz. Az első ilyen a QDVDauthor. Ez a program számomra kicsit nehézkes kezelésűnek tűnt, nem is volt könnyű vele filmet készíteni.

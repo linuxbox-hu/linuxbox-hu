@@ -8,6 +8,9 @@ excerpt: |-
   
   <p><a href="http://linuxbox.hu/sites/linuxbox.hu/files/gnomedo1.png"><img src="http://linuxbox.hu/sites/linuxbox.hu/files/gnomedo1.png"></a> </p>
 title: 'Gnome Do - Ha nem találsz valamit'
+aliases:
+- /blog/525/
+- /node/525/
 ---
 Dicsérni fogom, pedig csak pár órája futottam véletlen bele a Gnome-do nevü programba. így még előjöhetnek komoly hiányosságok, de amit eddig láttam belőle...
 

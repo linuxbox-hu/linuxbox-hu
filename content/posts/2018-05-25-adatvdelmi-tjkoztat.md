@@ -4,6 +4,9 @@ categories:
 - site
 date: '2018-05-25T00:00:00Z'
 title: Adatvédelmi tájékoztató
+aliases:
+- /article/873/
+- /node/873/
 ---
 Jelen Adatvédelmi Tájékoztató összefoglalja a linuxbox.hu kezelője által folytatott adatkezelési elveket és annak gyakorlatát.
 A látogató/felhasználó az adatok elküldésével kijelenti, hogy azok a valóságnak megfelelnek.

@@ -6,6 +6,9 @@ created: 1226676563
 date: '2008-11-14T00:00:00Z'
 excerpt: |
 title: Skype beszélgetés rögzítő
+aliases:
+- /node/563/
+- /story/563/
 ---
 <a href="http://atdot.ch/scr/index.html">Skype Call Recorder</a> egy nyílt forráskódú eszköz ami lehetővé teszi, hogy felvételeket készítsünk a skype beszélgetéseinkről linux alatt. 
 Jelenlegi szolgáltatásai:

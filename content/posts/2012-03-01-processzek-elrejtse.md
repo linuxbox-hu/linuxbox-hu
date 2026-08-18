@@ -5,6 +5,9 @@ categories:
 created: 1330640227
 date: '2012-03-01T00:00:00Z'
 title: Processzek elrejtése
+aliases:
+- /node/709/
+- /story/709/
 ---
 Az alap (vanilla) kernel sajátossága, hogy minden felhasználó láthatja mások processzeit.
 Erre a problémára léteznek ugyan különböző megoldások (pl. grsecurity), de ezek mind "macerásak".

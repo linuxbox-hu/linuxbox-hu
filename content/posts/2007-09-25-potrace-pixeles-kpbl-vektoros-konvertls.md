@@ -8,6 +8,9 @@ excerpt: |
   
 
 title: 'Potrace - pixeles képből vektoros konvertálás'
+aliases:
+- /blog/437/
+- /node/437/
 ---
 Amikor egy pixelekből álló képet nagyítani szeretnénk, akkor több rossz megoldás közül választhatunk; vagy minél élesebb és széttörtebb lesz a képünk, vagy homályosabb de annál természetesebb. Sajnos általában egyik sem megoldás. Ha a bitkép nem tartalmaz sok színt, akkor lehetőség van egy ún. Trace eljárásra, ami a pixeles képet vektorossá alakítja. Ennek tulajdonsága, hogy végtelen finomságú lesz mivel a képen található íveket és rajzokat görbékkel próbálja meg leírni / közelíteni.
 

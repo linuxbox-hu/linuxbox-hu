@@ -5,6 +5,9 @@ created: 1234259664
 date: '2009-02-10T00:00:00Z'
 excerpt: 'http://www.ossg.ru/docs/OpenVPN/faq.html\r\n\r\nUDPv4 []: No buffer space available (code=105)\r\n\r\nIncrease the required free memory. I recommend at least 2 MB, which you can set with:\r\n\r\n    echo 2048 >/proc/sys/vm/min_free_kbytes'
 title: openvpn faq
+aliases:
+- /blog/592/
+- /node/592/
 ---
 http://www.ossg.ru/docs/OpenVPN/faq.html
 

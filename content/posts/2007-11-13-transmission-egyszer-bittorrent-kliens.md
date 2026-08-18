@@ -4,6 +4,9 @@ categories: []
 created: 1194984724
 date: '2007-11-13T00:00:00Z'
 title: 'Transmission - egyszerű bittorrent kliens'
+aliases:
+- /blog/453/
+- /node/453/
 ---
 Én személy szerint a kis erőforrású (angol hivatkozással 'lightweight') szoftvereket részesítem előnyben. Bittorrent kliensből van sok, de régóta kerestem már egy olyat, ami a stabil Debian rendszeren is megvan és csak az alap műveleteket tudja, emellett nem eszik sok erőforrást. Az alábbi progit találtam:
 

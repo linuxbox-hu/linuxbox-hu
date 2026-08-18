@@ -5,6 +5,9 @@ categories:
 created: 1148985437
 date: '2006-05-30T00:00:00Z'
 title: SPF (Sender Policy Framework)
+aliases:
+- /node/172/
+- /story/172/
 ---
 <a href="http://www.ietf.org/rfc/rfc4408.txt">SPF</a> egy internet szabvány(RFC) arról, hogy egy megadott típusú DNS rekorddal szabályozhatjuk, hogy mely levelező szerver küldhet a domainünkről érkező címmel levelet.
 A dolog újkeletű és egyre több szolgáltató megköveteli, hogy ez a TXT típusú névszerver rekord létezzen a domainünkben.

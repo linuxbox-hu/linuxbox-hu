@@ -6,6 +6,9 @@ created: 1126632268
 date: '2005-09-13T00:00:00Z'
 excerpt: 'Egy érdekes új projektre leletem a mai böngészgetésem közepette: <a href="http://sourceforge.net/projects/xgestures/">xgestures</a>\r\n\r\nNem tudom kell-e magyaráznom mit nyújt a kis szolgáltatás.\r\nAz ölet a firefox azonos szolgáltatásából jött, ami alapjában véve nem is olyan rossz 5let. Szóval különböző kurzormozdulatokhoz különböző események vannak hozzárendelve; mint például minimalizálás, kilépés, futtatás, bezárás, maximalizálás stb.\r\n\r\nPersze csakis annak aki szereti az egérrel való manőverezést.'
 title: xgestures
+aliases:
+- /node/102/
+- /story/102/
 ---
 Egy érdekes új projektre leletem a mai böngészgetésem közepette: <a href="http://sourceforge.net/projects/xgestures/">xgestures</a>
 

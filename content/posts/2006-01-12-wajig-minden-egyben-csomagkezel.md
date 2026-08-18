@@ -23,6 +23,9 @@ excerpt: |
   
  <strong>available</strong>         hozzáférhető és telepíthető összes csomag listája
 title: 'wajig - minden egyben csomagkezelő'
+aliases:
+- /node/120/
+- /story/120/
 ---
 Wajig mindenféle műveletre képes ami szóba kerülhet csomagokkal, démonokkal kapcsolatban.
 Íme a teljes JIG utasítás készlet:

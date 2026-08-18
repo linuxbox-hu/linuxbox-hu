@@ -5,6 +5,9 @@ created: 1221498748
 date: '2008-09-15T00:00:00Z'
 excerpt: 'Jól jöhet az alábbi Microsoftos betűkészlet csomag, aki szeretné hogy a honlapok úgy nézzenek ki ahogy a designerek megálmodták őket, vagy rendszeresen küld win-es gépekre dokumentumokat.\r\n\r\nUbuntu tárolókban benne van, a csomag neve: <strong>msttcorefonts</strong>\r\n\r\nAz alábbi betűtípus családokat tartalmazza:\r\n<ul>\r\n<li> Andale Mono</li>\r\n<li> Arial Black</li>\r\n<li> Arial (Bold, Italic, Bold Italic)</li>\r\n<li> Comic Sans MS (Bold)</li>\r\n<li> Courier New (Bold, Italic, Bold Italic)</li>\r\n<li> Georgia (Bold, Italic, Bold Italic)</li>\r\n<li> Impact</li>\r'
 title: MS betűtípusok Ubuntura
+aliases:
+- /blog/551/
+- /node/551/
 ---
 Jól jöhet az alábbi Microsoftos betűkészlet csomag, aki szeretné hogy a honlapok úgy nézzenek ki ahogy a designerek megálmodták őket, vagy rendszeresen küld win-es gépekre dokumentumokat.
 

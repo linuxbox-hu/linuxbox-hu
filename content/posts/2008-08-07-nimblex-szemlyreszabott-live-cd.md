@@ -4,6 +4,9 @@ categories: []
 created: 1218115687
 date: '2008-08-07T00:00:00Z'
 title: 'Nimblex: személyreszabott Live CD'
+aliases:
+- /blog/542/
+- /node/542/
 ---
 Nemrég találtam egy figyelemreméltó Linux disztribúciót.
 Az rendszer weboldalán néhány kattintással kiválaszthatjuk, milyen programokat tartalmazzon, beállíthatjuk a háttérképet (akár saját képet is tölthetünk fel), kiválaszthatjuk a rendszerindítás/leállítás hangjait, beállíthatjuk a felhasználónevünket, jelszavunkat, és kész. Az oldal összegyúr nekünk egy személyre szabott, angol nyelvű Live CD-t.

@@ -6,6 +6,9 @@ created: 1173630397
 date: '2007-03-11T00:00:00Z'
 excerpt: '<h1><a title="http://linux.oregpreshaz.eu/cucc/mail_gpg_extract/mail_gpg_extract.tar.bz2" target="_blank" href="http://linux.oregpreshaz.eu/cucc/mail_gpg_extract/mail_gpg_extract.tar.bz2">mail_gpg_extract.py</a><a title="http://linux.oregpreshaz.eu/cucc/mail_gpg_extract/mail_gpg_extract.tar.bz2.asc" target="_blank" href="http://linux.oregpreshaz.eu/cucc/mail_gpg_extract/mail_gpg_extract.tar.bz2.asc">.asc</a>\r\n  <br />\r\n</h1>\r\n<p>Ez egy olyan script, ami automatikusan kicsomagolja a megfelelő <i>gpg/pgp</i> kulccsal titkosított és aláírt leveleket.\r\n  <br />\r\n  '
 title: GPG kódolt (pgp-mime) levelek automatikus visszafejtése
+aliases:
+- /node/335/
+- /story/335/
 ---
 <h1><a title="http://linux.oregpreshaz.eu/cucc/mail_gpg_extract/mail_gpg_extract.tar.bz2" target="_blank" href="http://linux.oregpreshaz.eu/cucc/mail_gpg_extract/mail_gpg_extract.tar.bz2">mail_gpg_extract.py</a><a title="http://linux.oregpreshaz.eu/cucc/mail_gpg_extract/mail_gpg_extract.tar.bz2.asc" target="_blank" href="http://linux.oregpreshaz.eu/cucc/mail_gpg_extract/mail_gpg_extract.tar.bz2.asc">.asc</a>
   <br />

@@ -8,6 +8,9 @@ excerpt: |
   Van ugye a S.M.A.R.T technológia a merevlemezek állapotának figyelésére, amihez szokásosan a <a href="http://smartmontools.sourceforge.net">smartmontools </a> csomagot kapjuk a legtöbb disztribúcióban. 
   Van azonban egy ügyes, alternatív megoldás is, amire büszkék lehetünk, mert magyar fejlesztésű.
 title: Hogy szolgál az egészsége... a merevlemeznek?
+aliases:
+- /node/658/
+- /story/658/
 ---
 Van ugye a S.M.A.R.T technológia a merevlemezek állapotának figyelésére, amihez szokásosan a <a href="http://smartmontools.sourceforge.net">smartmontools </a> csomagot kapjuk a legtöbb disztribúcióban. 
 Van azonban egy ügyes, alternatív megoldás is, amire büszkék lehetünk, mert magyar fejlesztésű.

@@ -4,6 +4,9 @@ categories: []
 created: 1276855317
 date: '2010-06-18T00:00:00Z'
 title: Könyvjelző címkék
+aliases:
+- /blog/667/
+- /node/667/
 ---
 Tudom egy újszülöttnek minden vicc új, valahogy így vagyok én is ezzel a címkézős cuccal...
 

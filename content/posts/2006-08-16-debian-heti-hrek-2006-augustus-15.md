@@ -16,6 +16,9 @@ excerpt: |-
   
   Az Etch Debian-Installer 3-as beta elérhető augusztus 11 óta. AMD64 támogatással, 2.6.16 kernellel (2.6 az alapértelmezett) Grafiku
 title: 'Debian heti hírek- 2006. Augustus 15.'
+aliases:
+- /node/186/
+- /story/186/
 ---
 Tegnap <a href="http://www.us.debian.org/News/weekly/2006/33/">megkérkezett ezévi 33. heti</a> hírlevél.
 

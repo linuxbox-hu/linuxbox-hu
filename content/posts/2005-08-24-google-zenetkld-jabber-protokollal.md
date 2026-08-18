@@ -9,6 +9,9 @@ excerpt: |
   
   Csak egy <strong>gmail</strong> postafiók kell hozzá:
 title: Google üzenetköldő Jabber protokollal
+aliases:
+- /node/95/
+- /story/95/
 ---
 Most olvastam a <a href="http://slashdot.org">Slashdot</a>on, hogy a <a href="http://google.com">Google</a> elindította üzenetküldő rendszerét, amit <a href="http://jabber.org">Jabber</a>t támogató klienssel lehet igénybe venni a saját kliensén kívül.
 

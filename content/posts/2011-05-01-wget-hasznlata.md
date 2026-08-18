@@ -6,6 +6,9 @@ date: '2011-05-01T00:00:00Z'
 excerpt: |
   Néha jó lenne egy weboldal tartalmát figyelni és a változásokról értesülni. Azonban az önaláírt ssl tanúsítvány, a http authentikáció, vagy épp az alkalmazásban megírt authentikációs form akadályozza ezt.
 title: wget használata
+aliases:
+- /blog/690/
+- /node/690/
 ---
 Néha jó lenne egy weboldal tartalmát figyelni és a változásokról értesülni. Azonban az önaláírt ssl tanúsítvány, a http authentikáció, vagy épp az alkalmazásban megírt authentikációs form akadályozza ezt.
 <!--break-->

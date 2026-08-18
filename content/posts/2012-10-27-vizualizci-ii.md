@@ -4,6 +4,9 @@ categories: []
 created: 1351354573
 date: '2012-10-27T00:00:00Z'
 title: vizualizáció II.
+aliases:
+- /blog/713/
+- /node/713/
 ---
 Újabb rendszeradminisztrálást segítõ webes alkalmazát szeretnék bemutatni.
 [http://linuxbox.hu/node/712 Elõzõ bejegyzésemben] a dpkg alapú csomagrendszer böngészésére alkalmas oldalt mutattam be.

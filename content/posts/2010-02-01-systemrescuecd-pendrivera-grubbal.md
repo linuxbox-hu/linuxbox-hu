@@ -7,6 +7,9 @@ date: '2010-02-01T00:00:00Z'
 excerpt: |
   Ha valahol át kell méretezni valamilyen partíciót, hálózatot kell tesztelni, vagy akár nagy tömegben kell klónozni partíciót/diszket jól jön a linuxos <a href="http://www.sysresccd.org/Main_Page">SystemRescueCd</a>. Évek óta nagy megelégedéssel használom ezt a kitűnő live disztribúciót, amely ~250MB méretéhez képest hihetetlen sok alkalmazást tartalmaz. Természetesen nem csak CD-ről futtatható, jól érzi magát egy pendriveon is. Alap boot managere a syslinux, ami egyszerű és nagyszerű, de ha valakinek a menüs Grub hiányzik, hát íme a recept lépésről-lépésre.
 title: SystemRescueCd pendrivera grubbal
+aliases:
+- /node/657/
+- /story/657/
 ---
 Ha valahol át kell méretezni valamilyen partíciót, hálózatot kell tesztelni, vagy akár nagy tömegben kell klónozni partíciót/diszket jól jön a linuxos <a href="http://www.sysresccd.org/Main_Page">SystemRescueCd</a>. Évek óta nagy megelégedéssel használom ezt a kitűnő live disztribúciót, amely ~250MB méretéhez képest hihetetlen sok alkalmazást tartalmaz. Természetesen nem csak CD-ről futtatható, jól érzi magát egy pendriveon is. Alap boot managere a syslinux, ami egyszerű és nagyszerű, de ha valakinek a menüs Grub hiányzik, hát íme a recept lépésről-lépésre.
 <!--break-->

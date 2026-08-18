@@ -5,6 +5,9 @@ categories:
 created: 1186826452
 date: '2007-08-11T00:00:00Z'
 title: Clamav repó Debian stable-hoz
+aliases:
+- /node/412/
+- /story/412/
 ---
 http://www.clamav.net/download/packages/packages-linux
 

@@ -7,6 +7,9 @@ date: '2010-10-04T00:00:00Z'
 excerpt: |
   Amennyiben 4 GiB-nál nagyobb (pl az asztali DVD recorder által készített 4,3 GiB-os) fájlt akarunk DVD-re írni, az ISO9660 fájlrendszer helyett célszerűbb UDF-et választani.
 title: 4 GiB (Gigabyte)-nál nagyobb fájlok DVD-re írása
+aliases:
+- /node/676/
+- /story/676/
 ---
 Amennyiben 4 GiB-nál nagyobb (pl az asztali DVD recorder által készített 4,3 GiB-os) fájlt akarunk DVD-re írni, az ISO9660 fájlrendszer helyett célszerűbb UDF-et választani.
 <!--break-->

@@ -5,6 +5,9 @@ created: 1263659165
 date: '2010-01-16T00:00:00Z'
 excerpt: Akár az előző scriptet kiegészítendő, akár más esetben, szükség lehet egy bitkép -> jpeg konverterre. Az itt következő image/graphicsmagick alapú script beállítható tömörítéssel és felbontással (dpi) konvertál bármely támogatott formátumot jpeg-be. A felület szintén zenity.
 title: Multimédia scriptek III.
+aliases:
+- /blog/651/
+- /node/651/
 ---
 Akár az előző scriptet kiegészítendő, akár más esetben, szükség lehet egy bitkép -> jpeg konverterre. Az itt következő image/graphicsmagick alapú script beállítható tömörítéssel és felbontással (dpi) konvertál bármely támogatott formátumot jpeg-be. A felület szintén zenity. Alapesetben rádiólistán választható a minőség, és graphicsmagick-et használ, de a kódban ott a kommentezett sorokban a lehetőség csúszkás beállításra, és imagemagick használatára.
 A kód:

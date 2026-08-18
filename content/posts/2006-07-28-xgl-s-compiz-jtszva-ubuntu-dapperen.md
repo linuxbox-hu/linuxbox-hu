@@ -7,6 +7,9 @@ date: '2006-07-28T00:00:00Z'
 excerpt: |
   Már többször olvastam cikkeket és láttam videókat  a még fejlesztés alatt álló <a href="http://hu.wikipedia.org/wiki/Xgl">xorg XGL</a> szerveréről és a compizről, hogy milyen könnyen telepíthető és milyen látványos. A minap ráakadtam <a href="http://www.davehayes.org/2006/05/22/howto-xgl-and-compiz-on-ubuntu-dapper-new-and-improved">egy nagyon jó telepítési leírásra</a> amit követve kb. 10 perc alatt feltelepítettem a fent emlegetett szoftvereket Ubuntu Dapper Drake rendszeremre. Megosztanám tapasztalataim most, akiket érdekel a részletes leírás olvassák tovább.
 title: xgl és compiz játszva ubuntu dapperen
+aliases:
+- /node/183/
+- /story/183/
 ---
 Már többször olvastam cikkeket és láttam videókat  a még fejlesztés alatt álló <a href="http://hu.wikipedia.org/wiki/Xgl">xorg XGL</a> szerveréről és a compizről, hogy milyen könnyen telepíthető és milyen látványos. A minap ráakadtam <a href="http://www.davehayes.org/2006/05/22/howto-xgl-and-compiz-on-ubuntu-dapper-new-and-improved">egy nagyon jó telepítési leírásra</a> amit követve kb. 10 perc alatt feltelepítettem a fent emlegetett szoftvereket Ubuntu Dapper Drake rendszeremre. Megosztanám tapasztalataim most, akiket érdekel a részletes leírás olvassák tovább.
 <!--break--> 

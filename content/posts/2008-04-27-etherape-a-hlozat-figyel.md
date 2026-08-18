@@ -5,6 +5,9 @@ created: 1209258336
 date: '2008-04-27T00:00:00Z'
 excerpt: 'A minap kiváncsi lettem arra, hogy a gépem milyen protokolokon, milyen szerverekkel komunikál, hátha van valami "relytéjes" forgalom ami lassítja a kapcsolatom. Találtam is egy a kiváncsiságomat kielégitő programot, ráadásul grafikus felülettel. Igényes, szép, jól működik, mi kell még?\r\n\r\nA project oldal: <a href="http://etherape.sourceforge.net/">http://etherape.sourceforge.net/</a>\r\n\r'
 title: 'EtherApe - a hálozat figyelő'
+aliases:
+- /blog/505/
+- /node/505/
 ---
 A minap kiváncsi lettem arra, hogy a gépem milyen protokolokon, milyen szerverekkel komunikál, hátha van valami "relytéjes" forgalom ami lassítja a kapcsolatom. Találtam is egy a kiváncsiságomat kielégitő programot, ráadásul grafikus felülettel. Igényes, szép, jól működik, mi kell még?
 

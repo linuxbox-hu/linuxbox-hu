@@ -5,6 +5,9 @@ categories:
 created: 1193945705
 date: '2007-11-01T00:00:00Z'
 title: Egér kurzor mozgatása billentyűvel
+aliases:
+- /node/447/
+- /story/447/
 ---
 Nemrégiben fedeztem fel újra, hogyan lehet pusztán billentyűk segítségével kiváltani az egér alapfunkcióit X alatt -gondoltam megosztom veletek, hátha jól jön valamikor.
 <li>Először bekapcsoljuk a funkciót a Shift-Ctrl-NumLock billentyűk lenyomásával

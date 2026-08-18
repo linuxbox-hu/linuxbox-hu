@@ -4,6 +4,9 @@ categories: []
 created: 1210597462
 date: '2008-05-12T00:00:00Z'
 title: gmusicbrowser
+aliases:
+- /blog/508/
+- /node/508/
 ---
 majd oldalra, csak még formálom..
 Üdv  linuxbox olvasóknak!

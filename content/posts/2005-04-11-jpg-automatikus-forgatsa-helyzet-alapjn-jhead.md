@@ -8,6 +8,9 @@ excerpt: |
   Megtaláltam azt a kis <a href="http://www.sentex.net/~mwandel/jhead/">eszközt</a> ami magadja azt a szolgáltatást amit rég hiányoltam kedvenc fénykép <a href="http://marginalhacks.com/Hacks/album/">album</a> készítő alkalmazásomból. 
   Jó bonyolultan leírtam mi? :) 
 title: JPG automatikus forgatása helyzet alapján; jhead
+aliases:
+- /node/53/
+- /story/53/
 ---
 Megtaláltam azt a kis <a href="http://www.sentex.net/~mwandel/jhead/">eszközt</a> ami magadja azt a szolgáltatást amit rég hiányoltam kedvenc fénykép <a href="http://marginalhacks.com/Hacks/album/">album</a> készítő alkalmazásomból. 
 Jó bonyolultan leírtam mi? :) 

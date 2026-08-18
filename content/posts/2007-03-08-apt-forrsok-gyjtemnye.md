@@ -5,6 +5,9 @@ created: 1173346832
 date: '2007-03-08T00:00:00Z'
 excerpt: 'Találtam egy APT forrásokat gyűjtő oldalt, melyről letölthető az Edgy-hez egy deb csomag, amely beteszi a készítő által talált forrásokat a sources.list fájlba.\r\nLetöltés: <a href=http://3v1n0.tuxfamily.org/pool/edgy/3v1n0/3v1n0-sources-list_0.3-3v1ubuntu0edgy1_i386.deb>APT gyűjtemény</a>\r\n\r\nMindenkit figyelmeztetek, hogy csak saját felelőségére telepítse a csomagot!\r\n\r\nTelepítési tapasztalatok:\r'
 title: APT források gyűjteménye
+aliases:
+- /blog/333/
+- /node/333/
 ---
 Találtam egy APT forrásokat gyűjtő oldalt, melyről letölthető az Edgy-hez egy deb csomag, amely beteszi a készítő által talált forrásokat a sources.list fájlba.
 Letöltés: <a href=http://3v1n0.tuxfamily.org/pool/edgy/3v1n0/3v1n0-sources-list_0.3-3v1ubuntu0edgy1_i386.deb>APT gyűjtemény</a>

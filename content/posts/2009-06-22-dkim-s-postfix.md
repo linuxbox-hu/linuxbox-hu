@@ -9,6 +9,9 @@ excerpt: |
   
   A rendszer konfigurálását szeretném leírni a továbbiakban.
 title: DKIM és Postfix
+aliases:
+- /node/619/
+- /story/619/
 ---
 <a href="http://en.wikipedia.org/wiki/Dkim">Domain Key Identified Mail (DKIM)</a> szolgáltatás hozzáad  a kimenő levelek fejlécéhez egy aláírást amivel azonosítja azokat, hogy valóban a mi domainünk levelező remdszere küldte a levelet. Miután a publikus kulcsot hozzáadtuk a DNS szerverünkbe mint TXT rekordot bárki tudja ellenőrizni, hogy a mi tartományunkból küldött levél valóban a mi szerverünkről érkezett-e vagy sem.
 

@@ -5,6 +5,9 @@ categories:
 created: 1282228900
 date: '2010-08-19T00:00:00Z'
 title: Firefox TABok csoportosítása, menedzselése látványosan a 4-es BETAban
+aliases:
+- /node/672/
+- /story/672/
 ---
 Ma letöltöttem a FF 4 Beta 4 előzetesét ami hivatalosan holnap kerül kiadásra ha minden jól sikerül. (A Beta 3-mal problémáim voltak...) 
 Egy új szolgáltatásra lettem figyelmes. Talán benn marad a 04-es betában a <a href="http://www.azarask.in/blog/post/tabcandy/">már korábban reklámozott</a> TABok csoportosítása szolgáltatás a "Tab Candy". 

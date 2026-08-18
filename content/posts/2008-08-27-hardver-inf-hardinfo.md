@@ -5,6 +5,9 @@ created: 1219795517
 date: '2008-08-27T00:00:00Z'
 excerpt: <p>Ha tudni szeretnénk milyen gyártotól származnak a gépünkben található chipek, vagy csak a pontos nevükre vagyünk kiváncsiak, akkor itt a <a href='http://hardinfo.berlios.de/'>hardinfo</a> ami feltérképezi oda-vissza a gépünket.</p>
 title: 'Hardver infó - hardinfo'
+aliases:
+- /blog/547/
+- /node/547/
 ---
 <p>Ha tudni szeretnénk milyen gyártotól származnak a gépünkben található chipek, vagy csak a pontos nevükre vagyünk kiváncsiak, akkor itt a <a href='http://hardinfo.berlios.de/'>hardinfo</a> ami feltérképezi oda-vissza a gépünket.</p>
 

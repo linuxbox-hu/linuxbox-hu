@@ -7,6 +7,9 @@ date: '2011-09-28T00:00:00Z'
 excerpt: |
   Feltetted a legfrissebb Firefoxot, de a bővítményeid (extensions) nem kompatibilisek vele?
 title: Firefox frissítés után nem működő bővítmények
+aliases:
+- /node/701/
+- /story/701/
 ---
 Feltetted a legfrissebb Firefoxot, de a bővítményeid (extensions) nem kompatibilisek vele?
 <!--break-->

@@ -8,6 +8,9 @@ excerpt: |-
   <strong>perl -e "print crypt('jelszó', join '', ('.', '/', 0..9, 'A'..'Z', 'a'..'z')[rand 64, rand 64]);"</strong>
   Értelemszerűen cseréld le a "jelszó" szöveget az általad kriptálni kívánt jelszóra!
 title: Perl crypt egysoros
+aliases:
+- /node/1/
+- /story/1/
 ---
 <strong>perl -e "print crypt('jelszó', join '', ('.', '/', 0..9, 'A'..'Z', 'a'..'z')[rand 64, rand 64]);"</strong>
 Értelemszerűen cseréld le a "jelszó" szöveget az általad kriptálni kívánt jelszóra!

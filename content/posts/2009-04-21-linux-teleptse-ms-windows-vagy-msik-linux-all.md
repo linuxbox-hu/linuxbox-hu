@@ -11,6 +11,9 @@ excerpt: |
   </ul>
   de nem akarsz (vagy nem tudsz) telepítő CD-t/DVD-t írni akkor az <a href="http://unetbootin.sourceforge.net/">UNetbootin-t</a> neked találták ki.
 title: Linux telepítése MS Windows vagy másik Linux alól
+aliases:
+- /node/606/
+- /story/606/
 ---
 <ul>
 <li>Ha van egy telepített Linux disztribúciód és másikat (is) akarsz telepíteni...</li>

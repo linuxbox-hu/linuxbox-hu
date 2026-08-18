@@ -13,6 +13,9 @@ excerpt: |-
   <li>infó letöltés netről (gyorsítótárral)</li>
   </ul>
 title: Mozi gyűjtemény menedzser; CeeMedia
+aliases:
+- /node/400/
+- /story/400/
 ---
 <a href="http://ceemedia.sosdg.org">CeeMedia</a> meglepően kellemes DVD-Mozi-*egyéb hasonló* gyűjtemény kezelő alkalmazás.
 <img src="/sites/default/files/ceemedia.jpg" alt="ceemedia">

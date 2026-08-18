@@ -7,6 +7,9 @@ excerpt: |
   Grrrr nagyon dühös vagyok a spammerekre. Utálom mikor idepiszkítanak a weboldalra. Már egy ideje captcha képek védik a regisztrációt. De visszatérnek a korábban beregisztrált falhasználóval és továbbra is szivatnak. Ma letöröltem gyanús felhsználók sokaságát első felindulásból.
   Aki magyar domain névről, magyar felhasználó névvel regisztrált nem lehet veszélyben. Aki nagyon furcsa címről és furcsa felhasználó névvel regisztrált és nem volt soha aktív esetlegesen beleeshetett a szórásba. Sajnálom. Regisztráljon újra.
 title: spammerek
+aliases:
+- /blog/429/
+- /node/429/
 ---
 Grrrr nagyon dühös vagyok a spammerekre. Utálom mikor idepiszkítanak a weboldalra. Már egy ideje captcha képek védik a regisztrációt. De visszatérnek a korábban beregisztrált falhasználóval és továbbra is szivatnak. Ma letöröltem gyanús felhsználók sokaságát első felindulásból.
 Aki magyar domain névről, magyar felhasználó névvel regisztrált nem lehet veszélyben. Aki nagyon furcsa címről és furcsa felhasználó névvel regisztrált és nem volt soha aktív esetlegesen beleeshetett a szórásba. Sajnálom. Regisztráljon újra.

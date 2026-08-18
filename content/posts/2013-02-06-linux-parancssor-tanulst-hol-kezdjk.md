@@ -8,6 +8,9 @@ excerpt: |
   Az imént azt a kérdést kaptam, hol érdemes kezdeni linux parancssor tanulást.
   Ezt válaszoltam:
 title: Linux parancssor tanulást hol kezdjük?
+aliases:
+- /node/850/
+- /story/850/
 ---
 Az imént azt a kérdést kaptam, hol érdemes kezdeni linux parancssor tanulást.
 Ezt válaszoltam:

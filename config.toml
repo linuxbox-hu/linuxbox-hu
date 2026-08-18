@@ -8,6 +8,11 @@ enableRobotsTXT = true
 enableGitInfo = false
 enableEmoji = true
 
+# Pagination config (https://gohugo.io/configuration/pagination/)
+# Replaces the removed per-language `paginate` key.
+[pagination]
+  pagerSize = 12
+
 [languages]
   [languages.en]
     weight = 1
@@ -17,8 +22,6 @@ enableEmoji = true
     languageName = "English"
     # whether to include Chinese/Japanese/Korean
     hasCJKLanguage = false
-    # default amount of posts in each pages
-    paginate = 12
     # copyright description used only for seo schema
     copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
     # Menu config
@@ -158,7 +161,6 @@ enableEmoji = true
     languageCode = "hu-HU"
     languageName = "Magyar"
     hasCJKLanguage = false
-    paginate = 12
     copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
     [languages.hu.menu]
       [[languages.hu.menu.main]]

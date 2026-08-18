@@ -7,6 +7,9 @@ date: '2011-03-20T00:00:00Z'
 excerpt: |
   A nyílt forrású adatbázis motorok közül leghíresebb és talán legelterjedtebb a Mysql. A MysqlAB fejlesztette eredetileg. A Mysqlab fejlesztőcéget felvásárolta a Sun, majd Őket az Oracle. A felvásárlás után az Oracle lépései között több olyan is található, mely a nyílt forrású közösség ellenérzését vívta ki. Bár a mysql eddig nem szenvedett el ilyen problémás lépést, mégis felmerül a kérdés mi van, ha mégis?
 title: Postgresql teljesítmény hangolás
+aliases:
+- /node/685/
+- /story/685/
 ---
 A nyílt forrású adatbázis motorok közül leghíresebb és talán legelterjedtebb a Mysql. A MysqlAB fejlesztette eredetileg. A Mysqlab fejlesztőcéget felvásárolta a Sun, majd Őket az Oracle. A felvásárlás után az Oracle lépései között több olyan is található, mely a nyílt forrású közösség ellenérzését vívta ki. Bár a mysql eddig nem szenvedett el ilyen problémás lépést, mégis felmerül a kérdés mi van, ha mégis?
 <!--break-->

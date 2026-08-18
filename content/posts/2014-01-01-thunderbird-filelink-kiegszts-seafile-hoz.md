@@ -8,6 +8,9 @@ tags:
 - Seafile
 - Filelink
 title: Thunderbird FileLink kiegészítés SeaFile-hoz
+aliases:
+- /node/862/
+- /story/862/
 ---
 Nem régen írtam a [SeaFile](https://seafile.com)\-ról [itt](https://linuxbox.hu/node/860). Azóta közeledik a 2.1-es kiadása pár érdekes új képességgel mint a [WebDAV](https://webdav.org/).
 

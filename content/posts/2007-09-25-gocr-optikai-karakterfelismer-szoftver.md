@@ -4,6 +4,9 @@ categories: []
 created: 1190738403
 date: '2007-09-25T00:00:00Z'
 title: 'Gocr - optikai karakterfelismerő szoftver'
+aliases:
+- /blog/436/
+- /node/436/
 ---
 Akinek sokat kell nyomtatott szöveget szkennelnie és azokat visszaalakítani szerkeszthető szöveggé, az valószínűleg találkozott már a probléma különféle szoftveres megoldás nyújtotta lehetőségével.
 

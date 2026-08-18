@@ -14,6 +14,9 @@ tags:
 - xfs
 - xfs_growfs
 title: Virtualbox vdi átméretezés (windows host, linux guest using LVM and xfs)
+aliases:
+- /node/872/
+- /story/872/
 ---
 Amikor a virtualbox particionkon elfogy a hely gondolkodhatunk, hogy megnagyobbitjuk vagy beadunk egy ujabb particiót. Én a komplikáltabb nagyobbítást választottam:
 (ha nem gond angolul hagyom a procedura lépéseit, valószínűleg így is érthetőek mindenki számára aki ilyesmivel dolgozik.)

@@ -7,6 +7,9 @@ excerpt: |-
   Utálok kopípásztézni, tehát:
   <a href=http://pomm.hu>pomm.hu</a>
 title: Pomm Blogja
+aliases:
+- /blog/411/
+- /node/411/
 ---
 Utálok kopípásztézni, tehát:
 <a href=http://pomm.hu>pomm.hu</a>

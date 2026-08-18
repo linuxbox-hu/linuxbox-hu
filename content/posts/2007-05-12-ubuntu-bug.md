@@ -5,6 +5,9 @@ created: 1178935106
 date: '2007-05-12T00:00:00Z'
 excerpt: 'Nyomtam egy apt-get update/upgrade-et, puff, itt a vége:\r\n<code>\r\nHibák történtek a következő feldolgozása során:\r\n firestarter\r\nE: Sub-process /usr/bin/dpkg returned an error code (1)\r\n</code>\r\nGondoltam úgy sem kell:\r\n<code>\r\nroot@ubudesk:~# apt-get remove firestarter\r\nCsomaglisták olvasása... Kész\r\nFüggőségi fa építése... Kész\r\nA következő csomagok el lesznek TÁVOLÍTVA:\r\n  firestarter\r\n0 csomag frissítve lesz, 0 új csomag lesz telepítve, 1 el lesz távolítva és 0 nem lesz frissítve.\r\n1 csomag nincs teljesen telepítve vagy eltávolítva.\r'
 title: Ubuntu bug?
+aliases:
+- /blog/369/
+- /node/369/
 ---
 Nyomtam egy apt-get update/upgrade-et, puff, itt a vége:
 <code>

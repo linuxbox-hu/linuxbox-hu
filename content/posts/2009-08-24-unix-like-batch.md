@@ -4,6 +4,9 @@ categories: []
 created: 1251126858
 date: '2009-08-24T00:00:00Z'
 title: Unix-like Batch
+aliases:
+- /blog/634/
+- /node/634/
 ---
 Remélem a következõ project-nek is helye van a box-ban.
 Készítek pár unix-szerû parancsfájlt, hogy win-es környezetben is lehessen közel hasonló szintaxissal elérni a hasonló, windows-os mûveleteket. 

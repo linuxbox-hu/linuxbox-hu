@@ -5,6 +5,9 @@ categories:
 created: 1155825467
 date: '2006-08-17T00:00:00Z'
 title: Workrave, program az egészséges munkavégzésért
+aliases:
+- /node/190/
+- /story/190/
 ---
 Már jóideje használom a Linux és Windows alá szabadon elérhető, <a href="http://www.workrave.org/">Workrave</a> nevű programot, amely hatékonyan működhet közre egészségünk megőrzése érdekében.
 Miről is van szó? Egy olyan alkalmazásra kell gondolni, amely amellett, hogy naplózza a napi billentyűleütések számát, illetve az egér által megtett utat, szünetet tud kényszeríteni a számítógép elött ülő felhasználóra.

@@ -4,6 +4,9 @@ categories: []
 created: 1209772357
 date: '2008-05-02T00:00:00Z'
 title: 'QGRUBEditor - Annak ki grubba nyúl'
+aliases:
+- /blog/507/
+- /node/507/
 ---
 Fel tettem az ubuntu mellé egy másik linuxot is. Próbaképp. Az instalállás után azt kérdezte, hogy a jelenlegi grub helyére berakhat-e egy lilot amiben csak ő fog szerpelni. Nem. így hát meg kellett küzdenem azzal, hogy a már meglévő grubba tegyem őt a meglévő oprendszerek közé. Így került látómezőm perifériájába e remek kis grub editor. Egyszerű, átlátható és szép.
 

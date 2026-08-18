@@ -5,6 +5,9 @@ categories:
 created: 1136325221
 date: '2006-01-03T00:00:00Z'
 title: Hogyan fordíthatunk arhitektúrára optimalizált debian csomagokat.
+aliases:
+- /node/119/
+- /story/119/
 ---
 Az <b>apt-build</b> debian csomag segítségével gentoo stílusú architektúrára optimalizált debian csomagokat készíthetünk magunknak.
 Telepítsük fel először a csomagot.

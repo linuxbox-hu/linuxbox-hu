@@ -12,6 +12,9 @@ excerpt: |-
   
   Bővebben <a href="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash">itt</a>.
 title: Adobe Flash Player 9 (x86)
+aliases:
+- /node/284/
+- /story/284/
 ---
 Adobe Flash Player 9 (x86)
 

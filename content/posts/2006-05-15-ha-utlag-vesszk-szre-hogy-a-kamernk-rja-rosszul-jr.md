@@ -11,6 +11,9 @@ excerpt: |
   
   <a href="http://johnst.org/sw/exiftags/">http://johnst.org/sw/exiftags/</a>
 title: Ha utólag vesszük észre, hogy  a kameránk órája rosszul jár...
+aliases:
+- /node/157/
+- /story/157/
 ---
 nem kell elkeseredni, mert létezik egy okos kis eszköz, melynek neve:
 

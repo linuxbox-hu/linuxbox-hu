@@ -4,6 +4,9 @@ categories: []
 created: 1183901569
 date: '2007-07-08T00:00:00Z'
 title: Auto Adjust Photo
+aliases:
+- /blog/396/
+- /node/396/
 ---
 Üdv Mindenkinek,
 

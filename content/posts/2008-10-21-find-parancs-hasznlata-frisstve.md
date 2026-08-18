@@ -14,6 +14,9 @@ tags:
 - find
 title: find parancs használata (frissítve)
 url: /find
+aliases:
+- /node/359/
+- /story/359/
 ---
 ## find parancs használata
 

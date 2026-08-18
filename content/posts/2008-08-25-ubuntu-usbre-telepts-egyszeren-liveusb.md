@@ -6,6 +6,9 @@ created: 1219658676
 date: '2008-08-25T00:00:00Z'
 excerpt: '<a href="http://klik.atekon.de/liveusb/">Liveusb</a> eszközzel készíthetünk egy bootolható rendszert USB kulcsra.\r\nA szoftvert az <a href="http://brainstorm.ubuntu.com/idea/16/">Ubuntu Brainstorm idea #16</a> alapján készítették.\r\n\r\nEzekre a műveletekre képes:\r\n    * USB kulcs felderítés (HAL használatával - rákérdez hogy melyiket használhatja)\r\n    * USB particionálás (1 partition)\r\n    * bootolható partició beállítás\r\n    * MBR írtás USBre\r\n    * FAT16 formázás\r\n    * bootloader telepítés (syslinux)\r\n    * bootloader konfigok készítése\r'
 title: 'Ubuntu USBre telepítés egyszerűen: liveusb'
+aliases:
+- /node/544/
+- /story/544/
 ---
 <a href="http://klik.atekon.de/liveusb/">Liveusb</a> eszközzel készíthetünk egy bootolható rendszert USB kulcsra.
 A szoftvert az <a href="http://brainstorm.ubuntu.com/idea/16/">Ubuntu Brainstorm idea #16</a> alapján készítették.

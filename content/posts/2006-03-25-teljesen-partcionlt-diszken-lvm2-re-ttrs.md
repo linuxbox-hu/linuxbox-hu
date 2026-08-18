@@ -5,6 +5,9 @@ categories:
 created: 1143301796
 date: '2006-03-25T00:00:00Z'
 title: teljesen partícionált diszken lvm2-re áttérés
+aliases:
+- /node/140/
+- /story/140/
 ---
 <em>Avagy hogyan lehet egy resize-t eltolni, aztán helyrehozni :)</em>
 

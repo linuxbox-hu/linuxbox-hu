@@ -6,6 +6,9 @@ created: 1140259972
 date: '2006-02-18T00:00:00Z'
 excerpt: 'SMTP szerver konfugurálás közben jól jön, ha telnettel tudunk mailszervert tesztelni.\r\nÍme egy példa:\r\n<code>\r\n$ telnet smtp.pelda.hu smtp\r\nTrying 192.0.34.72...\r\nConnected to smtp.example.com.\r\nEscape character is ''^]''.\r\n220 smtp.pelda.hu ESMTP Postfix (Debian/GNU)\r\nHELO smtp.vhol.hu\r\n250 smtp.example.com\r\nMAIL From: kecsi@nemtomDEnemletezik.hu\r\n250 Ok\r\nRCPT To: haver@valaholDEnemletezik.hu\r'
 title: SMTP teszt telnettel
+aliases:
+- /node/128/
+- /story/128/
 ---
 SMTP szerver konfugurálás közben jól jön, ha telnettel tudunk mailszervert tesztelni.
 Íme egy példa:

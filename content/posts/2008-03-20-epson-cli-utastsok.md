@@ -19,6 +19,9 @@ excerpt: |-
   színes printer fej beállítás:
   <code>escputil -o -u -r /dev/usb/lp0</code>
 title: Epson CLI utasítások
+aliases:
+- /node/483/
+- /story/483/
 ---
 Escputil egy parancsori alkalmazás Epson nyomtatók kezeléséhez.
 

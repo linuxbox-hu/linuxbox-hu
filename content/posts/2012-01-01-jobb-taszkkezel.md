@@ -4,6 +4,9 @@ categories: []
 created: 1325387158
 date: '2012-01-01T00:00:00Z'
 title: Jobb taszkkezelõ
+aliases:
+- /blog/706/
+- /node/706/
 ---
 <style>
 code {background-color:black;color:limegreen;font-weight:bold}

@@ -13,6 +13,9 @@ excerpt: |
   Az <a href="http://www.tatanka.com.br/ies4linux/">IEs4Linux</a> lényegében egy script halmazt, melynek segítségével egyszerűen használatba vehetjük a sokak által nem különösebben kedvelt, de eléggé elterjedt böngészőt.
   A scriptek a nyelvi beállításokat, az IE hozzávalók letöltését és a wine konfigurálását végzik.
 title: 'IEs4Linux - Internet Explorert linux alá'
+aliases:
+- /node/224/
+- /story/224/
 ---
 <a href="http://linuxbox.hu/node/224><img src="http://linuxbox.hu/file/IEs4.png"></a>
 A napokban telepítettem egy Ubuntut (Drapper).

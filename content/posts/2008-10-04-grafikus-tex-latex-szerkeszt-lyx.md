@@ -8,6 +8,9 @@ excerpt: |-
   
   <p><img src="http://linuxbox.hu/sites/linuxbox.hu/files/main_window_sm.png" /></p>
 title: 'Grafikus Tex/LaTeX szerkesztő - LyX'
+aliases:
+- /blog/555/
+- /node/555/
 ---
 <p>A <a href="http://www.lyx.org/Home"> Lyx </a> egy grafikus WYSIWYM (<strong>W</strong>hat <strong>Y</strong>ou <strong>S</strong>ee <strong>I</strong>s <strong>W</strong>hat <strong>Y</strong>ou <strong>M</strong>ean) Tex/LaTeX szerkesztő. 
 

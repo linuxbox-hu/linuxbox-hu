@@ -6,6 +6,9 @@ created: 1115063467
 date: '2005-05-02T00:00:00Z'
 excerpt: 'Adat cd esetén:\r\nKészítsük elő az anyagot mksisofs-sel majd írjuk fel: \r\n<strong> mkisofs -l -R -J -o cd.img cdre/\r\n cdrecord speed=16 dev=0,3,0 -eject -v a.iso<\r\n cdrecord speed=4 dev=0,3,0 -data -dao -v xp2600.iso\r\n dvdrecord -v -dao -eject dvdtest.bin</strong>\r\navagy\r\n<strong> cdrdao write --speed 4 --device 0,3,0 --driver generic-mmc x.cue</strong>\r\n '
 title: Konzolos cdirás
+aliases:
+- /node/65/
+- /story/65/
 ---
 Adat cd esetén:
 Készítsük elő az anyagot mksisofs-sel majd írjuk fel: 

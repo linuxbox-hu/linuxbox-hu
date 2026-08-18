@@ -7,6 +7,9 @@ tags:
 - Ubuntu
 - Spyware
 title: 'fixubuntu.com - ha valaki nem akarja, hogy a Canonical figyelje minden billentyűzet leütésedet leütésedet'
+aliases:
+- /node/861/
+- /story/861/
 ---
 Miután elolvastam az [Ars Technica](http://arstechnica.com/) [cikkét](http://arstechnica.com/information-technology/2013/11/canonical-abused-trademark-law-to-target-a-site-critical-of-ubuntu-privacy/) arról, hogy akarja a Canonical elhallgattatni a kritizáló oldalt, csak megnéztem miről is szól a [fixubuntu.com](https://fixubuntu.com/). Ezt találtam:
 

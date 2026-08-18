@@ -12,6 +12,9 @@ Egy kis töprengés után a következő tippet adtam neki:
   
 
 title: Váltás egyképernyős és dual-képernyős üzemmód között Grub menü segítségével
+aliases:
+- /blog/638/
+- /node/638/
 ---
 Egyik Ubuntu 9.04-et használó barátom kérdezett meg arról, hogy hogyan tudná megoldani a laptopján, hogy otthon 1-képernyős XOrg beállításokkal, míg munkahelyén két képernyős XOrg beállításokkal indíthassa kedvenc operációs rendszerét, mindemellett ne kelljen a váltáshoz újraindítani az XOrg-ot.
 

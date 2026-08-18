@@ -5,6 +5,9 @@ created: 1215349278
 date: '2008-07-06T00:00:00Z'
 excerpt: <p><a href="http://linuxbox.hu/files/compiz-switch-panel.png"><img src="http://linuxbox.hu/files/compiz-switch-panel.png"></a></p>
 title: 'Compiz gyors Ki/Be kapcsolása - Kiegészítve'
+aliases:
+- /blog/534/
+- /node/534/
 ---
 <p><a href="http://linuxbox.hu/sites/default/files/compiz-switch-panel.png"><img src="http://linuxbox.hu/sites/default/files/compiz-switch-panel.png"></a></p>
 

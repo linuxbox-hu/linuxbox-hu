@@ -7,6 +7,9 @@ excerpt: Syncthing egy multi platformos, nyílt kódú fájl szinkronizáló meg
 tags:
 - Syncthing
 title: Syncthing
+aliases:
+- /node/865/
+- /story/865/
 ---
 [Syncthing](http://syncthing.net/) multi platformos, [nyílt kódú](https://github.com/calmh/syncthing/blob/master/protocol/PROTOCOL.md) fájl szinkronizáló megoldás [BTSync](http://www.bittorrent.com/sync) helyett.
 

@@ -15,6 +15,9 @@ excerpt: |-
   Ezután már próbálhasz is átlépnizni jelszó nélkül.
   <code>ssh masikgep.teljes.neve</code>
 title: SSH kulcsok használata
+aliases:
+- /node/148/
+- /story/148/
 ---
 Ha egy távoli gépre például jelszó nélkül akarsz bejutni ssh-val, akkor használhatsz ssh kulcsokat.
 Ennek a beállítása mindössze pár utasítás:

@@ -16,6 +16,9 @@ excerpt: |-
   
   <img src="/files/telak_0.1.jpg" alt="telak"/>
 title: Extra kép(ek) megjelenítés X-es asztalunkon; telak
+aliases:
+- /node/336/
+- /story/336/
 ---
 <a href="http://julien.danjou.info/telak.html">telak</a> segítségével egy vagy több helyi vagy akár távoli képe(ke)t jeleníthetünk meg a X-es háttér képünk fölött aka a deszktopunkon.
 <ul>A teljes szolgáltatás lista:

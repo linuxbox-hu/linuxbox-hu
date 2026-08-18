@@ -7,6 +7,9 @@ date: '2009-07-13T00:00:00Z'
 excerpt: |
   Ha valaki sötét háttérszínű terminált használ lehet, hogy a listázási színeket testre kell szabja, hogy könnyebben olvasható színes listákat kapjon, ha használja ezt a szolgáltatást. A következőekben be szeretném mutatni, hogyan kell beállítani/módosítani a parancssoros listázás színeit.
 title: Parancssori listázási színek; ls colors
+aliases:
+- /node/625/
+- /story/625/
 ---
 Ha valaki sötét háttérszínű terminált használ lehet, hogy a listázási színeket testre kell szabja, hogy könnyebben olvasható színes listákat kapjon, ha használja ezt a szolgáltatást. A következőekben be szeretném mutatni, hogyan kell beállítani/módosítani a parancssoros listázás színeit.
 <!--break-->

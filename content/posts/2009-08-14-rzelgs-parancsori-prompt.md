@@ -9,6 +9,9 @@ excerpt: |
   
 Első eredeti verzió:
 title: Érzelgős parancsori prompt
+aliases:
+- /node/631/
+- /story/631/
 ---
 <a href="http://www.commandlinefu.com/commands/view/2528/smiley-face-bash-prompt">Commandlinefu</a>-n találtam egy fópofa parancssori prompt beállítást. A prompt asszerint ha helyes utasítást adtál ki mosolyog (jó pofát vág) vagy ha hibás parancsot sikerült begépelned akkor furcsán vagy szomorúan néz rád. :D
 Első eredeti verzió:

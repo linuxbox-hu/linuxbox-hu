@@ -5,6 +5,11 @@ categories:
 created: 1200156823
 date: '2008-01-12T00:00:00Z'
 title: Raszteresből vektoros
+aliases:
+- /blog/464/
+- /node/464/
+- /node/465/
+- /story/465/
 ---
 Ha valakinek bitmapes képet kell vektorossá konvertálnia, ime néhány megoldás:
 <ul>

@@ -5,6 +5,9 @@ categories:
 created: 1245069457
 date: '2009-06-15T00:00:00Z'
 title: Hogy mi használja eszeveszettül a merevlemezt
+aliases:
+- /node/618/
+- /story/618/
 ---
 megmondja az <a href="http://www.atcomputing.nl/Tools/atop/">atop</a> ami a legtöbb disztribúcióban csomagként elérhető.
 

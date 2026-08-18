@@ -8,6 +8,9 @@ excerpt: |
   <a href="http://www.ivarch.com/programs/pv.shtml">Pipe Viewer vagy csak egyszerűen pv</a> alkalmazás egy parancssori státusz indikátor unix pipe-ok használatához.  A pipe használata mint tudjuk kicsit lassítja parancsaink végrehajtását, így nem feltétlen gazdaságos a dolog de sokkal látványosabb és informatívabb. :)
   Na lássunk példákat a használatára:
 title: Pipe Viewer
+aliases:
+- /node/590/
+- /story/590/
 ---
 <a href="http://www.ivarch.com/programs/pv.shtml">Pipe Viewer vagy csak egyszerűen pv</a> alkalmazás egy parancssori státusz indikátor unix pipe-ok használatához.  A pipe használata mint tudjuk kicsit lassítja parancsaink végrehajtását, így nem feltétlen gazdaságos a dolog de sokkal látványosabb és informatívabb. :)
 Na lássunk példákat a használatára:

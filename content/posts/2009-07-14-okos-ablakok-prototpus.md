@@ -8,6 +8,9 @@ excerpt: |
   
 
 title: Okos ablakok prototípus
+aliases:
+- /blog/626/
+- /node/626/
 ---
 Böngészgetés közben akadtam a következő blenderrel készített ablakkezelő prototípusra. Ötletes.
 

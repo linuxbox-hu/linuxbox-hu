@@ -6,6 +6,9 @@ created: 1185875613
 date: '2007-07-31T00:00:00Z'
 excerpt: 'A http://getswiftfox.org/ -ot bukkantam az alábbi szövegre:\r\n\r\n(Tömören: nem bizonyítható, hogy a bináris terjesztés, azt és csak azt csinálja amit a készítő állít.)\r\n\r\nDon''t get Swiftfox!\r\n\r\nSwiftfox is supposed to be a processor-optimized build of Firefox. It probably is exactly what it claims to be, but nobody can really be sure. Why? Because the author refuses to release all his changes to the Firefox code base. Furthermore, he refuses to allow redistribution of his binary builds.\r\n\r'
 title: Swiftfox aggályok
+aliases:
+- /node/409/
+- /story/409/
 ---
 A http://getswiftfox.org/ -ot bukkantam az alábbi szövegre:
 

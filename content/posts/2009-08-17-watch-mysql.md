@@ -5,6 +5,9 @@ categories:
 created: 1250516332
 date: '2009-08-17T00:00:00Z'
 title: watch mysql
+aliases:
+- /node/632/
+- /story/632/
 ---
 ha valaki sql-ben tárolja a logjait, a hasonló módon helyettesítheti a megszokott tail -f paracsot:
 

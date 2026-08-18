@@ -7,6 +7,9 @@ date: '2010-04-27T00:00:00Z'
 excerpt: |
   Mert hogy ezt is lehet linux alatt. Azaz ha bedugjuk vagy kihúzzuk a hálózati kábelt, szkripteken keresztül vezérelhetjük a bekövetkező esemény(eke)t.
 title: Esemény a hálózati kábel (le)csatlakoztatásakor
+aliases:
+- /node/661/
+- /story/661/
 ---
 Mert hogy ezt is lehet linux alatt. Azaz ha bedugjuk vagy kihúzzuk a hálózati kábelt, szkripteken keresztül vezérelhetjük a bekövetkező esemény(eke)t.
 <!--break-->

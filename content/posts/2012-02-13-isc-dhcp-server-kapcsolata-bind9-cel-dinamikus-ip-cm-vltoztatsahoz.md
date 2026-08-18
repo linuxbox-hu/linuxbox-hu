@@ -8,6 +8,9 @@ excerpt: |-
   <p>...avagy szegény ember saját dyndns-e.
   </p>
 title: isc-dhcp-server kapcsolata bind9-cel dinamikus IP cím változtatásahoz...
+aliases:
+- /node/708/
+- /story/708/
 ---
 <p>...avagy szegény ember saját dyndns-e.
 </p>
