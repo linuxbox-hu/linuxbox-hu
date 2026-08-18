@@ -1,0 +1,80 @@
+#!/usr/bin/perl
+#
+# This verion is known to work with pam-script-1.1.3
+# Original from http://motp.sourceforge.net/PAM-script.zip
+# modified by szimszon a t oregpreshaz.eu to work with pam_exec.so
+use strict;
+use POSIX;
+use Digest::MD5 qw(md5_hex);
+my $PAM_AUTHTOK =  <STDIN>;
+$PAM_AUTHTOK = substr $PAM_AUTHTOK, 0,-1;
+my $install_dir = '/usr/local/otp/';
+
+require $install_dir.'otp-secrets';
+
+our %users; # From the otp-secrets file
+
+my $cache = $install_dir . 'cache/';
+
+# Get current epoch
+my $epoch = strftime '%s', localtime;
+# And dismiss the last digit (to get a jump of ten seconds)
+chop($epoch);
+
+# Check if the user is exists. 
+unless(exists $users{$ENV{PAM_USER}})	{
+	exit 1;
+}
+
+$cache .= $ENV{PAM_USER};
+my $last_login =0;
+my %cache;
+
+if ( -e $cache) {
+	open CACHE, "< $cache";
+	flock(CACHE, 2) or die;
+	while (<CACHE>){
+		chomp;
+		my ($otp, $ep) = $_ =~ m/^([a-z0-9]+):([0-9]+)$/;
+		if(defined $otp){
+			unless ($ep + 30 < $epoch){
+				$cache{$otp} = $ep;
+				if ($last_login<$ep){
+					$last_login=$ep;
+				}
+			}
+		}
+	}
+	flock(CACHE,8);
+	close CACHE;
+}
+
+if (exists $cache{$PAM_AUTHTOK}){
+	exit 3;
+}
+
+for(my $i=-18;$i<=18;$i++){
+	my $otp = substr(md5_hex($epoch+$i-$users{$ENV{PAM_USER}}->{offset}.$users{$ENV{PAM_USER}}->{secret}.$users{$ENV{PAM_USER}}->{pin}),0,6);
+	if (exists $cache{$otp}){
+		 next;
+	}
+	unless ($epoch+$i-$users{$ENV{PAM_USER}}->{offset} <= $last_login){
+		if ($otp eq $PAM_AUTHTOK){
+			$cache{$otp} = $epoch+$i-$users{$ENV{PAM_USER}}->{offset};
+			open CACHE, "> $cache";
+			flock(CACHE,2);
+			for my $otps (keys %cache){
+				print CACHE "$otps:$cache{$otps}\n";
+			}
+			flock(CACHE,8);
+			close CACHE;
+			exit 0;
+		}
+	}else{
+		if ($otp eq $PAM_AUTHTOK){
+			##close LOG;
+			exit 4;
+		}
+	}
+}
+exit 2;

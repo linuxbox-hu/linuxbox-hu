@@ -10,14 +10,15 @@ aliases:
 - /node/563/
 - /story/563/
 ---
-<a href="http://atdot.ch/scr/index.html">Skype Call Recorder</a> egy nyílt forráskódú eszköz ami lehetővé teszi, hogy felvételeket készítsünk a skype beszélgetéseinkről linux alatt. 
+[Skype Call Recorder](http://atdot.ch/scr/index.html) egy nyílt forráskódú eszköz ami lehetővé teszi, hogy felvételeket készítsünk a skype beszélgetéseinkről linux alatt.
 Jelenlegi szolgáltatásai:
-<ul>
-<li>felvétel MP3, Ogg Vorbis vagy WAV formátumban</li>
-<li>Automatikus és kézi felvétel</li>
-<li>automatikus felvétel beállitása hívó alapján</li>
-<li>felvétel stereo felosztás</li>
-<li>nyílt forráskód, GNU GPL licenc</li>
-</ul>
+
+- felvétel MP3, Ogg Vorbis vagy WAV formátumban
+- Automatikus és kézi felvétel
+- automatikus felvétel beállitása hívó alapján
+- felvétel stereo felosztás
+- nyílt forráskód, GNU GPL licenc
+
 Ubuntu, debian, rpm csomagok elérhetőek...
-<a href="http://atdot.ch/scr/index.html"><img src="/sites/default/files/skypecallrecorder.png" alt="skype call recorder"/></a>
+
+[![skype call recorder](/assets/img/posts/skypecallrecorder.png)](http://atdot.ch/scr/index.html)

@@ -12,6 +12,6 @@ A "gnome gmail" alkalmazás telepítése után lehetőségünk adódik, hogy be�
 
 Letölthető DEB (Ubuntu/Debian) vagy RPM (Fedora/openSUSE) csomagként az project oldaláról. Instalálás után a Preferred Applications beállításainál a "Mail Reader"-nél kiválasztható lesz a gmail is.
 
-![Gnome Gmail](http://linuxbox.hu/sites/default/files/500x_gnome_gmail.jpg)
+![Gnome Gmail](/assets/img/posts/500x_gnome_gmail.jpg)
 
 Honlap: [Gnome Gmail](http://gnome-gmail.sourceforge.net/) [SourceForge]

@@ -60,7 +60,7 @@ De akkor hogy is van ez? Kezdjük a [kályhá](http://lmgtfy.com/?q=k%E1lyha)tó
 - és még egyet: /usr/local/otp/cache
 - `chown -R root:root /usr/local/otp`
 - `chmod -R go-rwx /usr/local/otp`
-- kell a kicsit módosított script ([otp-auth-exec](http://linuxbox.hu/sites/default/files/otp-auth-exec.txt)) -- csatolmány (a *.txt* kiterjesztést szedjétek le)
+- kell a kicsit módosított script ([otp-auth-exec](/assets/files/posts/otp-auth-exec.txt)) -- csatolmány (a *.txt* kiterjesztést szedjétek le)
 - a [pam-script](http://sourceforge.net/projects/pam-script/)-ből ki kell másolni a otp-secrets fájlt és betenni a /usr/local/otp könyvtárba. Ebben a fájlban van benn a véletlen karaktersor és pin kód a felhasználóhoz a felhasználói névhez.
 
 Wow, ennyi volt.

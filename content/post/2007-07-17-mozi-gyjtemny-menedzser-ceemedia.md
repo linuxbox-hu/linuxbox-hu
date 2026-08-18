@@ -10,10 +10,12 @@ aliases:
 - /node/400/
 - /story/400/
 ---
-<a href="http://ceemedia.sosdg.org">CeeMedia</a> meglepően kellemes DVD-Mozi-*egyéb hasonló* gyűjtemény kezelő alkalmazás.
-<img src="/sites/default/files/ceemedia.jpg" alt="ceemedia">
-<ul>Szolgáltatásai:
-<li>keresés</li>
-<li>borító letöltés</li>
-<li>infó letöltés netről (gyorsítótárral)</li>
-</ul>
+[CeeMedia](http://ceemedia.sosdg.org) meglepően kellemes DVD-Mozi-*egyéb hasonló* gyűjtemény kezelő alkalmazás.
+
+![ceemedia](/assets/img/posts/ceemedia.jpg)
+
+Szolgáltatásai:
+
+- keresés
+- borító letöltés
+- infó letöltés netről (gyorsítótárral)

@@ -10,11 +10,13 @@ aliases:
 - /node/344/
 - /story/344/
 ---
-<a href="http://mozillalinks.org/wp/category/subject/firefox3/"><img src="/sites/default/files/ffx3-tuned.png" alt="ff3a3"/></a>
-Megérkezett a <a href="http://www.mozilla.org/projects/firefox/3.0a3/releasenotes/">3-as alfa verzió</a>, ez még persze erősen fejlesztési verzió, de tesztelgetni már lehet.
-<ul>Néhány újdonság: 
-<li>animált PNG támogatás</li>
-<li>kezdeti offline web oldal támogatás</li>
-<li>oldal átirányítás(redirect) és újratöltési(reload) figyelmeztetési lehetőség bekapcsolható</li>
-<li>Render motor fejlesztés</li>
-</ul>
+[![ff3a3](/assets/img/posts/ffx3-tuned.png)](http://mozillalinks.org/wp/category/subject/firefox3/)
+
+Megérkezett a [3-as alfa verzió](http://www.mozilla.org/projects/firefox/3.0a3/releasenotes/), ez még persze erősen fejlesztési verzió, de tesztelgetni már lehet.
+
+Néhány újdonság:
+
+- animált PNG támogatás
+- kezdeti offline web oldal támogatás
+- oldal átirányítás(redirect) és újratöltési(reload) figyelmeztetési lehetőség bekapcsolható
+- Render motor fejlesztés

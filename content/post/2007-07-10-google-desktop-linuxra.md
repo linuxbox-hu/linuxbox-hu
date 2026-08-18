@@ -10,17 +10,18 @@ aliases:
 - /node/397/
 - /story/397/
 ---
-Aki ismerte a windózos megfelelőjét vagy használja a hasonló funkcionalitással bíró beagle-t annak talán érdekes lehet, hogy megjelent a linuxos verzió a <a href="http://desktop.google.com/linux/">Google desktopból</a>.
+Aki ismerte a windózos megfelelőjét vagy használja a hasonló funkcionalitással bíró beagle-t annak talán érdekes lehet, hogy megjelent a linuxos verzió a [Google desktopból](http://desktop.google.com/linux/).
 
-<ul>Elég sok állomány títust és szolgáltatást támogat:<!--break-->
-<li>Gmail</li>
-<li>Text files and source code</li>
-<li>PDF és PS állományok</li>
-<li>HTML állományok</li>
-<li>Emailek Thunderbirdből</li>
-<li>OpenOffice.org dokumentumok</li>
-<li>kép és zene állományok</li>
-<li>Man és Info oldalak</li>
-<li>állomány és könyvtár nevek</li>
-</ul>
-<img src="/sites/default/files/gdesktop.jpg" alt="gdesktop"/>
+Elég sok állomány títust és szolgáltatást támogat:
+
+- Gmail
+- Text files and source code
+- PDF és PS állományok
+- HTML állományok
+- Emailek Thunderbirdből
+- OpenOffice.org dokumentumok
+- kép és zene állományok
+- Man és Info oldalak
+- állomány és könyvtár nevek
+
+![gdesktop](/assets/img/posts/gdesktop.jpg)

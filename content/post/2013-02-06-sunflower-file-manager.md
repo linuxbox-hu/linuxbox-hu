@@ -10,4 +10,6 @@ aliases:
 - /node/851/
 - /story/851/
 ---
-<a href="http://freecode.com/projects/sunflower" alt="freecode sunflower">Freecode</a>on lettem figyelmes a minap a <a href="http://code.google.com/p/sunflower-fm/" alt="sunflower">napraforgó</a> két paneles állomány kezelő alkalmazásra. Igéretes... <img src="/sites/default/files/sunflowerpreview.png"/ alt="sunflower">
+[Freecode](http://freecode.com/projects/sunflower)on lettem figyelmes a minap a [napraforgó](http://code.google.com/p/sunflower-fm/) két paneles állomány kezelő alkalmazásra. Igéretes...
+
+![sunflower](/assets/img/posts/sunflowerpreview.png)

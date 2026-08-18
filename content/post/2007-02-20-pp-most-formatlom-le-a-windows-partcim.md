@@ -9,4 +9,6 @@ aliases:
 - /blog/312/
 - /node/312/
 ---
-Feladom a játék oprendszerem..... miközben böngészgettem a neten és ezt találtam: <img src="/sites/default/files/linuxonthewall.jpg" alt="hehhe"/>
+Feladom a játék oprendszerem..... miközben böngészgettem a neten és ezt találtam:
+
+![hehhe](/assets/img/posts/linuxonthewall.jpg)

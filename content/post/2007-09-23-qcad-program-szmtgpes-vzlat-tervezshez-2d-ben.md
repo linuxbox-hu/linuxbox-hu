@@ -9,8 +9,8 @@ aliases:
 - /blog/434/
 - /node/434/
 ---
-A Newsforge egyik hírének olvasása közben kavarodtam az alábbi oldalon megtalálható terező programra. Az egyik építész mérnök szerint a <a href="http://www.qcad.org/qcad.html">QCad</a> program az AutoCAD egy kisebb tudású, ám jól használható nyílt forráskódú megfelelője.
+A Newsforge egyik hírének olvasása közben kavarodtam az alábbi oldalon megtalálható terező programra. Az egyik építész mérnök szerint a [QCad](http://www.qcad.org/qcad.html) program az AutoCAD egy kisebb tudású, ám jól használható nyílt forráskódú megfelelője.
 
-<a href="http://www.qcad.org/qcad.html">http://www.qcad.org/qcad.html</a>
+<http://www.qcad.org/qcad.html>
 
-<img src="http://linuxbox.hu/sites/default/files/qcad_shot.png" />
+![](/assets/img/posts/qcad_shot.png)

@@ -9,20 +9,19 @@ aliases:
 - /blog/552/
 - /node/552/
 ---
-<p>Ha van beépített bluetoothunk vagy esetleg vettünk a gépünkhöz egy adó-vevőt, akkor érdemes feltelepíteni a rendszerünkre a <a href="http://blueman.tuxfamily.org/">Blueman Bluetooth Managert (GTK)</a>.</p>
+Ha van beépített bluetoothunk vagy esetleg vettünk a gépünkhöz egy adó-vevőt, akkor érdemes feltelepíteni a rendszerünkre a [Blueman Bluetooth Managert (GTK)](http://blueman.tuxfamily.org/).
 
-<p><img src="	http://linuxbox.hu/sites/default/files/10.png"></p>
+![](/assets/img/posts/10.png)
 
-Percek alatt sikerült 
-<ul>
-<li>Nokia bluetooth headset-tel skypeolnom</li>
-<li>A telefonomról letölteni/feltölteni adatokat</li>
-<li>Számítógépek között mappákat megosztani</li>
-<li>Mobilinternetet megosztanom több laptop között</li>
-<ul/>
+Percek alatt sikerült
+
+- Nokia bluetooth headset-tel skypeolnom
+- A telefonomról letölteni/feltölteni adatokat
+- Számítógépek között mappákat megosztani
+- Mobilinternetet megosztanom több laptop között
 
 A program egyszerűen átlátható, könnyen kezelhető, gyors és szép.
 
 **Letöltés / repo hozzáadás:**
-<p><a href="http://blueman.tuxfamily.org/index.php?option=com_content&view=article&id=51&Itemid=56">http://blueman.tuxfamily.org/index.php?option=com_content&view=article&id=51&Itemid=56</a></p>
 
+<http://blueman.tuxfamily.org/index.php?option=com_content&view=article&id=51&Itemid=56>

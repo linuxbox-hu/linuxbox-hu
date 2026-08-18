@@ -27,9 +27,11 @@ Known gaps and planned work around the switch to the Chirpy Hugo theme (`geekifa
   (`/var/www/linuxbox.hu/www.linuxbox.hu/web/sites/default/files/`). All 36 individual images downloaded
   and rehosted under `static/assets/img/posts/`, posts converted to Markdown. 4 posts had their whole body
   duplicated (a migration bug) - fixed. The 12th post (backuppc) was already fine.
-- [ ] **~65 broken Drupal-era image links across the whole archive** - based on the discovery above, these
-  are likely **recoverable the same way** from the old Drupal `sites/default/files` folder on the server,
-  no need to delete/replace from elsewhere. Need to go through the full list and work through it the same way.
+- [x] ~~~65 broken Drupal-era image links across the whole archive~~ - done (2026-08-18). Found 83 dead
+  `/sites/default/files/*` references across 30 posts (plus one `.txt` attachment link), all recoverable
+  the same way from the old Drupal files on the server. All 84 files fetched and rehosted under
+  `static/assets/img/posts/` (images) and `static/assets/files/posts/` (the one text attachment), all 30
+  posts rewritten to clean Markdown with fixed paths.
 - [ ] Config secrets (Mapbox/Algolia-style keys) are still empty/unfilled, carried over from the old LoveIt
   config - check whether the new Chirpy config even needs these at all.
 - [ ] `site.webmanifest` favicon file is missing (PWA is currently disabled, `site.Params.pwa.enabled` isn't

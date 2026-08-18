@@ -9,11 +9,11 @@ aliases:
 - /blog/555/
 - /node/555/
 ---
-<p>A <a href="http://www.lyx.org/Home"> Lyx </a> egy grafikus WYSIWYM (`W`hat `Y`ou `S`ee `I`s `W`hat `Y`ou `M`ean) Tex/LaTeX szerkesztő. 
+A [Lyx](http://www.lyx.org/Home) egy grafikus WYSIWYM (`W`hat `Y`ou `S`ee `I`s `W`hat `Y`ou `M`ean) Tex/LaTeX szerkesztő.
 
-<p><img src="http://linuxbox.hu/sites/default/files/main_window_sm.png" /></p>
+![](/assets/img/posts/main_window_sm.png)
 
-Annak akinek valamilyen matematikai vonatkozású képletet kell egy lapra varázsolni elengedhetetlen eszköze a LaTeX. 
+Annak akinek valamilyen matematikai vonatkozású képletet kell egy lapra varázsolni elengedhetetlen eszköze a LaTeX.
 A kódban turkálni elég macerás és lassú folyamat, ráadásul sok tanulást is igényel. Aki ezt szeretné megkerülni, annak szolgál remek segítségül ez a program.
 
-<p><a href="http://www.getdeb.net/app/LyX">letölthető innen is</a></p>
+[letölthető innen is](http://www.getdeb.net/app/LyX)

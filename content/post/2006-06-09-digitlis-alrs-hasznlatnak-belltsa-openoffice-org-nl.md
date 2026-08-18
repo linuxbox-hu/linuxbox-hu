@@ -13,30 +13,41 @@ aliases:
 - /node/173/
 - /story/173/
 ---
-A dolog rém egyszerű csak valamilyen programra van szükség a ''Mozilla''-tól (Thunderbird, Mozilla, Firefox...).
+A dolog rém egyszerű csak valamilyen programra van szükség a Mozilla-tól (Thunderbird, Mozilla, Firefox...).
 
 Ha a fent említett programokban vannak használható tanúsítványaink azokat tudjuk felhasználni
-<!--break-->
+
 Annyi a dolgunk, hogy az OpenOffice.org indítása előtt (ha automatikusan nem találja meg) beállítjuk a
 
-'''MOZILLA_CERTIFICATE_FOLDER'''
+`MOZILLA_CERTIFICATE_FOLDER`
 
 környezeti változót arra a könyvtárra ahol a mozilla program a mi profilunkat tárolja. Például:
 
-'''export MOZILLA_CERTIFICATE_FOLDER="
-/home/szimszon/.mozilla/firefox/29rsfxrn.default/" '''
+```text
+export MOZILLA_CERTIFICATE_FOLDER="/home/szimszon/.mozilla/firefox/29rsfxrn.default/"
+```
 
-A tanúsítvány beszerzéséről a Thawte-nél [http://linuxbox.hu/node/531 itt] található egy leírás.
+A tanúsítvány beszerzéséről a Thawte-nél [itt](http://linuxbox.hu/node/531) található egy leírás.
 
-=== Dokumentum digitális aláírása ===
+### Dokumentum digitális aláírása
 
 Miután megírtuk a dokumentumot mentsük el.
 
-# Majd a '''Fájl -> Digitális aláírások'''ra kattintsunk<br>http://linuxbox.hu/sites/default/files/ooo3.png
-# Kattintsunk a '''Hozzáadás...''' gombra: <br>http://linuxbox.hu/sites/default/files/ooo4.png
-# Írjuk be a Mozilla-nál használt mester jelszót: <br>http://linuxbox.hu/sites/default/files/ooo5.png
-# Válasszuk ki az aláíráshoz használandó tanúsítványt, majd '''OK''': <br>http://linuxbox.hu/sites/default/files/ooo6.png
-# A dokumentumunk ezzel alá is lett írva: <br>http://linuxbox.hu/sites/default/files/ooo7.png
+1. Majd a **Fájl -> Digitális aláírások**ra kattintsunk
+
+   ![](/assets/img/posts/ooo3.png)
+2. Kattintsunk a **Hozzáadás...** gombra:
+
+   ![](/assets/img/posts/ooo4.png)
+3. Írjuk be a Mozilla-nál használt mester jelszót:
+
+   ![](/assets/img/posts/ooo5.png)
+4. Válasszuk ki az aláíráshoz használandó tanúsítványt, majd **OK**:
+
+   ![](/assets/img/posts/ooo6.png)
+5. A dokumentumunk ezzel alá is lett írva:
+
+   ![](/assets/img/posts/ooo7.png)
 
 A kis ikonra kattintva információkat kaphatunk az aláírásról.
 
