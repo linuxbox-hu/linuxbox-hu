@@ -12,6 +12,12 @@ Ismert hiányosságok, tervezett munkák a Chirpy Hugo-témára (`geekifan/hugo-
   fordításokhoz. Cél: `i18n/hu.yaml` elkészítése ebben a repóban (helyi override, a téma saját i18n mappájával
   megegyező struktúrában), majd PR-ban felajánlani a `geekifan/hugo-theme-chirpy` upstream repónak is.
 
+- [ ] **`preview-img` bug PR upstream.** `layouts/index.html` és `layouts/post/single.html` is a
+  `preview-img` classt közvetlenül az `<img>`-re teszi ahelyett, hogy egy körülötte lévő wrapper divre tenné -
+  emiatt a kép torzul/nyúlik ahelyett, hogy a téma saját SCSS-e (`.preview-img { aspect-ratio: 40/21;
+  overflow: hidden; img { object-fit: cover } }`) helyesen kivágná. Helyi javítás már megtörtént (lásd
+  `layouts/index.html` és `layouts/post/single.html` ebben a repóban), csak az upstream PR van hátra.
+
 ## Egyéb ismert rések
 
 - [ ] 12 poszt több képpel (multi-image) - ki lettek hagyva a kép front-matter promócióból, egyelőre a
