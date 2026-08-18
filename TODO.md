@@ -20,10 +20,14 @@ Ismert hiányosságok, tervezett munkák a Chirpy Hugo-témára (`geekifan/hugo-
 
 ## Egyéb ismert rések
 
-- [ ] 12 poszt több képpel (multi-image) - ki lettek hagyva a kép front-matter promócióból, egyelőre a
-  body-ban maradnak inline képek formájában.
-- [ ] ~65 törött Drupal-kori képlink (`/sites/default/files/...`) a régi archívumban - a téma-váltástól
-  független, előbb-utóbb érdemes lenne egyenként pótolni vagy törölni.
+- [x] ~~12 poszt több képpel (multi-image)~~ - kész (2026-08-18). Mind a 11 törött Drupal-képekre mutató
+  poszt képe **visszaszerezhető** volt: a régi Drupal kódbázis és a feltöltött fájlok még megvannak a
+  szerveren (`/var/www/linuxbox.hu/www.linuxbox.hu/web/sites/default/files/`). Mind a 36 egyedi kép
+  letöltve és újrahosztolva a `static/assets/img/posts/` alá, a posztok markdown-ra konvertálva. 4 posztnak
+  duplikált volt a teljes body-ja (migrációs hiba) - javítva. A 12. (backuppc) már eleve rendben volt.
+- [ ] **~65 törött Drupal-kori képlink a teljes archívumban** - a fenti felfedezés alapján ez a többi eset is
+  valószínűleg **visszaszerezhető ugyanígy** a szerveren lévő régi Drupal `sites/default/files` mappából,
+  nem kell törölni/pótolni máshonnan. Meg kell nézni a teljes listát és ugyanígy végigmenni rajta.
 - [ ] Config secretek (Mapbox/Algolia-stílusú kulcsok) még mindig üresek/kitöltetlenek a régi LoveIt configból
   átvéve - ellenőrizni, hogy az új Chirpy configban egyáltalán szükség van-e ezekre.
 - [ ] `site.webmanifest` favicon fájl hiányzik (PWA jelenleg kikapcsolva, `site.Params.pwa.enabled` nincs
