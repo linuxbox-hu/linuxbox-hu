@@ -34,27 +34,35 @@ Egy szinkronizálás nem árt, hogy biztosan minden az eszközre kerüljön
 `sync`</li>
 <li>Mountoljuk fel a pendriveot (ha nincs `/mnt/usbstick/` könyvtár, akkor azt először létre kell hozni)!
 Pl:
-<em>mkdir /mnt/usbstick
-mount -t vfat /dev/sdb1 /mnt/usbstick</em></li>
+```bash
+mkdir /mnt/usbstick
+mount -t vfat /dev/sdb1 /mnt/usbstick
+```</li>
 <li>Mountoljuk fel az iso fájl tartalmát (ha nincs `/mnt/cdrom/` könyvtár, akkor azt először létre kell hozni)!
 Pl:
-<em>mkdir /mnt/cdrom
-mount /tmp/systemrescuecd-x86-1.3.5.iso /mnt/cdrom -o loop</em></li>
+```bash
+mkdir /mnt/cdrom
+mount /tmp/systemrescuecd-x86-1.3.5.iso /mnt/cdrom -o loop
+```</li>
 <li>Másoljuk a fájlokat a CD-ről a pendrivera!
 Pl:
-<em>cp -af /mnt/cdrom/* /mnt/usbstick/
+```bash
+cp -af /mnt/cdrom/* /mnt/usbstick/
 rm -rf /mnt/usbstick/syslinux
 mv /mnt/usbstick/isolinux/isolinux.cfg /mnt/usbstick/isolinux/syslinux.cfg
-mv /mnt/usbstick/isolinux /mnt/usbstick/syslinux</em></li>
+mv /mnt/usbstick/isolinux /mnt/usbstick/syslinux
+```</li>
 <li>Lecsatoljuk a pendriveot és bootolhatóvá tesszük
 Pl:
-<em>umount /mnt/usbstick/
+```bash
+umount /mnt/usbstick/
 syslinux /dev/sdb1
-sync</em></li>
+sync
+```</li>
 <li>A CD image-et is lecsatoljuk, már nincs rá szükség
 Pl: `umount /mnt/cdrom/`</li>
-<strong>Ezzel egy syslinuxos SystemRescueCd-t kaptunk pendriveon, amivel már be lehetne bootolni.
-Változtassuk meg a boot managert Grubra...</strong>
+**Ezzel egy syslinuxos SystemRescueCd-t kaptunk pendriveon, amivel már be lehetne bootolni.
+Változtassuk meg a boot managert Grubra...**
 <li>Mountoljuk fel a pendriveot!
 Pl: `mount -t vfat /dev/sdb1 /mnt/usbstick`</li>
 <li>Hozzuk létre a grub könyvtárat!
@@ -64,7 +72,8 @@ Nálam ezek a /usr/lib/grub/i386-pc/ könyvtárban találhatók:
 Pl: `cp /usr/lib/grub/i386-pc/* /mnt/usbstick/boot/grub`</li>
 
 <li>Készítsünk egy `menu.lst` fájlt a Grubnak:
-Pl: <em>cat > /mnt/usbstick/boot/grub/menu.lst
+Pl: ```
+cat > /mnt/usbstick/boot/grub/menu.lst
 # Alapertekek:
 timeout   5
 default   0
@@ -73,7 +82,8 @@ color light-blue/black light-cyan/blue
 # (0) System Rescue CD
 title SystemRescueCd 32bit
 kernel (hd0,0)/syslinux/rescuecd setkmap=us docache lowmem
-initrd (hd0,0)/syslinux/initram.igz</em>[ctrl-d]
+initrd (hd0,0)/syslinux/initram.igz
+```[ctrl-d]
 
 <li>Válasszuk le a a pendriveot!
 Pl: `umount /mnt/usbstick`</li>
@@ -81,10 +91,12 @@ Pl: `umount /mnt/usbstick`</li>
 További menüket (szokásosan felmountolt pendrive esetén) a `/mnt/usbstick/syslinux/syslinux.cfg` fájl tanulmányozásával készíthetünk.</li>
 <li>Bootoljunk be a pendriveról (BIOS-ban USB-HDD) és installáljuk a Grubot az MBR-be a syslinux helyére!
 (Miután bebootolt pendriveról a rendszer -feltételezve, hogy merevlemezünk a hd0, pendrive pedig hd1):
-<em>grub
+```bash
+grub
 root (hd1,0)
 setup (hd1)
-quit</em>
+quit
+```
 </li>
 </ul>
 

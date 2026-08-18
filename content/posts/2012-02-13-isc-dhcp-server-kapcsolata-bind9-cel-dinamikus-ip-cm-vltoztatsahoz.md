@@ -38,10 +38,11 @@ aliases:
 <p><font face="courier new,courier,monospace">zone "example.com" {
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; type master;
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; file "/etc/bind/db.example.com";
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; update-policy {
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; grant thorin.example.com. name gollam.example.com. A TXT;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; };
-</strong>};</font>
+```
+        update-policy {
+                grant thorin.example.com. name gollam.example.com. A TXT;
+        };
+```};</font>
 </p>
 <p>Máris megengedtük <em>thorin</em> barátunknak, hogy <em>gollam.example.com</em>&nbsp; A és TXT rekordját módosítsa.
   <br />

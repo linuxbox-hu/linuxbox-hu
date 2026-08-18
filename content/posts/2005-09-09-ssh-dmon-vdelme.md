@@ -19,8 +19,10 @@ Két fejta egyszerű megoldás is van:
  `/etc/ssh/sshd_config` konfigurációs állomány végén. További információt kahatunk a manuálokból. man sshd_config
 
 2. iptables tűzfal szabályokat is létrehozhatunk a problémára.
-<strong>iptables -I INPUT -p tcp --dport 22 -i eth0 -m state --state NEW -m recent --set
-iptables -I INPUT -p tcp --dport 22 -i eth0 -m state --state NEW -m recent --update --seconds 60 --hitcount 4 -j DROP</strong>
+```bash
+iptables -I INPUT -p tcp --dport 22 -i eth0 -m state --state NEW -m recent --set
+iptables -I INPUT -p tcp --dport 22 -i eth0 -m state --state NEW -m recent --update --seconds 60 --hitcount 4 -j DROP
+```
 Például ez a két sor kizárja 1 percen belül a 4. próbálkozástól a következőket a 22 porton.
 
 Sok már kevésbé egyszerű és szerintem veszélyesebb megoldás is van. Van aki kizár minden próbálkozást végleg a támadó tartományából... ezeket a megoldásokat én nem ismertetem. Feleslegesnek túlzásnak tartom őket.

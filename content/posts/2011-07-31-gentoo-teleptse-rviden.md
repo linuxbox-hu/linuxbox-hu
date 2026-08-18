@@ -51,12 +51,14 @@ emerge sysklogd; emerge logrotate; rc-update add sysklogd default; emerge vixie-
 emerge mlocate; emerge dhcpcd; emerge grub
 ls /boot/ | grep genkernel</code>
 
-<code><em>echo "
+<code>```bash
+echo "
 splashimage=(hd0,0)/boot/grub/splash.xpm.gz
 title Gentoo Linux 2.6.38-r6
 root (hd0,0)
 kernel /boot/kernel-genkernel-x86-2.6.38-gentoo-r6 real_root=/dev/sda1
-initrd /boot/initramfs-genkernel-x86-2.6.38-gentoo-r6" >> /boot/grub/grub.conf</em></code>
+initrd /boot/initramfs-genkernel-x86-2.6.38-gentoo-r6" >> /boot/grub/grub.conf
+```</code>
 
 <code>grep -v rootfs /proc/mounts > /etc/mtab; grub-install --no-floppy /dev/sda
 exit

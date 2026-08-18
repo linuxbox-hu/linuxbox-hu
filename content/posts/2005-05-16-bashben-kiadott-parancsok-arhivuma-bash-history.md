@@ -15,11 +15,13 @@ Az arhívum tartalmát a `history` parannccsal tekinthetjük meg. Természetesen
 Mikor megtekintjük az arhívum tartalmát láthatjuk az egyes elemek sorszámozva vannak. Ezzel a sorszámmal is vissza tudjuk hívni az egyes  arhív sorokat újrafuttatásra a `!{sorszám}` segítségével.
 
 További parancssori változokkal tudjuk szabályozni a teljes arhívum működését:
- <strong>export HISTFILE=/home/te_felhasznalod/.bash_history
+ ```bash
+export HISTFILE=/home/te_felhasznalod/.bash_history
  export HISTFILESIZE=5000
  export HISTSIZE=5000
  export HISTIGNORE='&:ls:[bf]g:exit:[ \t]*'
- export HISTCONTROL=ignoredups</strong>
+ export HISTCONTROL=ignoredups
+```
 Úgymint az arhívum állományának nevét, maximális sorainak számát, arhvumból kihagyandó parancsokat, duplikációk mellőzését.
 A '[ \t]*' egy ügyes trükk a szóközzel kezdett parancsok kihagyását eredményezi.
 Végül pedig a több soros parancsok arhívumban egy sorban tárolását a `shopt -s cmdhist` paranccsal érhetjük el.

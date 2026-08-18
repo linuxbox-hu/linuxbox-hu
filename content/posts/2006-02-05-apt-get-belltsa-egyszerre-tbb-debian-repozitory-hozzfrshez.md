@@ -21,7 +21,7 @@ Megjegyzem a vegyes rendszer karbantartása kicsit nehézkesebb.
 
 Mindösszé két konfigurációs állományt kell szerkesztenünk.<!--break-->
 1. a jól ismert /etc/apt/sources.list állomány lehet akár a következő:
-<strong>
+```
 #Stable
 deb http://ftp.us.debian.org/debian stable main non-free contrib
 deb http://non-us.debian.org/debian-non-US stable/non-US main contrib non-free
@@ -33,11 +33,11 @@ deb http://non-us.debian.org/debian-non-US testing/non-US main contrib non-free
 #Unstable
 deb http://ftp.us.debian.org/debian unstable main non-free contrib
 deb http://non-us.debian.org/debian-non-US unstable/non-US main contrib non-free
-</strong>
+```
 avagy az <a href="http://linuxbox.hu/public/files/sources.list">enyémhez</a> hasonló.
 
 2. /etc/apt/preferences tartalma pedig ilyesmi:
-<strong>
+```
 Package: *
 Pin: release a=stable
 Pin-Priority: 700
@@ -49,7 +49,7 @@ Pin-Priority: 650
 Package: *
 Pin: release a=unstable
 Pin-Priority: 600
-</strong>
+```
 
 Ezután már használhatjuk is a testing vagy unstable csomagokat is:
 Így: <strong>apt-get -t testing install <csomag></strong>

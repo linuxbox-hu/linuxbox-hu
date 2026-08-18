@@ -20,10 +20,11 @@ Nézzük hogyan is lehet elérni ezt pl. egy debian rendszeren.
 Először is legyen legalább modulba befordítva a kernelünkbe az AUTOFS támogatás. (Ha az alap debian kernelt használjuk akkor ez természetesen megvan.)
 Pl. Így győződhetünk meg h rendben van-e ez:
 
-linuxbox:~><strong>grep AUTOFS /boot/config-2.6.8-2-686 
+linuxbox:~>```bash
+grep AUTOFS /boot/config-2.6.8-2-686
 CONFIG_AUTOFS_FS=m
 CONFIG_AUTOFS4_FS=m
-</strong>
+```
 Telepítsük fel az autofs csomagot
 
 linuxbox:~>`apt-get install autofs`
@@ -37,11 +38,11 @@ A következő sor
 a media alkönyvtár alá fog inditani egy autofs démont, ami további konfigurációval azaz `/etc/auto.media` állományban megadott eszközöket automatikusan fogja kezelni egy-egy alkönyvtárban.
 
 Az `/etc/auto.media` állomany nálam igy néz ki:
-<strong>
+```
 cdrom           -fstype=iso9660,ro,nodev                       :/dev/scd1
 cdwriter        -fstype=iso9660,ro,nodev                       :/dev/scd0
 pendrive        -fstype=vfat,rw,uid=1000,gid=1000,umask=002    :/dev/sda1
-</strong>
+```
 
 Végül már csak három tennivalónk maradt:
 `/etc/default/autofs` állományban kisebb `TIMEOUT=1` értéket állítsunk, készítsük el a gyökér könyvtárát `mkdir /media`

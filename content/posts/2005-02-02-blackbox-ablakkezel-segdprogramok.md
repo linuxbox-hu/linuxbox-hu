@@ -11,7 +11,7 @@ aliases:
 - /story/15/
 ---
 A blackbox egy rendkívül gyors ablakkezelő. Sajnos emiatt kevés alapszolgáltatást nyújt. De ezen lehet javítani pl. úgy ha   néhány segéd alakalmazást használunk vele együtt!
-<strong>
+```bash
 bbkeys -i&
 bbpager&
 rm -f /home/kecsi/.lineak/lineakd.pid&
@@ -20,7 +20,7 @@ xscreensaver -lock-mode -no-splash -timeout 15&
 gkrellm -g +1200+8&
 root-tail -g 210x75+6+0 -f /var/log/all.log&
 blackbox
-</strong>
+```
 Egykis mi-micsoda:
 bbkeys - blackbox gyorsbillentyű kezelő
 bbpager - blackbox virtualis desktop kezelő

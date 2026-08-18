@@ -10,9 +10,9 @@ aliases:
 ---
 Üdv Mindenkinek,
 
-<strong>Egy kisméretű képmanipuláló szoftvert fejlesztek és szeretném több fórumon publikálni, mivel a letöltések mértékéhez képest is relative kevés visszajelzést kaptam.
+**Egy kisméretű képmanipuláló szoftvert fejlesztek és szeretném több fórumon publikálni, mivel a letöltések mértékéhez képest is relative kevés visszajelzést kaptam.
 
-Ha valakinek lenne kedve kipróbálni, szívesen vennék minden véleményt. Hasznos lenne számomra a további fejlesztésekhez.</strong>
+Ha valakinek lenne kedve kipróbálni, szívesen vennék minden véleményt. Hasznos lenne számomra a további fejlesztésekhez.**
 
 **Név:**
 aaPhoto (Auto Adjust Photo)

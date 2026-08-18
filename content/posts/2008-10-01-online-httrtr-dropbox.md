@@ -26,6 +26,8 @@ Létrehoz a home könyvtárunkban egy Dropbox nevű mappát (igény szerint más
 A gnome panelban megjelenő kisikonra kattintva, láthatjuk, hogy tárhelyünknek mekkora részét használjuk ki, illetve itt van lehetőségünk további beállításokat módosítani (max fel- és letöltési sebesség, proxy, stb...)
 
 <p>Letölthető <a href="http://www.getdropbox.com/">innen</a>, de van ubuntu tároló is:
-<em>deb http://www.getdropbox.com/static/ubuntu hardy main
-deb-src http://www.getdropbox.com/static/ubuntu hardy main</em></p>
+```
+deb http://www.getdropbox.com/static/ubuntu hardy main
+deb-src http://www.getdropbox.com/static/ubuntu hardy main
+```</p>
 
