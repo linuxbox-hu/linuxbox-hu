@@ -41,3 +41,7 @@ Ismert hiányosságok, tervezett munkák a Chirpy Hugo-témára (`geekifan/hugo-
 - [x] ~~`themes/LoveIt` git submodule eltávolítása~~ - kész (2026-08-18). A Chirpy-témára váltás előtti
   kísérlet maradványa volt, a téma ma már Hugo Modules-ön keresztül (`go.mod`, `geekifan/hugo-theme-chirpy`)
   töltődik be. `.gitmodules` és a `themes/LoveIt` submodule bejegyzés eltávolítva.
+- [ ] **Automatikus deploy (GitHub Actions vagy hasonló) a jelenlegi kézi `git pull` + `hugo build`
+  helyett.** Jelenleg minden éles frissítés kézi SSH-lépés a szerveren. Ide tartozik az is, hogy a build
+  parancs használja a `--cleanDestinationDir` kapcsolót (2026-08-18: enélkül a `public/`-ból törölt/átnevezett
+  fájlok - lásd a fenti `static/tools` esetet - némán bent maradnak a régi buildből, és tovább publikálódnak).
