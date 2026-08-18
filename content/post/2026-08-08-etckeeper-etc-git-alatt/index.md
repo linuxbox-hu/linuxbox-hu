@@ -6,6 +6,7 @@ categories:
 date: '2026-08-08T09:00:00Z'
 image:
   path: git-logo.png
+  small: true
 tags:
 - etckeeper
 - git

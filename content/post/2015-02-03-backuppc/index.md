@@ -6,6 +6,7 @@ date: '2015-02-03T00:00:00Z'
 description: Számítógépek mentései karosszékből.
 image:
   path: BackupPC-logo.png
+  small: true
 tags:
 - BackupPC
 - duplicity

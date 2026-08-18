@@ -19,6 +19,13 @@ Known gaps and planned work around the switch to the Chirpy Hugo theme (`geekifa
   the image instead of letting the theme's own SCSS (`.preview-img { aspect-ratio: 40/21; overflow: hidden;
   img { object-fit: cover } }`) crop it correctly. Local fix already done (see `layouts/index.html` and
   `layouts/post/single.html` in this repo), only the upstream PR is outstanding.
+- [x] ~~Small-hero opt-in for logo-style front-matter images~~ - done (2026-08-18). `2015-02-03-backuppc`,
+  `2026-02-15-routeros-dns-adlist`, `2026-08-08-etckeeper-etc-git-alatt` had their front-matter `image:` +
+  duplicate inline body image deduped first, but the post-page hero still rendered at the site-wide
+  `.preview-img` size (full-width, 40/21 aspect ratio) - too big for a small square/wide logo (vs. a real
+  photo). Added an opt-in `image.small: true` front-matter flag, read in `layouts/post/single.html`, that
+  caps the hero to `max-width: 30%` only on posts that set it; the homepage card (`layouts/index.html`) and
+  every other post's default full-width banner (e.g. `welcome-to-jekyll`) are untouched.
 
 ## Other known gaps
 

@@ -5,6 +5,7 @@ categories:
 date: '2026-02-15T19:44:52Z'
 image:
   path: MikroTik-logo-2021.png
+  small: true
 tags:
 - MikroTik
 - RouterOS
