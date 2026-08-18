@@ -11,8 +11,6 @@ tags:
 - adlist
 title: MicroTik RouterOS DNS adlist
 ---
-![MikroTik](/assets/img/logos/MikroTik-logo-2021.png)
-
 Ha a routerunk tamogatja a DNS adlist-ek hasznalatat akkor ennek beallitasaval egyszeruen megszabadulhatunk a belso halozatunkon a reklamoktol.
 Azaz nem feltetlen van szuksegunk egy kulon Pi-Hole DNS fekete lista szolgaltatas futtatasra. Igaz a router adlist nem ad latvanyos statisztikakat es nem rajzol beloluk diagramokat de azt hiszem ezek nelkul meg lehet elni...
 

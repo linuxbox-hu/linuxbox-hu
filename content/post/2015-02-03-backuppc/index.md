@@ -15,8 +15,6 @@ aliases:
 - /node/868/
 - /story/868/
 ---
-![BackupPC](/assets/img/posts/BackupPC-logo.png)
-
 Számítógépek mentései karosszékből.
 
 Munkám során belefutottam pár mentési rendszerbe. A teljesség igénye nélkül, először volt [tar](https://www.gnu.org/software/tar/), aztán írtam köré perl scriptet. Jött a [duplicity](http://duplicity.nongnu.org/), majd írtam köré python scriptet. Ezt aztán kibővítettem mysql, ldap, postgresql mentéssel.

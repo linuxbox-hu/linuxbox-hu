@@ -12,8 +12,6 @@ tags:
 - sysadmin
 title: 'etckeeper: a /etc könyvtár git verzió követése'
 ---
-![git](/assets/img/logos/git-logo.png)
-
 Az `etckeeper` eszközzel, könnyedén követhetjük minden konfigurációs állományunnk módosítását az `/etc` mappában.
 
 A csomag telepítéskor automatikusan git verzió követés alá helyezi az `/etc` könyvtárunkat. 
