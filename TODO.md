@@ -47,3 +47,32 @@ Known gaps and planned work around the switch to the Chirpy Hugo theme (`geekifa
   build`.** Right now every production update is a manual SSH step on the server. This should also make the
   build command use `--cleanDestinationDir` (2026-08-18: without it, files removed/renamed out of `public/`
   - see the `static/tools` case above - silently stick around from the previous build and keep being served).
+
+## Article ideas
+
+Carried over from the old Jekyll repo's TODO.md (2026-08-18) - small, self-contained Linux tips/tricks from
+earlier homelab work, one topic per short post (see `2026-08-08-etckeeper-etc-git-alatt.md` for the
+length/style baseline).
+
+- [x] ~~etckeeper~~ - `/etc` under git with automatic version tracking - published 2026-08-08
+  (`2026-08-08-etckeeper-etc-git-alatt.md`)
+- [ ] **Midnight Commander + gruvbox skin** - quick nostalgia/QoL post, one URL and one command for the nice
+  MC theme
+- [ ] **chrony vs ntpd** - Debian 13 (Trixie) dropped the `ntp` package; short "if you're on Trixie, switch to
+  chrony" post, maybe plus a MikroTik router as an NTP source (ties into the existing RouterOS post)
+- [ ] **A fresh box's basic security kit in 5 minutes** - fail2ban + rkhunter + lynis via 3 apt commands, as a
+  "hardening checklist"
+- [ ] **LVM: extending a filesystem live, no downtime** - `lvextend` + `resize2fs`, a concrete, practical
+  sysadmin trick
+- [ ] **systemd graceful shutdown / grace periods** - why not just pull the plug; how systemd's shutdown
+  ordering and timeouts actually work, generalized beyond the Kubernetes-specific case
+- [ ] **SSH keys from a password manager/vault, not plaintext** - the general "don't hardcode your SSH keys"
+  pattern (no infra-specific part, just the principle)
+- [ ] **Sprucing up the Bash/WSL2 shell** - fzf + oh-my-posh + bash aliases roundup post, zero infra content,
+  easy to share
+- [ ] **WSL2 gotchas** - `systemd = true`, networking mode, port-bind oddities; concrete "why doesn't this
+  work" debugging stories, could work as standalone posts too
+- [ ] **Firefox HSTS cache reset trick** - deleting `SiteSecurityServiceState.bin` when the browser gets stuck
+  on a certificate it thinks is stale
+- [ ] **MikroTik RouterOS tricks series** - continuing the existing DNS adlist post: static DNS entries via
+  the API, NAT port-forward automation, router as an NTP server
