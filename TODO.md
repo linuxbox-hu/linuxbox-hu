@@ -1,47 +1,47 @@
 # TODO
 
-Ismert hiányosságok, tervezett munkák a Chirpy Hugo-témára (`geekifan/hugo-theme-chirpy`) állás közben/után.
+Known gaps and planned work around the switch to the Chirpy Hugo theme (`geekifan/hugo-theme-chirpy`).
 
 ## i18n
 
-- [x] ~~Magyar i18n fordítás a témához~~ - kész (2026-08-18). A téma valójában tartalmaz magyar fordítást
-  (`_vendor/github.com/geekifan/hugo-theme-chirpy/i18n/hu-HU.yml`), csak a fájlnév/nyelvkulcs nem egyezett:
-  Hugo a fordítási bundle-t a `languages.toml`-ban definiált nyelvkulcs (`hu`) alapján keresi, nem a
-  `locale` mezőt nézi - így a `hu-HU.yml` sosem talált egyezést, és a lábléc/copyright szövegek üresen
-  jelentek meg. Megoldás: `i18n/hu.yaml` hozzáadva helyi override-ként (a `hu-HU.yml` másolata).
-- [ ] **PR upstream a `hu`/`hu-HU` fájlnév-eltérésről.** Érdemes jelezni a `geekifan/hugo-theme-chirpy`
-  repónak, hogy a `hu-HU.yml` néven szállított fordítás gyakorlatban sosem illeszkedik semelyik `[hu]`
-  nyelvkulcsú Hugo confighoz - vagy át kellene nevezni `hu.yaml`-ra, vagy dokumentálni kellene, hogy a
-  `languages.toml`-ban `hu-HU`-t kell nyelvkulcsként használni, ha valaki ezt a fordítást szeretné.
+- [x] ~~Hungarian i18n translation for the theme~~ - done (2026-08-18). The theme actually ships a
+  Hungarian translation (`_vendor/github.com/geekifan/hugo-theme-chirpy/i18n/hu-HU.yml`), it just never
+  matched: Hugo resolves the i18n bundle by the language key defined in `languages.toml` (`hu`), not by the
+  `locale` field - so `hu-HU.yml` never matched, and footer/copyright strings rendered blank. Fixed by
+  adding `i18n/hu.yaml` as a local override (a copy of `hu-HU.yml`).
+- [ ] **Upstream PR about the `hu`/`hu-HU` filename mismatch.** Worth flagging to
+  `geekifan/hugo-theme-chirpy` that the translation shipped as `hu-HU.yml` never actually matches any Hugo
+  config using `[hu]` as the language key in practice - either rename it to `hu.yaml`, or document that
+  `languages.toml` needs to use `hu-HU` as the language key to pick up this translation.
 
-- [ ] **`preview-img` bug PR upstream.** `layouts/index.html` és `layouts/post/single.html` is a
-  `preview-img` classt közvetlenül az `<img>`-re teszi ahelyett, hogy egy körülötte lévő wrapper divre tenné -
-  emiatt a kép torzul/nyúlik ahelyett, hogy a téma saját SCSS-e (`.preview-img { aspect-ratio: 40/21;
-  overflow: hidden; img { object-fit: cover } }`) helyesen kivágná. Helyi javítás már megtörtént (lásd
-  `layouts/index.html` és `layouts/post/single.html` ebben a repóban), csak az upstream PR van hátra.
+- [ ] **`preview-img` bug PR upstream.** Both `layouts/index.html` and `layouts/post/single.html` put the
+  `preview-img` class directly on the `<img>` instead of on a wrapper div around it - this distorts/stretches
+  the image instead of letting the theme's own SCSS (`.preview-img { aspect-ratio: 40/21; overflow: hidden;
+  img { object-fit: cover } }`) crop it correctly. Local fix already done (see `layouts/index.html` and
+  `layouts/post/single.html` in this repo), only the upstream PR is outstanding.
 
-## Egyéb ismert rések
+## Other known gaps
 
-- [x] ~~12 poszt több képpel (multi-image)~~ - kész (2026-08-18). Mind a 11 törött Drupal-képekre mutató
-  poszt képe **visszaszerezhető** volt: a régi Drupal kódbázis és a feltöltött fájlok még megvannak a
-  szerveren (`/var/www/linuxbox.hu/www.linuxbox.hu/web/sites/default/files/`). Mind a 36 egyedi kép
-  letöltve és újrahosztolva a `static/assets/img/posts/` alá, a posztok markdown-ra konvertálva. 4 posztnak
-  duplikált volt a teljes body-ja (migrációs hiba) - javítva. A 12. (backuppc) már eleve rendben volt.
-- [ ] **~65 törött Drupal-kori képlink a teljes archívumban** - a fenti felfedezés alapján ez a többi eset is
-  valószínűleg **visszaszerezhető ugyanígy** a szerveren lévő régi Drupal `sites/default/files` mappából,
-  nem kell törölni/pótolni máshonnan. Meg kell nézni a teljes listát és ugyanígy végigmenni rajta.
-- [ ] Config secretek (Mapbox/Algolia-stílusú kulcsok) még mindig üresek/kitöltetlenek a régi LoveIt configból
-  átvéve - ellenőrizni, hogy az új Chirpy configban egyáltalán szükség van-e ezekre.
-- [ ] `site.webmanifest` favicon fájl hiányzik (PWA jelenleg kikapcsolva, `site.Params.pwa.enabled` nincs
-  beállítva, úgyhogy ez egyelőre nem probléma - de ha valaha PWA-t szeretnénk, ez is kelleni fog).
-- [x] ~~`static/tools/run.sh` és `test.sh`~~ - törölve (2026-08-18). Ezek a régi Jekyll-es dev scriptek
-  (`tools/run.sh`, `tools/test.sh`) tévedésből a `static/` alá kerültek a migráció során, így minden buildnél
-  élesben is publikálódtak (`linuxbox.hu/tools/run.sh`, `/tools/test.sh`) - jekyll/html-proofer parancsokat
-  hivatkozó, ma már irreleváns scriptek voltak kint nyilvánosan. Eltávolítva.
-- [x] ~~`themes/LoveIt` git submodule eltávolítása~~ - kész (2026-08-18). A Chirpy-témára váltás előtti
-  kísérlet maradványa volt, a téma ma már Hugo Modules-ön keresztül (`go.mod`, `geekifan/hugo-theme-chirpy`)
-  töltődik be. `.gitmodules` és a `themes/LoveIt` submodule bejegyzés eltávolítva.
-- [ ] **Automatikus deploy (GitHub Actions vagy hasonló) a jelenlegi kézi `git pull` + `hugo build`
-  helyett.** Jelenleg minden éles frissítés kézi SSH-lépés a szerveren. Ide tartozik az is, hogy a build
-  parancs használja a `--cleanDestinationDir` kapcsolót (2026-08-18: enélkül a `public/`-ból törölt/átnevezett
-  fájlok - lásd a fenti `static/tools` esetet - némán bent maradnak a régi buildből, és tovább publikálódnak).
+- [x] ~~12 multi-image posts~~ - done (2026-08-18). All 11 posts pointing at broken Drupal images turned
+  out to be **recoverable**: the old Drupal codebase and uploads are still intact on the server
+  (`/var/www/linuxbox.hu/www.linuxbox.hu/web/sites/default/files/`). All 36 individual images downloaded
+  and rehosted under `static/assets/img/posts/`, posts converted to Markdown. 4 posts had their whole body
+  duplicated (a migration bug) - fixed. The 12th post (backuppc) was already fine.
+- [ ] **~65 broken Drupal-era image links across the whole archive** - based on the discovery above, these
+  are likely **recoverable the same way** from the old Drupal `sites/default/files` folder on the server,
+  no need to delete/replace from elsewhere. Need to go through the full list and work through it the same way.
+- [ ] Config secrets (Mapbox/Algolia-style keys) are still empty/unfilled, carried over from the old LoveIt
+  config - check whether the new Chirpy config even needs these at all.
+- [ ] `site.webmanifest` favicon file is missing (PWA is currently disabled, `site.Params.pwa.enabled` isn't
+  set, so this isn't an issue for now - but it'll be needed if we ever want PWA support).
+- [x] ~~`static/tools/run.sh` and `test.sh`~~ - removed (2026-08-18). These old Jekyll-era dev scripts
+  (`tools/run.sh`, `tools/test.sh`) ended up under `static/` by mistake during the migration, so they were
+  being published live on every build (`linuxbox.hu/tools/run.sh`, `/tools/test.sh`) - scripts referencing
+  jekyll/html-proofer that are now irrelevant, sitting out there publicly. Removed.
+- [x] ~~Remove the `themes/LoveIt` git submodule~~ - done (2026-08-18). Leftover from before the switch to
+  Chirpy; the theme now loads via Hugo Modules (`go.mod`, `geekifan/hugo-theme-chirpy`). `.gitmodules` and
+  the `themes/LoveIt` submodule entry removed.
+- [ ] **Automatic deploy (GitHub Actions or similar) instead of the current manual `git pull` + `hugo
+  build`.** Right now every production update is a manual SSH step on the server. This should also make the
+  build command use `--cleanDestinationDir` (2026-08-18: without it, files removed/renamed out of `public/`
+  - see the `static/tools` case above - silently stick around from the previous build and keep being served).
