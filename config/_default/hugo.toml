@@ -1,4 +1,4 @@
-baseURL = "https://hugo.linuxbox.hu/"
+baseURL = "https://linuxbox.hu/"
 title = "linuxbox.hu"
 defaultContentLanguage = "hu"
 defaultContentLanguageInSubdir = false
