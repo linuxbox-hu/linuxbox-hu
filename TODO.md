@@ -38,8 +38,6 @@ Ismert hiányosságok, tervezett munkák a Chirpy Hugo-témára (`geekifan/hugo-
   (`tools/run.sh`, `tools/test.sh`) tévedésből a `static/` alá kerültek a migráció során, így minden buildnél
   élesben is publikálódtak (`linuxbox.hu/tools/run.sh`, `/tools/test.sh`) - jekyll/html-proofer parancsokat
   hivatkozó, ma már irreleváns scriptek voltak kint nyilvánosan. Eltávolítva.
-- [ ] **`themes/LoveIt` git submodule eltávolítása.** A repo még mindig tartalmazza a `themes/LoveIt`
-  submodule-t (lásd `.gitmodules`) a Chirpy-témára váltás előtti kísérletből - a téma ma már Hugo Modules-ön
-  keresztül (`go.mod`, `geekifan/hugo-theme-chirpy`) töltődik be, a LoveIt checkout élő kód által nem
-  hivatkozott, holt súly. `git submodule deinit -f themes/LoveIt && git rm -f themes/LoveIt` + `.gitmodules`
-  törlése rendbe tenné.
+- [x] ~~`themes/LoveIt` git submodule eltávolítása~~ - kész (2026-08-18). A Chirpy-témára váltás előtti
+  kísérlet maradványa volt, a téma ma már Hugo Modules-ön keresztül (`go.mod`, `geekifan/hugo-theme-chirpy`)
+  töltődik be. `.gitmodules` és a `themes/LoveIt` submodule bejegyzés eltávolítva.
