@@ -59,13 +59,20 @@
             {{ end }}
 
             <div class="col-md-5">
-              {{/* Upstream bug (worth a PR): unlike layouts/post/single.html,
-                   this card image is missing the preview-img class that the
-                   theme's own SCSS (.preview-img { aspect-ratio: 40/21;
-                   overflow: hidden; img { object-fit: cover } }) relies on
-                   to crop it to the card instead of stretching the card to
-                   the image's full height. */}}
-              <img src="{{ $src }}" alt="{{ $alt }}" class="preview-img" {{ $lqip | safeHTMLAttr }}>
+              {{/* Upstream bug (worth a PR): the theme's own SCSS
+                   (.preview-img { aspect-ratio: 40/21; overflow: hidden;
+                   img { object-fit: cover } }) expects preview-img to be a
+                   *wrapper* around the <img>, not a class on the <img>
+                   itself - the object-fit: cover rule is a descendant
+                   selector (.preview-img img), so it only applies with
+                   real DOM nesting. Applying the class directly to <img>
+                   (what both this template and layouts/post/single.html
+                   did) gives the <img> the wrapper's aspect-ratio/width/
+                   height with no object-fit, which just stretches/distorts
+                   the image to fit instead of cropping it. */}}
+              <div class="preview-img">
+                <img src="{{ $src }}" alt="{{ $alt }}" {{ $lqip | safeHTMLAttr }}>
+              </div>
             </div>
 
             {{ $card_body_col = "7" }}
