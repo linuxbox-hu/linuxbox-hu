@@ -32,6 +32,12 @@ Known gaps and planned work around the switch to the Chirpy Hugo theme (`geekifa
   `small: true` images now skip the `preview-img` wrapper entirely and scale to their natural aspect ratio
   inside the 30%-width box; non-small posts are unaffected. Verified by building the site locally with a
   matching Hugo version and inspecting the rendered HTML for both cases.
+- [ ] **English translation of all posts (low priority).** All ~440 posts are Hungarian only. The theme and
+  `languages.toml` already support multiple languages (that's what the Hungarian i18n fix above was about),
+  but no English content tree exists yet. Would need an `en` language block in `languages.toml`, translated
+  Markdown for every post (large effort given the post count, likely worth batching/prioritizing by post
+  rather than doing all ~440 at once), and a language switcher in the theme nav if Chirpy doesn't already
+  provide one.
 
 ## Other known gaps
 
