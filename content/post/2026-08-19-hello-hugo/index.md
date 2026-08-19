@@ -3,19 +3,15 @@ author: kecsi
 categories:
 - site
 date: '2026-08-19T08:00:00Z'
-image:
-  path: hugo-logo.png
-  small: true
 tags:
 - hugo
-title: Szia Hugo!
+title: Üdv Hugo!
 ---
-Jekyll-ről Hugo-ra migráltam az oldalt. A közel 440 bejegyzéssel a Jekyll build már nagyon lassú volt,
-a Hugo statikus site generátor ugyanazt tudja, csak sokkal gyorsabban. A régi tartalmakat átalakítottam
-Hugo formátumra, a Chirpy témával, ami a régi Jekyll téma stílusát követi. Bárki adhat be tartalmat
-továbbra is, github pull request (PR) formájában. A build és a deploy pedig mostantól GitHub Actions-ön
-fut automatikusan minden push-ra.
+![Hugo logó](hugo-logo.png)
+{ width="512" height="512" .w-25 .left}
+Jekyll-ről Hugo-ra migráltam. Valahogy nem voltam teljesen elégedett a Jekyllel. A Hugo statikus generátor gyorsabb mint a Jekyll.
+Claude code segítségével viszonylag gyorsan ment a ~440 bejegyzés ellenőrzése és átalakítása.
+Mivel találtam Hugohoz is Chirpy témát, azt megtartottam (Jekyll alatt bevállt). Az oldal maradt GitHub-on, továbbra is bárki adhat be tartalmat, pull request (PR) formájában. Elkészült az automatikus GitHub Action alapú deploy.
 
-[[hugo-docs]](https://gohugo.io/documentation/)
-[[hugo-gh]](https://github.com/gohugoio/hugo)
-[[hugo-discourse]](https://discourse.gohugo.io)
+- [Hugo](https://gohugo.io/documentation/)
+- [Chirpy téma](https://github.com/geekifan/hugo-theme-chirpy)
