@@ -10,11 +10,11 @@ tags:
 - hugo
 title: Szia Hugo!
 ---
-Jekyll-ről Hugo-ra migráltam az oldalt. A közel 440 bejegyzéssel a Jekyll build egyre lassabb lett,
-a Hugo (Go nyelven íródott) statikus site generátor ugyanazt tudja, csak sokkal gyorsabban épít.
-A régi tartalmakat átalakítottam Hugo formátumra, a Chirpy témával, ami a korábbi Jekyll téma stílusát
-követi. Bárki adhat be tartalmat továbbra is, github pull request (PR) formájában, a build és a deploy
-pedig mostantól GitHub Actions-ön fut automatikusan minden push-ra.
+Jekyll-ről Hugo-ra migráltam az oldalt. A közel 440 bejegyzéssel a Jekyll build már nagyon lassú volt,
+a Hugo statikus site generátor ugyanazt tudja, csak sokkal gyorsabban. A régi tartalmakat átalakítottam
+Hugo formátumra, a Chirpy témával, ami a régi Jekyll téma stílusát követi. Bárki adhat be tartalmat
+továbbra is, github pull request (PR) formájában. A build és a deploy pedig mostantól GitHub Actions-ön
+fut automatikusan minden push-ra.
 
 [[hugo-docs]](https://gohugo.io/documentation/)
 [[hugo-gh]](https://github.com/gohugoio/hugo)
