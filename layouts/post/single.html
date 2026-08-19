@@ -33,27 +33,38 @@
                of cropping. */}}
           {{ $src := $page.Resources.GetMatch ( .path | default . ) }}
           {{ $src = printf "src=\"%s\"" $src.RelPermalink }}
-          {{ $wrapperClass := "class=\"preview-img" }}
-          {{ if .no_bg }}{{ $wrapperClass = printf "%s no-bg\"" $wrapperClass }}{{ else }}{{ $wrapperClass = printf "%s\"" $wrapperClass }}{{ end }}
           {{ $alt := printf "alt=\"%s\"" ( .alt | default "Preview Image" ) }}
 
           {{ $lqip := "" }}
           {{ with .lqip }}{{ $lqip = printf "lqip=\"%s\"" . }}{{ end }}
 
-          {{/* Opt-in for small/logo-style images (e.g. a post icon rather
-               than a photo): image.small: true in front matter caps the
-               hero to ~30% width instead of the full-width 40/21 banner. */}}
-          {{ $sizeStyle := "" }}
-          {{ if .small }}{{ $sizeStyle = " style=\"max-width: 30%\"" }}{{ end }}
-
-          <div class="mt-3 mb-3"{{ $sizeStyle | safeHTMLAttr }}>
-            <div {{ $wrapperClass | safeHTMLAttr }}>
-              <img {{ $src | safeHTMLAttr }} {{ $alt | safeHTMLAttr }} w="1200" h="630" {{ $lqip | safeHTMLAttr }}>
+          {{ if .small }}
+            {{/* Opt-in for small/logo-style images (e.g. a post icon rather
+                 than a photo): image.small: true caps the hero to ~30%
+                 width. The preview-img wrapper below forces a 40/21
+                 aspect-ratio box with object-fit: cover, which crops a
+                 logo (usually square/wide) down to a sliver - so small
+                 images skip that wrapper entirely and just scale down
+                 keeping their natural aspect ratio instead. */}}
+            <div class="mt-3 mb-3" style="max-width: 30%">
+              <img {{ $src | safeHTMLAttr }} {{ $alt | safeHTMLAttr }} class="rounded" style="width: 100%; height: auto" {{ $lqip | safeHTMLAttr }}>
+              {{- with .alt -}}
+                <figcaption class="text-center pt-2 pb-2">{{ . }}</figcaption>
+              {{- end -}}
             </div>
-            {{- with .alt -}}
-              <figcaption class="text-center pt-2 pb-2">{{ . }}</figcaption>
-            {{- end -}}
-          </div>
+          {{ else }}
+            {{ $wrapperClass := "class=\"preview-img" }}
+            {{ if .no_bg }}{{ $wrapperClass = printf "%s no-bg\"" $wrapperClass }}{{ else }}{{ $wrapperClass = printf "%s\"" $wrapperClass }}{{ end }}
+
+            <div class="mt-3 mb-3">
+              <div {{ $wrapperClass | safeHTMLAttr }}>
+                <img {{ $src | safeHTMLAttr }} {{ $alt | safeHTMLAttr }} w="1200" h="630" {{ $lqip | safeHTMLAttr }}>
+              </div>
+              {{- with .alt -}}
+                <figcaption class="text-center pt-2 pb-2">{{ . }}</figcaption>
+              {{- end -}}
+            </div>
+          {{ end }}
         {{ end }}
 
         <div class="d-flex justify-content-between">

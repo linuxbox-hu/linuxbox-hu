@@ -26,6 +26,12 @@ Known gaps and planned work around the switch to the Chirpy Hugo theme (`geekifa
   photo). Added an opt-in `image.small: true` front-matter flag, read in `layouts/post/single.html`, that
   caps the hero to `max-width: 30%` only on posts that set it; the homepage card (`layouts/index.html`) and
   every other post's default full-width banner (e.g. `welcome-to-jekyll`) are untouched.
+  **Follow-up fix (2026-08-19):** the `max-width: 30%` cap wasn't enough on its own - the hero still sat
+  inside the `preview-img` wrapper, which forces a 40/21 aspect-ratio box with `object-fit: cover`, so a
+  square/wide logo (MikroTik, BackupPC, etckeeper) got cropped down to a sliver instead of showing in full.
+  `small: true` images now skip the `preview-img` wrapper entirely and scale to their natural aspect ratio
+  inside the 30%-width box; non-small posts are unaffected. Verified by building the site locally with a
+  matching Hugo version and inspecting the rendered HTML for both cases.
 
 ## Other known gaps
 
