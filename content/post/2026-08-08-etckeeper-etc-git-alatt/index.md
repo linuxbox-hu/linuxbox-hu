@@ -4,20 +4,21 @@ categories:
 - linux
 - utils
 date: '2026-08-08T09:00:00Z'
-image:
-  path: git-logo.png
-  small: true
 tags:
 - etckeeper
 - git
 - sysadmin
 title: 'etckeeper: a /etc könyvtár git verzió követése'
 ---
+![Git logó](git-logo.png)
+{ width="383" height="383" .w-25 .left}
 Az `etckeeper` eszközzel, könnyedén követhetjük minden konfigurációs állományunnk módosítását az `/etc` mappában.
 
 A csomag telepítéskor automatikusan git verzió követés alá helyezi az `/etc` könyvtárunkat. 
 Minden csomagkezelő (apt/dnf/pacman) művelet előtt-után automatikusan könyveli a változásokat "hook"-ok segíségével.
 Minden változás nyomon követhető, visszaállítható, és összehasonlítható.
+
+<div class="clearfix"></div>
 
 Telepítés Debian/Ubuntu-n:
 
