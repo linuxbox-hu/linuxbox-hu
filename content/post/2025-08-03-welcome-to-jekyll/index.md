@@ -5,6 +5,7 @@ categories:
 date: '2025-08-03T18:44:52Z'
 image:
   path: jekyll-logo-dark-transparent.png
+  small: true
 tags:
 - jekyll
 title: Hello Jekyll!
