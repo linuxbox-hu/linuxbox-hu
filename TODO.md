@@ -70,6 +70,14 @@ Known gaps and planned work around the switch to the Chirpy Hugo theme (`geekifa
   untouched) then `hugo --gc --minify --cleanDestinationDir`, then explicit `chmod 755`/`644` on `public/` -
   this makes the build output world-readable directly, sidestepping the `www-data` group-membership approach
   entirely for future deploys. Server-side account/access setup was done out of band, not tracked here.
+- [x] ~~Hugo v0.165.0 -> v0.166.0 upgrade (EC2 server + local dev)~~ - done (2026-09-17). Not tracked by
+  Dependabot (the `hugo` binary isn't a `go.mod` dependency, just whatever's installed on the server/dev
+  box). Verified safe by diffing `hugo --gc --minify` output between both versions: build stats identical
+  (569 pages, 872 aliases), zero warnings either version. Only content diffs were two pre-existing broken
+  auto-links in very old posts (`2008-05-25-ha-nincs-ipv6-cmed-de-szeretnl`,
+  `2011-01-04-osmand-vektoros-trkpszoftver-android-platformra-ingyen`) where the old markdown auto-link
+  parser swallowed a trailing `)` into the URL (e.g. rendered `href=http://www.sixxs.net/%29` instead of
+  stopping before the `)`) - v0.166.0's link-boundary fix corrects both automatically. No regressions found.
 
 ## Article ideas
 
