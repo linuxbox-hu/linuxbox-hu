@@ -53,8 +53,11 @@ Known gaps and planned work around the switch to the Chirpy Hugo theme (`geekifa
   the same way from the old Drupal files on the server. All 84 files fetched and rehosted under
   `static/assets/img/posts/` (images) and `static/assets/files/posts/` (the one text attachment), all 30
   posts rewritten to clean Markdown with fixed paths.
-- [ ] Config secrets (Mapbox/Algolia-style keys) are still empty/unfilled, carried over from the old LoveIt
-  config - check whether the new Chirpy config even needs these at all.
+- [x] ~~Config secrets (Mapbox/Algolia-style keys)~~ - checked (2026-10-25), not needed. The active
+  `config/_default/*.toml` has no such keys; they only exist (empty/unfilled) in
+  `archive/config-loveit-pre-chirpy-migration.toml`, kept as a historical record. Chirpy's layouts read no
+  Mapbox or Algolia params - its search is client-side, built from the theme's own `index.json`. Nothing to
+  remove or fill in.
 - [ ] `site.webmanifest` favicon file is missing (PWA is currently disabled, `site.Params.pwa.enabled` isn't
   set, so this isn't an issue for now - but it'll be needed if we ever want PWA support).
 - [x] ~~`static/tools/run.sh` and `test.sh`~~ - removed (2026-08-18). These old Jekyll-era dev scripts
