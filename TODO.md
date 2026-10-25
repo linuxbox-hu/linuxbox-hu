@@ -9,12 +9,14 @@ Known gaps and planned work around the switch to the Chirpy Hugo theme (`geekifa
   matched: Hugo resolves the i18n bundle by the language key defined in `languages.toml` (`hu`), not by the
   `locale` field - so `hu-HU.yml` never matched, and footer/copyright strings rendered blank. Fixed by
   adding `i18n/hu.yaml` as a local override (a copy of `hu-HU.yml`).
-- [ ] **Upstream PR about the `hu`/`hu-HU` filename mismatch.** Worth flagging to
+- [ ] **Upstream PR about the `hu`/`hu-HU` filename mismatch** - opened 2026-10-25:
+  https://github.com/geekifan/hugo-theme-chirpy/pull/14 (awaiting merge). Worth flagging to
   `geekifan/hugo-theme-chirpy` that the translation shipped as `hu-HU.yml` never actually matches any Hugo
   config using `[hu]` as the language key in practice - either rename it to `hu.yaml`, or document that
   `languages.toml` needs to use `hu-HU` as the language key to pick up this translation.
 
-- [ ] **`preview-img` bug PR upstream.** Both `layouts/index.html` and `layouts/post/single.html` put the
+- [ ] **`preview-img` bug PR upstream** - opened 2026-10-25:
+  https://github.com/geekifan/hugo-theme-chirpy/pull/15 (awaiting merge). Both `layouts/index.html` and `layouts/post/single.html` put the
   `preview-img` class directly on the `<img>` instead of on a wrapper div around it - this distorts/stretches
   the image instead of letting the theme's own SCSS (`.preview-img { aspect-ratio: 40/21; overflow: hidden;
   img { object-fit: cover } }`) crop it correctly. Local fix already done (see `layouts/index.html` and
@@ -78,6 +80,11 @@ Known gaps and planned work around the switch to the Chirpy Hugo theme (`geekifa
   `2011-01-04-osmand-vektoros-trkpszoftver-android-platformra-ingyen`) where the old markdown auto-link
   parser swallowed a trailing `)` into the URL (e.g. rendered `href=http://www.sixxs.net/%29` instead of
   stopping before the `)`) - v0.166.0's link-boundary fix corrects both automatically. No regressions found.
+- [x] ~~Hugo v0.166.0 -> v0.168.0 upgrade (EC2 server + local dev)~~ - done (2026-10-25). Verified by diffing
+  `hugo --gc --minify --cleanDestinationDir` output between both versions: build stats identical (569 pages,
+  872 aliases), no warnings. Only differences: the generator meta tag on 37 HTML pages, and the RSS summaries
+  of 7 old posts getting longer (v0.167 no longer ends automatic summaries inside an open list/blockquote;
+  additions only, HTML cards unchanged). Both boxes now install the extended `.deb` via `dpkg`.
 
 ## Article ideas
 
