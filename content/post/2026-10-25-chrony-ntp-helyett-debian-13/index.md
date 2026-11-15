@@ -76,7 +76,7 @@ server 0.pool.ntp.org iburst
 
 Az Ansible szerepkörben ez egyetlen változó (`ntp_primary_server`), amit az AWS-es csoportnál írtam felül.
 
-Egy csapda: a csomag telepítése azonnal elindítja a `chrony`-t a Debian alapkonfigjával. Ha a saját `chrony.conf` csak utána kerül fel, újra kell indítani (`sudo systemctl restart chrony`), különben tovább a pool szervereket használja. Nálam ez a szerepkörben is kimaradt, mert a `--tags` mellett a handler nem futott le. Azóta sima feladat indítja újra, ha a konfig változott.
+Egy csapda: a csomag telepítése azonnal elindítja a `chrony`-t a Debian alapkonfigjával. Ha a saját `chrony.conf` csak utána kerül fel, újra kell indítani (`sudo systemctl restart chrony`), különben tovább a pool szervereket használja. Nálam ez a szerepkörben is kimaradt: egy `--tags` futtatásnál a handler nem indította újra a szolgáltatást (az okát még nem találtam meg). Azóta sima feladat indítja újra, ha a konfig változott.
 
 Újraindítás után így néz ki:
 
