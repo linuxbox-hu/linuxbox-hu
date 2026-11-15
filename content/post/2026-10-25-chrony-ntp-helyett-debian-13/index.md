@@ -63,3 +63,34 @@ Az `iburst` gyorsítja az első szinkront, a `prefer` a routert részesíti elő
 
 A fentiek automatizálására Ansible-t is lehet használni. 
 Pl. a homelab repo [`configure_ntp`](https://github.com/kecsi-san/homelab/tree/main/roles/configure_ntp) erre való: leállítja a `systemd-timesyncd`-t, telepíti a `chrony`-t, a fenti konfigot sablonból teszi fel, és újraindítja a szolgáltatást, ha változott.
+
+## AWS EC2: Amazon Time Sync
+
+AWS-es példányon a router helyett az Amazon Time Sync Service a kézenfekvő elsődleges forrás. Link-local címen (`169.254.169.123`) érhető el, közvetlenül a példányról. Nálam egy helyben frissített Debian 13 szerveren addig `ntpsec` futott a Debian pool szervereivel, és tökéletesen szinkronban volt. A cserét főleg az egységesség indokolta, meg hogy a chrony alapból csak kliens, így nem marad nyitva a 123-as UDP port. Mivel az `ntpsec` és a `chrony` is `time-daemon`, ütköznek, ezért az `ntpsec`-et előbb le kell venni. A konfigban csak az első sor változik, a pool maradt tartaléknak:
+
+```bash
+# /etc/chrony/chrony.conf
+server 169.254.169.123 iburst prefer
+server 0.pool.ntp.org iburst
+```
+
+Az Ansible szerepkörben ez egyetlen változó (`ntp_primary_server`), amit az AWS-es csoportnál írtam felül.
+
+Egy csapda: a csomag telepítése azonnal elindítja a `chrony`-t a Debian alapkonfigjával. Ha a saját `chrony.conf` csak utána kerül fel, újra kell indítani (`sudo systemctl restart chrony`), különben tovább a pool szervereket használja. Nálam ez a szerepkörben is kimaradt, mert a `--tags` mellett a handler nem futott le. Azóta sima feladat indítja újra, ha a konfig változott.
+
+Újraindítás után így néz ki:
+
+```text
+$ chronyc sources -v
+MS Name/IP address         Stratum Poll Reach LastRx Last sample
+===============================================================================
+^* 169.254.169.123               3   6    17    13    +10us[  +12us] +/-  518us
+
+$ chronyc tracking
+Reference ID    : A9FEA97B (169.254.169.123)
+Stratum         : 4
+Last offset     : +0.000002170 seconds
+RMS offset      : 0.000002170 seconds
+```
+
+Az `ntpsec` korábbi, nagyjából 0,4 ms-os eltérése helyett itt mikroszekundumos az eltérés. Ennyi pontosság egy webszervernek nem kell, de jó látni.
