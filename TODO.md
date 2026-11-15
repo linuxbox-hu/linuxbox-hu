@@ -88,6 +88,11 @@ Known gaps and planned work around the switch to the Chirpy Hugo theme (`geekifa
   872 aliases), no warnings. Only differences: the generator meta tag on 37 HTML pages, and the RSS summaries
   of 7 old posts getting longer (v0.167 no longer ends automatic summaries inside an open list/blockquote;
   additions only, HTML cards unchanged). Both boxes now install the extended `.deb` via `dpkg`.
+- [x] ~~Hugo v0.168.0 -> v0.170.0 upgrade (EC2 server + local dev)~~ - done (2026-11-15). Verified by diffing
+  `hugo --gc --minify --cleanDestinationDir` output between both versions: only the generator meta tag and 2
+  RSS summaries (now escaping `&`/`<`) differ. v0.170.0 dropped the extended edition, so both boxes now
+  install the standard `hugo_0.170.0_linux-amd64.deb` (checksum verified); Dart Sass is the prerequisite
+  (server 1.102.0, local 1.97.2). The first deploy on 0.170.0 succeeded.
 
 ## Article ideas
 
