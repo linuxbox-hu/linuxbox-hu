@@ -97,10 +97,13 @@ length/style baseline).
 
 - [x] ~~etckeeper~~ - `/etc` under git with automatic version tracking - published 2026-08-08
   (`2026-08-08-etckeeper-etc-git-alatt.md`)
-- [ ] **Midnight Commander + gruvbox skin** - quick nostalgia/QoL post, one URL and one command for the nice
-  MC theme
-- [ ] **chrony vs ntpd** - Debian 13 (Trixie) dropped the `ntp` package; short "if you're on Trixie, switch to
-  chrony" post, maybe plus a MikroTik router as an NTP source (ties into the existing RouterOS post)
+- [x] ~~Midnight Commander + gruvbox skin~~ - published 2026-11-15 (`2026-11-15-midnight-commander-temak`).
+  Grew into a themes overview: built-in and GitHub skins with star counts, Tokyo Night from the dev branch,
+  One Dark, gruvbox, and how to make a skin the default (including the `COLORTERM=truecolor` requirement for
+  truecolor skins).
+- [x] ~~chrony vs ntpd~~ - published 2026-10-25 (`2026-10-25-chrony-ntp-helyett-debian-13`). Debian 13 dropped
+  the `ntp` package; the post compares chrony with ntpsec, openntpd and ntpd-rs and links the homelab
+  `configure_ntp` role.
 - [ ] **A fresh box's basic security kit in 5 minutes** - fail2ban + rkhunter + lynis via 3 apt commands, as a
   "hardening checklist"
 - [ ] **LVM: extending a filesystem live, no downtime** - `lvextend` + `resize2fs`, a concrete, practical
